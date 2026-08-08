@@ -126,7 +126,7 @@ const LOCAL_BOOKMARKS_KEY = 'eba-bookmarks'
 const MAX_BOOKMARKS       = 50
 
 // ─── Page detection ───────────────────────────────────────────────────────────
-// Mirrors the same logic used in AskThisPage.vue and Breadcrumb.vue.
+// Mirrors the same logic used in DocToolbar.vue and Breadcrumb.vue.
 // A clause page has parts.length >= 5 with parts[1] === 'ebas'.
 // /ebas/<eba>/<section>/<clause> → split('/') gives ['', 'ebas', eba, section, clause]
 const isClausePage = computed(() => {

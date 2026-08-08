@@ -2,8 +2,8 @@
   <!--
     Layout note: the wrapper div has been removed. The toolbar row
     (display: flex; align-items: center; gap; margin-bottom) is now
-    owned by the .doc-toolbar div in index.js, which keeps CopyButton
-    and AskThisPage on the same line without coupling the two components.
+    owned by DocToolbar.vue, which arranges the Copy, View as Markdown,
+    and Bookmark buttons on the same line without coupling the components.
   -->
   <button
     class="copy-btn"

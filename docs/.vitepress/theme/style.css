@@ -1106,7 +1106,7 @@ order: 3;
  
    Elements hidden in reading mode:
      - .VPSidebar              — left navigation panel
-     - .doc-toolbar            — AskThisPage + CopyButton row
+     - .doc-toolbar            — DocToolbar (Copy / Markdown / Bookmark) row
      - .related-clauses-panel  — doc-after slot panel
      - [class*="vp-nolebase-git-changelog"]  — git changelog at page bottom
      - h2:last-of-type (in .vp-doc > div)    — "Changelog" heading above it
@@ -1123,7 +1123,7 @@ order: 3;
   display: none !important;
 }
  
-/* Hide the doc toolbar (AskThisPage + CopyButton) */
+/* Hide the doc toolbar (Copy / Markdown / Bookmark) */
 [data-reading-mode] .doc-toolbar {
   display: none !important;
 }
@@ -1962,31 +1962,6 @@ html {
   .gloss-term { border-bottom: none !important; }
   .gloss-tooltip { display: none !important; }
 }
- 
-/* ── Ask AI nav button — sparkle icon animations (global)
-      These mirror the scoped rules in SearchModal.vue but must live here
-      so they apply to the navbar icon, which is rendered by index.js
-      outside SearchModal's scoped style boundary.
-   ────────────────────────────────────────────────────────── */
-   .ask-tab-star {
-     animation: star-blink 2.4s ease-in-out infinite;
-   }
-   .ask-tab-star--delayed {
-     animation-delay: 1.2s;
-   }
-   .ask-ai-nav-btn .ask-tab-sparkle {
-     fill: none;
-     transition: fill 0.2s;
-   }
-   .ask-ai-nav-btn:hover .ask-tab-sparkle {
-     fill: currentColor;
-     opacity: 0.5;
-   }
- 
-   @keyframes star-blink {
-     0%, 15%, 85%, 100% { opacity: 1; }
-     40%, 60%           { opacity: 0; }
-   }
  
 /* =============================================
    EBA Ambient Sidebar Glow
