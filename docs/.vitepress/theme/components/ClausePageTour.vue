@@ -105,10 +105,10 @@ const CLAUSE_TOUR_KEY = 'eba-clause-tour-complete'
 // ─── Toolbar button selector helpers ─────────────────────────────────────────
 // data-tour attributes passed as props to components whose root is <ClientOnly>
 // are not forwarded to the actual DOM button. Instead we query the doc-toolbar
-// button group by positional index — the order is fixed in index.js:
-//   index 0 → AskThisPage  (ask-this-page-btn)
-//   index 1 → CopyButton   (copy-btn)
-//   index 2 → BookmarkButton (bookmark-btn)
+// button group by positional index — the order is fixed in DocToolbar.vue:
+//   index 0 → CopyButton       (copy-btn)
+//   index 1 → View as Markdown (view-as-markdown-btn)
+//   index 2 → BookmarkButton   (bookmark-btn)
 // We also fall back to data-tour attributes in case they were added directly.
 function getToolbarBtn(role) {
   // Primary: data-tour attribute placed directly on the <button> elements
@@ -118,14 +118,13 @@ function getToolbarBtn(role) {
   if (byAttr) return byAttr
 
   // Fallback: positional query inside .dst-bar (DocToolbar's toolbar row).
-  // Button order is fixed: index 0 = Ask, 1 = Copy, 2 = View as Markdown, 3 = Bookmark.
+  // Button order is fixed: index 0 = Copy, 1 = View as Markdown, 2 = Bookmark.
   const bar  = document.querySelector('.dst-bar')
   if (!bar) return null
   const btns = bar.querySelectorAll('button')
-  if (role === 'ask-this-page-btn')    return btns[0] ?? null
-  if (role === 'copy-btn')             return btns[1] ?? null
-  if (role === 'view-as-markdown-btn') return btns[2] ?? null
-  if (role === 'bookmark-btn')         return btns[3] ?? null
+  if (role === 'copy-btn')             return btns[0] ?? null
+  if (role === 'view-as-markdown-btn') return btns[1] ?? null
+  if (role === 'bookmark-btn')         return btns[2] ?? null
   return null
 }
 
@@ -133,13 +132,6 @@ function getToolbarBtn(role) {
 // target: CSS selector string OR a function() => Element|null for complex lookups.
 // caretHint: preferred tooltip placement relative to target.
 const steps = [
-  {
-    target: () => getToolbarBtn('ask-this-page-btn'),
-    headline: 'Ask AI about this clause',
-    icon: `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>`,
-    copy: 'Opens a sliding AI panel scoped to this specific clause. Ask anything in plain English — about entitlements, conditions, or exceptions — and the AI answers using the EBA text. No need to specify which clause or EBA you mean.',
-    caretHint: 'bottom',
-  },
   {
     target: () => getToolbarBtn('copy-btn'),
     headline: 'Copy this clause',

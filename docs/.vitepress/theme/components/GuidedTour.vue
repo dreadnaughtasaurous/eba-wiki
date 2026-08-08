@@ -67,17 +67,7 @@
             <h3 class="gt-headline">{{ currentStep.headline }}</h3>
             <p class="gt-copy" v-html="currentStep.copy"></p>
 
-            <!-- Mode cards for Ask AI step -->
-            <div v-if="currentStep.modes" class="gt-mode-cards">
-              <div v-for="m in currentStep.modes" :key="m.label" class="gt-mode-card">
-                <span class="gt-mode-icon" v-html="m.icon"></span>
-                <div>
-                  <strong class="gt-mode-label">{{ m.label }}</strong>
-                  <span class="gt-mode-desc">{{ m.desc }}</span>
-                </div>
-              </div>
             </div>
-          </div>
 
           <!-- Nav row -->
           <div class="gt-nav">
@@ -164,7 +154,7 @@ const steps = [
     target: '.search-trigger',
     headline: 'Search any clause',
     icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>`,
-    copy: 'Press <kbd>/</kbd> to open full-text search across all clauses, or to ask a question to the AI assistant.',
+    copy: 'Press <kbd>/</kbd> to open full-text search across all clauses.',
     caretHint: 'bottom',
   },
   {
@@ -191,30 +181,6 @@ const steps = [
     mobileCaretHint: 'top',
     mobileH: 360,
   },
-  {
-    // Step 7: close the modal (auto-fired by next() detecting keepModalOpen→none transition),
-    // then spotlight the Ask AI nav button.
-    target: '.ask-ai-nav-btn',
-    headline: 'Ask the AI assistant',
-    icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>`,
-    copy: 'Click the <strong>Ask AI</strong> button in the navigation bar to open the AI pane — available from any page, at any time.',
-    caretHint: 'bottom',
-  },
-  {
-    // Step 8: open the AskPanel via custom event, then spotlight the filter pills.
-    // fallbackTarget: if ask-panel-filters is hidden (scope=page), spotlight the panel itself.
-    target: '.ask-panel-filters',
-    fallbackTarget: '.ask-panel',
-    headline: 'Set your context first',
-    icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>`,
-    copy: 'Always select your <strong>EBA</strong> and <strong>employment type</strong> before asking a question. This significantly improves the accuracy of AI answers.',
-    openAskPanel: true,
-    afterOpen: 500,
-    keepAskPanelOpen: true,
-    caretHint: 'left',
-    mobileCaretHint: 'bottom',
-  },
-  
   {
     // On mobile the appearance toggle is inside the hamburger menu.
     target: '.VPNavBar .theme-switch-wrap',
@@ -277,7 +243,7 @@ function onKeydown(e) {
   if (e.key === 'ArrowLeft')  { e.preventDefault(); prev() }
   // Only allow Escape to finish when the modal is NOT open for the tour —
   // prevents the tour's Escape handler from firing when the modal itself is open.
-  if (e.key === 'Escape' && !currentStep.value.keepModalOpen && !currentStep.value.openModal && !currentStep.value.keepAskPanelOpen) {
+  if (e.key === 'Escape' && !currentStep.value.keepModalOpen && !currentStep.value.openModal) {
     e.preventDefault()
     finish()
   }
@@ -296,11 +262,6 @@ async function next() {
 
   if (leaving.keepModalOpen && !arriving.openModal && !arriving.keepModalOpen) {
     dispatchClose()
-    await sleep(300)
-  }
-
-  if (leaving.keepAskPanelOpen && !arriving.keepAskPanelOpen) {
-    dispatchCloseAskPanel()
     await sleep(300)
   }
 
@@ -324,10 +285,6 @@ async function prev() {
     dispatchClose()
     await sleep(300)
   }
-  if (leaving.keepAskPanelOpen && !arriving.keepAskPanelOpen) {
-    dispatchCloseAskPanel()
-    await sleep(300)
-  }
   stepIndex.value--
   await nextTick()
   await positionTooltip()
@@ -341,7 +298,6 @@ async function goTo(i) {
 
 function finish() {
   dispatchClose()
-  dispatchCloseAskPanel()
   closeMobileMenuIfOpen()
   active.value = false
   try { localStorage.setItem(TOUR_KEY, '1') } catch { /* ignore */ }
@@ -355,7 +311,7 @@ function closeMobileMenuIfOpen() {
 }
 
 function onBackdropClick() {
-  if (!currentStep.value.keepModalOpen && !currentStep.value.openModal && !currentStep.value.keepAskPanelOpen) {
+  if (!currentStep.value.keepModalOpen && !currentStep.value.openModal) {
     finish()
   }
 }
@@ -364,13 +320,6 @@ function onBackdropClick() {
 function dispatchOpen() {
   window.dispatchEvent(new CustomEvent('open-search', { detail: {} }))
 }
-function dispatchOpenAskPanel() {
-  window.dispatchEvent(new CustomEvent('open-ask-panel', { detail: {} }))
-}
-function dispatchCloseAskPanel() {
-  window.dispatchEvent(new CustomEvent('close-ask-panel'))
-}
-
 // Use a dedicated 'close-search' CustomEvent instead of simulating Escape.
 // SearchModal listens for this event in its onMounted handler.
 // This prevents the tour's own Escape keydown handler from firing when we
@@ -390,7 +339,7 @@ function isMobile() { return window.innerWidth < 960 }
 
 // ─── Tooltip positioning ──────────────────────────────────────────────────────
 const TOOLTIP_W        = 360
-const TOOLTIP_H_APPROX = 280   // conservative max — Ask AI step has mode cards
+const TOOLTIP_H_APPROX = 280   // conservative max — accommodates the tallest tour step
 const MARGIN           = 16
 
 async function positionTooltip() {
@@ -399,11 +348,6 @@ async function positionTooltip() {
   if (step.openModal) {
     dispatchOpen()
     await sleep(step.afterOpen ?? 400)
-  }
-
-  if (step.openAskPanel) {
-    dispatchOpenAskPanel()
-    await sleep(step.afterOpen ?? 500)
   }
 
   if (step.closeModal) {
@@ -737,28 +681,6 @@ watch(stepIndex, async () => {
   font-family:   ui-monospace, monospace;
 }
 .gt-copy :deep(strong) { color: var(--vp-c-text-1); font-weight: 600; }
-
-/* ── Mode cards (Ask AI step) ── */
-.gt-mode-cards {
-  display:        flex;
-  flex-direction: column;
-  gap:            0.35rem;
-  margin-top:     0.1rem;
-}
-
-.gt-mode-card {
-  display:       flex;
-  align-items:   flex-start;
-  gap:           0.6rem;
-  padding:       0.45rem 0.6rem;
-  background:    var(--vp-c-bg-soft);
-  border:        1px solid var(--vp-c-divider);
-  border-radius: 8px;
-}
-
-.gt-mode-icon  { font-size: 0.95rem; line-height: 1; flex-shrink: 0; margin-top: 1px; }
-.gt-mode-label { display: block; font-size: 0.77rem; font-weight: 600; color: var(--vp-c-text-1); line-height: 1.3; }
-.gt-mode-desc  { display: block; font-size: 0.72rem; color: var(--vp-c-text-3); line-height: 1.4; }
 
 /* ── Nav row ── */
 .gt-nav {

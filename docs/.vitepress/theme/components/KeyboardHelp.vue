@@ -46,13 +46,13 @@
             <!-- ── NAVIGATION tab ── -->
             <template v-if="activeTab === 'navigation'">
               <div class="kb-section">
-                <div class="kb-section-label">Search &amp; Ask AI</div>
+                <div class="kb-section-label">Search</div>
                 <div class="kb-row">
                   <span class="kb-desc">Open search modal</span>
                   <span class="kb-keys"><kbd>/</kbd></span>
                 </div>
                 <div class="kb-row">
-                  <span class="kb-desc">Open Ask AI panel</span>
+                  <span class="kb-desc">Open search modal</span>
                   <span class="kb-keys">
                     <kbd>Ctrl</kbd><span class="kb-plus">+</span><kbd>K</kbd>
                   </span>
@@ -159,7 +159,7 @@
                   </span>
                 </div>
               </div>
-              <p class="kb-eba-note">Press the same shortcut again to clear the filter. Works on both the Search tab and all Ask AI modes. Can be pressed immediately after opening the modal — no need to move focus first.</p>
+              <p class="kb-eba-note">Press the same shortcut again to clear the filter. Works as soon as the search modal is open — no need to move focus first.</p>
             </template>
 
             <!-- ── ACCESSIBILITY tab ── -->

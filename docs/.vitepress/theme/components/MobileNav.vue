@@ -7,16 +7,16 @@
  * so it sits above all VitePress layout layers regardless of stacking context.
  *
  * Tabs (left to right):
- *   1. Home   → navigates to /
- *   2. Browse → navigates to /ebas/
- *   3. Search → dispatches open-search CustomEvent (opens SearchModal, Search tab)
- *   4. Ask AI → dispatches open-search CustomEvent with { tab: 'ask' }
+ *   1. Home    → navigates to /
+ *   2. Browse  → navigates to /ebas/
+ *   3. Search  → dispatches open-search CustomEvent (opens SearchModal)
+ *   4. For You → navigates to /for-you/
  *
  * Active state:
- *   - Home   → active when route.path === '/'
- *   - Browse → active when route.path starts with '/ebas/'
- *   - Search → never persistently active (it opens a modal)
- *   - Ask AI → never persistently active (it opens a modal)
+ *   - Home    → active when route.path === '/'
+ *   - Browse  → active when route.path starts with '/ebas/'
+ *   - Search  → never persistently active (it opens a modal)
+ *   - For You → active when route.path starts with '/for-you'
  *
  * The bar is hidden above 768px via CSS only — no JS conditional render —
  * so there is no layout flash on resize.
