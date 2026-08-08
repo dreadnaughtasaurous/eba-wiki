@@ -1,0 +1,22 @@
+---
+title: '28A. Patience in Bargaining Payment'
+eba: 'Allied Health Professionals 2021-2026'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 28A" style="display:none"></span>
+<span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 28A. Patience in Bargaining Payment
+
+*This clause 28A applies to full-time, part-time, fixed term and casual Employees.*
+
+**28A.1** All Employees who were employed by an Employer upon commencement of this Agreement will be entitled to a once-off ‘Patience in Bargaining’ lump-sum payment calculated as 2.0% of the Employee’s ordinary earnings (which in the case of a casual Employee includes their 25% casual loading) for the period 28 November 2021 to 28 February 2022.
+
+**28A.2** The payment in subclause 28A.1 is payable once this Agreement comes into operation following the approval of this Agreement by the Commission in accordance with the Act.

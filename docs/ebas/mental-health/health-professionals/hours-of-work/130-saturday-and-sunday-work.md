@@ -1,0 +1,26 @@
+---
+title: '130. Saturday and Sunday Work'
+eba: 'Mental Health Services 2024-2028'
+topics: ['hours', 'overtime']
+---
+<span data-pagefind-meta="clause:Clause 130" style="display:none"></span>
+<span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
+<span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
+</div>
+
+# 130. Saturday and Sunday Work
+
+**130.1** All rostered time of ordinary duty performed on Saturday and Sunday shall be paid for at the rate of time and a half.
+
+**130.2** Where Saturday and Sunday duties are required to be carried out in excess of the week’s work such duties are to be paid at the rate of double time.
+
+**130.3** Any recall to duty on a Saturday or Sunday shall be paid in accordance with [clause 128](/ebas/mental-health/health-professionals/hours-of-work/128-overtime)\] (Overtime) as applicable.
+
+**130.4** By agreement with the Employer an Employee shall be allowed to take time off in lieu of overtime at the ordinary time rate as per [clause 128.1(d)](/ebas/mental-health/health-professionals/hours-of-work/128-overtime) of this Agreement.
+
+Plain language terms: weekend penalty, weekend loading, weekend rates.

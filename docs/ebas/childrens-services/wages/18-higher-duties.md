@@ -1,0 +1,40 @@
+---
+title: '18. Higher Duties'
+eba: 'Children''s Services Award 2010'
+topics: ['wages', 'higher-duties']
+---
+<span data-pagefind-meta="clause:Clause 18" style="display:none"></span>
+<span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
+</div>
+
+# 18. Higher Duties
+
+>[Varied by [PR530861](http://www.fwc.gov.au/documents/awardsandorders/html/PR530861.htm), [PR736141](https://library.fairwork.gov.au/award/?krn=PR736141), [PR794818](https://library.fairwork.gov.au/award/?krn=PR794818)]
+
+>[18.1 varied by [PR530861](http://www.fwc.gov.au/documents/awardsandorders/html/PR530861.htm) ppc 02Nov12]
+
+**18.1** An employee engaged in duties carrying a higher rate than their ordinary classification for two or more consecutive hours within any shift or day will be paid for the time so worked at the higher rate provided that:
+
+- **(a)** the greater part of the time so worked is spent in performing duties carrying the higher rate;
+
+>[18.1(b) varied by [PR794818](https://library.fairwork.gov.au/award/?krn=PR794818) ppc 01Mar26]
+
+- **(b)** an employee engaged as a Children’s Services Employee Level 7—Assistant Director who is required to undertake the duties of a Director by reason of the Director’s absence will not be entitled to payment under this clause unless the Director’s absence exceeds two complete consecutive working days;
+
+>[18.1(c) varied by [PR794818](https://library.fairwork.gov.au/award/?krn=PR794818) ppc 01Mar26]
+
+- **(c)** an employee engaged as a Children’s Services Employee Level 3—Qualified Educator, Level 4—Experienced Educator or Level 5—Advanced Educator who is required to undertake duties of the Director by reason of the Director’s non‑attendance outside of core hours will not be entitled to payment under this clause;
+
+- **(d)** where an employee is appointed to act as the Director of a Centre or a Supervising Officer pursuant to the relevant childcare regulations, they will be paid for the entire period at the rate applicable for a Director or Supervising Officer; or
+
+>[18.1(e) deleted by [PR736141](https://library.fairwork.gov.au/award/?krn=PR736141) ppc 01Jan22]
+
+**18.2** For the purposes of this clause, the duties of an employee will be determined by reference to this award and the employee’s job description.
+
+Plain language terms: acting up, HDA.

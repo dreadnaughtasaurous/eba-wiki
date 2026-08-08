@@ -1,0 +1,26 @@
+---
+title: '193. Meal Allowances'
+eba: 'Mental Health Services 2024-2028'
+topics: ['allowances']
+---
+<span data-pagefind-meta="clause:Clause 193" style="display:none"></span>
+<span data-pagefind-meta="section:Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
+</div>
+
+# 193. Meal Allowances
+
+**193.1** Where an Employee is required to work overtime Monday to Friday (inclusive) for more than one hour after the usual finish time, or in the case of shift workers when the overtime exceeds one hour, or on a Saturday/Sunday for more than 5 hours, the Employer shall either supply the Employee with an adequate meal or pay a meal allowance.
+
+**193.2** Where such overtime exceeds 4 hours Monday to Friday (inclusive), or 9 hours on a Saturday/Sunday, the Employer shall either supply the Employee with a further adequate meal or pay a further meal allowance.
+
+**193.3** The provisions of clause 193.1 and clause 193.2 shall not apply where the Employee could reasonably return home for a meal within the period allowed.
+
+**193.4** The meal allowances payable over the life of this Agreement are set out in [Schedule 2](/ebas/mental-health/schedules/02-salaries-and-allowances).
+
+**193.5** Claims for payment of an overtime meal allowance will be processed in the next ordinary pay.

@@ -1,0 +1,20 @@
+---
+title: '32. Technology in Cleaning'
+eba: 'Health Allied & Managers Admin 2021-2025'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 32" style="display:none"></span>
+<span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
+<span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
+</div>
+
+# 32. Technology in Cleaning
+
+**32.1** The parties recognise the important role that Health and Allied Services Employees play in protecting patients’ welfare by preventing the spread of infection.
+
+**32.2** To this end, the HWU supports attempts to increase standards in cleaning in the public health system. Subject to the terms of this agreement, the HWU will work constructively with the Employer to implement new technologies and practices in cleaning in order improve infection control.
+
+Plain language terms: cleaning tech.

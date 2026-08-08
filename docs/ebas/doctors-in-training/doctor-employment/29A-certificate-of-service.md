@@ -1,0 +1,30 @@
+---
+title: '29A. Certificate of Service'
+eba: 'Doctors in Training 2022-2026'
+topics: ['employment', 'termination']
+---
+<span data-pagefind-meta="clause:Clause 29A" style="display:none"></span>
+<span data-pagefind-meta="section:Doctor Employment" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 29A. Certificate of Service
+
+**29A.1** The Health Service will record the following particulars in respect of each Doctor:
+
+- **(a)** Date of commencement of employment;
+- **(b)** Date of termination of employment;
+- **(c)** Total period of service (years and months);
+- **(d)** Long Service Leave taken during the period of service, or payments made in lieu thereof; and
+- **(e)** Accumulated personal/carer’s leave at termination.
+
+**29A.2** On request, a copy of the record will be furnished to the Doctor.
+
+**29A.3** A certificate in the form set out in [Appendix 3](/ebas/doctors-in-training/appendices/3-template-certificate-of-service) will be acceptable.
+
+**29A.4** A Doctor may request a document from their Employer which provides ‘Employment Information’ that can be used for the sole purpose of enabling their classification to be recognised by another Employer.
+
+Plain language terms: service certificate.

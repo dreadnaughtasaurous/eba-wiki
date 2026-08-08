@@ -1,0 +1,33 @@
+---
+title: '51. Higher Duties'
+eba: 'Doctors in Training 2022-2026'
+topics: ['wages', 'higher-duties']
+---
+<span data-pagefind-meta="clause:Clause 51" style="display:none"></span>
+<span data-pagefind-meta="section:Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 51. Higher Duties
+
+**51.1** A Doctor is deemed to perform Higher Duties where a Doctor is required to perform the full duties in a designated Registrar role for a minimum period equivalent to the lesser of:
+
+- **(a)** a period of more than five (5) consecutive working days; or
+- **(b)** a week as prescribed in the Doctor's roster.
+
+**51.2** Where a Doctor performs Higher Duties, the Doctor will:
+
+- **(a)** not be paid less than the minimum rate applicable to that higher classification for all time worked in excess of the period prescribed in 51.1(a) or (b), whichever is the lesser;
+- **(b)** where the Doctor is performing Higher Duties as a Registrar, be entitled to all conditions and benefits of a Registrar for all time worked in excess of the period prescribed in 51.1(a) or (b), whichever is the lesser; and
+- **(c)** not experience a financial detriment as a result of performing Higher Duties
+
+**51.3** When calculating the period of consecutive working days prescribed in subclause 51.1(a), rostered days off do not contribute to the calculation, and do not break the period of consecutive shifts.
+
+**51.4** Subject to subclause 51.2(c), where a HMO/MO works in a designated Registrar role for a period less than outlined in clause 51.1, they will be entitled to be paid at the minimum rate of a first year Registrar, but will not be entitled to any further benefits or allowances of a Registrar.
+
+Plain language terms: acting up, HDA.

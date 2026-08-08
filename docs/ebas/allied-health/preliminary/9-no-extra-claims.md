@@ -1,0 +1,20 @@
+---
+title: '9. No Extra Claims'
+eba: 'Allied Health Professionals 2021-2026'
+topics: ['preliminary']
+---
+<span data-pagefind-meta="clause:Clause 9" style="display:none"></span>
+<span data-pagefind-meta="section:Preliminary" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 9. No Extra Claims
+
+**9.1** This Agreement is reached in full and final settlement of all matters subject to claims by those covered by the Agreement and for the life of the Agreement no further claims will be made or supported by those covered by the Agreement.
+
+**9.2** Nothing in this clause 9 is intended to be inconsistent with the Act or remove the ability for this Agreement to be varied in accordance with the Act.
+
+Plain language terms: no further claims.

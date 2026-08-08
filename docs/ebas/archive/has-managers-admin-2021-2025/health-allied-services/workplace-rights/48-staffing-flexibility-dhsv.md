@@ -1,0 +1,22 @@
+---
+title: '48. Staffing Flexibility (DHSV)'
+eba: 'Health Allied & Managers Admin 2021-2025'
+topics: ['staffing']
+---
+<span data-pagefind-meta="clause:Clause 48" style="display:none"></span>
+<span data-pagefind-meta="section:Workplace Rights" style="display:none"></span>
+<span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
+</div>
+
+# 48. Staffing Flexibility (DHSV)
+
+*This clause only applies to Dental Assistants employed by DHSV.*
+
+**48.1** The Employer may direct an Employee to carry out duties that are incidental and peripheral to the work normally performed, where those duties are within the Employee’s skill, competence and training and are consistent with the classification structure.
+
+**48.2** The parties recognise the optimum staffing arrangement is for a Dental Assistant to work with a dedicated Dental Therapist whilst performing clinical duties. The Employer will continue to work towards implementing the optimum staffing arrangement.
+
+**48.3** There will be circumstances (for example short term unplanned absences) that necessitate a Dental Assistant working temporarily in a two-Dental Therapist-to- one-Dental Assistant staffing configuration. In such circumstances, Employees will be flexible in relation to staffing arrangements.

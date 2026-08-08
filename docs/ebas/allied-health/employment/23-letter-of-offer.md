@@ -1,0 +1,22 @@
+---
+title: '23. Letter of Offer'
+eba: 'Allied Health Professionals 2021-2026'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 23" style="display:none"></span>
+<span data-pagefind-meta="section:Employment" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 23. Letter of Offer
+
+
+
+**23.1** Before each new Employee commences employment, the Employer will provide each Employee with a letter of offer including the information set out in [Appendix 5](/ebas/allied-health/appendices/5-letter-of-offer).
+
+**23.2** Before an existing Employee commences employment in a new role or an appointment is varied, the Employer will provide the Employee with a new letter of offer/contract of employment, or variation to their letter of offer/contract of employment, in writing.
+
+

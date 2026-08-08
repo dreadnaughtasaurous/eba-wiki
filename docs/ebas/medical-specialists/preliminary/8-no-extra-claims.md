@@ -1,0 +1,24 @@
+---
+title: '8. No Extra Claims'
+eba: 'Medical Specialists 2022-2026'
+topics: ['preliminary']
+---
+<span data-pagefind-meta="clause:Clause 8" style="display:none"></span>
+<span data-pagefind-meta="section:Preliminary" style="display:none"></span>
+<span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
+</div>
+
+# 8. No Extra Claims
+
+- **(a)** Subject to subclause 8(b), until the nominal expiry date of this Agreement, a Health Service, Doctor or Doctor organisation covered by this Agreement must not pursue any extra claims.
+- **(b)** Subclause (a) does not limit:
+    - **(i)** the resolution of an issue, that is not also a collective issue affecting more than one Doctor, arising under an individual Doctor's contract of employment by the Health Service and the Doctor in a manner consistent with subclause 31.11(a); or
+    - **(ii)** the Health Service’s capacity to introduce change at the workplace, subject to meeting its requirements to consult; or
+    - **(iii)** a Health Service and Doctor's ability to make an individual flexibility arrangement consistent with clause 15 below.
+- **(c)** Issues arising under an individual Doctor's contract of employment must not be used to circumvent the operation of subclause (a).
+- **(d)** The Health Services agree to commence discussions with the Association no later than six months prior to the nominal expiry date of this Agreement. Provided that any claim made by a person covered by this Agreement during that six-month period is not supported by industrial action, subclause (a) does not prevent a person covered by this Agreement from making a claim during the six-month period (or such earlier period as may be agreed) prior to the nominal expiry date of this Agreement.
+
+Plain language terms: no further claims.

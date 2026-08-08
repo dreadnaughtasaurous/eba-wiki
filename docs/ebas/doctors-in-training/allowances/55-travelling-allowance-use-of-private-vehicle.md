@@ -1,0 +1,22 @@
+---
+title: '55. Travelling Allowance - Use of Private Vehicle'
+eba: 'Doctors in Training 2022-2026'
+topics: ['allowances', 'travel']
+---
+<span data-pagefind-meta="clause:Clause 55" style="display:none"></span>
+<span data-pagefind-meta="section:Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 55. Travelling Allowance - Use of Private Vehicle
+
+**55.1** The provisions of this clause 55 are to be read in conjunction with [clause 39](/ebas/doctors-in-training/hours-of-work/39-recall-return-to-workplace) (Recall).
+
+**55.2** Where a Doctor is required to use personal transport in the performance of his or her duties (including recall travel pursuant to [clause 39](/ebas/doctors-in-training/hours-of-work/39-recall-return-to-workplace)) they must receive a Travelling Allowance per kilometre in accordance with [Appendix 2](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions), Table 2.3.
+
+**55.3** The Doctor is responsible for maintaining records sufficient to support any claim made pursuant to this clause 55.
+
+**55.4** A Doctor who is recalled and who has not used personal transport must be provided with suitable return transport at the Health Service’s expense.

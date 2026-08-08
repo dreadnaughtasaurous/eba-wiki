@@ -1,0 +1,22 @@
+---
+title: '178. Shiftwork'
+eba: 'Mental Health Services 2024-2028'
+topics: ['hours', 'shift-work', 'allowances']
+---
+<span data-pagefind-meta="clause:Clause 178" style="display:none"></span>
+<span data-pagefind-meta="section:Preliminary" style="display:none"></span>
+<span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
+</div>
+
+# 178. Shiftwork
+
+**178.1** Employees who perform shift work shall be entitled to payment of the shift allowances applying to their classification under the following provisions of this clause.
+
+**178.2 Change of Shift Allowance**
+
+- **(a)** An Employee who changes from working on one shift to working on another shift, the time of commencement of which differs by four hours or more than from that of the first, shall be paid a change of shift allowance equal to 4% of the relevant base rate on the occasion of each such change in addition to any amount payable under the preceding provisions of this clause.
+- **(b)** Notwithstanding the provisions of clause 178.2(a)\[194.2(a)\] above, the change of shift allowance is not payable where the Employer agrees to a request in writing made on behalf of one or more Employees for changes in shifts.
+- **(c)** Change of shift allowance is not payable where a single Employee holds two contemporaneous different contracted positions with the same Employer and moving between those positions results in a change of shift pattern which would ordinarily invoke a change of shift allowance payment.

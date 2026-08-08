@@ -1,0 +1,18 @@
+---
+title: '38. Childcare Costs'
+eba: 'Biomedical Engineers 2025-2028'
+topics: ['allowances', 'childcare']
+---
+<span data-pagefind-meta="clause:Clause 38" style="display:none"></span>
+<span data-pagefind-meta="section:Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
+</div>
+
+# 38. Childcare Costs
+
+**38.1** Where an Employee is required by the Employer to work outside their ordinary hours of work and where less than 24 hours’ notice of the requirement to perform such overtime work has been given by the Employer, other than recall when the Employee is placed on- call, the Employee will be reimbursed for reasonable childcare expenses incurred.
+
+**38.2** Evidence of expenditure incurred by the Employee must be provided to the Employer as soon as practicable after working such overtime.

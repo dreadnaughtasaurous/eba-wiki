@@ -1,0 +1,84 @@
+---
+title: 'Schedule 1 - Employer Parties'
+eba: 'Medical Scientists, Pharm & Psych 2021-2025'
+topics: ['coverage']
+---
+<span data-pagefind-meta="clause:Schedule 1" style="display:none"></span>
+<span data-pagefind-meta="section:Schedules" style="display:none"></span>
+<span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
+</div>
+
+# Schedule 1 - Employer Parties
+
+- Albury Wodonga Health (Wodonga Hospital only)
+- Alexandra District Hospital
+- Alfred Hospital
+- Alpine Health
+- Austin Health
+- Bairnsdale Regional Health Service
+- Barwon Health
+- Bass Coast Regional Health
+- Beechworth Health Service
+- Benalla Health Service
+- Bendigo Health Care Group
+- Calvary Health Bethlehem Hospital Ltd
+- Central Gippsland Health Service
+- Central Highlands Rural Health (formerly Hepburn Health and Kyneton Health)
+- Colac Area Health
+- Corryong Health
+- Dhelkaya Health (formerly Castlemaine Health and Maldon Hospital)
+- East Grampians Health Service
+- East Wimmera Health Service
+- Eastern Health
+- Echuca Regional Health
+- Gippsland Southern Health Service
+- Goulburn Valley Health
+- Grampians Health (formerly Ballarat Health Service, Stawell Regional Health and Wimmera Health Care Group)
+- Heywood Rural Health
+- Hesse Rural Health Service
+- Kerang District Health Service
+- Kilmore & District Hospital
+- Kooweerup Regional Health Service
+- Kyabram District Health
+- Latrobe Regional Hospital
+- Mansfield District Hospital
+- Maryborough District Health Service
+- Melbourne Health
+- Mercy Hospitals Victoria Limited 
+- Mildura Base Hospital
+- Monash Health
+- Moyne Health Services 
+- NCN Health (formerly Nathalia District Hospital, Cobram District Health and Nurmurkah District Health Service)
+- Northeast Health Wangaratta
+- Northern Health
+- Omeo District Health
+- Orbost Regional Health
+- Peninsula Health
+- Peter MacCallum Cancer Institute
+- Portland District Health
+- Queen Elizabeth Centre 
+- Robinvale District Health Service
+- Rochester & Elmore District Health Service
+- Royal Children’s Hospital (The)
+- Royal Victoria Eye & Ear Hospital (The)
+- Royal Women’s Hospital (The)
+- Rural Northwest Health
+- Seymour Health
+- South West Healthcare
+- St Vincent's Health (Melbourne) Limited
+- Swan Hill District Health
+- Tallangatta Health Service
+- Terang & Mortlake Health Service
+- Timboon & District Health Care Service
+- Tweddle Child and Family Health Service
+- Victorian Clinical Genetics Service Ltd (VCGS)
+- West Gippsland Healthcare Group
+- West Wimmera Health Service
+- Western District Health Service
+- Western Health (including the former Djerriwarrh Health Service)
+- Yarram & District Health Service
+- Yarrawonga District Health Service
+- Yea and District Memorial Hospital

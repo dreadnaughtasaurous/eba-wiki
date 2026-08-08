@@ -1,0 +1,22 @@
+---
+title: '92. Telephone Allowance'
+eba: 'Medical Scientists, Pharm & Psych 2021-2025'
+topics: ['allowances']
+---
+<span data-pagefind-meta="clause:Clause 92" style="display:none"></span>
+<span data-pagefind-meta="section:Accident Pay & Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
+</div>
+
+# 92. Telephone Allowance
+
+- **a.** Where an Employer requires an Employee to install and or maintain a telephone for the purposes of being on call the Employer shall reimburse the installation costs and the subsequent six monthly rental charges on production of receipted accounts or provide the Employee with a mobile phone for the purpose and usage of being on call.
+- **b.** Where the Employer requires an Employee to purchase, install and or maintain a telephone, whether it be a land-line or a mobile phone, for the purposes of being on-call the employer will reimburse the purchase or installation costs and the subsequent rental charges or mobile phone charges on production of receipted accounts.
+- **c.** In lieu of paying an Employee the telephone allowance, an employer may provide an Employee with a mobile phone for the purposes of being on-call and pay any costs and charges associated with it.
+
+Plain language terms: phone allowance, mobile allowance.

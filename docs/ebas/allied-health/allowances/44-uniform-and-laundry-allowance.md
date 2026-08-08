@@ -1,0 +1,24 @@
+---
+title: '44. Uniform and Laundry Allowance'
+eba: 'Allied Health Professionals 2021-2026'
+topics: ['allowances', 'uniforms']
+---
+<span data-pagefind-meta="clause:Clause 44" style="display:none"></span>
+<span data-pagefind-meta="section:Allowances" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 44. Uniform and Laundry Allowance
+
+
+
+**44.1** Where the Employer requires an Employee to wear any special clothing or uniform, the Employer must reimburse the Employee for the cost of purchasing such special clothing or uniform. The provisions of this subclause 44.1 do not apply where the special clothing or uniform is paid for by the Employer.
+
+**44.2** Notwithstanding subclause 44.1 above, the Employer may, by agreement with the Employee, pay a uniform allowance at the daily or weekly rate set out in [Appendix 3](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments) (whichever is the lesser amount in total) when the Employee is expected to provide their own uniforms or coats. When such Employee's uniforms or coats are not laundered by or at the expense of the Employer, the Employee will be paid a laundry allowance at the daily or weekly rate set out in [Appendix 3](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments)
+
+

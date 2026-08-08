@@ -1,0 +1,44 @@
+---
+title: '97. OH&S Preliminary'
+eba: 'Allied Health Professionals 2021-2026'
+topics: ['ohs']
+---
+<span data-pagefind-meta="clause:Clause 97" style="display:none"></span>
+<span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 97. OH&S Preliminary
+
+**97.1 Relationship to legislation** 
+
+The provisions of this Part L of the Agreement shall be read and interpreted in conjunction with the [OHS Act](https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045), [EO Act](https://www.legislation.vic.gov.au/in-force/acts/equal-opportunity-act-2010/032) and [WIRC Act](https://www.legislation.vic.gov.au/in-force/acts/workplace-injury-rehabilitation-and-compensation-act-2013/053) and successors, provided where there is any inconsistency between this Agreement and the legislation referred to in this subclause 97.1, the legislation prevails to the extent of any inconsistency.
+
+**97.2 Arrangement of this Part L** 
+
+This part L is arranged as follows:
+
+- **(a)** OHS Preliminary (clause 97);
+- **(b)** Industry OHS Working Group ([clause 98](/ebas/allied-health/ohs/98-industry-ohs-working-group));
+- **(c)** OHS Risk Management ([clause 99](/ebas/allied-health/ohs/99-ohs-risk-management));
+- **(d)** Incident Reporting, Investigation and Prevention ([clause 100](/ebas/allied-health/ohs/100-incident-reporting-investigation-and-prevention));
+- **(e)** Designated work groups ([clause 101](/ebas/allied-health/ohs/101-designated-work-groups));
+- **(f)** HSRs ([clause 102](/ebas/allied-health/ohs/102-hsrs));
+- **(g)** Occupational Violence and Aggression Prevention and Management ([clause 103](/ebas/allied-health/ohs/103-occupational-violence-and-aggression-prevention-and));
+- **(h)** Workers' Compensation, Rehabilitation and Return to Work ([clause 104](/ebas/allied-health/ohs/104-workers-compensation-rehabilitation-and-return-to));
+- **(i)** Home Visit Safety ([clause 105](/ebas/allied-health/ohs/105-home-visit-safety)); and
+- **(j)** Facilities ([clause 106](/ebas/allied-health/ohs/106-facilities)).
+
+**97.3 Definitions** 
+
+For the purposes of this Part L of this Agreement:
+
+- **(a)** **DWG** means designated work group as defined under the OHS Act as amended from time to time and may include employees other than Employees covered by this Agreement.
+- **(b)** **Incident** means an event or circumstance that lead or could have lead to unintended or unnecessary harm.
+- **(c)** **Injury** means any physical or mental injury.
+- **(d)** **Insurer** means an authorised agent as defined by the WIRC Act.
+- **(e)** **OHS** means occupational health and safety.
+- **(f)** **Workplace** means workplace as defined under the OHS Act.

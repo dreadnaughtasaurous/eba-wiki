@@ -1,0 +1,24 @@
+---
+title: '6. Commencement Date and Period of Operation'
+eba: 'Allied Health Professionals 2021-2026'
+topics: ['preliminary']
+---
+<span data-pagefind-meta="clause:Clause 6" style="display:none"></span>
+<span data-pagefind-meta="section:Preliminary" style="display:none"></span>
+<span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
+</div>
+
+# 6. Commencement Date and Period of Operation
+
+**6.1** This Agreement will come into effect seven (7) days after the date of approval by the Commission.
+
+**6.2** This Agreement will nominally expire on 28 February 2026.
+
+**6.3** The Agreement will continue to operate after the nominal expiry date in accordance with the provisions of the Act.
+
+**6.4** Those covered by the Agreement and their representatives will, six (6) months prior to the nominal expiry date of this Agreement, commence negotiations for a replacement enterprise agreement/s provided that any claim made by any party during this period prior to the nominal expiry date of the Agreement may not be supported by industrial action.
+
+Plain language terms: start date, nominal expiry.

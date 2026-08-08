@@ -1,0 +1,29 @@
+---
+title: '8A. Consultation About Changes to Rosters or Hours of Work'
+eba: 'Children''s Services Award 2010'
+topics: ['hours', 'rosters', 'consultation']
+---
+<span data-pagefind-meta="clause:Clause 8A" style="display:none"></span>
+<span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
+<span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school care OSHC children's
+</div>
+
+# 8A. Consultation About Changes to Rosters or Hours of Work
+
+**8A.1** Clause 8A applies if an employer proposes to change the regular roster or ordinary hours of work of an employee, other than an employee whose working hours are irregular, sporadic or unpredictable.
+
+**8A.2** The employer must consult with any employees affected by the proposed change and their representatives (if any).
+
+**8A.3** For the purpose of the consultation, the employer must:
+
+- **(a)** provide to the employees and representatives mentioned in clause 8A.2 information about the proposed change (for example, information about the nature of the change and when it is to begin); and
+- **(b)** invite the employees to give their views about the impact of the proposed change on them (including any impact on their family or caring responsibilities) and also invite their representative (if any) to give their views about that impact.
+
+**8A.4** The employer must consider any views given under clause 8A.3(b).
+
+**8A.5** Clause 8A is to be read in conjunction with any other provisions of this award concerning the scheduling of work or the giving of notice.
+
+Plain language terms: roster consultation, hours consultation.

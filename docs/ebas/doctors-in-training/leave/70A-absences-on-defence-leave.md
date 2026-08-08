@@ -1,0 +1,30 @@
+---
+title: '70A. Absences on Defence Leave'
+eba: 'Doctors in Training 2022-2026'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 70A" style="display:none"></span>
+<span data-pagefind-meta="section:Leave" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 70A. Absences on Defence Leave
+
+**70A.1** A Full-Time or Part-Time Doctor absent on defence service will be reimbursed by the Employer an amount equal to the difference between:
+
+- **(a)** the amount paid in respect of a period during which the Doctor was absent on defence service; and
+- **(b)** the amount the Doctor could reasonably expect to have received from the Employer as earnings for that period had the Doctor not been absent on defence service.
+
+**70A.2** A Doctor will notify the Employer as soon as possible of the date they require absence on defence service. The Doctor will give the Employer proof that the absence relates to defence service, the duration of such absence and the amount received for the relevant defence service period.
+
+**70A.3** In this clause '**absence on defence service**' has the meaning contained in section 24A of the *[Defence Reserve Service (Protection) Act 2001 (Cth)](https://www.legislation.gov.au/C2004A00776/latest)*.
+
+>**Example:** 
+>The Doctor is on Defence Service leave for the duration of a particular pay period. Were the Doctor not on Defence Service leave in that pay period they would have worked on the Sunday and Monday evening shift of each week of the pay period. The Doctor is entitled to payment as though at work for each of the Sunday and Monday evening shifts, less the amount of payment (not including reimbursements) from the Defence Service for the equivalent time of the Sunday and Monday evening shifts.
+
+Plain language terms: ADF leave, reservist leave.

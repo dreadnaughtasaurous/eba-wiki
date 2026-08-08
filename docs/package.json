@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:related": "node scripts/generate-related-clauses.mjs",
+    "docs:legislation": "node scripts/link-legislation.mjs",
+    "docs:preview": "vitepress preview .",
+    "docs:index": "vitepress build . && node scripts/generate-page-catalog.mjs && node scripts/patch-pagefind.mjs && pagefind --site .vitepress/dist --output-path .vitepress/dist/pagefind"
+  },
+  "devDependencies": {
+    "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
+    "pagefind": "^1.3.0",
+    "vitepress": "^1.6.4"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,8 @@
+---
+title: 'Appendices'
+eba: 'Doctors in Training 2022-2026'
+topics: []
+description: 'Reference lists, pay tables, allowance rates, and templates attached to this EBA.'
+---
+
+<SectionIndex />

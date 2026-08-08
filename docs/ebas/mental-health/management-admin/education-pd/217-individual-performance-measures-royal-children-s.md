@@ -1,0 +1,35 @@
+---
+title: '217. Individual Performance Measures - Royal Children''s Hospital'
+eba: 'Mental Health Services 2024-2028'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 217" style="display:none"></span>
+<span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
+<span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
+</div>
+
+# 217. Individual Performance Measures - Royal Children's Hospital
+
+**217.1** This clause only applies to Management and Administrative Officers at Royal Children’s Hospital classified under Part 2 of [Schedule 7](/ebas/mental-health/common-terms/preliminary/7-application-of-section-4) of this Agreement.
+
+**217.2** In the four (4) weeks prior to the commencement of a given financial year (Department Heads), and within 12 weeks of employment and on the anniversary of the appointment thereafter (all other Employees), the Employee and the Divisional Director/Department Head are to negotiate agreed performance measures for the succeeding 18-month period.
+
+**217.3** For the purposes of clause 217.2 above, the Employer’s “Performance Development and Staff Appraisal Scheme” shall be applied, save where there is mutual agreement to use an alternative format.
+
+**217.4** Individual performance measures may include: 
+- **a)** balancing budgets 
+- **b)** achieving given targets 
+- **c)** levels of absenteeism 
+- **d)** occupational health and safety 
+- **e)** data entry requirements 
+- **f)** documentation requirements 
+- **g)** punctuality 
+- **h)** percentage of patient-related work 
+- **i)** categories of work, levels of classification 
+- **j)** research; and 
+- **k)** conferences.
+
+**217.5** These measures will be subject to periodic review by the parties. Any dispute in this regard will be settled in accordance with the Dispute Settling Procedures.

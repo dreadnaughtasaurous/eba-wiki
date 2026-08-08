@@ -1,0 +1,26 @@
+---
+title: '76. Vacancies'
+eba: 'Biomedical Engineers 2025-2028'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 76" style="display:none"></span>
+<span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
+<span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
+</div>
+
+# 76. Vacancies
+
+**76.1** This clause applies to a vacancy which relates to a position that, but for the vacancy occurring, would have been ongoing.
+
+**76.2** If the Employer elects to fill the vacancy, they will advertise the position as soon as reasonably practicable. Where an Employer elects not to fill the vacancy, or to make changes to the vacant position, they must review any obligations under [clause 13](/ebas/biomedical-engineers/consultation-disputes/13-consultation) (Consultation).
+
+**76.3** During any period between a position becoming vacant and the position being filled, the Employer will ensure Employees’ workloads are managed in accordance with [clause 84](/ebas/biomedical-engineers/classification-staffing/84-workload) (Workload). This may include but is not limited to:
+
+- **(a)** Backfilling the vacant position;
+- **(b)** Prioritising work in the area the vacancy has occurred to ensure the work that was done by the Employee who has left is not required to be undertaken by any other staff member/s; or
+- **(c)** Prioritising work in the area the vacancy has arisen to ensure workloads of staff member/s who may be asked to perform the priority duties of the vacant position are adjusted by reducing their normal duties.
+
+

@@ -1,0 +1,49 @@
+---
+title: '99B. Examination Leave - RPN and PEN'
+eba: 'Mental Health Services 2024-2028'
+topics: ['leave', 'education']
+---
+<span data-pagefind-meta="clause:Clause 99B" style="display:none"></span>
+<span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
+<span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
+</div>
+
+# 99B. Examination Leave - RPN and PEN
+
+This clause does not apply to casual Employees.
+
+---
+
+**99B.1 Entitlement**
+
+- **(a)** An eligible RPN or PEN shall be entitled to five days paid leave in any one year for the purposes of undertaking and/or preparing for examinations in an eligible course of study. Examinations include major assessment tasks, take home exams and other methods of student assessment.
+- **(b)** Leave entitlements pursuant to this clause will not accumulate from year to year.
+
+**99B.2 Employee eligibility**
+
+To be eligible for examination leave, an Employee must:
+
+- **(a)** be employed to work on average, at least three shifts or 24 hours per week; and
+- **(b)** have been employed for not less than eighteen (18) months by their current Employer immediately prior to taking of examination leave.
+
+**99B.3 Eligible course of study**
+
+- **(a)** To be eligible for examination leave, the course of study must be:
+  - **(i)** related to the Employee's Classification in Grades duty requirements; and
+  - **(ii)** relevant to advancement through the career structure and to employment at the establishment.
+- **(b)** Such a course of study would normally be undertaken in a tertiary institution.
+
+**99B.4 Time of taking leave**
+
+Examination leave will be taken at a time that is agreed between the Employer and the Employee. The Employer will not unreasonably withhold approval for such leave.
+
+**99B.5 Payment**
+
+A day for the purposes of examination leave is the Employee's normal shift length.
+
+**99B.6 Staff Replacement**
+
+All absences resulting from approved leave under clauses 99B (examination leave) will be backfilled in clinical areas where that Employee would ordinarily have a patient allocation.

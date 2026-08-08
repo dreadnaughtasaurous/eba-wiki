@@ -1,0 +1,46 @@
+---
+title: '33. Workforce Skills, Capability and Mobility'
+eba: 'Health Allied & Managers Admin 2021-2025'
+topics: []
+---
+<span data-pagefind-meta="clause:Clause 33" style="display:none"></span>
+<span data-pagefind-meta="section:Union Matters" style="display:none"></span>
+<span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
+</div>
+
+# 33. Workforce Skills, Capability and Mobility
+
+*This clause does not apply to casual Employees*
+
+**33.1** The parties are committed to providing opportunities for Employees to build their skills and capacity and subsequently improve workforce mobility within the classifications provided in this Agreement in accordance with this Clause 33.
+
+---
+
+**33.2 Workforce Skills, Capability and Mobility Committee**
+
+- **(a)** Within three months of the commencement of this Agreement, Employers will create a Workforce Skills, Capability and Mobility Committee who will meet quarterly (remotely or in person) and consist of:
+  - **(i)** Representatives of the Employer
+  - **(ii)** HWU delegate and/or representative of the HWU
+  - **(iii)** Where employed by the Employer, the:
+    - **A.** Workplace Trainer/Careers Advisor
+    - **B.** Aboriginal Employment Support Officer
+    - **C.** Disability Employment Support Officer
+    - **D.** Veteran Employment Support Officer
+  - **(iv)** On invitation by the Employer (where applicable/relevant):
+    - **A.** Representatives of local registered training or apprenticeship organisations,
+    - **B.** Representatives of indigenous, disability and/or veteran employment organisations.
+
+- **(b)** The terms of reference of the Workforce Skills, Capability and Mobility Committee will include assisting the Employer to:
+  - **(i)** identify current or future skills and capability gaps relevant to the Employer, within the existing workforce,
+  - **(ii)** develop internal pathways within the Employer to improve the skills and capabilities of the existing workforce
+  - **(iii)** promote foreseeable employment opportunities that require vocational training, with the view to aligning interested Employees with vocational training providers to fulfil these foreseeable employment opportunities
+  - **(iv)** generate partnerships with local registered training and/or apprenticeship organisations
+  - **(v)** generate partnerships with local indigenous, disability and/or veteran employment organisations
+  - **(vi)** any other matter agreed locally by the Workforce Skills, Capability and Mobility Committee
+
+- **(c)** The Workforce Skills, Capability and Mobility Committee may meet as scheduled meetings with the HWU as agreed locally.
+
+Plain language terms: skills, mobility.

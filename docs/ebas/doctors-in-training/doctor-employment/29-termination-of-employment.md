@@ -1,0 +1,27 @@
+---
+title: '29. Termination of Employment'
+eba: 'Doctors in Training 2022-2026'
+topics: ['employment', 'termination']
+---
+<span data-pagefind-meta="clause:Clause 29" style="display:none"></span>
+<span data-pagefind-meta="section:Doctor Employment" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
+</div>
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 29. Termination of Employment
+
+**29.1** The employment of a full-time or part-time Doctor may be terminated:
+
+- **(a)** by at least four weeks’ notice given by the Health Service or the Doctor, or four weeks’ wages paid or forfeited as the case may be in lieu of such notice, except that the period of notice may be reduced by agreement (subject to compliance with the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources)); or
+- **(b)** at the end of a period of appointment under a fixed term or maximum term contract; or
+- **(c)** with written notice by the Health Service in the event of misconduct, malpractice, neglect of duty or breach of any condition of appointment after the Health Service has made careful inquiry into any matter alleged against the Doctor and has heard whatever statement the Doctor may wish to make relative to that matter and against such termination or has given the Doctor a reasonable opportunity to make such a statement. The Doctor may be assisted in making any statement or submission by a representative of the Association.
+- **(d)** The period of notice to be given by the Health Service pursuant to subclause 29.1(a) above shall be increased by one week if the Doctor is over 45 years of age and has completed at least two years’ continuous service.
+
+**29.2** Casual employment may be terminated with one hour’s notice.
+
+Plain language terms: resignation, dismissal.

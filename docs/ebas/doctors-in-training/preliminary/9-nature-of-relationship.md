@@ -1,0 +1,26 @@
+---
+title: '9. Nature of Relationship'
+eba: 'Doctors in Training 2022-2026'
+topics: ['preliminary']
+---
+<span data-pagefind-meta="clause:Clause 9" style="display:none"></span>
+<span data-pagefind-meta="section:Preliminary" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 9. Nature of Relationship
+
+**9.1** All minimum entitlements available to the Doctor arise through this Agreement and the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources). In most cases, the employment contract will only prescribe and enforce the time period for the employment relationship, whether the employment is full time or part time or casual and require the Doctor to abide by Health Service policies and procedures.
+
+**9.2** A Rotation Hospital must apply the Parent Hospital employment contract (refer to Definitions ([subclauses 3.1(aa)](/ebas/doctors-in-training/preliminary/3-definitions), 3.1(cc) and 3.1(ee)) and [clause 24](/ebas/doctors-in-training/doctor-employment/24-rotations-between-hospitals)).
+
+**9.3** Doctors participating in accredited Specialist training are generally required to maintain two discrete relationships: a trainee relationship with a Specialist Medical College and an employment relationship with a Health Service.
+
+**9.4** Where a Doctor takes up a Specialist training position accredited by the Specialist Medical College, it is the Health Service that employs the Doctor into the allocated position.
+
+Plain language terms: employment relationship.
+
+

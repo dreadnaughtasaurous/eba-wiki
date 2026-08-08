@@ -1,0 +1,34 @@
+---
+title: 'Appendix 4 - Clinical Nurse Midwife Specialist Criteria'
+eba: 'Nurses and Midwives 2024-2028'
+topics: []
+---
+<span data-pagefind-meta="clause:Appendix 04" style="display:none"></span>
+<span data-pagefind-meta="section:Appendices" style="display:none"></span>
+<span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+nursing staff RN EN registered enrolled midwifery NUM unit manager ANUM associate unit manager CNS CNE educator CNC consultant
+</div>
+
+# Appendix 4 - Clinical Nurse Midwife Specialist Criteria
+
+Applicants must meet the clinical nurse/midwife specialist definition, be employed either full-time or part-time and demonstrate one criterion in each of paragraphs 1, 2 and 3.
+
+1. Clinical Skill
+- Higher level of skill demonstrated in clinical decision making – in particular in problem identification and solution, and analysis and interpretation of clinical data; and
+- Maintenance and improvement of clinical standards.
+
+2. Professional Behaviour
+- Positive role model;
+- Act as a mentor or preceptor to less experienced nurses/midwives, including graduate nurses/midwives;
+- Support of, and contribution to, quality improvement and research projects within the area of practice and ward/unit/department; and
+- Act as a resource person to others in relation to clinical practice.
+
+3. Professional Development
+- Membership of relevant professional body, and ability to demonstrate and document:
+    - **(i)** learning from a journal article, or attendance at a conference or seminar, or reflection on seminar or conference papers;
+    - **(ii)** participation in effective learning activities relevant to their learning needs; or
+    - **(iii)** membership of a sub-grouping of the professional association relevant to their area of practice;
+- Contribution to the education of other professionals, for example, being willing to provide at least one in-service education program each year; and
+- Undertaking own planned professional development and competence through various forms of continuing education, for example, conferences, study days, formal study, reading.

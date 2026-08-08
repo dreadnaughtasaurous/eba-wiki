@@ -1,0 +1,41 @@
+---
+title: '97. OH&S Preliminary'
+eba: 'Nurses and Midwives 2024-2028'
+topics: ['ohs']
+---
+<span data-pagefind-meta="clause:Clause 97" style="display:none"></span>
+<span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
+<span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
+</div>
+
+# 97. OH&S Preliminary
+
+**97.1 Relationship to legislation**
+
+The provisions of this Part K of the Agreement will be read and interpreted in conjunction with the [OHS Act](https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045), [EO Act](https://www.legislation.vic.gov.au/in-force/acts/equal-opportunity-act-2010/032) and [WIRC Act](https://www.legislation.vic.gov.au/in-force/acts/workplace-injury-rehabilitation-and-compensation-act-2013/053) and successors, provided where there is any inconsistency between this Agreement and the legislation referred to above, the legislation prevails to the extent of any inconsistency.
+
+**97.2 Arrangement of this Part K**
+
+This part is arranged as follows:
+
+- **(a)** OHS Preliminary (clause 97);
+- **(b)** OHS Working Group ([clause 98](/ebas/nurses-midwives/ohs/98-industry-ohs-working-group));
+- **(c)** OHS Risk Management ([clause 99](/ebas/nurses-midwives/ohs/99-ohs-risk-management));
+- **(d)** Incident Reporting, Investigation and Prevention ([clause 100](/ebas/nurses-midwives/ohs/100-incident-reporting-investigation-and-prevention));
+- **(e)** Designated Work Groups ([clause 101](/ebas/nurses-midwives/ohs/101-designated-work-groups));
+- **(f)** HSRs ([clause 102](/ebas/nurses-midwives/ohs/102-hsrs));
+- **(g)** Occupational Violence and Aggression Prevention and Management ([clause 103](/ebas/nurses-midwives/ohs/103-occupational-violence-and-aggression-prevention-and)); and
+- **(h)** Workers' Compensation, Rehabilitation and Return To Work ([clause 104](/ebas/nurses-midwives/ohs/104-workers-compensation-rehabilitation-and-return-to-work)).
+
+**97.3 Definitions**
+
+For the purposes of this Part K of this Agreement:
+
+- **(a)** **DWG** means designated work group as defined under the OHS Act as amended from time to time and may include employees other than nurses and/or midwives.
+- **(b)** **Incident** means an event or circumstance that led or could have led to unintended or unnecessary harm.
+- **(c)** **Injury** means any physical or mental injury.
+- **(d)** **Insurer** means an authorised agent as defined by the WIRC Act.
+- **(e)** **Workplace** means workplace as defined under the OHS Act.

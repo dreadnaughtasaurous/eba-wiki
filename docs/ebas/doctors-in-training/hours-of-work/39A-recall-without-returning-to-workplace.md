@@ -1,0 +1,22 @@
+---
+title: '39A. Recall - Without Returning to Workplace'
+eba: 'Doctors in Training 2022-2026'
+topics: ['hours', 'overtime', 'on-call']
+---
+<span data-pagefind-meta="clause:Clause 39A" style="display:none"></span>
+<span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
+<span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
+
+<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
+DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
+</div>
+
+# 39A. Recall - Without Returning to Workplace
+
+**39A.1** The provisions of this clause 39A are to be read in conjunction with [clause 40](/ebas/doctors-in-training/hours-of-work/40-telephone-calls-to-doctors-outside-of-working-hours) (Telephone Calls to Doctors Outside of Working Hours).
+
+**39A.2** Where recall to duty can be managed without the Doctor having to return to their workplace, such as by telephone or computer, the Employee will be paid a minimum of 1 hour at the appropriate overtime rate for each occasion, provided that multiple recalls within a discrete hour will not attract additional payment.
+
+**39A.3** Remote recall should only occur where the Doctor is rostered on-call and in accordance with [clause 40](/ebas/doctors-in-training/hours-of-work/40-telephone-calls-to-doctors-outside-of-working-hours) (Telephone calls to Doctors outside of Working Hours) below.
+
+**39A.4** Doctors who undertake remote recall will submit information to the health service as required within the timeframe set by the health service.
