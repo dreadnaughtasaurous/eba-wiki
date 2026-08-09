@@ -416,10 +416,6 @@ function fmtFile(file) {
             <span class="ad-kpi-val">{{ (meta.totalSearch || 0).toLocaleString() }}</span>
             <span class="ad-kpi-lbl">Keyword searches</span>
           </div>
-          <div class="ad-kpi" style="--kpi-color:#7C3AED">
-            <span class="ad-kpi-val">{{ (meta.totalAsk || 0).toLocaleString() }}</span>
-            <span class="ad-kpi-lbl">Ask AI queries</span>
-          </div>
           <div class="ad-kpi" style="--kpi-color:#D21C62">
             <span class="ad-kpi-val">{{ (meta.totalPageviews || 0).toLocaleString() }}</span>
             <span class="ad-kpi-lbl">Page views</span>
@@ -567,9 +563,7 @@ function fmtFile(file) {
                   <td class="col-rank ad-muted">{{ i + 1 }}</td>
                   <td><code class="ad-query">{{ row.query }}</code></td>
                   <td class="col-tab">
-                    <span class="ad-pill" :class="row.tab === 'ask' ? 'ad-pill--ask' : 'ad-pill--search'">
-                      {{ row.tab === 'ask' ? 'Ask AI' : 'Search' }}
-                    </span>
+                    <span class="ad-pill ad-pill--search">Search</span>
                   </td>
                   <td class="col-num ad-bold">{{ row.count }}</td>
                   <td class="col-num">
@@ -602,9 +596,7 @@ function fmtFile(file) {
                   <td class="col-rank ad-muted">{{ i + 1 }}</td>
                   <td><code class="ad-query">{{ row.query }}</code></td>
                   <td class="col-tab">
-                    <span class="ad-pill" :class="row.tab === 'ask' ? 'ad-pill--ask' : 'ad-pill--search'">
-                      {{ row.tab === 'ask' ? 'Ask AI' : 'Search' }}
-                    </span>
+                    <span class="ad-pill ad-pill--search">Search</span>
                   </td>
                   <td class="col-num"><span class="ad-zero-badge">{{ row.zeroResultCount }}</span></td>
                 </tr>
@@ -1251,7 +1243,6 @@ function fmtFile(file) {
   font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
 }
 .ad-pill--search { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
-.ad-pill--ask    { background: #7C3AED1A; color: #7C3AED; }
 
 .ad-eba-pill {
   display: inline-block; padding: 0.12rem 0.5rem; border-radius: 999px;
