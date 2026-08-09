@@ -6560,24 +6560,24 @@
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/1a-employers-covered",
-    "title": "SCHEDULE 1A – EMPLOYERS COVERED",
+    "title": "Schedule 1A - Employers Covered",
     "eba": "Health Allied & Managers Admin 2025-2027",
     "ebaSlug": "has-managers-admin-2025-2027",
     "section": "",
     "topics": [
-      "employers-covered"
+      "schedules"
     ],
     "clause": "",
     "excerpt": "1. Albury Wodonga Health"
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/1b-supported-wage-system-for-employees-with-a-disability",
-    "title": "SCHEDULE 1B – SUPPORTED WAGE SYSTEM FOR EMPLOYEES WITH A DISABILITY",
+    "title": "Schedule 1B - Supported Wage System for Employees with a Disability",
     "eba": "Health Allied & Managers Admin 2025-2027",
     "ebaSlug": "has-managers-admin-2025-2027",
     "section": "",
     "topics": [
-      "supported-wage-system",
+      "schedules",
       "disability"
     ],
     "clause": "",
@@ -6614,7 +6614,7 @@
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/2d-classification-structure-health-allied-services",
-    "title": "Schedule 2D – Classification Structure",
+    "title": "Schedule 2D – Classification Structure (Health & Allied Services)",
     "eba": "Health Allied & Managers Admin 2025-2027",
     "ebaSlug": "has-managers-admin-2025-2027",
     "section": "",
@@ -6677,7 +6677,7 @@
       "education-and-training"
     ],
     "clause": "",
-    "excerpt": "1. The Role"
+    "excerpt": "Guided by the WSCMC (see Section 2, clause 77) / AIC, a Workplace Trainer/Careers Advisor will:"
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/3f-worker-wellbeing-officer",
@@ -6691,7 +6691,7 @@
       "workplace-health-and-safety"
     ],
     "clause": "",
-    "excerpt": "1. The Role"
+    "excerpt": "1.1 A Worker Wellbeing Officer will utilise the strategic framework prescribed in the DH strategy paper “Our pathway to change: eliminating "
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/3g-aboriginal-employment-support-officer",
@@ -6705,7 +6705,7 @@
       "workforce-diversity"
     ],
     "clause": "",
-    "excerpt": "1. The Role"
+    "excerpt": "1.1 An Aboriginal Employment Support Officer will be responsible for promoting the achievement of a two per cent Aboriginal Employment Targe"
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/3h-disability-employment-support-officer",
@@ -6719,7 +6719,7 @@
       "workforce-diversity"
     ],
     "clause": "",
-    "excerpt": "1. The Role"
+    "excerpt": "1.1 A Disability Employment Support Officer will be responsible for promoting the achievement of a two per cent Disability Employment Target"
   },
   {
     "path": "/ebas/has-managers-admin-2025-2027/schedules/3i-veteran-employment-support-officer",
@@ -6733,7 +6733,7 @@
       "workforce-diversity"
     ],
     "clause": "",
-    "excerpt": "1. The Role"
+    "excerpt": "1.1 A Veteran Employment Support Officer will be responsible for promoting the achievement of the Veteran workforce target and the prioritis"
   },
   {
     "path": "/ebas/medical-specialists/accommodation/45-board-and-lodging",
