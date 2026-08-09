@@ -9,16 +9,16 @@
           Use the search bar above, browse by EBA below, or explore by topic.
         </p>
         <div class="home-hero-actions">
-          <a href="/pay-rates" class="home-btn home-btn-primary">💰 Pay Rates</a>
-          <a href="/topics/" class="home-btn home-btn-secondary">🏷️ Browse by Topic</a>
-          <a href="/for-you/" class="home-btn home-btn-secondary">✨ For You</a>
-          <a href="/about/how-to-use" class="home-btn home-btn-secondary">🔍 How to Use</a>
+          <a :href="withBase('/pay-rates')" class="home-btn home-btn-primary">💰 Pay Rates</a>
+          <a :href="withBase('/topics/')" class="home-btn home-btn-secondary">🏷️ Browse by Topic</a>
+          <a :href="withBase('/for-you/')" class="home-btn home-btn-secondary">✨ For You</a>
+          <a :href="withBase('/about/how-to-use')" class="home-btn home-btn-secondary">🔍 How to Use</a>
         </div>
       </div>
       <div class="home-hero-image">
         <div class="image-container">
           <div class="image-bg"></div>
-          <img src="/logo.png" alt="Austin Health EBA Wiki" class="image-src" />
+          <img :src="withBase('/logo.png')" alt="Austin Health EBA Wiki" class="image-src" />
         </div>
       </div>
     </div>
@@ -36,13 +36,13 @@
             v-html="card.icon"
           ></div>
           <div class="eba-entry-meta">
-            <a :href="card.link" class="eba-entry-title">{{ card.title }}</a>
+            <a :href="withBase(card.link)" class="eba-entry-title">{{ card.title }}</a>
             <span class="eba-entry-period">{{ card.period }}</span>
           </div>
         </div>
         <ul class="eba-entry-links">
           <li v-for="ql in card.quickLinks" :key="ql.path">
-            <a :href="ql.path">{{ ql.label }}</a>
+            <a :href="withBase(ql.path)">{{ ql.label }}</a>
           </li>
         </ul>
       </div>
@@ -51,15 +51,15 @@
     <div class="home-section-label">Reference</div>
 
     <div class="home-ref-bar">
-      <a href="/pay-rates" class="home-ref-item">
+      <a :href="withBase('/pay-rates')" class="home-ref-item">
         <span class="home-ref-icon" v-html="icons.dollar"></span>
         <span>Pay Rates Directory</span>
       </a>
-      <a href="/topics/" class="home-ref-item">
+      <a :href="withBase('/topics/')" class="home-ref-item">
         <span class="home-ref-icon" v-html="icons.tags"></span>
         <span>Browse by Topic</span>
       </a>
-      <a href="/archive" class="home-ref-item">
+      <a :href="withBase('/archive')" class="home-ref-item">
         <span class="home-ref-icon" v-html="icons.archive"></span>
         <span>Archive</span>
       </a>
@@ -81,6 +81,7 @@
 </template>
 
 <script setup>
+import { withBase } from 'vitepress'
 import HomeTrending from './HomeTrending.vue'
 
 const s = (path) => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`
@@ -105,6 +106,10 @@ const icons = {
 // EBA entries: title link → EBA index page; quickLinks → 3 frequent destinations.
 // STUBS: Replace each quickLinks path with real clause URLs once confirmed.
 //        Check actual paths with: node scripts/link-clauses.mjs --dry-run
+// NOTE: paths below stay root-relative (no /eba-wiki/ prefix) — the withBase()
+//       call in <template> adds the base path automatically at render time.
+//       Do not hardcode /eba-wiki/ into these strings directly, or the site
+//       will break if the base path ever changes again.
 // ─────────────────────────────────────────────────────────────────────────────
 const ebaCards = [
   {
