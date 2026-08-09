@@ -378,7 +378,7 @@ export default {
     // Session ID is generated once per browser tab and stored in sessionStorage.
     // No cookies, no persistent tracking, no IP addresses.
     // -----------------------------------------------------------------------
-    const ANALYTICS_URL = 'https://eba-analytics-worker.irresistibl.workers.dev'
+    const ANALYTICS_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
 
     function getSessionId() {
       const key = 'eba-session-id'

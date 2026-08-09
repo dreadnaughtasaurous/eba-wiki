@@ -748,7 +748,7 @@ import { topicList } from '../../generated/topic-list.mjs'
 import { ebaColors, ebaList, ebaSlugLabels, EBA_REGISTRY } from '../eba-registry.js'
 
 // ─── AI Worker URL ────────────────────────────────────────────────────────────
-const ANALYTICS_WORKER_URL = 'https://eba-analytics-worker.irresistibl.workers.dev'
+const ANALYTICS_WORKER_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
 
 // ─── Storage keys ─────────────────────────────────────────────────────────────
 const SESSION_QUERY_KEY       = 'eba-search-last-query'

@@ -17,7 +17,7 @@
 import { ref, computed, onMounted } from 'vue'
 import ForYouCard from './ForYouCard.vue'
 
-const ANALYTICS_URL = 'https://eba-analytics-worker.irresistibl.workers.dev'
+const ANALYTICS_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
 const CATALOG_URL   = '/page-catalog.json'
 const HISTORY_KEY   = 'eba-visit-history'
 

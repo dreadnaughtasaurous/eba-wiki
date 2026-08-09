@@ -1,0 +1,26 @@
+{
+  // ─── EBA Analytics Worker — No-AI Wiki Edition ──────────────────
+  // Dedicated Cloudflare Worker for the eba-wiki (No-AI) project only.
+  // Isolated from eba-analytics-worker (the original AI wiki's worker) —
+  // separate KV namespaces, separate admin token, no shared data.
+  // Binding names are kept identical to the original worker's code
+  // (env.EBA_ANALYTICS / env.EBA_PAGEVIEWS / env.EBA_SESSIONS) — only
+  // the underlying namespace IDs differ.
+  "name": "eba-analytics-worker-noai",
+  "main": "src/index.js",
+  "compatibility_date": "2025-01-01",
+  "kv_namespaces": [
+    {
+      "binding": "EBA_ANALYTICS",
+      "id": "78a60fd5335e4891b637a112fb879ed0"
+    },
+    {
+      "binding": "EBA_PAGEVIEWS",
+      "id": "c04e6dfdd167487f882e75eb520b1850"
+    },
+    {
+      "binding": "EBA_SESSIONS",
+      "id": "dd26a7f947b94cb4877bb3ae0e03ea5d"
+    }
+  ]
+}

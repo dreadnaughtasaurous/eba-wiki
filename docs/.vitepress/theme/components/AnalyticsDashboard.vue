@@ -2,7 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 
 // ── Constants ────────────────────────────────────────────────────────────────
-const ANALYTICS_URL  = 'https://eba-analytics-worker.irresistibl.workers.dev/analytics'
+const ANALYTICS_URL  = 'https://eba-analytics-worker-noai.irresistibl.workers.dev/analytics'
 const LINK_REPORT_URL = '/link-report.json'
 const TOKEN_STORAGE  = 'eba-admin-token'  // sessionStorage key — clears on tab close
 
