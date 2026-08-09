@@ -4,11 +4,11 @@ title: How to Use
 
 # How to Use
 
-This wiki has two primary tools for finding information: **Search**, for keyword-based lookup of specific clauses, and **Ask AI**, for getting plain-language answers to questions. On individual clause pages, a set of additional tools is available for working with and saving content.
+This wiki has one primary tool for finding information: **Search**, for fast keyword-based lookup of specific clauses across every current Enterprise Bargaining Agreement (EBA). A **Command Palette** gives you quick keyboard-driven access to EBAs and common actions, and on individual clause pages a set of additional tools is available for working with and saving content.
 
 ## Search
 
-The Search modal is opened from the navigation bar and provides fast, filtered access to every clause page in the wiki.
+The Search modal is opened from the top navigation and provides fast, filtered access to every clause page in the wiki.
 
 ### Opening search
 
@@ -16,7 +16,7 @@ Click the **Search** bar in the top navigation, or use a keyboard shortcut:
 
 | Action | Shortcut |
 |---|---|
-| Open search | `/` |
+| Open search | `/` or `Ctrl`+`K` |
 | Navigate results | `↑` `↓` arrow keys |
 | Open a highlighted result | `Enter` |
 | Close search | `Esc` |
@@ -38,8 +38,6 @@ You can combine a keyword, an EBA filter, and a Topic filter. A page must satisf
 To find wage-related pages for Nurses and Midwives only, open Search, select **Nurses and Midwives 2024–2028** from the EBA dropdown, then select **wages** from the Topic dropdown.
 :::
 
-Active filters appear as dismissible pills below the dropdowns. Click the **×** on any pill to remove that filter, or **Clear all** to remove all at once.
-
 ### Search operators
 
 In addition to the filter dropdowns, you can apply filters directly in the search box using typed operators. Type a colon (`:`) to see the full list of available operators and examples.
@@ -54,7 +52,15 @@ In addition to the filter dropdowns, you can apply filters directly in the searc
 
 As you type an operator, an **autocomplete dropdown** appears with matching EBA slugs or topic values. Use `↑` and `↓` to navigate the suggestions and `Enter` to apply one. Press `Esc` to dismiss without applying.
 
-Operators and dropdown filters can be combined. When both are active, each appears as a separate pill in the active filters bar so you can see and remove them independently.
+Operators and dropdown filters can be combined and can be cleared individually (click the **×** on the pill) or all at once (**Clear all**).
+
+### Exact vs. fuzzy matching
+
+A toggle button next to the search input switches between **fuzzy** matching (`~`, the default) and **exact phrase** matching (`=`). Use exact mode when a fuzzy match is pulling in too many loosely related results.
+
+### Copying a search link
+
+Once you have a query or filter active, a **copy-link icon** appears in the search header. Click it to copy a URL that reproduces your current query and filters — useful for sharing a specific search with a colleague.
 
 ### Search settings
 
@@ -62,14 +68,16 @@ Click the **gear icon** (⚙) at the right of the search input to open the setti
 
 **Search behaviour**
 - **Default EBA** — set an EBA that is pre-selected every time you open search. Useful if you regularly advise employees under the same agreement.
+- **Open results in new tab** — opens clause pages from search results in a new browser tab instead of navigating away from your current page.
 
 **Display**
 - **Compact results** — reduces the vertical height of each result card for denser browsing.
 - **Floating preview pane** — shows or hides the desktop preview pane (see below).
 
 **Privacy**
-- **Remember searches between visits** — opts in to saving your search history across browser sessions. Off by default; searches are session-only unless you enable this.
-- **Share anonymous search analytics** — opts in to contributing anonymous usage data to help improve the wiki.
+- **Share anonymous search analytics** — opts in or out of contributing anonymous usage data to help improve the wiki.
+
+> **Note:** Recent search terms are saved in your browser automatically so they can be shown on the idle panel (see below) — there is currently no separate opt-out toggle for this specific feature. You can clear them at any time using **Clear all** next to Recent Searches.
 
 ### Result cards
 
@@ -81,103 +89,50 @@ Results are ranked by relevance. Each card shows:
 - a **highlighted excerpt** showing where your search term appears
 - any matching **topic tags**
 
-Every clause page also carries search synonyms alongside formal EBA terminology, so everyday language still leads you to the right page.
+### Idle panel (Recent, Recently Viewed, Bookmarks, Suggested)
 
-| If you search for… | You may find… |
-|---|---|
-| `sick day`, `off crook` | Personal Leave |
-| `time off for a funeral` | Compassionate Leave / Ceremonial Leave |
-| `after hours phone calls` | Right to Disconnect |
-| `called back to work` | Recall to Duty / Overtime |
-| `free meals`, `fed at work` | Meal Allowance |
-| `weekend penalty` | Penalty Rates / Saturday / Sunday loadings |
-| `study leave`, `course fees` | Professional Development / Education Leave |
-| `extra pay for qualifications` | Higher Qualifications Allowance / Top of Band |
+When the search modal opens with no active query, it shows:
 
-### Recently viewed and bookmarks
+- **Recent Searches** — your most recent search terms as clickable pills, with a **Clear all** button and a remove button on each pill.
+- **Recently viewed** — the last four clause pages you visited, listed with their EBA pill.
+- **My bookmarks** — up to three of your most recent saved bookmarks, with the clause title, EBA, and any note you added. See [Bookmarks](#bookmarks) below.
+- **Suggested** — quick shortcuts to insert the `eba:` or `topic:` operators, and a hint for combining advanced operators.
 
-When the search modal opens with no active query, the idle panel shows:
-
-- **Recently viewed** — the last four clause pages you visited, listed with their EBA pill. Persists across browser sessions.
-- **My bookmarks** — up to three of your saved bookmarks, with the clause title and EBA. See [Bookmarks](#bookmarks) below for how to save them.
-
-Click any entry to navigate directly to that page.
+Click any entry to navigate directly to that page, or click a suggested shortcut to insert it into the search box.
 
 ### Desktop preview pane
 
 On a desktop browser, hovering over or focusing on a search result opens a **preview pane** to the right of the modal. The preview shows the page title, EBA, breadcrumb, excerpt, and topic tags, letting you inspect a result before opening it. The preview pane can be disabled in search settings. It does not appear on mobile.
 
-### No results and fuzzy matching
+### No results and fuzzy fallback
 
-If your search returns no direct matches, the search will automatically try a **similar term**. If a close match is found, results are shown with a "Showing results for **X** instead" note.
+If your search returns no direct matches, the search automatically tries a **similar term** by trimming the last word back one character at a time. If a close match is found, results are shown with a "Showing results for **X** instead" note.
 
-If no results can be found at all, a set of AI-generated suggestion chips appears. Clicking a suggestion opens a **streaming AI answer** directly inside the search modal without leaving it. To return to keyword results, click **Back to results**.
+If no exact or fuzzy match is found at all, a **"Did you search for…?"** panel may appear with suggestion chips based on your query — matching EBA names, topics, or common rewrites of typed abbreviations (for example, "HDA" → "higher duties allowance"). These suggestions are generated from the wiki's own EBA and topic list, not from an AI model. Click a suggestion to run that search.
 
-## Ask AI
+## Command Palette
 
-Ask AI is a conversational assistant that reads wiki content and answers questions in plain language. It is available from any page at any time.
+The Command Palette gives you fast, keyboard-driven access to common actions and every EBA without leaving the keyboard.
 
-### Opening Ask AI
-
-Click the **Ask AI** button in the top navigation bar to open the AI panel.
-
-On desktop, the panel slides in from the right side of the screen. On mobile, it opens as a bottom sheet. To close the panel, click **✕** in the panel header or press `Esc`.
-
-### Asking about a specific clause
-
-When reading a clause page, click **Ask about this page** in the toolbar below the page title. This opens the AI panel pre-loaded with the context of that specific clause — the AI scopes its answer to the clause you are currently reading.
-
-A page context chip at the bottom of the panel shows which clause is loaded. You can dismiss it at any time to switch back to wiki-wide mode.
-
-### Context and filters
-
-Two optional filters are available in each chat:
-
-- **EBA** — restricts answers to a specific agreement
-- **Employment type** — tailors the answer to a specific employment category (full-time, part-time, casual, fixed-term, or sessional)
-
-These filters are stored per chat and persist with that chat's history. Providing them significantly improves the accuracy of answers.
-
-### Chat history
-
-The panel maintains a history of up to **10 chats**, stored in your browser. To switch between chats or start a new one, click the chat title in the panel header to open the chat dropdown.
-
-From the dropdown you can:
-
-- select a previous chat to resume it
-- start a **new chat** using the + button
-- **clear all chats**
-
-Each chat retains its own messages, filters, and page context independently.
-
-### Sources and follow-up
-
-After an answer is returned, a **Sources** section appears below it. Each source is a hyperlink to the clause page the answer relied on. The source pages are the authoritative text — always read the linked clauses in full before acting on any AI-generated answer.
-
-To ask a follow-up question, type directly into the input box. The AI retains the context of the current conversation (up to the last three exchanges) so you do not need to repeat background details.
-
-To start fresh on a new topic, open the chat dropdown and start a new chat.
-
-::: warning Before acting on any answer
-Ask AI is a research aid, not a substitute for reading the clause itself. Answers are generated from wiki content only and may contain errors. Always verify the cited clause and source pages before acting on or sharing any AI-generated response.
-:::
+1. Press `>` anywhere on the page (except while typing in a text field) to open it.
+2. Start typing to filter the list — commands include opening search, jumping to Pay Rates, opening keyboard help, toggling reading mode, toggling font size, toggling dark mode, and searching within or browsing to a specific EBA (including archived agreements).
+3. Use `↑` `↓` to highlight a command and `Enter` to run it, or click a result with the mouse.
 
 ## Clause pages
 
 ### Toolbar
 
-On every clause page, a toolbar appears immediately below the page title. It contains four actions:
+On every clause page, a toolbar appears immediately below the page title. It contains three actions:
 
 | Action | What it does |
 |---|---|
-| **Ask about this page** | Opens the AI panel scoped to this clause |
 | **Copy** | Copies the full clause content to your clipboard, formatted for pasting into email or Jira |
 | **View as Markdown** | Copies the clause content as plain Markdown text |
 | **Bookmark this page** | Saves this clause to your bookmarks |
 
 ### Bookmarks
 
-Click **Bookmark this page** in the toolbar to save a clause. A dialog opens where you can add a personal note to the bookmark before saving. To edit the note or remove the bookmark, click the button again on the same page — it will show as **Bookmarked** when active.
+Click **Bookmark this page** in the toolbar to save a clause. A dialog opens where you can add a personal note (up to 200 characters) to the bookmark before saving — press `Ctrl`+`Enter` to save or `Esc` to cancel. To edit the note or remove the bookmark, click the button again on the same page — it will show as **Bookmarked** when active.
 
 Bookmarks are stored in your browser and persist across sessions. Up to three of your most recent bookmarks are shown in the search modal's idle panel for quick access.
 
@@ -197,6 +152,9 @@ Clicking any related clause card opens it in the clause panel described above.
 
 When a clause references an Act of Parliament — such as the *Fair Work Act 2009* or the *National Employment Standards* — those references are automatically detected. A **Legislation** panel appears below the clause, linking each reference directly to the relevant provision on the Federal Register of Legislation.
 
+### Glossary tooltips
+
+Some defined terms within clause text (for example, terms defined in an agreement's Definitions clause) are underlined. Hovering or focusing on one of these terms shows a small tooltip with the term's definition and a link to view the full definition clause.
 
 ## Accessibility and display
 
@@ -204,42 +162,98 @@ When a clause references an Act of Parliament — such as the *Fair Work Act 200
 
 Click the **Aa** button in the navigation bar to open the accessibility panel. The following settings are available:
 
-- **Text size** — cycles through normal, large, and extra-large
-- **Line spacing** — increases space between lines
-- **Letter spacing** — increases space between characters
+- **Text size** — Normal, Large, or XL
+- **Line spacing** — Compact, Normal, or Relaxed
+- **Wide letter spacing** — increases space between characters
 - **OpenDyslexic font** — switches to the OpenDyslexic typeface
 - **Highlight links** — underlines and highlights all hyperlinks on the page
 - **High contrast** — increases colour contrast throughout
 - **Reduce motion** — disables transitions and animations
+- **Reading mode** — see below
 
-All settings persist across page navigation and browser sessions.
+All settings persist across page navigation and browser sessions. A **Reset all preferences** option in the panel clears everything back to defaults in one click.
 
 ### Reading mode
 
-Reading mode is available inside the accessibility panel. It hides the sidebar, navigation bar, toolbar, related clauses panel, and legislation panel, then reflows the page content into a single centred reading column for distraction-free browsing.
+Reading mode hides the sidebar, navigation bar, toolbar, related clauses panel, and legislation panel, then reflows the page content into a single centred reading column for distraction-free browsing. It can be toggled from the accessibility panel, from the Command Palette, or with the `R` keyboard shortcut.
 
 Reading mode applies to the current page only and resets when you navigate to another page.
 
 ### Dark mode
 
-Toggle between light and dark mode using the **sun/moon icon** in the navigation bar. On mobile, this control is inside the hamburger menu at the top right.
+Toggle between light and dark mode using the **sun/moon icon** in the navigation bar, or via the Command Palette. On mobile, this control is inside the hamburger menu at the top right.
+
+## Guided tour
+
+On your first visit, a short guided tour highlights the sidebar and the search trigger. You can step through it with **Next**/**Back**, jump to a step using the dots, or click **Skip tour** to dismiss it. A separate short tour introduces the clause page toolbar the first time you open a clause page. Once dismissed, a tour will not appear again automatically on that device.
 
 ## Keyboard shortcuts
 
-Press `?` anywhere on the wiki — except when a text input or search box is focused — to open the full keyboard shortcut reference. Common shortcuts are listed below.
+Press `?` anywhere on the wiki — except when a text input or search box is focused — to open the full keyboard shortcut reference, organised into four tabs: **Navigation**, **Search**, **EBA Filters**, and **Accessibility**.
+
+### Navigation
 
 | Action | Shortcut |
 |---|---|
-| Open search | `/` |
-| Open AI Pane | `CTRL` + `K` |
-| Navigate search results | `↑` `↓` |
-| Open selected result | `Enter` |
-| Close modal or panel | `Esc` |
-| Jump to EBA (search open) | `Shift` + `F1` – `F9` |
-| Show shortcut help | `?` |
+| Open search modal | `/` or `Ctrl`+`K` |
+| Close / dismiss overlay | `Esc` |
+| Move through results | `↑` `↓` |
+| Open result | `Enter` |
+| Focus sidebar clause filter | `F` |
+| Move through filter results | `↑` `↓` |
+| Clear filter and return focus | `Esc` |
+| Navigate back / forward (browser) | `Alt`+`←` / `Alt`+`→` |
+| Jump to top / bottom of page | `Home` / `End` |
+| Show this help overlay | `?` |
+| Toggle reading mode | `R` |
+| Open Command Palette | `>` |
+
+### Search operators
+
+| Operator | Purpose | Example |
+|---|---|---|
+| `eba:` | Filter to one EBA | `eba:nurses` |
+| `topic:` | Filter by topic | `topic:overtime` |
+| `clause:` | Jump to a clause | `clause:42` |
+| `-word` | Exclude a word | `-casual` |
+| Combined | Stack operators freely | `eba:has topic:leave -casual` |
+
+### EBA filters
+
+Press `Shift` + an `F`-key (`F1`–`F9`) to toggle a search filter to a specific EBA. Press the same shortcut again to clear the filter. This works as soon as the search modal is open — you don't need to move focus first.
+
+| EBA | Shortcut |
+|---|---|
+| Allied Health Professionals | `Shift`+`F1` |
+| Biomedical Engineers | `Shift`+`F2` |
+| Children's Services | `Shift`+`F3` |
+| Doctors in Training | `Shift`+`F4` |
+| HAS Managers & Admin | `Shift`+`F5` |
+| Medical Specialists | `Shift`+`F6` |
+| Mental Health | `Shift`+`F7` |
+| Medical Scientists | `Shift`+`F8` |
+| Nurses & Midwives | `Shift`+`F9` |
+
+::: warning Verify before publishing
+⚠️ The EBA-to-shortcut number mapping above reflects the order confirmed in this project's `KeyboardHelp.vue` at the time of writing. If the EBA list is ever reordered or a new EBA is added, this table must be checked against `docs/.vitepress/theme/KeyboardHelp.vue` and updated to match — the shortcuts are positional and will silently shift.
+:::
+
+### Accessibility
+
+| Action | Shortcut |
+|---|---|
+| Toggle reading mode (hides navigation) | `R` |
+| Cycle font size (Normal → Large → XL) | Aa button in nav |
+| Show keyboard shortcuts | `?` |
+| Open Command Palette | `>` |
+| Close any overlay | `Esc` |
 
 ## Archive
 
 The default search covers only current, active Enterprise Agreements.
 
-Once an agreement is superseded by a newer one, it will be moved to the Archive. An Archive search will be available at that point, allowing you to look up historical entitlements — for example, to interpret something that occurred under a previous agreement — without it appearing in the main search results.
+When an agreement is superseded by a newer one, it is moved to the **Archive**, available from the top navigation under **More → 🗄️ Archive**, and browsable in full in the sidebar under **Archived Agreements**. Archived clause pages carry an **(Archived)** label wherever they appear in the EBA filter dropdown, the Command Palette, and the search operator autocomplete, so you can search or browse historical entitlements — for example, to interpret something that occurred under a previous agreement — without archived content appearing in your default, unfiltered search results.
+
+::: warning Verify before relying on this
+⚠️ This project was duplicated from the original EBA Wiki codebase at a specific point in time, and archived-agreement coverage may be added to or changed independently of this document. Confirm which agreements are currently archived by checking the **Archived Agreements** section of the sidebar, or `docs/eba-registry.js` for entries with `archived: true`, before advising on historical entitlements.
+:::
