@@ -7297,19 +7297,19 @@ export default {
     "clauses": [
       {
         "displayNumber": "1A",
-        "title": "SCHEDULE 1A – EMPLOYERS COVERED",
+        "title": "Schedule 1A - Employers Covered",
         "path": "/ebas/has-managers-admin-2025-2027/schedules/1a-employers-covered/",
         "topics": [
-          "employers-covered"
+          "schedules"
         ],
         "summary": null
       },
       {
         "displayNumber": "1B",
-        "title": "SCHEDULE 1B – SUPPORTED WAGE SYSTEM FOR EMPLOYEES WITH A DISABILITY",
+        "title": "Schedule 1B - Supported Wage System for Employees with a Disability",
         "path": "/ebas/has-managers-admin-2025-2027/schedules/1b-supported-wage-system-for-employees-with-a-disability/",
         "topics": [
-          "supported-wage-system",
+          "schedules",
           "disability"
         ],
         "summary": null
@@ -7339,7 +7339,7 @@ export default {
       },
       {
         "displayNumber": "2D",
-        "title": "Schedule 2D – Classification Structure",
+        "title": "Schedule 2D – Classification Structure (Health & Allied Services)",
         "path": "/ebas/has-managers-admin-2025-2027/schedules/2d-classification-structure-health-allied-services/",
         "topics": [
           "classifications",
@@ -7370,7 +7370,7 @@ export default {
       },
       {
         "displayNumber": "3D",
-        "title": "SCHEDULE 3D – CLASSIFICATION STRUCTURE",
+        "title": "Schedule 3D - Classification Structure",
         "path": "/ebas/has-managers-admin-2025-2027/schedules/3d-classification-structure-managers-and-administrative-workers/",
         "topics": [
           "classification-structure",
