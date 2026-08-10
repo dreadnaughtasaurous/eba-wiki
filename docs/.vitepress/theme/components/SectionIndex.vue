@@ -27,16 +27,41 @@ import sectionData      from '../../../generated/section-index-data.js'
 const route = useRoute()
 
 // ── Key derivation ────────────────────────────────────────────────────────────
-// Strip the /ebas/ prefix and any trailing slash to get the lookup key.
-//   /ebas/allied-health/allowances             → allied-health/allowances
-//   /ebas/has-managers-admin/common-terms      → has-managers-admin/common-terms
-//   /ebas/has-managers-admin/common-terms/allowances
-//                                              → has-managers-admin/common-terms/allowances
-const key = computed(() =>
-  route.path.replace(/^\/ebas\//, '').replace(/\/$/, '')
-)
+// route.path from useRoute() includes the configured `base` path
+// (config.js: base: '/eba-wiki/') when running docs:build / docs:preview /
+// the live site, but NOT during Vue's own SSR render pass at build time
+// (confirmed VitePress behaviour: route.path omits base during SSR, includes
+// it at runtime). We strip import.meta.env.BASE_URL first — which is '/' in
+// docs:dev and '/eba-wiki/' in production — whenever it's actually present,
+// so the lookup key is identical regardless of which of the three contexts
+// (dev, SSR build, browser runtime) this code is executing in.
+//   dev / SSR:  /ebas/allied-health/allowances(.html)?  → allied-health/allowances
+//   runtime:    /eba-wiki/ebas/allied-health/allowances → allied-health/allowances
+const key = computed(() => {
+  const base = import.meta.env.BASE_URL
+  let p = route.path
+
+  if (base && base !== '/' && p.startsWith(base)) {
+    p = '/' + p.slice(base.length)
+  }
+
+  return p
+    .replace(/^\/ebas\//, '')
+    .replace(/\.html$/, '')
+    .replace(/\/$/, '')
+})
 
 const section = computed(() => sectionData[key.value] ?? null)
+
+// ── Defensive array guards ────────────────────────────────────────────────────
+// section-index-data.js is auto-generated and should never contain a hole,
+// but if it ever does (stale regeneration, a future generator bug, manual
+// edit, etc.) a single undefined entry must not crash the whole production
+// build. filter(Boolean) drops any falsy entry silently — the row just
+// doesn't render, consistent with this component's existing "null-safe"
+// philosophy at the section level.
+const safeClauses  = computed(() => (section.value?.clauses  ?? []).filter(Boolean))
+const safeChildren = computed(() => (section.value?.children ?? []).filter(Boolean))
 
 // Look up EBA registry entry by slug for colour data
 const reg = computed(() =>
@@ -75,12 +100,12 @@ const label = computed(() => {
       </div>
       <span class="si-count-chip">
         <template v-if="section.type === 'stream'">
-          {{ section.childCount }}
-          {{ section.childCount === 1 ? 'subsection' : 'subsections' }}
+          {{ safeChildren.length }}
+          {{ safeChildren.length === 1 ? 'subsection' : 'subsections' }}
         </template>
         <template v-else>
-          {{ section.clauseCount }}
-          {{ section.clauseCount === 1 ? 'clause' : 'clauses' }}
+          {{ safeClauses.length }}
+          {{ safeClauses.length === 1 ? 'clause' : 'clauses' }}
         </template>
       </span>
     </div>
@@ -90,7 +115,7 @@ const label = computed(() => {
       <p class="si-label">{{ label }}</p>
       <div class="si-stream-grid">
         <a
-          v-for="child in section.children"
+          v-for="child in safeChildren"
           :key="child.path"
           :href="child.path"
           class="si-stream-card"
@@ -111,7 +136,7 @@ const label = computed(() => {
       <p class="si-label">{{ label }}</p>
       <div class="si-clause-list">
         <a
-          v-for="clause in section.clauses"
+          v-for="clause in safeClauses"
           :key="clause.path"
           :href="clause.path"
           class="si-clause-row"
