@@ -1,0 +1,87 @@
+{
+  "_comment": "Single source of truth for topic-tag normalization, shared across Generate-TopicList.mjs, patch-pagefind.mjs, and Generate-TopicsPage.ps1. Do not edit this comment key at runtime; it is documentation only. See topic-aliases.mjs for the full explanation of how this was built.",
+  "aliases": {
+    "casual": "casual-employment",
+    "reimbursements": "reimbursement",
+    "managers-administrative-workers": "managers-and-administrative-workers",
+    "health-and-allied-services": "health-allied-services",
+    "cash-payments": "cash-payment",
+    "classifications": "classification",
+    "hours": "hours-of-work",
+    "shiftwork": "shift-work",
+    "workers-comp": "workers-compensation",
+    "occupational-health-and-safety": "ohs"
+  },
+  "aliasNotes": {
+    "hours": "Canonical form 'hours-of-work' confirmed against patch-pagefind.mjs SECTION_INDEX_PATTERNS (/^hours.of.work$/ is an already-established section-index slug).",
+    "occupational-health-and-safety": "Canonical form 'ohs' confirmed against patch-pagefind.mjs SECTION_INDEX_PATTERNS (/^ohs$/ is an already-established section-index slug) — merged the long form INTO the short form, opposite direction from the other aliases, because the codebase already treats 'ohs' as canonical elsewhere."
+  },
+  "needsReview": [
+    {
+      "tags": ["flexibility", "flexible-work", "flexible-working", "flexible-working-arrangements"],
+      "note": "FOUR spellings of what may be one concept, confirmed live in the full 226-topic list (was only 3 suspected from partial data). 'flexible-working-arrangements' may be the specific Fair Work Act statutory term while the others are informal variants used inconsistently. Check clause bodies before merging — do not assume all 4 collapse to one."
+    },
+    {
+      "tags": ["workload", "workload-management", "staffing-flexibility", "staffing"],
+      "note": "'workload' is a canonical taxonomy value. The other three may be distinct procedural/staffing topics rather than duplicates. Do not merge into 'workload' without checking each individually."
+    },
+    {
+      "tags": ["employment-support", "employment-support-officers", "employee-support"],
+      "note": "'employment-support-officers' likely refers to specific named EBA roles (aboriginal/veteran/disability employment support officer schedules) rather than a general support topic — probably should stay distinct from the other two, not merge."
+    },
+    {
+      "tags": ["leave", "paid-leave"],
+      "note": "'leave' is a canonical taxonomy value. 'paid-leave' may be intentionally more specific (paid vs. unpaid leave types) rather than a duplicate."
+    },
+    {
+      "tags": ["part-time", "part-time-employment"],
+      "note": "Same likely relationship as the resolved casual/casual-employment pair — probably safe to merge the same way. Held back only because it wasn't cross-checked against actual clause content yet; low-risk to resolve next."
+    },
+    {
+      "tags": ["education", "education-and-training"],
+      "note": "May be general-vs-specific rather than duplicates — check whether 'education-and-training' clauses are a strict subset of 'education' clauses before merging."
+    },
+    {
+      "tags": ["family-violence-leave", "family-and-domestic-violence-leave"],
+      "note": "Likely reflects a real terminology change in Fair Work Act leave entitlements over time (older EBAs use 'family violence leave', newer ones use the updated statutory term). May be legitimate that both exist across EBAs of different vintages — verify per-EBA before merging, since collapsing them could obscure which EBA uses which legal term."
+    },
+    {
+      "tags": ["gender-affirmation", "gender-affirmation-leave"],
+      "note": "Likely duplicate but unverified — check whether 'gender-affirmation' (no 'leave' suffix) is used for a broader policy topic beyond just the leave entitlement."
+    },
+    {
+      "tags": ["meal", "meal-allowance", "meal-breaks"],
+      "note": "Three-way ambiguity, NOT a simple pair — 'meal' alone could belong with either the allowance (payment) or the break (timing) concept. Do not merge without checking each tagged clause individually; picking the wrong target would misclassify content."
+    },
+    {
+      "tags": ["rates", "hourly-rates", "pay-rates", "wage-rates", "wages", "wage-increases"],
+      "note": "Large pay-related cluster. Several of these are likely genuinely distinct ('wage-increases' = pay rises specifically, 'wages' = canonical general topic) but 'rates' alone is suspiciously generic and may be a lazy duplicate of 'wage-rates' or 'hourly-rates'. Needs individual clause-by-clause review, not a bulk merge."
+    },
+    {
+      "tags": ["dispute-resolution", "disputes"],
+      "note": "'dispute-resolution' is the canonical taxonomy value. 'disputes' may be a shorthand duplicate or may cover a broader/different scope — check before merging."
+    },
+    {
+      "tags": ["transition", "transitional"],
+      "note": "'transition' likely relates to transition-to-retirement clauses specifically (a pattern already handled elsewhere in patch-pagefind.mjs's PRELIMINARY_PATTERNS/BODY_IGNORE_SLUGS). 'transitional' may refer to unrelated transitional/savings provisions. Likely NOT duplicates — verify before touching."
+    },
+    {
+      "tags": ["vehicle", "vehicle-allowance"],
+      "note": "Possible duplicate but 'vehicle' alone could cover broader fleet/vehicle-policy content beyond just the allowance — check before merging."
+    },
+    {
+      "tags": ["workplace-health-and-safety", "workplace-safety", "ohs", "health-and-safety-representatives"],
+      "note": "Large OHS-adjacent cluster. 'health-and-safety-representatives' almost certainly refers to a specific elected-role topic (HSRs), not general OHS — should very likely stay separate. 'workplace-health-and-safety' and 'workplace-safety' are more likely true duplicates of 'ohs' but not yet verified against clause content."
+    }
+  ],
+  "dataQualityFlags": [
+    {
+      "tags": ["circular 870", "circular 872", "circular 873", "circular 875", "circular 880"],
+      "note": "NOT a synonym/duplicate issue — these are malformed topic values (contain a literal space, no hyphen, inconsistent with every other topic in the vocabulary). Likely a frontmatter typo where someone typed a free-text label instead of a slug-style tag. This needs a decision on intent: (a) if each circular number is meaningfully distinct and worth keeping separate, reformat to 'circular-870' etc. in the source .md frontmatter; (b) if they're all effectively the same concept as the existing 'salary-circular' topic, retag the affected clauses to use that instead. Do NOT silently alias these away — the specific circular number may carry legal significance (which correction applies to which clause), so this needs a human decision, not an automatic merge."
+    },
+    {
+      "tags": ["section-2", "section-3"],
+      "note": "These look like tagging mistakes — a topic value of 'section-2' or 'section-3' doesn't describe subject matter, it looks like a stray internal section/part reference that got typed into the topics field instead of a real topic name. Find the source clause(s) using these tags (Select-String across docs/ebas/**/*.md for 'topics:.*section-2') and check what topic was actually intended."
+    }
+  ]
+}
