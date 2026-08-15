@@ -6,7 +6,7 @@
 
 .USAGE
     Run from any directory:
-    & "C:\Projects\EBAdb\scripts\Generate-TopicsPage.ps1"
+    & "C:\Projects\eba-wiki\docs\scripts\Generate-TopicsPage.ps1"
 #>
 
 Set-StrictMode -Version Latest
@@ -15,24 +15,34 @@ $ErrorActionPreference = 'Stop'
 # ─────────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────────
-$docsRoot   = "C:\Projects\EBAdb\docs"
+$docsRoot   = "C:\Projects\eba-wiki\docs"
 $ebas_root  = "$docsRoot\ebas"
 $outputFile = "$docsRoot\topics\index.md"
 
 # ─────────────────────────────────────────────
 # EBA SLUG → DISPLAY NAME MAP
 # Update this if you add a new EBA to the wiki.
+# Keys must match the actual on-disk FOLDER name under docs\ebas\ (which is
+# not always the same as the "slug" field in eba-registry.js — e.g. the
+# registry's has-managers-admin entry uses slug 'has-managers-admin' but its
+# content folder is 'has-managers-admin-2025-2027'). Verify against
+# eba-registry.js's indexPath field, not its slug field, when adding entries.
 # ─────────────────────────────────────────────
 $ebaDisplayNames = @{
-    'allied-health'          = 'Allied Health'
-    'biomedical-engineers'   = 'Biomedical Engineers'
-    'childrens-services'     = "Children's Services"
-    'doctors-in-training'    = 'Doctors In Training'
-    'has-managers-admin'     = 'Health Allied & Managers Admin'
-    'medical-specialists'    = 'Medical Specialists'
-    'mental-health'          = 'Mental Health'
-    'mspp'                   = 'Medical Scientists, Pharm & Psych'
-    'nurses-midwives'        = 'Nurses & Midwives'
+    'allied-health'                 = 'Allied Health'
+    'biomedical-engineers'          = 'Biomedical Engineers'
+    'childrens-services'            = "Children's Services"
+    'doctors-in-training'           = 'Doctors In Training'
+    'has-managers-admin-2025-2027'  = 'Health Allied & Managers Admin'
+    'medical-specialists'           = 'Medical Specialists'
+    'mental-health'                 = 'Mental Health'
+    'mspp'                          = 'Medical Scientists, Pharm & Psych'
+    'nurses-midwives'               = 'Nurses & Midwives'
+    # Archived agreements (docs\ebas\archive\<slug>\) are deliberately
+    # excluded from this page entirely — see the archive-folder filter below.
+    # This matches patch-pagefind.mjs's existing convention of excluding
+    # archived content from Pagefind's eba/topics filters, for consistency
+    # between the two topic-browsing surfaces.
 }
 
 # ─────────────────────────────────────────────
@@ -174,9 +184,32 @@ function Get-LinkLabel {
 Write-Host "Scanning EBA markdown files under: $ebas_root" -ForegroundColor Cyan
 
 $allFiles = Get-ChildItem -Path $ebas_root -Recurse -Filter '*.md' |
-    Where-Object { $_.Name -ne 'index.md' }
+    Where-Object { $_.Name -ne 'index.md' } |
+    Where-Object { $_.FullName -notmatch '\\ebas\\archive\\' }
 
-Write-Host "  Found $($allFiles.Count) files." -ForegroundColor Cyan
+Write-Host "  Found $($allFiles.Count) files (archived agreements excluded)." -ForegroundColor Cyan
+
+# ─────────────────────────────────────────────
+# LOAD SHARED TOPIC ALIAS DATA
+# Same topic-aliases.json read by topic-aliases.mjs (Node side). Keeping the
+# alias data in one JSON file, read by both languages, is what prevents the
+# PowerShell-generated /topics/ page and the JS-generated Pagefind filter
+# facets from drifting apart again.
+# ─────────────────────────────────────────────
+$aliasDataPath = Join-Path $PSScriptRoot 'topic-aliases.json'
+$topicAliasData = Get-Content -Path $aliasDataPath -Raw | ConvertFrom-Json
+$topicAliasMap = @{}
+$topicAliasData.aliases.PSObject.Properties | ForEach-Object {
+    $topicAliasMap[$_.Name] = $_.Value
+}
+
+function Get-CanonicalTopic {
+    param([string]$Topic)
+    if ($topicAliasMap.ContainsKey($Topic)) {
+        return $topicAliasMap[$Topic]
+    }
+    return $Topic
+}
 
 # Master collection: topic → list of { EbaDisplay, Label, Url }
 $topicMap = @{}
@@ -216,7 +249,7 @@ foreach ($file in $allFiles) {
     $topics = $fm['topics'] -split '\|'
 
     foreach ($topic in $topics) {
-        $t = $topic.Trim()
+        $t = Get-CanonicalTopic ($topic.Trim())
         if (-not $t) { continue }
 
         if (-not $topicMap.ContainsKey($t)) {

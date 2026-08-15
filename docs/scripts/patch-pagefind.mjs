@@ -3,6 +3,11 @@
 // 1. Strips ALL previously injected pagefind divs (idempotent, handles duplicates)
 // 2. Injects data-pagefind-body onto the vp-doc div
 // 3. Injects data-pagefind-filter spans for eba and topics filters
+//    (topics values are normalized via topic-aliases.mjs — see that file's
+//    header comment. The SAME normalization is also applied in
+//    Generate-TopicList.mjs so the filter dropdown and the actual indexed
+//    filter values always agree. If you change TOPIC_ALIASES, re-run BOTH
+//    scripts, not just this one.)
 // 4. Injects data-pagefind-weight div — score based on slug/topic relevance
 // 5. Injects data-pagefind-meta="excerpt" div — custom excerpt fallback for
 //    title-only / table-cell matches (consumed by SearchModal getExcerpt())
@@ -10,6 +15,7 @@
 
 import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'fs'
 import { join, relative } from 'path'
+import { normalizeTopic } from './topic-aliases.mjs'
 
 const distDir = new URL('../.vitepress/dist', import.meta.url).pathname
   .replace(/^\/([A-Z]:)/, '$1')
@@ -593,12 +599,21 @@ for (const file of htmlFiles) {
       .split(',')
       .map(t => t.trim())
       .filter(t => t.length > 0)
+      .map(t => normalizeTopic(t))
     for (const topic of topicArr) {
       filterSpans += `<span data-pagefind-filter="topics" data-pagefind-ignore data-allow-mismatch style="display:none">${topic}</span>`
     }
   }
 
   // ── WEIGHT DIV ───────────────────────────────────────────────────────────────
+  // Deliberately uses the RAW fm.topics string, not the normalized version used
+  // for filterSpans above. computeWeight()'s slug-specificity matching is
+  // calibrated against the exact topic wording as authored in frontmatter — see
+  // the calibration examples in computeWeight()'s comment block. Normalizing a
+  // topic like 'casual' → 'casual-employment' before this call would change
+  // which slug words match it and silently shift weight-tier results. If you
+  // ever want the weight model to also use normalized topics, re-calibrate the
+  // specificity threshold deliberately rather than changing this line in passing.
   const weight = computeWeight(slug, fm.topics || '')
   const weightDiv = `<div class="pagefind-weight" data-pagefind-weight="${weight}" data-allow-mismatch style="display:none" aria-hidden="true"></div>`
 
