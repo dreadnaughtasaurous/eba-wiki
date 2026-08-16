@@ -76,12 +76,12 @@
   ],
   "dataQualityFlags": [
     {
-      "tags": ["circular 870", "circular 872", "circular 873", "circular 875", "circular 880"],
-      "note": "NOT a synonym/duplicate issue — these are malformed topic values (contain a literal space, no hyphen, inconsistent with every other topic in the vocabulary). Likely a frontmatter typo where someone typed a free-text label instead of a slug-style tag. This needs a decision on intent: (a) if each circular number is meaningfully distinct and worth keeping separate, reformat to 'circular-870' etc. in the source .md frontmatter; (b) if they're all effectively the same concept as the existing 'salary-circular' topic, retag the affected clauses to use that instead. Do NOT silently alias these away — the specific circular number may carry legal significance (which correction applies to which clause), so this needs a human decision, not an automatic merge."
+      "tags": ["circular-870", "circular-872", "circular-873", "circular-875", "circular-880"],
+      "note": "RESOLVED (15 Aug 2026): confirmed each affected page also already carries 'salary-circular', so the specific number is supplementary, not the sole pointer to the concept. User chose to hyphenate rather than drop, preserving the distinct per-agreement circular number (each EBA cites a different one) since it may carry legal significance. Fixed directly in source .md frontmatter across all 8 affected pages ('circular 870' → 'circular-870', etc.) — not an alias, a formatting typo fix."
     },
     {
       "tags": ["section-2", "section-3"],
-      "note": "These look like tagging mistakes — a topic value of 'section-2' or 'section-3' doesn't describe subject matter, it looks like a stray internal section/part reference that got typed into the topics field instead of a real topic name. Find the source clause(s) using these tags (Select-String across docs/ebas/**/*.md for 'topics:.*section-2') and check what topic was actually intended."
+      "note": "RESOLVED (15 Aug 2026): verified legitimate, not a tagging mistake. All 4 occurrences are in has-managers-admin-2025-2027, whose agreement structure has literal named 'Section 2' (Health & Allied Services) and 'Section 3' (Managers & Admin) divisions — confirmed by clause slugs/paths ('1-application-of-section-2.md' under health-allied-services/preliminary, '1-application-of-section-3.md' under managers-admin/preliminary). No fix needed; kept here as a record so this isn't re-flagged as suspicious in a future audit."
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: 'Schedule 3 - Allowances & Other Payments'
 eba: 'Medical Scientists, Pharm & Psych 2021-2025'
-topics: ['classifications', 'remuneration', 'rates', 'pay-rates', 'shift-allowances', 'higher-qualifications', 'salary-circular', 'circular 873']
+topics: ['classifications', 'remuneration', 'rates', 'pay-rates', 'shift-allowances', 'higher-qualifications', 'salary-circular', 'circular-873']
 ---
 <span data-pagefind-meta="clause:Schedule 3" style="display:none"></span>
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>

@@ -1,7 +1,7 @@
 ---
 title: 'Appendix 3 - Allowances and Top of Band Payments'
 eba: 'Allied Health Professionals 2021-2026'
-topics: ['allowances', 'remuneration', 'rates', 'pay-rates', 'top-of-band', 'cash-payments', 'salary-circular', 'circular 872']
+topics: ['allowances', 'remuneration', 'rates', 'pay-rates', 'top-of-band', 'cash-payments', 'salary-circular', 'circular-872']
 ---
 <span data-pagefind-meta="clause:Appendix 3" style="display:none"></span>
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
