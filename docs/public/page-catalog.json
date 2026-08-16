@@ -240,7 +240,7 @@
       "rates",
       "classification",
       "salary-circular",
-      "circular 872"
+      "circular-872"
     ],
     "clause": "",
     "excerpt": "AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian "
@@ -259,7 +259,7 @@
       "top-of-band",
       "cash-payments",
       "salary-circular",
-      "circular 872"
+      "circular-872"
     ],
     "clause": "",
     "excerpt": "AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian "
@@ -1777,7 +1777,7 @@
       "rates",
       "classification",
       "salary-circular",
-      "circular 872",
+      "circular-872",
       "top-of-band"
     ],
     "clause": "",
@@ -3746,7 +3746,7 @@
       "hourly-rates",
       "classification",
       "salary-circular",
-      "circular 875"
+      "circular-875"
     ],
     "clause": "",
     "excerpt": "DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2"
@@ -10879,7 +10879,7 @@
       "shift-allowances",
       "qualification-allowance",
       "salary-circular",
-      "circular 880"
+      "circular-880"
     ],
     "clause": "",
     "excerpt": "mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial d"
@@ -12769,7 +12769,7 @@
       "remuneration",
       "rates",
       "salary-circular",
-      "circular 873"
+      "circular-873"
     ],
     "clause": "",
     "excerpt": "MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist resea"
@@ -12788,7 +12788,7 @@
       "shift-allowances",
       "higher-qualifications",
       "salary-circular",
-      "circular 873"
+      "circular-873"
     ],
     "clause": "",
     "excerpt": "MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist resea"
@@ -13267,7 +13267,7 @@
       "shift-allowances",
       "qualification-allowance",
       "salary-circular",
-      "circular 870"
+      "circular-870"
     ],
     "clause": "",
     "excerpt": "nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS cli"
