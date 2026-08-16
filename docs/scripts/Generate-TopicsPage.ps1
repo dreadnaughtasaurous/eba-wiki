@@ -253,9 +253,9 @@ foreach ($file in $allFiles) {
         if (-not $t) { continue }
 
         if (-not $topicMap.ContainsKey($t)) {
-            $topicMap[$t] = [System.Collections.Generic.List[hashtable]]::new()
+            $topicMap[$t] = [System.Collections.Generic.List[psobject]]::new()
         }
-        $topicMap[$t].Add(@{
+        $topicMap[$t].Add([PSCustomObject]@{
             EbaDisplay = $ebaDisplay
             Label      = $label
             Url        = $url
