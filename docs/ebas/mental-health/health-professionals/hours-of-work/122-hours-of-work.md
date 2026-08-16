@@ -7,12 +7,6 @@ topics: ['hours']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 122. Hours of Work
 
 **122.1** The hours for an ordinary week’s work shall be 38, or an average of 38 per week in a two- or four-week period, or by mutual agreement in a five week period in the case of an Employee working ten-hour shifts, and shall be worked either:

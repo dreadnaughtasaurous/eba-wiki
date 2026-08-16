@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Accident Pay & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 88. Fitness for Work
 
 **88.1 Fit for Work**

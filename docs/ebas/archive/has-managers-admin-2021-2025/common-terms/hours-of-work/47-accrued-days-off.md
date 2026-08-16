@@ -7,12 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 47. Accrued Days Off
 
 **47.1 Entitlement to Accrued Days Off**
@@ -29,5 +23,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 - **(b)** provided that the Employer and Employee may mutually agree to defer a rostered ADO for a maximum of one month, but only in exceptional circumstances.
 
 Plain language terms: ADO, rostered day off, RDO.
-
 

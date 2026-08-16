@@ -7,12 +7,6 @@ topics: ['leave', 'parental-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 70. Parental Leave
 
 *The [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources) contains applicable terms regarding parental leave including terms regarding Stillborn children and Hospitalised children.*

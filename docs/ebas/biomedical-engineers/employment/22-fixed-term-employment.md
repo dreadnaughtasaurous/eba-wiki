@@ -7,12 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 22. Fixed Term Employment
 
 *Fixed term contracts entered into after 6 December 2023 are subject to this clause and Part 2-9, Division 5 of the Act. Where there is any inconsistency between this clause and the Act, the terms of the Act will prevail.* 

@@ -7,12 +7,6 @@ topics: ['employment', 'casual-conversion']
 <span data-pagefind-meta="section:Types of Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 24. Casual Conversion
 
 **24.1** Where a casual Employee has worked a regular pattern of hours on an ongoing basis over a period of 26 weeks or more, which without significant adjustment they could continue to perform as a part-time or full-time Employee, the Employer must offer to convert the Employee to part-time or full-time employment (reflecting the pattern of hours worked).
@@ -35,5 +29,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **24.6** Where such a conversion occurs, the Employee will be provided with a Letter of Appointment within 21 days of the acceptance, setting out the revised employment arrangements (including hours of work), acknowledging any period/s of casual employment with the Employer.
 
 Plain language terms: casual to permanent, conversion to permanent.
-
 

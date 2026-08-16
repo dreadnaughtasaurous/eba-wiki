@@ -7,9 +7,7 @@ topics: ['allowances', 'childcare']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
+
 
 # 38. Childcare Costs
 

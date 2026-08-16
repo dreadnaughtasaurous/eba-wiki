@@ -7,15 +7,7 @@ topics: ['pay-rates', 'wages', 'remuneration', 'rates', 'salary-circular', 'circ
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # Schedule 2 - Rates of Pay
-
-
 
 ::: info Related pay information
 - Allowances & Other Payments ([Schedule 3](/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc))
@@ -1893,8 +1885,4 @@ The pay tables below are sourced from Salary Circular 873. Rates shown are weekl
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

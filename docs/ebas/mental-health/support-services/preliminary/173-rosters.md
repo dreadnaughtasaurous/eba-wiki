@@ -7,10 +7,6 @@ topics: ['hours', 'rosters']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 173. Rosters
 
 **173.1** A roster of at least 28 days’ duration shall be posted at least 28 days before it comes into operation at each work location in a place where it may be readily seen by such Employees and the Secretary or other accredited representative of HACSU.

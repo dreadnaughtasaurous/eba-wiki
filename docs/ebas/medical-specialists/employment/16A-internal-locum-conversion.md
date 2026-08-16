@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 16A. Internal Locum Conversion
 
 *For the purpose of this clause only, any reference to Doctor means a Doctor employed pursuant to [subclause 16.4](/ebas/medical-specialists/employment/16-types-of-employment) as an Internal Locum*

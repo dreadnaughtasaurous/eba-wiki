@@ -7,10 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 11. Transfer of Business
 
 **11.1** Where the business of the employer is, before or after the date of the Agreement, transferred from the employer (in this clause 11 called the Transferor) to another employer (in this clause 11 called the Transferee) and an employee who at the time of such transfer was an employee of the Transferor in that business becomes an employee of the Transferee:

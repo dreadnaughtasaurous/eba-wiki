@@ -7,12 +7,6 @@ topics: ['hours', 'overtime']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 36. Overtime
 
 *The purpose of this clause is to ensure that all time worked is paid and that timesheets (or equivalent) are submitted within the time required by the Health Service to ensure that Health Services have information relevant to the provision of safe hours.*

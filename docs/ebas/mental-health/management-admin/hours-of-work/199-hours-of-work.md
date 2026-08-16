@@ -7,12 +7,6 @@ topics: ['hours']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 199. Hours Of Work
 
 **199.1** The ordinary hours of work for a full-time Employee shall be 38 hours, or an average of 38 hours, per week.
@@ -29,5 +23,4 @@ mental health worker psychiatric nurse mental health nurse community mental heal
 - **(b)** by mutual agreement:
     - **(i)** in weeks of four days in shifts of not more than 10 hours each; or
     - **(ii)** in some other averaging arrangement, provided that the length of any ordinary day does not exceed ten hours, and that not more than 50 ordinary hours is worked in any one week.
-
 

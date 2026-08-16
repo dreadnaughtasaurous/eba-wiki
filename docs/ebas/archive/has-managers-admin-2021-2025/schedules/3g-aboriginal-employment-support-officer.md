@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical administration health manager patient services
-</div>
-
 # Schedule 3G – Aboriginal Employment Support Officer
 
 ## 4. The Role
@@ -38,5 +34,4 @@ Required qualifications and experience for this role is as follows:
 - **6.1** Is an Aboriginal or Torres Strait Islander person, identifies as Aboriginal and is accepted as such by the community in which he/she lives or has previously lived.
 - **6.2** Sound knowledge of Aboriginal culture and experience in working with Aboriginal and Torres Strait Islander peoples/communities and organisations.
 - **6.3** Relevant tertiary qualifications in Human Resources (or equivalent) or significant experience in Aboriginal Employment, Recruitment and Engagement.
-
 

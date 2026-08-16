@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 9. Copy of Agreement
 
 The Employer will make a copy of the Agreement and the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources) accessible to all Employees either physically or electronically.

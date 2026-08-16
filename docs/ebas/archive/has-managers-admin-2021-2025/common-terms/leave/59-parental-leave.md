@@ -7,12 +7,6 @@ topics: ['leave', 'parental-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 59. Parental Leave
 
 This clause deals with parental leave, including paid parental leave. The issue of superannuation and parental leave (both paid and unpaid) is addressed at [clause 31.7](/ebas/archive/has-managers-admin-2021-2025/health-allied-services/education-pd/31-study-leave).
@@ -327,5 +321,4 @@ An Eligible Employee may use any accrued annual leave or long service leave enti
 Employee on and after the first day on which the Employee takes flexible unpaid parental leave in relation to the Child. 
 
 Plain language terms: maternity leave, paternity leave, baby leave, adoption leave.
-
 

@@ -7,10 +7,6 @@ topics: ['hours', 'breaks']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 50. Meal Breaks
 
 **50.1** An Employee will not be required to work more than 5 hours continuously without a meal interval of not less than 30 minutes and not more than 60 minutes.
@@ -25,5 +21,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 - **(b)** The arrangement in subclause 50.4(a) may also be adopted in any case where there is mutual agreement between the Employer and Employee.
 
 Plain language terms: meal break, lunch break.
-
 

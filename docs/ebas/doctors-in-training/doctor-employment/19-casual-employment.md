@@ -7,12 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Doctor Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 19. Casual Employment
 
 **19.1** A casual means a Doctor classified as a HMO, MO or SMO and who is engaged in relieving work or work of a casual nature, but does not include a Doctor who could properly be classified as a full-time or part-time Doctor under [clauses 17](/ebas/doctors-in-training/doctor-employment/17-full-time-employment) and 18.

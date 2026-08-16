@@ -7,10 +7,6 @@ topics: ['hours', 'workload']
 <span data-pagefind-meta="section:Workforce Management" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 33. Workload
 
 - **(a)** The Employer acknowledges the benefits to both the organisation and individual Employees gained through Employees having a balance between both their professional and family life.

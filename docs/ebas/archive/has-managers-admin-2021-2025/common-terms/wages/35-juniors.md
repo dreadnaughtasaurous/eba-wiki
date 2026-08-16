@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 35. Juniors
 
 *This clause does not apply to Dental Assistants employed by DHSV*
@@ -25,5 +21,4 @@ Junior Employees (who are Employees who are 18 years old or younger) will be pai
 | Fourth year of experience, or at age 19, whichever occurs first | 100% |
 
 Plain language terms: junior rates, under 21.
-
 

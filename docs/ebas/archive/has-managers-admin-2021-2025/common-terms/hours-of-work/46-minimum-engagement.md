@@ -7,10 +7,6 @@ topics: ['hours', 'overtime']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 46. Minimum Engagement
 
 **46.1** Each Employee will be paid a minimum of three (3) hours, with the exception of Employees:
@@ -23,5 +19,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **46.2** No Employee will be paid less than the minimum hours of engagement.
 
 Plain language terms: minimum shift, minimum hours.
-
 

@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-midwife nursing staff RN EN registered enrolled midwifery NUM unit manager ANUM associate unit manager CNS clinical specialist CNE clinical educator CNC clinical consultant
-</div>
-
 # 79A. Victorian Maternal and Child Health Nurse Student
 
 **79A.1 Definition**

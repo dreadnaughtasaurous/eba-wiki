@@ -7,10 +7,6 @@ topics: ['leave', 'annual-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 59. Cashing Out of Annual Leave
 
 **59.1** An Employee may, with the consent of the Employer, choose to cash out paid annual leave in accordance with this clause.

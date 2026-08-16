@@ -7,12 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 20. Casual Employment
 
 **20.1** An Employee is a casual Employee if they meet the definition of a casual Employee under section 15A of the Act.
@@ -36,5 +30,4 @@ A casual Employee will be paid for all work, other than for overtime (see [subcl
 **20.7** Casual Employees are entitled to Long Service Leave in accordance with the *[Long Service Leave Act 2018 (Vic)](https://www.legislation.vic.gov.au/in-force/acts/long-service-leave-act-2018/006)* (or applicable legislation).
 
 Plain language terms: casual.
-
 

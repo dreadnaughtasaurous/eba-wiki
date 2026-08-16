@@ -7,10 +7,6 @@ topics: ['hours', 'shift-work']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 90. Make-Up Time
 
 **90.1** Notwithstanding provisions elsewhere in the agreement, the Employer and the majority of Employees at an enterprise may agree to establish a system of make- up time provided that:

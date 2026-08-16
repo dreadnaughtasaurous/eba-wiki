@@ -7,13 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 87. Allied Health Manager Structure
-
-
 
 **87.1** For the purposes of classifying all Allied Health Manager and Assistant Allied Health Manager positions it will be necessary to divide the number of hours worked by relevant Employees (including interns) or total staff as the case may be, in that department by 38 with any fraction being taken to the next whole number.
 
@@ -56,7 +50,6 @@ an Employee who would have been a Chief (as defined in the 2011 Agreement) class
 | Chief Grade 5 | 40 – 85 FTE AHP and/or at least 46 other staff | Reclassification is not applicable as there can be no allied Chief two Grades or more above the Chief Grade 5 | AHM Grade 5 | 40 – 85 FTE AHP and/or 46 – 90 other staff | Reclassification is not applicable. |
 | Chief Grade 5 | 86 or more FTE AHP and/or at least 91 other staff | Reclassification is not applicable as there can be no allied Chief two Grades or more above the Chief Grade 5 | AHM Grade 6 | 86 or more FTE AHP and/or 91 or more other staff | Reclassification is not applicable. |
 
-
 In the table above:
 - **AHP** means Employees covered by this Agreement, the 2011 Agreement, the 2016 Agreement and/or the 2020 Agreement; 
 - **Chief** means a Chief as defined in the 2011 Agreement; 
@@ -67,5 +60,4 @@ In the table above:
 
 - **(a)** Clinical and service outcomes, management of the service-wide program, and departmental budgets will be the responsibility of the Senior Allied Health Manager.
 - **(b)** The Senior Allied Health Manager/Allied Health Manager at a multi-campus hospital will also ensure that all relevant Employees at a campus will be managed, and clinically guided by an appropriately graded Employee who principally works at that campus.
-
 

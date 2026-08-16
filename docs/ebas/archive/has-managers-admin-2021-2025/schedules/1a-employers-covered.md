@@ -7,10 +7,6 @@ topics: ['coverage']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # Schedule 1A - Employers Covered
 
 1. Albury Wodonga Health 
@@ -100,7 +96,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 85. Yarram and District Health Service
 86. Yarrawonga Health
 87. Yea & District Memorial Hospital
-
-
-
 

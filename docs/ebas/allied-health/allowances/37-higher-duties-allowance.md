@@ -7,12 +7,6 @@ topics: ['allowances', 'wages', 'higher-duties']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 37. Higher Duties Allowance
 
 >**Note:** An individual Employee does not need to perform the duties of the Absent Employee/Vacant Position for the entire period of the absence/vacancy in order to access the higher duties allowance.
@@ -94,5 +88,4 @@ will receive the higher duties allowance in accordance with this clause 37.
 >**Note:** the information in the above table is to give effect to the principle that an Employee engaged in performing higher duties is paid at a rate immediately above the rate of pay for their substantive position when engaged in performing higher duties in the above scenarios.
 
 Plain language terms: acting up, HDA, higher duties, allowance.
-
 

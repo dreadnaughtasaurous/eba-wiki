@@ -7,12 +7,6 @@ topics: ['union-matters']
 <span data-pagefind-meta="section:Union Matters" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 78. Union Matters
 
 **78.1 Access to Employees – General**

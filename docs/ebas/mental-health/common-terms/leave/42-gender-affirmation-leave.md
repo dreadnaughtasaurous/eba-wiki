@@ -7,12 +7,6 @@ topics: ['leave', 'gender-affirmation-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 42. Gender Affirmation Leave
 
 **42.1** The Employer encourages a culture that is supportive of transgender and gender diverse Employees and recognises the importance of providing a safe environment for Employees undertaking gender affirmation.

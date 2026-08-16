@@ -7,15 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 64. Absences on Defence Leave
-
-
 
 **64.1** A Full Time or Part Time Employee absent on defence service will be reimbursed by the Employer an amount equal to the difference between:
 
@@ -31,5 +23,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 >The Employee is on Defence Service leave in for the duration of a particular pay period. Were the employee not on Defence Service leave in that pay period they would have worked on Sunday and Monday evening shift of each week of the pay period. The Employee is entitled to payment as though at work for each of the Sundays and Mondays evening shifts, less the amount of payment (not including reimbursements) from the Defence Service for the equivalent time of the Sundays and Mondays evening shifts.
 
 Plain language terms: ADF leave, reservist leave, military leave, defence force.
-
 

@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 12. Implementation Committees
 
 **12.1** The Parties agree to establish a Mental Health Industry Implementation Committee (MHIIC). This Committee will monitor and oversee the implementation of this Agreement. The MHIIC will be chaired by a representative of the Department, and be comprised of representatives of the VHIA (in its capacity as the representative of the Employers), the ANMF and HACSU.

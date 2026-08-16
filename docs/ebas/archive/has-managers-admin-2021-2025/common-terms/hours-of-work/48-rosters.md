@@ -7,10 +7,6 @@ topics: ['hours', 'rosters']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 48. Rosters
 
 *This clause does not apply to Dental Assistants employed by DHSV or Ballarat Health Service.*
@@ -35,5 +31,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **48.8** Rosters will be drawn up so as to provide at least eight hours between successive periods of ordinary duty.
 
 Plain language terms: rostering, shift roster, duty roster, roster changes.
-
 

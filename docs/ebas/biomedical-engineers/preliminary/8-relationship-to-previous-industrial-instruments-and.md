@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 8. Relationship to Previous Industrial Instruments and the NES
 
 **8.1** This is a comprehensive Agreement that operates to the exclusion of any award, workplace determination or other agreement which previously applied to Employees covered by this Agreement. However, any entitlement in the nature of an accrued entitlement to an Employee’s benefit which has accrued under any such previous industrial instrument will not be affected by the making of this Agreement.

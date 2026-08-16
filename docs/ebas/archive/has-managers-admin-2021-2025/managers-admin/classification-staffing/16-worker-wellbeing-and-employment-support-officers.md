@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative clerical officer administration health manager patient services officer
-</div>
-
 # 16. Worker Wellbeing and Employment Support Officers
 
 **16.1** From commencement of this Agreement, the role of:

@@ -7,10 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 44A. Manager Allowance
 
 **44A.1** From the FFPPOA 11 April 2022, a Doctor who maintains an active clinical role within the relevant speciality at the Health Service and is appointed by the Employer to the role of:

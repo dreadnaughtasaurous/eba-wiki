@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Doctor Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 24. Rotations Between Hospitals
 
 **24.1** The provisions of this clause 24 are to be read in conjunction with [clause 9](/ebas/doctors-in-training/preliminary/9-nature-of-relationship) (Nature of Relationships), the relevant definitions in [clause 3](/ebas/doctors-in-training/preliminary/3-definitions) (Parent Hospital, Rotation Hospital, Rotation) and the allowances in [clause 52](/ebas/doctors-in-training/allowances/52-rotation-allowances) (Rotation Allowances).

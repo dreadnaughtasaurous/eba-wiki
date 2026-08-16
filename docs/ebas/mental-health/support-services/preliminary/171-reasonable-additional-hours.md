@@ -7,10 +7,6 @@ topics: ['hours']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 171. Reasonable Additional Hours
 
 **171.1** Subject to clause 171.2, an Employer may require an Employee to work reasonable additional hours at the appropriate overtime rate as defined in [clause 169](/ebas/mental-health/support-services/preliminary/169-overtime) (Overtime) of this Part E.

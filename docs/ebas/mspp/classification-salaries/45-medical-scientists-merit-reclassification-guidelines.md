@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Salaries" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP pharmacists psychologists scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 45. Medical Scientists Merit Reclassification Guidelines
 
 **45.1 Guidelines for merit reclassification of Medical Scientists**

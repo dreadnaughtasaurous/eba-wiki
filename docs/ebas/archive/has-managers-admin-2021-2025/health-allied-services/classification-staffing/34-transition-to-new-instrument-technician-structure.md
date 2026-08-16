@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 34. Transition to New Instrument Technician Structure
 
 **34.1** From FFPPOA 1 July 2021, Employees classified as Instrument Technicians will translate to the new Instrument Technician classification structure as follows:

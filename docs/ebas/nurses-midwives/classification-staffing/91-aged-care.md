@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 91. Aged Care
 
 **91.1** VHIA on behalf of the Employers and the Unions on behalf of its members acknowledge that ageing in place and legislative changes, which took effect from 1 July 2014, require a review of the nursing structure, current staffing levels and skill mix in public aged care facilities, including those not covered by the [Safe Patient Care Act](https://www.legislation.vic.gov.au/in-force/acts/safe-patient-care-nurse-patient-and-midwife-patient-ratios-act-2015/011). This is to ensure resident and quality care needs are met.

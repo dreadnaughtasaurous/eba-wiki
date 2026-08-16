@@ -7,10 +7,6 @@ topics: ['flexible-work']
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 79. Requests for Flexible Working Arrangements
 
 **79.1** If any of the circumstances set out in subclause 79.2 below apply to an Employee, the Employee may ask the Employer for a change in working arrangements because of those circumstances:

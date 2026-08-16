@@ -7,10 +7,6 @@ topics: ['leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 77. Special Disaster Leave
 
 > **Note:** In this clause 77, ‘up to’ refers to the total amount of paid special disaster leave per calendar year an Employee is entitled to access whilst they qualify and does not confer a discretion on the Employer to provide fewer than three (3) days leave. That is where the Employee qualifies in accordance with this clause 77 for three (3) days paid special disaster leave, the Employer must provide them with three (3) days paid special disaster leave.

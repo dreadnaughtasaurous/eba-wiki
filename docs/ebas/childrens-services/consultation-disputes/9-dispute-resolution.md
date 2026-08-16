@@ -7,10 +7,6 @@ topics: ['right-to-disconnect', 'disputes']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # 9. Dispute Resolution
 
 **9.1** Clause 9 sets out the procedures to be followed if a dispute arises about a matter under this award or in relation to the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources).

@@ -7,13 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 94. Contractors and Labour Hire
-
-
 
 **94.1** The Employer acknowledges the positive impact that secure employment has on employees and the provision of quality services to the Victorian community and will give preference to engaging people to perform work covered by this Agreement as Employees, rather than engaging:
 
@@ -31,5 +25,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 - **(f)** anything else agreed by BPECC.
 
 **94.3** The Employer recognises that engaging the people referred to at 94.1(a) to (c) above to perform work covered by this Agreement, other than on a short-term basis, will generally be a Major Change as defined at [clause 13](/ebas/allied-health/consultation-disputes/13-consultation) and therefore may require consultation.
-
 

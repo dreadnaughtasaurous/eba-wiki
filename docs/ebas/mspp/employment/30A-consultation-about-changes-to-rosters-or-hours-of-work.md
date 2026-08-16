@@ -7,10 +7,6 @@ topics: ['hours', 'rosters', 'consultation']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 30A. Consultation About Changes to Rosters or Hours of Work
 
 *This clause 30A applies where a change to regular rosters or ordinary hours of work (which may impact upon an Employee, particularly in relation to their family and caring responsibilities) does not constitute ‘Major Change’ in accordance with [subclause 30.2](/ebas/mspp/employment/30-consultation)c.*

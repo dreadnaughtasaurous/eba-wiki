@@ -7,15 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 86. Classification and Reclassification
-
-
 
 **86.1** All Employees will be paid the applicable rate of pay for their grade and classification as set out in [Appendix 2](/ebas/allied-health/appendices/2-wage-rates) (Wage Rates).
 
@@ -39,5 +31,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **86.9** Reclassification will occur on the basis of the overall work performed and required by the Employee’s position, subject to the classifications.
 
 **86.10** Where an Employer is aware an Employee is performing work that is not required by their position and does not advise the Employee the work is not required, this work is deemed to be work required by the Employee’s position.
-
 

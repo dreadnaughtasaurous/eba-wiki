@@ -10,10 +10,6 @@ rewrites:
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # Appendix 3 - Fixed Term Contract Conversion
 
 **Process for conversion where fixed term employment in the same or a substantially similar position exceeds the maximum duration of 3 years:**
@@ -35,5 +31,4 @@ biomedical engineer BME biomedical engineering medical equipment hospital engine
     - **(i)** there is no ongoing vacancy available in which to place the Employee, and/or
     - **(ii)** the Employee's position will cease to exist in the coming 12 months.
 - **(f)** If an Employer fails to make an offer of ongoing employment to an eligible fixed term Employee, the Employee may request in writing conversion to ongoing employment. Approval to convert to ongoing employment will not be withheld unless one of the exceptions in subclause (c) above applies.
-
 

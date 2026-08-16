@@ -7,10 +7,6 @@ topics: ['leave', 'annual-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 60. Cashing Out of Annual Leave
 
 **60.1** An Employee may, with the consent of the Employer, choose to cash out paid annual leave in accordance with this clause 60.

@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 2. Arrangement
 
 ## Part A – Preliminary
@@ -164,5 +160,4 @@ DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor t
 | [Appendix 5](/ebas/doctors-in-training/appendices/5-agreement-to-cash-out-annual-leave) – Agreement to Cash Out Annual Leave | 140 |
 
 Plain language terms: table of contents, agreement structure.
-
 

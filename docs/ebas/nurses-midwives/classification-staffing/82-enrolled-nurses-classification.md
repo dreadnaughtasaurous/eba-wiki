@@ -7,10 +7,6 @@ topics: ['classifications']
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 82. Enrolled Nurses - Classification
 
 ## Part 1 – Scope

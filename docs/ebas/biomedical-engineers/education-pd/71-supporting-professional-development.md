@@ -7,13 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 71. Supporting Professional Development
-
-
 
 **71.1** Employers will ensure Employees have equitable access to voluntary in-service training or professional development opportunities.
 
@@ -39,5 +33,4 @@ This subclause does not apply to casual Employees.
     Employees who were employed by an Employer on 13 September 2023 and are Employees on commencement of the Agreement are entitled to a once off $500 payment in recognition of the professional development allowance that was not received in 2023.
 - **(c)** The amounts at subclause 71.4(a) and (b) will be paid pro rata for part-time Employees.
 - **(d)** The professional development allowance is additional to any other allowance or entitlement within this Agreement.
-
 

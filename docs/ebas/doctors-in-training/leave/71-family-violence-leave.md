@@ -7,12 +7,6 @@ topics: ['leave', 'family-violence-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 71. Family Violence Leave
 
 > **Note:** Family member is defined in section 8 of the [Family Violence Protection Act 2008 (Vic)](https://www.legislation.vic.gov.au/in-force/acts/family-violence-protection-act-2008) and is broader than the definition of immediate family in [subclause 61.2](/ebas/doctors-in-training/leave/61-personal-sick-carer-s-leave).

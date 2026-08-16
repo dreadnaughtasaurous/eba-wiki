@@ -7,12 +7,6 @@ topics: ['superannuation']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 27. Superannuation
 
 *The subject of superannuation is dealt with extensively by federal legislation which prescribes the obligations and entitlements regarding superannuation. This clause is ancillary to and supplements those provisions.*

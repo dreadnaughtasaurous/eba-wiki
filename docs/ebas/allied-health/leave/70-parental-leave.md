@@ -7,12 +7,6 @@ topics: ['leave', 'parental-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 70. Parental Leave
 
 This clause 70 deals with parental leave, including paid parental leave. The issue of superannuation and parental leave (both paid and unpaid) is addressed at [subclause 30.6](/ebas/allied-health/wages/30-superannuation).
@@ -79,8 +73,6 @@ For the purposes of this clause 70:
 - **(b)** An Eligible Employee who is not at that point taking Long Parental Leave, may take up to eight (8) weeks’ leave concurrently with any parental leave taken by the other member of the Employee Couple. Short Parental Leave may be taken in separate periods but, unless the Employer agrees, each period must not be shorter than two (2) weeks.
 - **(c)** The period of Short Parental Leave will be deducted from the period of Long Parental Leave to which the Eligible Employee is entitled under subclause 70.3 (if applicable).
 
-
-
 **70.5 Hospitalised children – agreement to not take unpaid Parental Leave**
 
 - **(a)** If:
@@ -115,8 +107,6 @@ For the purposes of this clause 70:
   - **(ii)** there are no public holidays during the period.
 - **(f)** A member of an Employee Couple (**the first employee**) may take Flexible Parental Leave on the same day as the other member of the Employee Couple (**the other employee**) is taking unpaid Parental Leave only if the total of all periods of unpaid parental leave the first employee takes at the same time as the other employee is no longer than eight (8) weeks.
 
-
-
 **70.7 Paid Parental Leave**
 
 *See also [subclause 30.6](/ebas/allied-health/wages/30-superannuation) (Superannuation during parental leave – from 1 July 2022).*
@@ -138,8 +128,6 @@ For example, such leave may be paid in smaller amounts over a longer period, con
 - **(f)** Such agreement must be in writing and signed by the parties. The Eligible Employee must nominate a preferred payment arrangement at least four (4) weeks prior to the expected date of birth or date of placement of the Child.
 - **(g)** In the absence of agreement, such leave will be paid during the ordinary pay periods corresponding with the period of the leave.
 - **(h)** The paid parental leave prescribed by this subclause 70.7 will be concurrent with any relevant unpaid entitlement prescribed by the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources)/this Agreement.
-
-
 
 **70.8 Notice and evidence requirements**
 

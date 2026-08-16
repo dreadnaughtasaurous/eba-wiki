@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 65. Reasonable Adjustments
 
 **65.1** Where an Employee has a Disability (whether permanent or temporary) the Employer is required to make Reasonable Adjustments to enable the Employee to continue to perform their duties, subject to subclause 65.2 below.

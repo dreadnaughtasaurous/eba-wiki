@@ -7,10 +7,6 @@ topics: ['hospital-specific']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist pharmacist
-</div>
-
 # Schedule 8 - Royal Women's Hospital, Royal Children's Hospital General Employment
 
 ## 1. Definitions and Interpretation
@@ -187,5 +183,4 @@ Where OH&S Representatives are attending OH&S Representative training courses ap
 ## 9. Education and Training
 
 Relevant and specific in-service education and training will be offered to all Employees on a regular basis comprising a minimum of 4 hours per month.
-
 

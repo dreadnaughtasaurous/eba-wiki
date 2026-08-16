@@ -7,12 +7,6 @@ topics: ['preliminary', 'discrimination']
 <span data-pagefind-meta="section:Application & Operation" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 10. Anti-Discrimination
 
 - **(a)** It is the intention of the parties to this Agreement to achieve the principal object in s.3(e) of the Act through respecting and valuing the diversity of the work force by helping to prevent and eliminate discrimination on the basis of race, colour, sex, sexual preference, age, physical or mental disability, marital status, family responsibilities, pregnancy, religion, political opinion, national extraction or social origin.

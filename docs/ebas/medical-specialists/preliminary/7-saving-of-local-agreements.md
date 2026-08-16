@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 7. Saving Of Local Agreements
 
 **7.1** The making of this Agreement is predicated on the expectation and understanding that pre-existing terms and conditions of employment applying prior to the 2013 Specialists Agreement will not be set aside as a result of the implementation of this Agreement.

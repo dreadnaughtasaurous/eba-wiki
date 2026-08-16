@@ -4,10 +4,6 @@ eba: 'Children''s Services Award 2010'
 topics: ['schedules', 'apprentices']
 ---
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before after outside hours care OSHC children's
-</div>
-
 # Schedule E - School Based Apprentices
 
 >[Sched F inserted by [PR544170](http://www.fwc.gov.au/documents/awardsandorders/html/PR544170.htm) ppc 01Jan14; renumbered as Sched E by [PR747480](https://library.fairwork.gov.au/award/?krn=PR747480) ppc 14Nov22]

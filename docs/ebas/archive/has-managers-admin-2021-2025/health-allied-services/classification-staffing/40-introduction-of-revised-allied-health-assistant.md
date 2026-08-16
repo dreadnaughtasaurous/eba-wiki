@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative services manager administrative worker clerical officer administration manager patient services officer
-</div>
-
 # 40. Introduction of Revised Allied Health Assistant Classification Structure
 
 **40.1** From FFPPOA 1 July 2021, Employees classified as Allied Health Assistants, Dietary Supervisor, Instructor Trades, Orthotic Technician or Social Worker/Welfare Aide will translate to the new Allied Health Assistant classification structure as follows:
@@ -44,5 +40,4 @@ HAS HASMA administrative services manager administrative worker clerical officer
 **(a)** The VHIA and HWU (together with equal representation from their respective memberships) will undertake a review of the Allied Health Assistant structure to examine duties associated with the Certificate IV in Training & Assessment and other emerging Allied Health Assistant duties and responsibilities (including NDIS).
 
 **(b)** The review process in clause 40.4(a) will commence in 2022 and will include consultation with Allied Health Assistant Victorian Network (**AHAVN**).
-
 

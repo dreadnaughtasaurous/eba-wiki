@@ -7,10 +7,6 @@ topics: ['consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # 8. Consultation About Major Workplace Change
  
 >[8—Consultation regarding major workplace change renamed and substituted by [PR546288](http://www.fwc.gov.au/documents/awardsandorders/html/PR546288.htm), 8—Consultation renamed and substituted by [PR610286](https://library.fairwork.gov.au/award/?krn=PR610286) ppc 01Nov18]

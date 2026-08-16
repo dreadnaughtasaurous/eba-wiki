@@ -7,12 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="10" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # 15. Allowances
 
 >[Varied by [PR996603](http://www.fwc.gov.au/documents/awardsandorders/html/PR996603.htm), [PR998159](http://www.fwc.gov.au/documents/awardsandorders/html/PR998159.htm), [PR509272](http://www.fwc.gov.au/documents/awardsandorders/html/PR509272.htm), [PR523102](http://www.fwc.gov.au/documents/awardsandorders/html/PR523102.htm), [PR536905](http://www.fwc.gov.au/documents/awardsandorders/html/PR536905.htm), [PR551828](http://www.fwc.gov.au/documents/awardsandorders/html/PR551828.htm), [PR566929](http://www.fwc.gov.au/documents/awardsandorders/html/PR566929.htm), [PR579627](http://www.fwc.gov.au/documents/awardsandorders/html/PR579627.htm), [PR592373](https://library.fairwork.gov.au/award/?krn=PR592373), [PR606596](https://library.fairwork.gov.au/award/?krn=PR606596), [PR704124](https://library.fairwork.gov.au/award/?krn=PR704124), [PR707765](https://library.fairwork.gov.au/award/?krn=PR707765), [PR719090](https://library.fairwork.gov.au/award/?krn=PR719090), [PR723626](https://library.fairwork.gov.au/award/?krn=PR723626), [PR724049](https://library.fairwork.gov.au/award/?krn=PR724049), [PR729563](https://library.fairwork.gov.au/award/?krn=PR729563), [PR740969](https://library.fairwork.gov.au/award/?krn=PR740969), [PR745330](https://library.fairwork.gov.au/award/?krn=PR745330), [PR762229](https://library.fairwork.gov.au/award/?krn=PR762229), [PR762400](https://library.fairwork.gov.au/award/?krn=PR762400), [PR774011](https://library.fairwork.gov.au/award/?krn=PR774011), [PR774179](https://library.fairwork.gov.au/award/?krn=PR774179), [PR786659](https://library.fairwork.gov.au/award/?krn=PR786659), [PR786828](https://library.fairwork.gov.au/award/?krn=PR786828); [PR794818](https://library.fairwork.gov.au/award/?krn=PR794818)]

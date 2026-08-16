@@ -7,12 +7,6 @@ topics: ['wages']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 28B. Top of Band Payment
 
 *This clause 28B applies to full-time, part-time, fixed term and casual Employees.*
@@ -25,7 +19,6 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 | Employee employed on 1 March 2023 | FFPPOA 1 March 2023 |
 | Employee employed on 1 March 2024 | FFPPOA 1 March 2024 |
 | Employee employed on 1 March 2025 | FFPPOA 1 March 2023 |
-
 
 **28B.2** The payment in subclause 28B.1 applies to the following classifications:
 
@@ -115,7 +108,6 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 | AHP2 – Youth Worker, Class 3, Year 3 |
 | AHP2 – Youth Worker, Class 3A, Year 5 |
 | AHP2 – Youth Worker, Class 4, Year 3 |
-
 
 **28B.3** The payment at subclause 28B.1 will be pro rata for:
 

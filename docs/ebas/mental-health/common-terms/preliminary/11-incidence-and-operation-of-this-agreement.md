@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 11. Incidence and Operation of this Agreement
 
 **11.1** This Agreement will not apply to persons employed under the Public Administration Act 2004, (as amended or replaced from time to time), and/or any person who is an Employee of the Department and whose services have been made available to an Employer under section 97 of the Mental Health Act 1986 (Vic) (as amended or replaced from time to time) (Section 97 Employees).

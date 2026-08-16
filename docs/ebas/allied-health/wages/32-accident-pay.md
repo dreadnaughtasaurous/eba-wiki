@@ -7,12 +7,6 @@ topics: ['accident-pay']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 32. Accident Pay
 
 **32.1** Subject to this clause 32, where an Employee is receiving a weekly payment of compensation in respect of an incapacity under the [WIRC Act](https://www.legislation.vic.gov.au/in-force/acts/workplace-injury-rehabilitation-and-compensation-act-2013/053), the Employee will receive accident make up pay equal to the ordinary time earnings they would ordinarily receive, less the amount of weekly compensation.

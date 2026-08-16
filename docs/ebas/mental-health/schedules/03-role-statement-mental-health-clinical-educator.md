@@ -7,9 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-worker psychiatric nurse nurse community AMHS authorised practitioner psychosocial disability support
-</div>
+
 
 # Schedule 3 - Role Statement - Mental Health Clinical Educator
 

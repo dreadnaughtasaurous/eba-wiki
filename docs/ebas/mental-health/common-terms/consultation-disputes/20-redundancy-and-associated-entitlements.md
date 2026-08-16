@@ -7,12 +7,6 @@ topics: ['employment', 'redundancy']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 20. Redundancy and Associated Entitlements
 
 A former section 97 Employee will not be entitled to the benefit of any entitlement under this clause where the same benefit (however titled) exists within [clause 21](/ebas/mental-health/common-terms/consultation-disputes/21-redeployment-former-s97-employees).

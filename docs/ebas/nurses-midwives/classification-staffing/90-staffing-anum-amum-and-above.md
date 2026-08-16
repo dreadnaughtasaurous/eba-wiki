@@ -7,10 +7,6 @@ topics: ['staffing']
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 90. Staffing - ANUM/AMUM and Above
 
 > **Note:** See [clause 35](/ebas/nurses-midwives/allowances/35-higher-duties) (Higher Duties) for any applicable payments related to performing higher duties under this clause.

@@ -7,10 +7,6 @@ topics: ['shift-work', 'allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 75. Change of Shift Allowance - PEN and MHO
 
 **75.1 Calculation of change of shift allowance**

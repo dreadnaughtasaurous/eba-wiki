@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 9. Nature of Relationship
 
 **9.1** All minimum entitlements available to the Doctor arise through this Agreement and the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources). In most cases, the employment contract will only prescribe and enforce the time period for the employment relationship, whether the employment is full time or part time or casual and require the Doctor to abide by Health Service policies and procedures.
@@ -22,5 +18,4 @@ DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor t
 **9.4** Where a Doctor takes up a Specialist training position accredited by the Specialist Medical College, it is the Health Service that employs the Doctor into the allocated position.
 
 Plain language terms: employment relationship.
-
 

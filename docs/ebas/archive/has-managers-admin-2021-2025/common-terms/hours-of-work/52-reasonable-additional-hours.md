@@ -7,10 +7,6 @@ topics: ['hours']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 52. Reasonable Additional Hours
 
 **52.1** Subject to subclause 52.2, an Employer may require an Employee to work reasonable additional hours at the appropriate overtime rate as defined in [clause 25](/ebas/archive/has-managers-admin-2021-2025/health-allied-services/hours-of-work/25-overtime) of Section 2 (Overtime) and [clause 10](/ebas/archive/has-managers-admin-2021-2025/managers-admin/hours-of-work/10-overtime) of Section 3 (Overtime) of the Agreement.
@@ -27,5 +23,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 - **(h)** whether the additional hours are in accordance with an averaging arrangement agreed to by the Employer and Employee under [clause 22](/ebas/archive/has-managers-admin-2021-2025/health-allied-services/hours-of-work/22-hours-of-work) of Section 2 and [clause 7](/ebas/archive/has-managers-admin-2021-2025/managers-admin/hours-of-work/7-hours-of-work) of Section 3 (Hours of Work); and any other relevant matter.
 
 Plain language terms: reasonable OT, reasonable overtime.
-
 

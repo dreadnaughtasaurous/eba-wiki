@@ -7,12 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 35. Higher Qualifications Allowance
 
 **35.1** An Employee who holds an additional post graduate qualification which is of direct relevance to their current position or functional work area, will be paid an allowance of 7.5% of the AHP1 Grade 1, Year 2 rate.
@@ -28,5 +22,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 - **(a)** A **post graduate qualification** includes a qualification that has been assessed as a Bachelor Honours Degree, Graduate Certificate, Graduate Diploma or Masters Degree (or equivalent to any of these) under the Australian Qualifications Framework level 8 or 9 criteria.
 - **(b)** A **doctorate** includes a qualification that has been assessed as a Doctorate (or equivalent) under the Australian Qualifications Framework level 10 criteria.
 - **(c)** For the avoidance of doubt, **additional post graduate qualification** in subclause 35.1 means a post graduate qualification held by the Employee that is in addition to the minimum qualification that is required to enable them entry into the relevant profession under the Agreement. It is not a post graduate qualification held by an Employee that is the only qualification they hold that allows them entry into the profession under the Agreement.
-
 

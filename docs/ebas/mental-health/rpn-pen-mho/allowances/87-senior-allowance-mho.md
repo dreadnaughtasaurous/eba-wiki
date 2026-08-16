@@ -7,10 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 87. Senior Allowance - MHO
 
 **87.1** Subject to clause 87.2 below, a MHO who is appointed as a 'Senior' will have their classification preceded by the word 'Senior' and paid an allowance of 10% to be calculated upon the base rate payable in [Schedule 2](/ebas/mental-health/schedules/02-salaries-and-allowances) in addition to any other allowance to which the Employee is entitled.

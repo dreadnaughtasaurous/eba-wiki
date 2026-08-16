@@ -7,10 +7,6 @@ topics: ['leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 85. Gender Transition Leave
 
 - **(a)** The Employer encourages a culture that is supportive of transgender and gender diverse Employees and recognises the importance of providing a safe environment for Employees undertaking gender transition.

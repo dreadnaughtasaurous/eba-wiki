@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Doctor Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 27. Orientation on Appointment
 
 **27.1** On a Doctor’s appointment to a new position or a new location (including a Rotation) and as an orientation, the Health Service must

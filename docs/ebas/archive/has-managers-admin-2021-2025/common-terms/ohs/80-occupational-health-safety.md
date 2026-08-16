@@ -7,10 +7,6 @@ topics: ['ohs']
 <span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative services manager administrative worker clerical officer administration manager patient services officer
-</div>
-
 # 80. Occupational Health & Safety
 
 **80.1 General Principles**

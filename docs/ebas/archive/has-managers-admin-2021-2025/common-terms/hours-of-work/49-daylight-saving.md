@@ -7,10 +7,6 @@ topics: ['hours', 'shift-work']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 49. Daylight Saving
 
 *See also [clause 25](/ebas/archive/has-managers-admin-2021-2025/health-allied-services/hours-of-work/25-overtime) of Section 2 and [clause 10](/ebas/archive/has-managers-admin-2021-2025/managers-admin/hours-of-work/10-overtime) of Section 3 (Overtime) and [clause 47](/ebas/archive/has-managers-admin-2021-2025/health-allied-services/classification-staffing/47-review-of-pharmacy-technician-structure) (Accrued Days Off) of Section 1.*
@@ -32,5 +28,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **49.2** For the purpose of calculating accrued days off, Employees who work on a shift during which time changes because of the introduction of, or cessation to, daylight saving, will be taken to have worked the standard hours for a night shift in accordance with the roster.
 
 Plain language terms: DST.
-
 

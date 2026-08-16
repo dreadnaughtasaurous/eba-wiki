@@ -7,12 +7,6 @@ topics: ['wages', 'higher-duties']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 5. Higher Duties
 
 **5.1** Employees, who are engaged in duties that carry a higher rate of pay than the Employee’s ordinary classification, will be entitled to payment of higher duties in accordance with the provisions of this clause.

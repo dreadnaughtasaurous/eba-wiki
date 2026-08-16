@@ -7,15 +7,7 @@ topics: ['classifications', 'remuneration', 'rates', 'pay-rates', 'shift-allowan
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # Schedule 3 - Allowances & Other Payments
-
-
 
 ::: info Related pay information
 - Rates of Pay ([Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances))
@@ -1106,6 +1098,4 @@ The allowance tables below are sourced from Salary Circular 873. Part-time and c
 </tr>
 </tbody>
 </table>
-
-
 

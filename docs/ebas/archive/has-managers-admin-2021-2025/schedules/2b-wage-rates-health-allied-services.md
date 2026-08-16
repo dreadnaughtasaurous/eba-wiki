@@ -7,15 +7,7 @@ topics: ['pay-rates', 'wages', 'remuneration', 'salary', 'rates', 'classificatio
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative manager administrative worker clerical officer administration manager patient officer
-</div>
-
 # Schedule 2B - Wage Rates (Health & Allied Services)
-
-
 
 ::: info Related pay information
 - Allowances - Health & Allied Services ([Schedule 2C](/ebas/archive/has-managers-admin-2021-2025/schedules/2c-allowances-health-allied-services))
@@ -1016,8 +1008,4 @@ Pay tables below are sourced from Salary Circular 858 and reflect actual payable
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

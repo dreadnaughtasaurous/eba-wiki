@@ -7,12 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 20. Casual Employment
 
 **20.1** A casual Employee is one who is engaged in relieving work or work of a casual nature and whose engagement is terminable by the Employer in accordance with the Employer's requirements, without the requirement of prior notice by either the Employer or the Employee, but does not include an Employee who could properly be classified under [clause 18](/ebas/allied-health/employment/18-full-time-employment) - Full-time employment, [clause 19](/ebas/allied-health/employment/19-part-time-employment) - Part-time employment or [clause 22](/ebas/allied-health/employment/22-fixed-term-employment) - Fixed term employment.
@@ -46,5 +40,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **20.7** The list in subclause 20.4 is not intended to be exhaustive and relevant clauses should be referred to in order to determine any casual entitlement.
 
 Plain language terms: casual.
-
 

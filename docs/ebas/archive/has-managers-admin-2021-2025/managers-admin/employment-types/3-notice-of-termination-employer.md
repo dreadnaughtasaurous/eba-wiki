@@ -7,10 +7,6 @@ topics: ['employment', 'termination']
 <span data-pagefind-meta="section:Types of Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 3. Notice of Termination - Employer
 
 **3.1** The Employer must not terminate an Employee’s employment unless they have given the Employee written notice of the day of the termination (which cannot be before the day the notice is given).

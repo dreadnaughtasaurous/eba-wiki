@@ -7,12 +7,6 @@ topics: ['breaks', 'flexible-work']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 71. Breastfeeding
 
 **71.1 Paid break** 
@@ -28,5 +22,4 @@ The Employer will also provide a comfortable place, other than a bathroom, that 
 Appropriate refrigeration will be available in proximity to the area referred to in subclause 71.2 for breast milk storage. Responsibility for labelling, storage and use lies with the Employee.
 
 Plain language terms: lactation, pumping, expressing milk.
-
 

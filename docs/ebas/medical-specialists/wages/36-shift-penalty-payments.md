@@ -7,10 +7,6 @@ topics: ['shift-work']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 36. Shift Penalty Payments
 
 **36.1** For ordinary hours worked between the following times, payment will be made at the rates set out at Part 1 of [Appendix 2](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances) of the Agreement, plus the appropriate shift penalty payment set out in Part 3 of [Appendix 2](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances) which have been calculated based on the following:

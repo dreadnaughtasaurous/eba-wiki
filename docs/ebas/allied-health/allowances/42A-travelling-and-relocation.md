@@ -7,13 +7,7 @@ topics: ['allowances', 'travel']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 42A. Travelling and Relocation
-
-
 
 *This clause concerns payment only and is not intended to exclude the requirements of [clause 13](/ebas/allied-health/consultation-disputes/13-consultation) (Consultation) or 25 (Redundancy and Related Entitlements) or create a new right to be directed to work at another location.*
 
@@ -41,5 +35,4 @@ For the avoidance of doubt, the travel will occur within paid time.
 - **(a)** an Employee whose role goes across campuses;
 - **(b)** Employees who genuinely choose to work across different campuses and it is not a requirement of the Employer, such as where an Employee elects to pick up an additional shift/s on another Campus on a permanent or ad hoc basis; or
 - **(c)** Casual Employees.
-
 

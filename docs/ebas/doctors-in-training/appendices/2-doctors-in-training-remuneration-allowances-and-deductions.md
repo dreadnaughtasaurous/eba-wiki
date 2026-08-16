@@ -7,15 +7,7 @@ topics: ['pay-rates', 'wages', 'allowances', 'remuneration', 'salary', 'rates', 
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions
-
-
 
 ::: info Related pay information
 - Rotation Allowances ([Clause 52](/ebas/doctors-in-training/allowances/52-rotation-allowances))
@@ -956,8 +948,4 @@ Refer to [Clause 57A.4](http://localhost:5173/eba/ebas/doctors-in-training/allow
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

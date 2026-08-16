@@ -7,13 +7,7 @@ topics: ['leave', 'personal-leave', 'employment']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 63. Casual Employment - Caring Responsibilities
-
-
 
 **63.1** Subject to the evidence and notice requirements that apply to carer’s leave under [clause 62](/ebas/allied-health/leave/62-personal-leave-including-carer-s-leave), a casual Employee is entitled to be unavailable to attend work, or to leave work, if they need to provide care or support to a member of the Employee’s Immediate Family or household because of:
 
@@ -28,5 +22,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **63.4** An Employer must not fail to re-engage a casual Employee because the Employee accessed the entitlements provided for in this clause 63. The rights of the Employer to engage or not to engage a casual Employee are otherwise not affected.
 
 Plain language terms: casual.
-
 

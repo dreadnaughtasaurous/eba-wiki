@@ -7,13 +7,7 @@ topics: ['hours', 'staffing', 'workload']
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 90. Workload Allocation and Safe Staffing
-
-
 
 **90.1 Purpose**
 
@@ -75,5 +69,4 @@ The Employer will ensure that it is sufficiently staffed and resourced so as to 
 **90.7 Information – Workplace Implementation Committee** 
 
 The matters in this clause 90 are directly relevant to workload and the Employer will provide information to the Workplace Implementation Committee as required Saf e Ro ster ing and F atigu e by [subclause 83.2](/ebas/allied-health/union-matters/83-union-matters).
-
 

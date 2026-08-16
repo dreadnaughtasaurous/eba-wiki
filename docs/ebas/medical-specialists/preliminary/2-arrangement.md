@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 2. Arrangement
 
 ---
@@ -153,5 +149,4 @@ medical specialist consultant specialist doctor VMO visiting medical officer sta
 | [Appendix 7](/ebas/medical-specialists/appendices/7-agreement-to-cash-out-annual-leave) – Agreement to Cash Out Annual Leave | 163 |
 
 Plain language terms: table of contents, agreement structure.
-
 

@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 29. Promotion of Local Workforce
 
 **29.1** The parties are committed to providing employment opportunities to suitably qualified and/or experienced members of the local workforce to the maximum extent permitted by law through measures including but not limited to:

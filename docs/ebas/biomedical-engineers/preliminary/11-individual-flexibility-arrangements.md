@@ -7,12 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 11. Individual Flexibility Arrangements
 
 **11.1** An Employer and Employee may agree to vary the application of the terms of this Agreement relating to any of the following in order to meet the genuine needs of both the Employee and the Employer:

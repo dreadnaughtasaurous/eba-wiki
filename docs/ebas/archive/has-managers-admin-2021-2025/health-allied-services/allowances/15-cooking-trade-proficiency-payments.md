@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 15. Cooking Trade Proficiency Payments
 
 **15.1** This proficiency pay scheme applies to apprentices who started attending trade class from 1979 and who have undertaken the standard cooking course and attained the standard of proficiency.

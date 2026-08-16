@@ -7,15 +7,7 @@ topics: ['shift-work', 'allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 39. Change of Shift Allowance
-
-
 
 **39.1** An Employee who changes from working on one shift (**first shift**) to working on another shift (**second shift**) and the time of commencement of the second shift differs by four (4) hours or more from the first shift, will be paid a change of shift allowance of the amount specified in [Appendix 3](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments) of this Agreement for each such change except as provided at subclauses 39.2 and 39.3 below.
 
@@ -31,5 +23,4 @@ The change of shift allowance is not payable where:
 - **(b)** there is at least two (2) weeks of continuous approved leave between the relevant shifts which creates a change of shift as described in subclause 39.1.
 
 **39.4** The allowances payable pursuant to this clause 39 will be calculated to the nearest five (5) cents, portions of a cent being disregarded.
-
 

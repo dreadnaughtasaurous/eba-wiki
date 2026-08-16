@@ -7,12 +7,6 @@ topics: ['leave', 'long-service-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 72. Long Service Leave
 
 ## PART 1 - GENERAL
@@ -231,7 +225,6 @@ At any time after completing seven (7) years of continuous employment with one (
   - **B.** the employer otherwise has reasonable business grounds for refusing the request.
 - **(iii)** Employees should seek independent advice regarding the taxation and superannuation implications of seeking payment under this subclause 72.14(d). The employer will not be held responsible in any way for the cost or outcome of any such advice.
 - **(iv)** The employer, if requested by the Employee, will provide information as to the amount of tax the employer intends to deduct where payment of long service leave is sought under this subclause.
-
 
 **72.15 Payment on termination of employment**
 

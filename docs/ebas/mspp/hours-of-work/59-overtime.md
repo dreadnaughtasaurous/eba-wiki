@@ -7,12 +7,6 @@ topics: ['hours', 'overtime']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 59. Overtime
 
 Provisions additional to those prescribed by this clause apply at the following Health Services and are contained in [Schedule 4](/ebas/mspp/schedules/4-alfred-health-general-conditions) and [Schedule 10](/ebas/mspp/schedules/10-st-vincent-s-health-melbourne-ltd-general-conditions-agreeme):

@@ -7,12 +7,6 @@ topics: ['leave', 'study-leave', 'education']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 180. Study Leave
 
 **180.1** Employee will be entitled to four (4) hours paid study leave per week up to a maximum of 26 weeks per annum, where undertaking study at Australian Qualification Framework Level 3 or above with an education institution or approved provider.

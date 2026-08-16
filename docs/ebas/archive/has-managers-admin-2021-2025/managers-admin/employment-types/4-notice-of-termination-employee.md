@@ -7,10 +7,6 @@ topics: ['employment', 'termination']
 <span data-pagefind-meta="section:Types of Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 4. Notice of Termination - Employee
 
 **4.1** The notice of termination required by an Employee is 4 weeks’ notice.

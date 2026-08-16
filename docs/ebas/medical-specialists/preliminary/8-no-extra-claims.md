@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 8. No Extra Claims
 
 - **(a)** Subject to subclause 8(b), until the nominal expiry date of this Agreement, a Health Service, Doctor or Doctor organisation covered by this Agreement must not pursue any extra claims.

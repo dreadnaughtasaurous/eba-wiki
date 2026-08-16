@@ -7,10 +7,6 @@ topics: ['shift-work']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 37. Penalty Payments
 
 **37.1** The provisions of this clause 37 are to be read in conjunction with [subclauses 42.7(d)](/ebas/doctors-in-training/remuneration/42-remuneration-and-remuneration-increases) and 42.7(e) (Rate of Pay).

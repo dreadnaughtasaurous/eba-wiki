@@ -7,10 +7,6 @@ topics: ['hours', 'overtime', 'on-call']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 47. Recall
 
 **47.1 Recall – return to workplace**
@@ -28,5 +24,4 @@ biomedical engineer BME biomedical engineering medical equipment hospital engine
 **47.3 Recall – no return to workplace** 
 
 Where recall to duty can be managed without the Employee having to return to their workplace, such as by telephone, such Employee will be paid a minimum of one hour's overtime, provided that multiple recalls within a discrete hour will not attract additional payment.
-
 

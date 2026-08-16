@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 57A. 10 Hour Break Not Given
 
 This clause 57A takes effect from the day referred to in [clause 57.6(ii)](/ebas/mspp/hours-of-work/57-employee-rosters).

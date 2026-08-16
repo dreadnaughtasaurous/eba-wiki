@@ -4,10 +4,6 @@ eba: 'Children''s Services Award 2010'
 topics: ['schedules', 'hours', 'overtime']
 ---
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # Schedule I - Classification Translation Arrangements
 
 >[Sched I inserted by [PR794818](https://library.fairwork.gov.au/award/?krn=PR794818); corrected by [PR794932](https://library.fairwork.gov.au/award/?krn=PR794932), [PR796954](https://library.fairwork.gov.au/award/?krn=PR796954)]

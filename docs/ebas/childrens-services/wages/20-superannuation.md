@@ -7,12 +7,6 @@ topics: ['superannuation']
 <span data-pagefind-meta="section:Wages & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # 20. Superannuation
 
 >[Varied by [PR530219](http://www.fwc.gov.au/documents/awardsandorders/html/PR530219.htm), [PR546127](http://www.fwc.gov.au/documents/awardsandorders/html/PR546127.htm), [PR743360](https://library.fairwork.gov.au/award/?krn=PR743360), [PR771396](https://library.fairwork.gov.au/award/?krn=PR771396), [PR794808](https://library.fairwork.gov.au/award/?krn=PR794808)]

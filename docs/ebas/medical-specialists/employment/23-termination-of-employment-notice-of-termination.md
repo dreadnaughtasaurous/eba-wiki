@@ -7,10 +7,6 @@ topics: ['employment', 'termination']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 23. Termination of Employment - Notice of Termination
 
 **23.1** Either the Health Service or a Doctor may terminate the employment by giving three months’ written notice to the other party, or any other period as agreed between the Health Service and the Doctor, subject to the requirements of the [NES](https://www.fairwork.gov.au/employment-conditions/national-employment-standards#tools-and-resources).

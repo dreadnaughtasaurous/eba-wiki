@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Safe Patient Care" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 107. Midwifery Continuity of Care Models
 
 **107.1 [Safe Patient Care Act](https://www.legislation.vic.gov.au/in-force/acts/safe-patient-care-nurse-patient-and-midwife-patient-ratios-act-2015/011)**

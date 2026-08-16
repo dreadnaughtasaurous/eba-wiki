@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-midwife nursing staff RN EN registered midwifery NUM unit manager ANUM associate unit manager CNS clinical specialist CNE clinical educator CNC clinical consultant
-</div>
-
 # 85A. Trainee Enrolled Nurse - Classifications
 
 **85A.1 Application**

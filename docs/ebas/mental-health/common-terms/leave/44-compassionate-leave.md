@@ -7,12 +7,6 @@ topics: ['leave', 'compassionate-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 44. Compassionate Leave
 
 **44.1** An Employer may use its discretion to grant paid and/or unpaid compassionate leave to relatives not covered by the definition of Immediate Family.

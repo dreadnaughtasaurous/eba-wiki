@@ -7,10 +7,6 @@ topics: ['employment']
 <span data-pagefind-meta="section:Types of Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 22. Letter of Appointment
 
 **22.1** On commencement of employment, the Employer will provide each Employee with a letter of appointment containing the information set out in [Appendix 3](/ebas/nurses-midwives/appendices/03-information-required-for-letter-of-appointment).

@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Workplace Rights" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 68. Royal Commission Working Group
 
 **68.1** The VHIA, ANMF and HACSU (the Parties) acknowledge that the implementation of the Royal Commission into Victoria’s Mental Health System (Royal Commission) recommendations may require changes to the existing Agreement. This clause provides a framework for ensuring the Parties are able to properly consider any industrial implications arising from the Royal Commission recommendations and any provisions of this Agreement that may be in conflict with or benefit from amendment to accommodate any recommendation arising from the Royal Commission.

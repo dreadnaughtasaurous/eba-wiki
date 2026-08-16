@@ -7,10 +7,6 @@ topics: ['allowances', 'uniforms']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 42. Uniforms and Protective Clothing
 
 *This clause does not apply to Dental Assistants employed by DHSV or Ballarat Health Service*
@@ -26,5 +22,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **42.5** The Employer will provide such gloves, masks, protective clothing and safety appliances as are required for an Employee to properly and safely perform their job function. Where the Employee is required to purchase such clothing and equipment, they will be reimbursed in full by the Employer.
 
 Plain language terms: uniform allowance, laundry allowance, PPE.
-
 

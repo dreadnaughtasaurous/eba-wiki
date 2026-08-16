@@ -7,15 +7,7 @@ topics: ['pay-rates', 'allowances', 'remuneration', 'salary', 'rates', 'classifi
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # Appendix 2 - Wages and Allowances
-
-
 
 ::: info Related pay information
 - Salary ([Clause 25](/ebas/nurses-midwives/wages/25-salary))
@@ -4496,8 +4488,4 @@ The pay tables below are sourced from Salary Circular 870. Rates shown are weekl
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

@@ -7,10 +7,6 @@ topics: ['consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 9. Consultation
 
 *Nothing in this clause limits the Health Service’s obligations to consult with HSRs under the [OHS Act](https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045).*

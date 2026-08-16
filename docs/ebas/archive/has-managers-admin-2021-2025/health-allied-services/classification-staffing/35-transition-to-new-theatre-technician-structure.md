@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 35. Transition to New Theatre Technician Structure
 
 **35.1** From FFPPOA 1 July 2021, Employees classified as Theatre Technicians will translate to the new Theatre Technician classification structure as follows
@@ -34,5 +30,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 - **(c)** back payment of wages (if any) effective from FFPPOA 1 July 2021
 
 **35.3** Where an Employee disagrees with this re-classification, in the first instance the dispute will be dealt with by the AIC. If the matter remains in dispute, it will be dealt with in accordance with Section 1 [clause 17](/ebas/archive/has-managers-admin-2021-2025/managers-admin/classification-staffing/17-translation-of-managers-and-administrative-workers) (Dispute Resolution Procedure).
-
 

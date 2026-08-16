@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative services manager administrative clerical officer administration manager patient services officer
-</div>
-
 # 41. Introduction of Revised Health Care Worker Classification Structure
 
 **41.1** From 1 April 2022, Employers will commence the review of all Health Care Workers against the new Health Care Worker classification structure provided in [Schedule 2D](/ebas/archive/has-managers-admin-2021-2025/schedules/2d-classification-structure-health-allied-services).

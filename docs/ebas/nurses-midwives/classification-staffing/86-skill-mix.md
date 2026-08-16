@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 86. Skill/Mix
 
 - **(a)** The minimum skill mix that each Employer in respect of the hospitals specified in Schedule 2 of the *[Safe Patient Care Act](https://www.legislation.vic.gov.au/in-force/acts/safe-patient-care-nurse-patient-and-midwife-patient-ratios-act-2015/011)* aims to achieve in all acute/general surgical and medical wards is:

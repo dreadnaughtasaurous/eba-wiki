@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 10. Best Practice Employment Commitment
 
 **10.1** The parties agree to establish a committee to discuss Best Practice Employment Commitments (**BPEC**) during the life of the Agreement on matters which include:

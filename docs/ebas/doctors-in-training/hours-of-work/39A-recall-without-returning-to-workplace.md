@@ -7,10 +7,6 @@ topics: ['hours', 'overtime', 'on-call']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 39A. Recall - Without Returning to Workplace
 
 **39A.1** The provisions of this clause 39A are to be read in conjunction with [clause 40](/ebas/doctors-in-training/hours-of-work/40-telephone-calls-to-doctors-outside-of-working-hours) (Telephone Calls to Doctors Outside of Working Hours).

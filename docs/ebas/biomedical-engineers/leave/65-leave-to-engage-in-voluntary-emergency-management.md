@@ -7,10 +7,6 @@ topics: ['leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 65. Leave to Engage in Voluntary Emergency Management Activities
 
 **65.1** An Employee who engages in a voluntary emergency management activity with a recognised emergency management body that requires the attendance of the Employee at a time when the Employee would otherwise be required to be at work is entitled to paid/unpaid leave for:

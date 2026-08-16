@@ -7,13 +7,7 @@ topics: ['allowances', 'remuneration', 'shift-allowances', 'meal-allowance', 'ex
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative manager administrative worker clerical officer administration manager patient officer
-</div>
-
 # Schedule 2C - Allowances (Health & Allied Services)
-
-
 
 ::: info Related pay information
 - Wage Rates - Health & Allied Services ([Schedule 2B](/ebas/archive/has-managers-admin-2021-2025/schedules/2b-wage-rates-health-allied-services))
@@ -737,8 +731,4 @@ See [Clause 16.7](http://localhost:5173/eba/ebas/has-managers-admin/health-allie
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

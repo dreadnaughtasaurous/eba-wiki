@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 4. Definitions
 
 **4.1** **Act** means the [Fair Work Act 2009 (Cth)](https://www.legislation.gov.au/C2009A00028/latest/text), or its successor.

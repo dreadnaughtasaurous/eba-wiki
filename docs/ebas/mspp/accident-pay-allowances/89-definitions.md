@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Accident Pay & Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 89. Definitions
 
 - **a.** Disability has the same meaning as section 4 of the [Equal Opportunity Act 2010 (Vic)](https://www.legislation.vic.gov.au/in-force/acts/equal-opportunity-act-2010/032) (**EO Act**) and includes:

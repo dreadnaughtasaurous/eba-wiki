@@ -7,13 +7,7 @@ topics: ['staffing', 'higher-duties']
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 91. Backfill
-
-
 
 **91.1 Purpose** 
 
@@ -82,5 +76,4 @@ In the event of a dispute arising over the provisions of this clause 91, either 
 
 - **(i)** Dispute Resolution Procedure in this Agreement ([clause 14](/ebas/allied-health/consultation-disputes/14-dispute-resolution-procedure)); or
 - **(ii)** Independent Dispute Resolution Panel ([clause 14A](/ebas/allied-health/consultation-disputes/14A-independent-dispute-resolution-panel)).
-
 

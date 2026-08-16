@@ -7,10 +7,6 @@ topics: ['consultation', 'rosters', 'hours-of-work']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 13A. Consultation about Changes to Rosters or Hours of Work
 
 *This clause 13A applies where a change to regular rosters or ordinary hours of work (which may impact upon an employee, particularly in relation to their family and caring responsibilities) does not constitute a 'Major Change' in accordance with [subclause 13.2(c)](/ebas/biomedical-engineers/consultation-disputes/13-consultation).*

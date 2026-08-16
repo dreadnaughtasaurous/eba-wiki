@@ -7,10 +7,6 @@ topics: ['hours', 'overtime', 'breaks']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 55. Rest Period After Overtime/Recall - Ten Hour Break
 
 **55.1** When overtime, including recall, is necessary the Employee will have at least 10 consecutive hours off duty between all bodies of work, subject to subclauses 55.3 and 55.4 below.

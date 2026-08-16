@@ -7,13 +7,7 @@ topics: ['allowances', 'travel']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 43. Working Away from Home
-
-
 
 **43.1** For each night an Employee is required by the Employer to be absent overnight from their usual place of residence, for example where an Employee cannot reasonably travel from or back to their usual place of residence on the day on which they are required to work by the Employer, the Employer will:
 
@@ -25,5 +19,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **43.2 Exception** 
 
 Subject to subclause 43.1, this clause 43 does not apply where an Employee voluntarily chooses for personal reasons to stay in the location prior to or after the day on which the Employee is required to work by the Employer.
-
 

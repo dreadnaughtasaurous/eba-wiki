@@ -7,10 +7,6 @@ topics: ['hospital-specific']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist pharmacist
-</div>
-
 # Schedule 5 - Alfred Health, Austin Health & Royal Melbourne Hospital – Clinical Perfusionists
 
 ## 1. Application of this Schedule
@@ -62,5 +58,4 @@ The salaries provided for below incorporate the provisions of this Agreement ref
 **5.3** ECMO and EVLP procedures performed outside normal hours shall be paid for each hour worked at double the rate in [clause 4](/ebas/mspp/schedules/4-alfred-health-general-conditions) of this Schedule.
 
 **5.4** A Perfusionist who attends a conference for approved Professional Development may request reimbursement for the costs of airfares, accommodation, registration costs and other incidental costs. Such requests will be considered on their merit and will not be unreasonably refused.
-
 

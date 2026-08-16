@@ -4,10 +4,6 @@ eba: 'Children''s Services Award 2010'
 topics: ['schedules', 'hours', 'overtime']
 ---
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school hours care OSHC children's
-</div>
-
 # Schedule H - Agreement for Time Off Instead of Payment for Overtime
 
 >[Sched I inserted by [PR584086](https://library.fairwork.gov.au/award/?krn=PR584086) ppc 22Aug16; renumbered as Sched H by [PR747480](https://library.fairwork.gov.au/award/?krn=PR747480) ppc 14Nov22]
@@ -59,5 +55,4 @@ Date signed: ___/___/20___
 ---
 
 >[Schedule X—Additional Measures During the COVID-19 Pandemic inserted by [PR718141](https://library.fairwork.gov.au/award/?krn=PR718141) ppc 08Apr20; varied by [PR720705](https://library.fairwork.gov.au/award/?krn=PR720705), [PR723048](https://library.fairwork.gov.au/award/?krn=PR723048), [PR728080](https://library.fairwork.gov.au/award/?krn=PR728080), [PR736911](https://library.fairwork.gov.au/award/?krn=PR736911); deleted by [PR746868](https://library.fairwork.gov.au/award/?krn=PR746868) ppc 17Oct22]
-
 

@@ -7,12 +7,6 @@ topics: ['leave', 'compassionate-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 65. Compassionate Leave
 
 **65.1** An Employer may use its discretion to grant paid and/or unpaid compassionate leave to relatives not covered by the definition of "Immediate family" in [clause 4](/ebas/nurses-midwives/preliminary/4-definitions).

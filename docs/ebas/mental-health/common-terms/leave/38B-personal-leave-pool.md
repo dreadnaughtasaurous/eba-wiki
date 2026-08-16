@@ -7,10 +7,6 @@ topics: ['leave', 'personal-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 38B. Personal Leave Pool
 
 **38B.1** The Employer may establish a personal leave pool whereby eligible Employees have access, in defined situations, to additional paid personal leave hours that has been voluntarily donated to the pool by other Employees.

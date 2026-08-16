@@ -7,13 +7,7 @@ topics: ['employment']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 17. Types of Employment
-
-
 
 **17.1** Employees under this Agreement may be employed in any one (1) of the following categories:
 
@@ -45,5 +39,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **17.6** Where an Employee holds more than one (1) position under more than one (1) enterprise agreement but the positions can fall within the scope of the Agreement the Employee (or representative) may, where they believe that the positions could be consolidated into a single position, request that this occur. The Employer can only refuse the request on reasonable business grounds.
 
 **17.7** Where an Employee holds more than one (1) position, including a position under another enterprise agreement, nothing in this clause 17 limits the ability of the Employee to dispute whether that position should be covered by this Agreement.
-
 

@@ -7,10 +7,6 @@ topics: ['ohs', 'workers-comp']
 <span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 98. Industry OH&S Working Group
 
 **98.1** The Employers (and their representative), the Employees and the Unions will proactively cooperate in the development and recommendation of measures to improve occupational health and safety outcomes, with the intent of improving Employee health and safety, preventing injury, illness and incapacity (and hence workers compensation payments) and supporting effective and responsive return to work, with a particular focus on the following:

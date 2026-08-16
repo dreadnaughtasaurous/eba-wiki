@@ -7,15 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 79. Professional Development Leave
-
-
 
 **79.1** Professional Development is the means by which members of a profession maintain, improve and broaden their knowledge and expertise, and develop personal and professional qualities by:
 
@@ -83,5 +75,4 @@ AHP allied health physiotherapist OT occupational therapist social worker podiat
     - **(i)** the Employer requires an Employee to attend, such as fire, workplace bullying and equal opportunity training; and/or
     - **(ii)** that is necessary for an Employee to perform their position/role, such as learning how to use a new piece of equipment or updates on policies / procedure; will occur within an Employee's paid time and no deduction will be made to an Employee's professional development leave entitlement for such education or training.
 - **(b)** The Employer will indicate in writing (which may be in policy) to Employees if any education or training they are providing is education or training the Employee is required to attend.
-
 

@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 217. Individual Performance Measures - Royal Children's Hospital
 
 **217.1** This clause only applies to Management and Administrative Officers at Royal Children’s Hospital classified under Part 2 of [Schedule 7](/ebas/mental-health/common-terms/preliminary/7-application-of-section-4) of this Agreement.

@@ -7,10 +7,6 @@ topics: ['wages']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 149. Underpayment of Wages
 
 **149.1** Where an Employee considers that they have been underpaid as a result of error on the part of the Employer, the Employee may request that the Employer rectify the error or validate the payment.

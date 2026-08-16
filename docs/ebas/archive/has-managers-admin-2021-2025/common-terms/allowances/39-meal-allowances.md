@@ -7,12 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 39. Meal Allowances
 
 **39.1** Where an Employee is required to work overtime Monday to Friday (inclusive) for more than one hour after the usual finish time, or in the case of shift workers when the overtime exceeds one hour, or on a Saturday/Sunday for more than 5 hours, the Employer will either supply the Employee with an adequate meal or pay a meal allowance.
@@ -26,5 +20,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
 **39.5** Claims for payment of an overtime meal allowance will be processed in the next ordinary pay.
 
 Plain language terms: meal money, meal reimbursement.
-
 

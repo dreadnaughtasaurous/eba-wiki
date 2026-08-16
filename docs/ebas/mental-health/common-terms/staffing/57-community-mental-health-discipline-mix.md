@@ -7,9 +7,7 @@ topics: ['discipline']
 <span data-pagefind-meta="section:Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-worker psychiatric nurse nurse AMHS authorised practitioner psychosocial disability support
-</div>
+
 
 # 57. Community Mental Health Discipline Mix
 

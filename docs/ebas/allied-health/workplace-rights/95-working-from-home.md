@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Workplace Rights" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 95. Working From Home
 
 **95.1** The Employer recognises there may be mutual benefits for both Employees and the Employer to access home based work. The Employer will maintain a working from home policy that provides Employees with a genuine opportunity to work from home where it is reasonable having regard for the circumstances, including:

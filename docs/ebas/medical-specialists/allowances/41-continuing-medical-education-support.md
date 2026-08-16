@@ -7,10 +7,6 @@ topics: ['professional-development']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-specialist consultant specialist doctor VMO visiting officer staff specialist salaried specialist attending specialist
-</div>
-
 # 41. Continuing Medical Education Support
 
 **41.1 Funded Support entitlement**

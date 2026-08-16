@@ -7,13 +7,7 @@ topics: ['leave', 'study-leave']
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 81. Examination Leave
-
-
 
 **81.1** Employees will be granted leave with full pay in order to attend examinations necessary to obtain qualifications relevant to classifications in this Agreement.
 
@@ -22,5 +16,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **81.3** Any leave granted under the provisions of this clause 81 are in addition to other leave provisions in this Agreement.
 
 Plain language terms: exam leave.
-
 

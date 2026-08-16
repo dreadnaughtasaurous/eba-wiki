@@ -7,9 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health services manager worker clerical officer administration health manager patient services officer
-</div>
+
 
 # 17. Translation of Managers and Administrative Workers (Royal Children’s Hospital & Royal Women’s Hospital only)
 

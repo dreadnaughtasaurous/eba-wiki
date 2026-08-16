@@ -7,10 +7,6 @@ topics: ['classifications']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA administrative manager administrative worker clerical officer administration manager patient officer
-</div>
-
 # Schedule 2D – Classification Structure
 
 ## Part 1: Health and Allied Services Employees Classification Structure
@@ -532,5 +528,4 @@ Types of complementary therapies may include:
 | **Complementary Therapies Worker Grade 1** | **Experience** — Capable of performing work within the scope of practice determined by the Employer. <br>**Qualification** — Unqualified, or holds a qualification within the scope determined by the Employer that is not recognised as equivalent to the Australian Qualification Framework (AQF) Level 3 (Certificate III). <br>**Duties** — Delivery therapies and provide education within the scope of practice determined by the Employer and in accordance with the wider treatment plan devised by the registered health practitioner; Monitoring patient/client progress and documenting outcomes. |
 | **Complementary Therapies Worker Grade 2** | **Experience** — Capable of performing work within the scope of their qualification and scope determined by the Employer. <br>**Qualification** — Holds a qualification within the scope determined by the Employer recognised as equivalent to the Australian Qualification Framework (AQF) Level 3 (Certificate III). <br>**Duties** — Delivery therapies and provide education within the scope of practice determined by the Employer and in accordance with the wider treatment plan devised by the registered health practitioner; Monitoring patient/client progress and documenting outcomes. |
 | **Complementary Therapies Worker Grade 3** | **Experience** — Capable of performing work within the scope of their qualification and scope determined by the Employer. <br>**Qualification** — Holds a qualification within the scope determined by the Employer recognised as equivalent to the Australian Qualification Framework (AQF) Level 4 (Certificate IV). <br>**Duties** — Delivery therapies and provide education within the scope of practice determined by the Employer and in accordance with the wider treatment plan devised by the registered health practitioner; Monitoring patient/client progress and documenting outcomes. |
-
 

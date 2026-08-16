@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 7. No Extra Claims
 
 **7.1** This Agreement is reached in full and final settlement of all matters subject to claims by those covered by the Agreement and for the life of the Agreement no further claims will be made or supported by those covered by the Agreement.

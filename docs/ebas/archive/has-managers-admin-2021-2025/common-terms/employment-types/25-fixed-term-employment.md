@@ -7,15 +7,7 @@ topics: ['employment']
 <span data-pagefind-meta="section:Types of Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 25. Fixed Term Employment
-
-
 
 **25.1** A fixed term Employee is an Employee who is employed for a specified period of time, which period is known at the commencement of the contract, or for a specified task such as a project or replacement of an absent employee.
 
@@ -39,5 +31,4 @@ HAS HASMA health administrative services manager administrative worker clerical 
     - **(ii)** utilise the Dispute Resolution Procedure set out in clause 17 of this Agreement.
 
 Plain language terms: contract, fixed-term.
-
 

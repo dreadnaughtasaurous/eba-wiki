@@ -7,10 +7,6 @@ topics: ['leave', 'personal-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 62. Personal Leave (Including Carer's Leave)
 
 *This clause 62 does not apply to casual Employees. The entitlements of casual Employees are set out in [clause 63](/ebas/allied-health/leave/63-casual-employment-caring-responsibilities) (Casual Employment – Caring Responsibilities).*

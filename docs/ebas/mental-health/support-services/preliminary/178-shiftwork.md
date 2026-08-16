@@ -7,10 +7,6 @@ topics: ['hours', 'shift-work', 'allowances']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 178. Shiftwork
 
 **178.1** Employees who perform shift work shall be entitled to payment of the shift allowances applying to their classification under the following provisions of this clause.

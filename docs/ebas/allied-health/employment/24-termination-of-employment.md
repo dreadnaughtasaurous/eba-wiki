@@ -7,12 +7,6 @@ topics: ['employment', 'termination']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 24. Termination of Employment
 
 >**Note:** this clause 24 only applies to full-time and part-time Employees unless otherwise indicated.
@@ -39,5 +33,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 - **(b)** if the notice of termination is for any reason other than redundancy, up to one (1) day off without loss of pay for the purpose of seeking other employment at times that are convenient to the Employee after consultation with the Employer.
 
 Plain language terms: resignation, dismissal.
-
 

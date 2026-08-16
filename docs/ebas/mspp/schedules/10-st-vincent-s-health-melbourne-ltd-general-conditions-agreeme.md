@@ -7,10 +7,6 @@ topics: ['hospital-specific']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # Schedule 10 - St Vincent's Health (Melbourne) Ltd. General Conditions Agreement
 
 ## 1. Overtime
@@ -84,5 +80,4 @@ MSPP medical scientists pharmacists psychologists medical scientist pharmacist p
   - **(xiii)** All reasonable workplace and/or work process modifications necessary to enable an Employee to return to (or remain at) work will be undertaken before the Employee commences (or continues) the return to work.
   - **(xiv)** Changes to the rehabilitation program will only be made after consultation with the injured Employee, the rehabilitation provider and/or the treating practitioner and, where requested, by the Employee or their union representative if applicable.
   - **(xv)** All offers of employment made by the Employer will be made in writing and will comply with the *[Workplace Injury Rehabilitation and Compensation Act 2013 (Vic)](https://www.legislation.vic.gov.au/in-force/acts/workplace-injury-rehabilitation-and-compensation-act-2013/053)* (Vic) as amended from time to time and any regulations to that act. All offers of employment must include a detailed description of the job offered, the working hours and the remuneration applicable and be approved by the Employee's treating practitioner.
-
 

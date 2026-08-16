@@ -7,10 +7,6 @@ topics: ['classifications']
 <span data-pagefind-meta="section:Schedules" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health services manager worker clerical officer administration health manager patient services officer
-</div>
-
 # Schedule 3D - Classification Structure (Managers And Administrative Workers)
 
 ## Part 1: Managers and Administrative Workers (other than Royal Women's Hospital and Royal Children's Hospital)
@@ -684,5 +680,4 @@ Positions at this level are senior managers, professionals and specialists who a
 | **Engineering** | Maintenance Engineer for the health service reporting to a more senior engineer, responsible for providing, organising and directing human and physical resources to provide an efficient maintenance service with minor works responsibility. Maintenance includes planned, breakdown and safety testing across all trades including contractors for building fabric and building services reticulation. Minor works are managed where standard building specifications would be adapted (for example to ward refurbishment); includes procurement; installation and commissioning of specialised equipment. An emphasis is placed on safety and technical aspects with financial control, co-ordinating and planning, industrial relations, education as being among important issues. |
 | **MIS** | Functional Manager for a medium computing facility including operations, development, maintenance and network management. Supervises staff and has budgetary responsibility for acquisition of peripherals, additional computing hardware and supplies. A key focus of the position is ensuring that projects are completed on time/budget, provide users with the information needed, access to computing facilities is within accepted standards, and computing facilities are adequate for the needs of the institution, fast effective and reliable. |
 | **MIS** | Expert professional project manager engaged on a project of strategic significance and technical complexity that requires organisational, systems development and technical know-how of the highest order. |
-
 

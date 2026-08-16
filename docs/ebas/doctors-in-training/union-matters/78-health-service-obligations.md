@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Union Matters" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 78. Health Service Obligations
 
 **78.1** A Health Service must not dismiss, threaten to dismiss, injure or threaten to injure a Doctor in respect of his or her employment nor alter the Doctor's position, or threaten to alter the position to the Doctor's detriment for the following reasons:

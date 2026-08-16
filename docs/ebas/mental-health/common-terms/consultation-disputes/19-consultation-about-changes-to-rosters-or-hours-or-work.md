@@ -7,10 +7,6 @@ topics: ['hours', 'rosters', 'consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 19. Consultation About Changes to Rosters or Hours or Work
 
 *This clause 19 applies where a change to regular rosters or ordinary hours of work (which may impact upon an employee, particularly in relation to their family and caring responsibilities) does not constitute 'Major Change' in accordance with [subclause 18.2(c)](/ebas/mental-health/common-terms/consultation-disputes/18-consultation).*

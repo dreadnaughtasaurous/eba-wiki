@@ -7,10 +7,6 @@ topics: ['hours', 'allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 41C. Four Clear Days Allowance
 
 *Note: for other provisions relating to rosters see [clause 45](/ebas/nurses-midwives/hours-of-work/45-rosters) (Rosters).*
@@ -24,5 +20,4 @@ nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM 
 - **(a)** An Employer or Union covered by this Agreement may propose alternative arrangements to clause 41C.2 to apply to a ward or unit. The proposal may be implemented where the Employer, the Union and the majority of affected Employees genuinely agree.
 
 - **(b)** Any proposal under subclause 41C.3(a) will be provided in writing to the affected Employees and Union.
-
 

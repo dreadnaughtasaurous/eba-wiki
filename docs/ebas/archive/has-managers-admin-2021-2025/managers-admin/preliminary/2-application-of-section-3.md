@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 2. Application of Section 3
 
 **2.1** The terms of Section 3 of this Agreement are additional terms specific to Managers and Administrative Workers (as defined in [Schedule 3D](/ebas/archive/has-managers-admin-2021-2025/schedules/3d-classification-structure-managers-and-administrative-workers)).

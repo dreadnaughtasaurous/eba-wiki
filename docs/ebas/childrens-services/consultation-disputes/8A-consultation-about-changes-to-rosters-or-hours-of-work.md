@@ -7,10 +7,6 @@ topics: ['hours', 'rosters', 'consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Children's Services Award 2010" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-childrens services childcare worker early childhood educator family day care ECE kindergarten before school after school outside school care OSHC children's
-</div>
-
 # 8A. Consultation About Changes to Rosters or Hours of Work
 
 **8A.1** Clause 8A applies if an employer proposes to change the regular roster or ordinary hours of work of an employee, other than an employee whose working hours are irregular, sporadic or unpredictable.

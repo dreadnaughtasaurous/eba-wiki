@@ -7,10 +7,6 @@ topics: ['hours', 'overtime']
 <span data-pagefind-meta="section:Hours of Work" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 132. On-Call & Rostered Overtime
 
 **132.1** An Employee who is rostered on-call or who performs rostered overtime on 10 or more weekends per annum will be entitled to an additional five days annual leave. This entitlement is in addition to the shift worker entitlement provided by [clause 38D.2](/ebas/mental-health/common-terms/leave/38D-annual-leave), but both entitlements cannot be claimed for the same bodies of work.

@@ -7,10 +7,6 @@ topics: ['preliminary', 'discrimination']
 <span data-pagefind-meta="section:Preliminary" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 17. Gender Based Discrimination
 
 **17.1** The parties agree, in conjunction with the Department, to maintain a Gender- Based Standing Committee (GBSC) during this Agreement.

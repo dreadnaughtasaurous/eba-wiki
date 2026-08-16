@@ -7,12 +7,6 @@ topics: ['allowances']
 <span data-pagefind-meta="section:Allowances" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 38. Uniform and Laundry Allowance
 
 **38.1** Where an Employer requires an Employee to wear a particular type or style of uniform, the Employer will provide this at no cost to the Employee. Payment in lieu of providing the Uniform is not permitted.

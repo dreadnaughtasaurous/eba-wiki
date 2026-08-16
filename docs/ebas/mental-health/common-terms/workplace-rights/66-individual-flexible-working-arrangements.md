@@ -7,10 +7,6 @@ topics: ['flexible-work']
 <span data-pagefind-meta="section:Workplace Rights" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 66. Individual Flexible Working Arrangements
 
 **66.1** An Employer and Employee covered by this Agreement may agree to make an individual flexibility arrangement to vary the effect of terms of the Agreement if:

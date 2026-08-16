@@ -7,13 +7,7 @@ topics: ['hours', 'rosters', 'consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 13A. Consultation About Changes to Rosters or Hours of Work
-
-
 
 *This clause 13A applies where a change to regular rosters or ordinary hours of work (which may impact upon an Employee, particularly in relation to their family and caring responsibilities) does not constitute a change that must be consulted upon in accordance with [clause 13](/ebas/allied-health/consultation-disputes/13-consultation).*
 
@@ -33,5 +27,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **13A.5** Any dispute regarding the obligations under this clause 13A will be dealt with under the Dispute Resolution Procedure at [clause 14](/ebas/allied-health/consultation-disputes/14-dispute-resolution-procedure) of this Agreement.
 
 Plain language terms: consult, major workplace change.
-
 

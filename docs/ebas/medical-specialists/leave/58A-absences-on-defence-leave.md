@@ -7,15 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-medical specialist consultant specialist doctor VMO visiting medical officer staff specialist salaried specialist attending specialist
-</div>
-
 # 58A. Absences on Defence Leave
-
-
 
 **58A.1** A Full-Time or Fractional Doctor absent on defence service will be reimbursed by the Employer an amount equal to the difference between:
 

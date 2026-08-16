@@ -7,9 +7,7 @@ topics: ['leave', 'professional-development']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Specialists 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-specialist consultant specialist doctor VMO visiting officer staff specialist salaried specialist attending specialist
-</div>
+
 
 # 59. Continuing Medical Education Leave
 

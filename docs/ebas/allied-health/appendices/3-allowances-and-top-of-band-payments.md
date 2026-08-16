@@ -7,15 +7,7 @@ topics: ['allowances', 'remuneration', 'rates', 'pay-rates', 'top-of-band', 'cas
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # Appendix 3 - Allowances and Top of Band Payments
-
-
 
 ::: info Related pay information
 - Wage Rates
@@ -1157,8 +1149,4 @@ The tables below are sourced from Salary Circular 877. Shift allowances vary by 
 </tr>
 </tbody>
 </table></div>
-
-
-
-
 

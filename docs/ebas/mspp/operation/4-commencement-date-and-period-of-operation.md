@@ -7,10 +7,6 @@ topics: ['preliminary']
 <span data-pagefind-meta="section:Application & Operation" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 4. Commencement Date and Period of Operation
 
 - **(a)** This Agreement shall come into effect seven days from the date of approval by Fair Work Commission. Wages come into operation from the beginning of the first full pay period commencing on or after 1 December 2021.

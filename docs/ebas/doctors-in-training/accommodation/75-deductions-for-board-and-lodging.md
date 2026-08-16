@@ -7,13 +7,7 @@ topics: ['accommodation']
 <span data-pagefind-meta="section:Accommodation" style="display:none"></span>
 <span data-pagefind-filter="eba:Doctors in Training 2022-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-DIT doctor intern resident registrar medical officer HMO RMO PHO junior doctor trainee doctor prevocational postgraduate year PGY1 PGY2
-</div>
-
 # 75. Deductions for Board and Lodging
-
-
 
 **75.1** The provisions of this clause 75 are to be read in conjunction with [clause 52](/ebas/doctors-in-training/allowances/52-rotation-allowances) (Rotation Allowances).
 

@@ -7,12 +7,6 @@ topics: ['leave', 'parental-leave']
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 61. Parental Leave
 
 This clause deals with parental leave, including paid parental leave. The issue of superannuation and parental leave (both paid and unpaid) is addressed at [subclause 30.6](/ebas/biomedical-engineers/wages/30-superannuation).

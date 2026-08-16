@@ -7,10 +7,6 @@ topics: ['ohs']
 <span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
 <span data-pagefind-filter="eba:Health Allied & Managers Admin 2021-2025" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-HAS HASMA health administrative services manager administrative worker clerical officer administration health manager patient services officer
-</div>
-
 # 81. OH&S Department Placement
 
 **81.1** The parties recognise the valuable role of OH&S Representatives in facilitating safe working environments and the understanding of the interests of their peers within the Designated Working Group.

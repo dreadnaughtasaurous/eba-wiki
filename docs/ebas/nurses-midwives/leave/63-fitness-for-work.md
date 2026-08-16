@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Leave" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 63. Fitness for Work
 
 **63.1** In this clause 63, **Treating Practitioner** means any AHPRA Registered Health Practitioner relevant to the fitness for work concern including, where relevant, an AHPRA-registered health practitioner delivering a program (such as the Nursing and Midwifery Health Program Victoria) attended by the Employee, or a psychologist.

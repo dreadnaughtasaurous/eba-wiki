@@ -7,13 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 89. Supervision and Management
-
-
 
 **89.1 General**
 
@@ -62,5 +56,4 @@ AHP allied health professional physiotherapist OT occupational therapist social 
 **89.6 Definition of Allied Health Professional** 
 
 In this clause 89, **Allied Health Professional** means an employee working in a profession covered by this Agreement, a Dietitian, an Audiologist, or a Psychologist.
-
 

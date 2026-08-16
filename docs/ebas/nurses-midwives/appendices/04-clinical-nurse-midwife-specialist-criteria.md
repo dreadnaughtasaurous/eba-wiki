@@ -7,9 +7,7 @@ topics: []
 <span data-pagefind-meta="section:Appendices" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nursing staff RN EN registered enrolled midwifery NUM unit manager ANUM associate unit manager CNS CNE educator CNC consultant
-</div>
+
 
 # Appendix 4 - Clinical Nurse Midwife Specialist Criteria
 

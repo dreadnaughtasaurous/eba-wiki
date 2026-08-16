@@ -7,10 +7,6 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 222. Chief Executive Officers
 
 **222.1** The terms and conditions of employment for Chief Executive Officers (“CEO”) will, in respect of remuneration and related conditions, be those provided for under the Victorian Public Health Entity Executive Remuneration Policy (HEER Policy).).

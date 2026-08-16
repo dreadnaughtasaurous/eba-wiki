@@ -7,13 +7,7 @@ topics: ['consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Allied Health Professionals 2021-2026" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-AHP allied health professional physiotherapist OT occupational therapist social worker podiatrist radiographer speech pathologist dietitian pharmacist orthotist prosthetist genetic counsellor medical physicist clinical perfusionist audiologist
-</div>
-
 # 13. Consultation
-
-
 
 Nothing in this clause 13 limits the Employer’s obligations to consult with HSRs under the [OHS Act](https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045).
 
@@ -66,7 +60,6 @@ Under this clause 13:
 | 4 | Further Employer response (where relevant) | After the conclusion of step 3 |
 | 5 | Alternative proposal from Employee/s or Union | 14 days after step 4 |
 | 6 | Employer to consider alternative proposal/s consistent with the obligation to consult and, if applicable, to arrange further meetings with Employee/s or Union prior to advising outcome of Consultation | 14 days after step 5 |
-
 
 **13.4 Change Impact Statement (CIS) (Step 1)**
 
@@ -133,5 +126,4 @@ The Affected Employee/s, the Union and other representative (where relevant) may
     - **(iv)** any other matter the Commission considers relevant. Consult ation about Ch ang es to Ro ster s o r Hour s of Work
 
 Plain language terms: consult, major workplace change.
-
 

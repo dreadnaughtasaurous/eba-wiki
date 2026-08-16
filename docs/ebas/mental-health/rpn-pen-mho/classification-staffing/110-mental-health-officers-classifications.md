@@ -7,11 +7,8 @@ topics: []
 <span data-pagefind-meta="section:Classification & Staffing" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="7" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-worker psychiatric nurse nurse community AMHS authorised practitioner psychosocial disability support
-</div>
+
+
 
 # 110. Mental Health Officers Classifications
 

@@ -7,10 +7,6 @@ topics: ['ohs']
 <span data-pagefind-meta="section:Occupational Health & Safety" style="display:none"></span>
 <span data-pagefind-filter="eba:Nurses and Midwives 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-nurse midwife nursing staff RN EN registered nurse enrolled nurse midwifery NUM nurse unit manager ANUM associate nurse unit manager CNS clinical nurse specialist CNE clinical nurse educator CNC clinical nurse consultant
-</div>
-
 # 99. OH&S Risk Management
 
 **99.1** Those covered by this Agreement will take a proactive approach to the prevention and management of workplace injuries to the highest level of protection reasonably practicable in the circumstances, and to the achievement of a reduction in workplace injuries through the implementation of risk management systems incorporating hazard identification, risk assessment and control, and safe work practices.

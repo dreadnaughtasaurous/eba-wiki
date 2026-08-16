@@ -7,10 +7,6 @@ topics: ['education']
 <span data-pagefind-meta="section:Education & Professional Development" style="display:none"></span>
 <span data-pagefind-filter="eba:Mental Health Services 2024-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-mental health worker psychiatric nurse mental health nurse community mental health AMHS authorised mental health practitioner psychosocial disability support
-</div>
-
 # 138. In-Service Education & Training - Royal Children's Hospital
 
 **138.1** Sub-clause 138.2 below applies to the following Health Service only:

@@ -7,10 +7,6 @@ topics: ['consultation']
 <span data-pagefind-meta="section:Consultation & Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Biomedical Engineers 2025-2028" style="display:none"></span>
 
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-biomedical engineer BME biomedical engineering medical equipment hospital engineer clinical engineer technical officer
-</div>
-
 # 13. Consultation
 
 *Nothing in this clause 13 limits the Employer's obligations to consult with HSRs under the [OHS Act](https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045).*

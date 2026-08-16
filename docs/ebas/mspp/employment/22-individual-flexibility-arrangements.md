@@ -7,12 +7,6 @@ topics: ['higher-duties']
 <span data-pagefind-meta="section:Employment" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
-<div class="pagefind-weight" data-pagefind-weight="5" style="display:none" aria-hidden="true">
-</div>
-<div class="pagefind-synonyms" style="display:none" aria-hidden="true">
-MSPP medical scientists pharmacists psychologists medical scientist pharmacist psychologist laboratory scientist clinical psychologist research scientist hospital pharmacist
-</div>
-
 # 22. Individual Flexibility Arrangements
 
 - **(a)** An Employee and an Employer may enter into an individual flexibility arrangement pursuant to this clause in order to meet the genuine needs of the Employee and Employer. An individual flexibility arrangement must be genuinely agreed to by the Employee and Employer.
