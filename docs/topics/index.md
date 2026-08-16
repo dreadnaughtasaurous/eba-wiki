@@ -965,12 +965,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 - [10. Anti-Discrimination - Nurses & Midwives](/ebas/nurses-midwives/preliminary/10-anti-discrimination/)
 - [10A. Gender Based Discrimination - Nurses & Midwives](/ebas/nurses-midwives/preliminary/10A-gender-based-discrimination/)
 
-## dispute-resolution
-
-### Health Allied & Managers Admin
-
-- [19. Dispute Resolution Procedure - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/consultation-disputes/19-dispute-resolution-procedure/)
-
 ## disputes
 
 ### Allied Health
@@ -994,6 +988,10 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [12. Dispute Resolution Procedure - Doctors In Training](/ebas/doctors-in-training/consultation-disputes/12-dispute-resolution-procedure/)
 - [Part B – Consultation, Dispute Resolution, Discipline and Flexible Working Arrangements - Doctors In Training](/ebas/doctors-in-training/consultation-disputes/)
+
+### Health Allied & Managers Admin
+
+- [19. Dispute Resolution Procedure - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/consultation-disputes/19-dispute-resolution-procedure/)
 
 ### Medical Scientists, Pharm & Psych
 
@@ -1204,15 +1202,10 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 ### Health Allied & Managers Admin
 
+- [12. Worker Wellbeing and Employment Support Officers - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/managers-admin/classification-staffing/12-worker-wellbeing-and-employment-support-officers/)
 - [Schedule 3G - Aboriginal Employment Support Officer (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3g-aboriginal-employment-support-officer/)
 - [Schedule 3H - Disability Employment Support Officer (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3h-disability-employment-support-officer/)
 - [Schedule 3I - Veteran Employment Support Officer (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3i-veteran-employment-support-officer/)
-
-## employment-support-officers
-
-### Health Allied & Managers Admin
-
-- [12. Worker Wellbeing and Employment Support Officers - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/managers-admin/classification-staffing/12-worker-wellbeing-and-employment-support-officers/)
 
 ## employment-types
 
@@ -1245,12 +1238,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [35. Amenities - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/workplace-rights/35-amenities/)
 
-## family-and-domestic-violence-leave
-
-### Health Allied & Managers Admin
-
-- [69. Family and Domestic Violence Leave - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/leave/69-family-and-domestic-violence-leave/)
-
 ## family-violence-leave
 
 ### Allied Health
@@ -1271,6 +1258,10 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Doctors In Training
 
 - [71. Family Violence Leave - Doctors In Training](/ebas/doctors-in-training/leave/71-family-violence-leave/)
+
+### Health Allied & Managers Admin
+
+- [69. Family and Domestic Violence Leave - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/leave/69-family-and-domestic-violence-leave/)
 
 ### Medical Scientists, Pharm & Psych
 
@@ -1337,6 +1328,10 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 - [16. Individual Flexibility Arrangements - Doctors In Training](/ebas/doctors-in-training/consultation-disputes/16-individual-flexibility-arrangements/)
 - [74. Breastfeeding - Doctors In Training](/ebas/doctors-in-training/accommodation/74-breastfeeding/)
 
+### Health Allied & Managers Admin
+
+- [82. Requests For Flexible Working Arrangements - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/classification-staffing/82-requests-for-flexible-working-arrangements/)
+
 ### Medical Scientists, Pharm & Psych
 
 - [27. Flexible Working Arrangements - Medical Scientists, Pharm & Psych](/ebas/mspp/employment/27-flexible-working-arrangements/)
@@ -1364,12 +1359,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Health Allied & Managers Admin
 
 - [30. Transition to Retirement - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/employment/30-transition-to-retirement/)
-
-## flexible-working-arrangements
-
-### Health Allied & Managers Admin
-
-- [82. Requests For Flexible Working Arrangements - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/classification-staffing/82-requests-for-flexible-working-arrangements/)
 
 ## forms
 
@@ -1401,13 +1390,11 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [22. Full Time Employment - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/employment/22-full-time-employment/)
 
-## gender-affirmation
+## gender-affirmation-leave
 
 ### Health Allied & Managers Admin
 
 - [72. Gender Affirmation - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/leave/72-gender-affirmation/)
-
-## gender-affirmation-leave
 
 ### Mental Health
 
@@ -1506,16 +1493,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 - [Schedule 6 - Eastern Health Turning Point Research and Education Employees - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee/)
 - [Schedule 8 - Royal Women''s Hospital, Royal Children''s Hospital General Employment - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/8-royal-women-s-hospital-royal-children-s-hospital-general-emp/)
 - [Schedule 9 - Royal Children''s Hospital – Clinical Perfusionists - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/9-royal-children-s-hospital-clinical-perfusionists/)
-
-## hourly-rates
-
-### Doctors In Training
-
-- [Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions - Doctors In Training](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions/)
-
-### Medical Specialists
-
-- [Appendix 2 - Specialists Remuneration and Allowances - Medical Specialists](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances/)
 
 ## hours-of-work
 
@@ -2074,6 +2051,7 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Health Allied & Managers Admin
 
 - [84. Occupational Health & Safety - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/ohs/84-occupational-health-safety/)
+- [84. Occupational Health & Safety - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/ohs/84-occupational-health-safety/)
 - [85. OH&S Department Placement - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/ohs/85-ohs-department-placement/)
 - [86. Fitness for Work - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/ohs/86-fitness-for-work/)
 
@@ -2212,6 +2190,7 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Health Allied & Managers Admin
 
 - [21. Overtime In Lieu - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/hours-of-work/21-overtime-in-lieu/)
+- [7. Overtime In Lieu - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/managers-admin/hours-of-work/7-overtime-in-lieu/)
 
 ## paid-leave
 
@@ -2269,17 +2248,12 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 - [67. Pre-Adoption Leave - Nurses & Midwives](/ebas/nurses-midwives/leave/67-pre-adoption-leave/)
 - [68. Parental Leave - Nurses & Midwives](/ebas/nurses-midwives/leave/68-parental-leave/)
 
-## part-time
+## part-time-employment
 
 ### Health Allied & Managers Admin
 
 - [23. Regular Part-Time Employment - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/employment/23-regular-part-time-employment/)
 - [24. Part-Time Review of Hours - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/employment/24-part-time-review-of-hours/)
-
-## part-time-employment
-
-### Health Allied & Managers Admin
-
 - [31. Dual Part-Time Appointments - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/classification-staffing/31-dual-part-time-appointments/)
 
 ## pathology-technicians
@@ -2299,32 +2273,48 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Allied Health
 
 - [Appendix 2 - Wage Rates - Allied Health](/ebas/allied-health/appendices/2-wage-rates/)
+- [Appendix 2 - Wage Rates - Allied Health](/ebas/allied-health/appendices/2-wage-rates/)
+- [Appendix 3 - Allowances and Top of Band Payments - Allied Health](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments/)
 - [Appendix 3 - Allowances and Top of Band Payments - Allied Health](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments/)
 
 ### Biomedical Engineers
 
 - [Appendix 2 — Salaries & Allowances - Biomedical Engineers](/ebas/biomedical-engineers/appendices/2-wage-rates/)
+- [Appendix 2 — Salaries & Allowances - Biomedical Engineers](/ebas/biomedical-engineers/appendices/2-wage-rates/)
 
 ### Doctors In Training
 
 - [Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions - Doctors In Training](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions/)
+- [Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions - Doctors In Training](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions/)
+- [Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions - Doctors In Training](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions/)
+
+### Health Allied & Managers Admin
+
+- [Schedule 2B - Wage Rates (Health & Allied Services) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/2b-wage-rates-health-allied-services/)
+- [Schedule 3B – Wage Rates (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3b-wage-rates-managers-and-administrative-workers/)
 
 ### Medical Scientists, Pharm & Psych
 
 - [Schedule 13 - Pharmacist Weekend Ordinary Hours - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/13-pharmacist-weekend-ordinary-hours/)
 - [Schedule 2 - Rates of Pay - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/2-rates-of-pay-and-allowances/)
+- [Schedule 2 - Rates of Pay - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/2-rates-of-pay-and-allowances/)
+- [Schedule 3 - Allowances & Other Payments - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc/)
 - [Schedule 3 - Allowances & Other Payments - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc/)
 
 ### Medical Specialists
 
 - [Appendix 2 - Specialists Remuneration and Allowances - Medical Specialists](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances/)
+- [Appendix 2 - Specialists Remuneration and Allowances - Medical Specialists](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances/)
+- [Appendix 2 - Specialists Remuneration and Allowances - Medical Specialists](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances/)
 
 ### Mental Health
 
 - [Schedule 2 - Salaries and Allowances - Mental Health](/ebas/mental-health/schedules/02-salaries-and-allowances/)
+- [Schedule 2 - Salaries and Allowances - Mental Health](/ebas/mental-health/schedules/02-salaries-and-allowances/)
 
 ### Nurses & Midwives
 
+- [Appendix 2 - Wages and Allowances - Nurses & Midwives](/ebas/nurses-midwives/appendices/02-wages-and-allowances/)
 - [Appendix 2 - Wages and Allowances - Nurses & Midwives](/ebas/nurses-midwives/appendices/02-wages-and-allowances/)
 
 ## payroll-deductions
@@ -2361,6 +2351,7 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 ### Health Allied & Managers Admin
 
+- [24. Staff Appraisal - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/education-pd/24-staff-appraisal/)
 - [24. Staff Appraisal - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/education-pd/24-staff-appraisal/)
 
 ## performance-management
@@ -2625,38 +2616,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 - [63. Purchased Leave - Medical Scientists, Pharm & Psych](/ebas/mspp/leave/63-purchased-leave/)
 
 ## qualification-allowance
-
-### Mental Health
-
-- [Schedule 2 - Salaries and Allowances - Mental Health](/ebas/mental-health/schedules/02-salaries-and-allowances/)
-
-### Nurses & Midwives
-
-- [Appendix 2 - Wages and Allowances - Nurses & Midwives](/ebas/nurses-midwives/appendices/02-wages-and-allowances/)
-
-## rates
-
-### Allied Health
-
-- [Appendix 2 - Wage Rates - Allied Health](/ebas/allied-health/appendices/2-wage-rates/)
-- [Appendix 3 - Allowances and Top of Band Payments - Allied Health](/ebas/allied-health/appendices/3-allowances-and-top-of-band-payments/)
-
-### Biomedical Engineers
-
-- [Appendix 2 — Salaries & Allowances - Biomedical Engineers](/ebas/biomedical-engineers/appendices/2-wage-rates/)
-
-### Doctors In Training
-
-- [Appendix 2 - Doctors in Training Remuneration, Allowances and Deductions - Doctors In Training](/ebas/doctors-in-training/appendices/2-doctors-in-training-remuneration-allowances-and-deductions/)
-
-### Medical Scientists, Pharm & Psych
-
-- [Schedule 2 - Rates of Pay - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/2-rates-of-pay-and-allowances/)
-- [Schedule 3 - Allowances & Other Payments - Medical Scientists, Pharm & Psych](/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc/)
-
-### Medical Specialists
-
-- [Appendix 2 - Specialists Remuneration and Allowances - Medical Specialists](/ebas/medical-specialists/appendices/2-specialists-remuneration-and-allowances/)
 
 ### Mental Health
 
@@ -3130,12 +3089,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [68. Special Disaster Leave - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/leave/68-special-disaster-leave/)
 
-## staff-appraisal
-
-### Health Allied & Managers Admin
-
-- [24. Staff Appraisal - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/health-allied-services/education-pd/24-staff-appraisal/)
-
 ## staffing
 
 ### Allied Health
@@ -3324,12 +3277,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 ### Nurses & Midwives
 
 - [23. Notice Period Before Termination - Nurses & Midwives](/ebas/nurses-midwives/employment-types/23-notice-period-before-termination/)
-
-## time-off-in-lieu
-
-### Health Allied & Managers Admin
-
-- [7. Overtime In Lieu - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/managers-admin/hours-of-work/7-overtime-in-lieu/)
 
 ## tool-allowance
 
@@ -3523,13 +3470,6 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [31. Wages and Allowances - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/wages/31-wages-and-allowances/)
 
-## wage-rates
-
-### Health Allied & Managers Admin
-
-- [Schedule 2B - Wage Rates (Health & Allied Services) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/2b-wage-rates-health-allied-services/)
-- [Schedule 3B – Wage Rates (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3b-wage-rates-managers-and-administrative-workers/)
-
 ## wages
 
 ### Allied Health
@@ -3692,6 +3632,10 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [41. Workload Management and Review - Doctors In Training](/ebas/doctors-in-training/hours-of-work/41-workload-management-and-review/)
 
+### Health Allied & Managers Admin
+
+- [81. Workload Management - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/classification-staffing/81-workload-management/)
+
 ### Medical Scientists, Pharm & Psych
 
 - [33. Workload - Medical Scientists, Pharm & Psych](/ebas/mspp/workforce-management/33-workload/)
@@ -3700,23 +3644,11 @@ Every clause is tagged with one or more topics from a controlled vocabulary. Use
 
 - [21. Workload Management and Review - Medical Specialists](/ebas/medical-specialists/employment/21-workload-management-and-review/)
 
-## workload-management
-
-### Health Allied & Managers Admin
-
-- [81. Workload Management - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/classification-staffing/81-workload-management/)
-
 ## workplace-health-and-safety
 
 ### Health Allied & Managers Admin
 
 - [Schedule 3F - Worker Wellbeing Officer (Managers and Administrative Workers) - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/schedules/3f-worker-wellbeing-officer/)
-
-## workplace-safety
-
-### Health Allied & Managers Admin
-
-- [84. Occupational Health & Safety - Health Allied & Managers Admin](/ebas/has-managers-admin-2025-2027/common-terms/ohs/84-occupational-health-safety/)
 
 ## workplace-training
 

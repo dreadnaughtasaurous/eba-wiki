@@ -10,68 +10,92 @@
     "hours": "hours-of-work",
     "shiftwork": "shift-work",
     "workers-comp": "workers-compensation",
-    "occupational-health-and-safety": "ohs"
+    "occupational-health-and-safety": "ohs",
+    "flexible-working-arrangements": "flexible-work",
+    "workload-management": "workload",
+    "employment-support-officers": "employment-support",
+    "part-time": "part-time-employment",
+    "family-and-domestic-violence-leave": "family-violence-leave",
+    "gender-affirmation": "gender-affirmation-leave",
+    "rates": "pay-rates",
+    "hourly-rates": "pay-rates",
+    "wage-rates": "pay-rates",
+    "dispute-resolution": "disputes",
+    "workplace-safety": "ohs",
+    "time-off-in-lieu": "overtime-in-lieu",
+    "staff-appraisal": "performance-appraisal"
   },
   "aliasNotes": {
     "hours": "Canonical form 'hours-of-work' confirmed against patch-pagefind.mjs SECTION_INDEX_PATTERNS (/^hours.of.work$/ is an already-established section-index slug).",
-    "occupational-health-and-safety": "Canonical form 'ohs' confirmed against patch-pagefind.mjs SECTION_INDEX_PATTERNS (/^ohs$/ is an already-established section-index slug) — merged the long form INTO the short form, opposite direction from the other aliases, because the codebase already treats 'ohs' as canonical elsewhere."
+    "occupational-health-and-safety": "Canonical form 'ohs' confirmed against patch-pagefind.mjs SECTION_INDEX_PATTERNS (/^ohs$/ is an already-established section-index slug) — merged the long form INTO the short form, opposite direction from the other aliases, because the codebase already treats 'ohs' as canonical elsewhere.",
+    "flexible-working-arrangements": "Verified 15 Aug 2026: 'flexible-work' (23 files) and 'flexible-working-arrangements' (1 file) tag the identical Fair Work Act s.65 flexible-working-arrangements-request clause (specified employee, 21-day response, refusal grounds) near-verbatim across EBAs. 'flexibility' (cross-role rostering) and 'flexible-working' (1 file, loosely applied to a transition-to-retirement clause) are NOT part of this merge — kept in needsReview / left as-is respectively.",
+    "workload-management": "Verified 15 Aug 2026: 'workload' (3 files) and 'workload-management' (1 file, has-managers-admin-2025-2027 clause 81) share near-identical Purpose/Overtime/Safe-Staffing/Allocation structure verbatim; clause 81 itself lists synonyms:['workload']. 'staffing' (33 files, staffing levels/ratios) and 'staffing-flexibility' (1 file, narrow OHV dental role config) are genuinely distinct — not merged.",
+    "employment-support-officers": "Verified 15 Aug 2026: both tags cover the same named Aboriginal/Disability/Veteran Employment Support Officer roles (Schedules 3G/3H/3I) — 'employment-support-officers' clause cross-references those same schedules. 'employee-support' (1 file, general FDV-leave employer support commitment) is unrelated — not merged.",
+    "part-time": "Verified 15 Aug 2026: co-tagged on the same file (31-dual-part-time-appointments.md). Merge direction follows the established casual→casual-employment precedent (short form aliases into the more specific/descriptive form).",
+    "family-and-domestic-violence-leave": "Verified 15 Aug 2026: NOT an EBA-vintage terminology split as originally hypothesized — 'family-violence-leave' (13 files) is applied even to clauses explicitly titled 'Family and Domestic Violence Leave' across multiple EBAs including the newest (mental-health, nurses-midwives, childrens-services). Same clause tagged inconsistently regardless of date.",
+    "gender-affirmation": "Verified 15 Aug 2026: all 3 files (has-managers-admin-2025-2027, mental-health, nurses-midwives) share near-identical verbatim clause text ('The Employer encourages a culture...gender affirmation refers to...'). No broader non-leave usage of 'gender-affirmation' found.",
+    "rates/hourly-rates/wage-rates": "Verified 15 Aug 2026: 'rates' shows 100% file overlap with 'pay-rates' everywhere observed; 'hourly-rates' (2 files) is a strict subset of the same pages; 'wage-rates' (2 files, has-managers-admin-2025-2027 wage-table schedules) is the same clause type as the equivalent archive pages tagged rates+pay-rates+wages, differing only by authorship date. 'wages' (78 files, broader payment/salary-packaging/super topic) and 'wage-increases' (1 file, negotiated pay-rise percentages specifically) are genuinely distinct — not merged.",
+    "dispute-resolution": "Verified 15 Aug 2026: 'disputes' (23 files) covers the same 'Dispute Resolution Procedure'/'Independent Dispute Resolution Panel' clause type across every EBA; the sole 'dispute-resolution' clause's own synonyms list literally includes 'disputes'.",
+    "workplace-safety": "Verified 15 Aug 2026: co-tagged with 'occupational-health-and-safety' (itself aliased to 'ohs') on the core general OHS clause, and its own synonyms list includes 'ohs'. 'health-and-safety-representatives' (2 files, HSR election/training/placement) is a genuinely distinct elected-role sub-topic — not merged. 'workplace-health-and-safety' (1 file, Worker Wellbeing Officer schedule, already primarily tagged worker-wellbeing/mental-health) is ambiguous — left in needsReview.",
+    "time-off-in-lieu": "Verified 15 Aug 2026: both tags used on clauses titled 'Overtime In Lieu' with verbatim-identical clause text (managers-admin/hours-of-work/7-overtime-in-lieu.md vs health-allied-services/hours-of-work/21-overtime-in-lieu.md). Canonical picked as 'overtime-in-lieu' since both source files literally use that slug.",
+    "staff-appraisal": "Verified 15 Aug 2026: co-tagged on the same file (24-staff-appraisal.md, topics include both 'staff-appraisal' and 'performance-appraisal')."
   },
   "needsReview": [
     {
-      "tags": ["flexibility", "flexible-work", "flexible-working", "flexible-working-arrangements"],
-      "note": "FOUR spellings of what may be one concept, confirmed live in the full 226-topic list (was only 3 suspected from partial data). 'flexible-working-arrangements' may be the specific Fair Work Act statutory term while the others are informal variants used inconsistently. Check clause bodies before merging — do not assume all 4 collapse to one."
+      "tags": ["flexibility", "flexible-work", "flexible-working"],
+      "note": "'flexible-working-arrangements' resolved 15 Aug 2026 (merged into 'flexible-work' — see aliasNotes). Remaining: 'flexibility' (2 files, cross-role/ward rostering flexibility) is a distinct concept from the FWA-request clause type and should stay separate. 'flexible-working' (1 file, has-managers-admin-2025-2027 transition-to-retirement clause) loosely references a flexible arrangement as an implementation detail, not itself a FWA-request clause — thin sample, recommend manual retag of that one file to 'flexible-work' rather than a blanket alias."
     },
     {
-      "tags": ["workload", "workload-management", "staffing-flexibility", "staffing"],
-      "note": "'workload' is a canonical taxonomy value. The other three may be distinct procedural/staffing topics rather than duplicates. Do not merge into 'workload' without checking each individually."
-    },
-    {
-      "tags": ["employment-support", "employment-support-officers", "employee-support"],
-      "note": "'employment-support-officers' likely refers to specific named EBA roles (aboriginal/veteran/disability employment support officer schedules) rather than a general support topic — probably should stay distinct from the other two, not merge."
+      "tags": ["workload", "staffing-flexibility", "staffing"],
+      "note": "'workload-management' resolved 15 Aug 2026 (merged into 'workload' — see aliasNotes). Remaining: 'staffing' (33 files, staffing levels/ratios/minimums, distinct from workload) and 'staffing-flexibility' (1 file, narrow OHV dental role config) confirmed genuinely distinct — do not merge into 'workload'."
     },
     {
       "tags": ["leave", "paid-leave"],
-      "note": "'leave' is a canonical taxonomy value. 'paid-leave' may be intentionally more specific (paid vs. unpaid leave types) rather than a duplicate."
-    },
-    {
-      "tags": ["part-time", "part-time-employment"],
-      "note": "Same likely relationship as the resolved casual/casual-employment pair — probably safe to merge the same way. Held back only because it wasn't cross-checked against actual clause content yet; low-risk to resolve next."
+      "note": "Verified 15 Aug 2026: not a duplicate-tagging issue — 'paid-leave' is a single orphan tag (1 file, family-and-domestic-violence-leave clause) not used elsewhere for a paid/unpaid classification scheme. This is a data-quality question (extend 'paid-leave' to other clauses, or drop it) rather than a merge decision — do not alias into 'leave', that would lose the paid/unpaid semantic axis entirely if the tag is ever extended."
     },
     {
       "tags": ["education", "education-and-training"],
-      "note": "May be general-vs-specific rather than duplicates — check whether 'education-and-training' clauses are a strict subset of 'education' clauses before merging."
-    },
-    {
-      "tags": ["family-violence-leave", "family-and-domestic-violence-leave"],
-      "note": "Likely reflects a real terminology change in Fair Work Act leave entitlements over time (older EBAs use 'family violence leave', newer ones use the updated statutory term). May be legitimate that both exist across EBAs of different vintages — verify per-EBA before merging, since collapsing them could obscure which EBA uses which legal term."
-    },
-    {
-      "tags": ["gender-affirmation", "gender-affirmation-leave"],
-      "note": "Likely duplicate but unverified — check whether 'gender-affirmation' (no 'leave' suffix) is used for a broader policy topic beyond just the leave entitlement."
+      "note": "Verified 15 Aug 2026: 'education-and-training' (1 file, Workplace Trainer/Careers Advisor role schedule) is already co-tagged with 'workplace-training' and 'career-advice' on that same page, making it likely redundant with those two tags rather than a subset of 'education'. Leaning toward retag/drop rather than a cluster merge — needs a maintainer decision, not auto-merged."
     },
     {
       "tags": ["meal", "meal-allowance", "meal-breaks"],
-      "note": "Three-way ambiguity, NOT a simple pair — 'meal' alone could belong with either the allowance (payment) or the break (timing) concept. Do not merge without checking each tagged clause individually; picking the wrong target would misclassify content."
-    },
-    {
-      "tags": ["rates", "hourly-rates", "pay-rates", "wage-rates", "wages", "wage-increases"],
-      "note": "Large pay-related cluster. Several of these are likely genuinely distinct ('wage-increases' = pay rises specifically, 'wages' = canonical general topic) but 'rates' alone is suspiciously generic and may be a lazy duplicate of 'wage-rates' or 'hourly-rates'. Needs individual clause-by-clause review, not a bulk merge."
-    },
-    {
-      "tags": ["dispute-resolution", "disputes"],
-      "note": "'dispute-resolution' is the canonical taxonomy value. 'disputes' may be a shorthand duplicate or may cover a broader/different scope — check before merging."
+      "note": "Confirmed three-way ambiguity 15 Aug 2026: 'meal' co-occurs with BOTH 'meal-allowance' (payment, e.g. allowance schedules and overtime-meal clauses) and 'meal-breaks' (timing, e.g. the breaks clause) roughly evenly. A blind merge into either target would misclassify about half of its uses. Needs per-file retagging of 'meal' to whichever specific concept applies, not a bulk alias."
     },
     {
       "tags": ["transition", "transitional"],
-      "note": "'transition' likely relates to transition-to-retirement clauses specifically (a pattern already handled elsewhere in patch-pagefind.mjs's PRELIMINARY_PATTERNS/BODY_IGNORE_SLUGS). 'transitional' may refer to unrelated transitional/savings provisions. Likely NOT duplicates — verify before touching."
+      "note": "Verified 15 Aug 2026: original hypothesis (transition = retirement-related) was wrong, but conclusion holds — 'transition' (1 file) is about reclassification off a deprecated 'All Other Employees' code, 'transitional' (1 file) is an award savings/transitional-provisions schedule (FWC variation orders). Confirmed genuinely distinct concepts sharing only a word stem — do not merge."
     },
     {
       "tags": ["vehicle", "vehicle-allowance"],
-      "note": "Possible duplicate but 'vehicle' alone could cover broader fleet/vehicle-policy content beyond just the allowance — check before merging."
+      "note": "Verified 15 Aug 2026: 'vehicle' (6 files) is genuinely broader — covers the allowance, rural 4WD/AWD vehicle provision, FBT on salary-packaged vehicles, and general travelling allowances — while 'vehicle-allowance' (1 file) targets only the specific allowance subclause. Confirmed not a simple duplicate; if resolved, prefer a file-level retag of the single 'vehicle-allowance' file to 'vehicle' over a systemic alias."
     },
     {
-      "tags": ["workplace-health-and-safety", "workplace-safety", "ohs", "health-and-safety-representatives"],
-      "note": "Large OHS-adjacent cluster. 'health-and-safety-representatives' almost certainly refers to a specific elected-role topic (HSRs), not general OHS — should very likely stay separate. 'workplace-health-and-safety' and 'workplace-safety' are more likely true duplicates of 'ohs' but not yet verified against clause content."
+      "tags": ["workplace-health-and-safety", "health-and-safety-representatives"],
+      "note": "'workplace-safety' resolved 15 Aug 2026 (merged into 'ohs' — see aliasNotes). Remaining: 'health-and-safety-representatives' (2 files, HSR election/training/department-placement) confirmed a genuinely distinct elected-role sub-topic — not merged. 'workplace-health-and-safety' (1 file, Worker Wellbeing Officer schedule) is borderline — conceptually OHS-adjacent but the file's actual primary topic is already covered by 'worker-wellbeing'/'mental-health'; ambiguous enough to leave for a maintainer call rather than guess."
+    },
+    {
+      "tags": ["rates", "wages", "wage-increases"],
+      "note": "'rates'/'hourly-rates'/'wage-rates' resolved 15 Aug 2026 (merged into 'pay-rates' — see aliasNotes). Remaining: 'wages' (78 files, broad payment/salary-packaging/superannuation/higher-duties topic) and 'wage-increases' (1 file, negotiated pay-rise percentages specifically) confirmed genuinely distinct from the wage-rate-table concept — not merged. Note: leaving this stub entry mainly so a future audit doesn't re-flag 'wages' as unreviewed; no action needed unless new evidence surfaces."
+    },
+    {
+      "tags": ["conduct", "discipline", "performance-management"],
+      "note": "NEW 15 Aug 2026: all three co-occur on one omnibus file (…/20-managing-conduct-and-performance.md). 'discipline' (16 files) and 'performance-management' are each used more broadly elsewhere and may be legitimately distinct concepts that happen to co-occur on this single page; 'conduct' (1 file) may be redundant. Needs the same per-file disambiguation treatment as the 'meal' cluster before any merge — do not bulk-merge."
+    },
+    {
+      "tags": ["professional-development", "professional-development-leave"],
+      "note": "NEW 15 Aug 2026: 'professional-development-leave' (1 file) is tagged only with 'education', not 'professional-development' — overlap with 'professional-development' itself is unverified. Needs a content check before any merge call."
+    },
+    {
+      "tags": ["salary", "remuneration"],
+      "note": "NEW 15 Aug 2026: both broad payment-concept tags (7 and 14 files respectively) flagged for potential overlap with each other and with 'wages', not yet verified against clause content — follow-up pass needed."
+    },
+    {
+      "tags": ["certificate-allowance", "qualification-allowance", "higher-qualifications"],
+      "note": "NEW 15 Aug 2026: small allowance-adjacent tags (1-2 files each) that could plausibly overlap — not yet verified against clause content."
+    },
+    {
+      "tags": ["redeployment", "redundancy"],
+      "note": "NEW 15 Aug 2026: 'redeployment' (1 file) may be treated as a redundancy sub-topic in some EBAs — not yet verified. Low file count on one side makes this low-risk to check in a future pass."
     }
   ],
   "dataQualityFlags": [
