@@ -114,3 +114,45 @@ diversification) already performs at a "world-class" level against this
 corpus. The iteration loop's real output this session was the corpus itself
 and a harness capable of measuring it accurately — see "Files changed" in
 the final report for what was added.
+
+## Iteration 1 — fuzzy-fallback trim logic + a self-inflicted regression
+
+**Fix applied:** `runFuzzyFallback()` in `SearchModal.vue` (and its port in
+`pagefind-batch.mjs`) previously stopped stem-trimming at the *first* stem
+that returned any result, even a single coincidental low-confidence hit —
+e.g. `"redundanc"`/`"redundan"`/`"redunda"` each hit one unrelated page two
+trims before `"redund"` reaches 53 real matches. Changed to keep trimming
+past weak (<3 result) stems, remembering the best (highest result-count)
+stem seen, and only stopping early once a stem clears a ≥3-result
+confidence bar. Low risk: only changes which candidate is used *once
+fallback has already decided to run*, not when it runs.
+
+**Regression caught before commit:** rebuilding after this fix dropped the
+score to 75/78 (96.2%), with two new `clause-number` failures. Root cause:
+`docs/scripts/pagefind-accuracy-log.md` (this file) is inside `docs/` so
+VitePress built it as a real page, and Pagefind indexed its own
+test-diagnosis prose — which necessarily repeats real corpus terms like
+"redundancy", "overtime", clause numbers — polluting unrelated searches.
+Fixed with `srcExclude: ['**/scripts/**/*.md']` in `config.js`. Rebuilt:
+1247 pages indexed (down from 1248), regression gone, back to 77/78 (98.7%).
+
+**Revised diagnosis on the one remaining near-miss failure
+(`"redundanc"`):** the fuzzy-fallback fix above never actually gets a
+chance to run for this query. `SearchModal.vue` only invokes
+`runFuzzyFallback()` when the *raw* query returns **zero** results
+(`results.value.length === 0`) — and `"redundanc"` returns exactly 1 raw
+result (a section-index page whose excerpt happens to contain
+"redundancy…" via the stemmer), so the real product never falls back to
+`"redund"` at all. This is a different, larger-blast-radius change than the
+trim-logic fix: it would mean loosening the zero-result trigger to also
+cover low-confidence single-hit cases, which affects every search on the
+site, not just this one query. Not applied — the near-miss category is
+already at 6/7 (85.7%), clearing the ≥80% DoD threshold, and the risk of a
+site-wide trigger-condition change outweighs closing one query in a
+category that already passes. Left as a flagged follow-up if the user wants
+it revisited deliberately.
+
+**Result:** 77/78 (98.7%), same as the initial baseline, but with a real
+fuzzy-ranking quality fix landed and a genuine indexing-pollution bug (the
+srcExclude gap) caught and closed — both are net improvements even though
+the headline number didn't move.

@@ -9,6 +9,11 @@ export default defineConfig({
   title: 'EBAdb',
   description: 'A searchable reference for the eight Enterprise Bargaining Agreements covering the Victorian public health sector',
   ignoreDeadLinks: true,
+  // scripts/*.md (e.g. pagefind-accuracy-log.md) is tooling output, not wiki
+  // content — building it as a page lets its test-diagnosis prose (which
+  // necessarily repeats real clause/topic terms like "redundancy",
+  // "overtime") get indexed by Pagefind and pollute unrelated searches.
+  srcExclude: ['**/scripts/**/*.md'],
 
 head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/eba-wiki/favicon.ico' }],

@@ -17,3 +17,4 @@ docs/scripts/*.bak
 docs/.vitepress/config.js.timestamp-*.mjs
 link-legislation-log.txt
 link-variations-log.txt
+docs/scripts/pagefind-last-run.json

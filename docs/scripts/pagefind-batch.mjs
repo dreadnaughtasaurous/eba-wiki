@@ -41,18 +41,22 @@ function computeTitleScore(result, queryWords) {
 async function runFuzzyFallback(originalQuery, filters) {
   const words = originalQuery.split(' ')
   const lastWord = words[words.length - 1]
+  let best = null
   for (let len = lastWord.length - 1; len >= 3; len--) {
     const stem = lastWord.slice(0, len)
     const candidate = [...words.slice(0, -1), stem].join(' ')
     try {
       const search = await pagefind.search(candidate, { filters, excerptLength: 45 })
-      if (search.results.length > 0) {
-        const data = await Promise.all(search.results.slice(0, 8).map(r => r.data()))
-        return { candidate, data }
+      const count = search.results.length
+      if (count > 0 && (!best || count > best.count)) {
+        best = { search, candidate, count }
       }
+      if (count >= 3) break
     } catch { break }
   }
-  return null
+  if (!best) return null
+  const data = await Promise.all(best.search.results.slice(0, 8).map(r => r.data()))
+  return { candidate: best.candidate, data }
 }
 
 // ── Port of doSearch()'s core ranking pipeline from SearchModal.vue ────────

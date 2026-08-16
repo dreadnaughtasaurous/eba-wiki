@@ -2264,19 +2264,30 @@ async function runFuzzyFallback(originalQuery, filters) {
   fuzzyLoading.value = true
   const words    = originalQuery.split(' ')
   const lastWord = words[words.length - 1]
+  // Trims progressively shorter stems off the last word looking for a match.
+  // A stem can return a single coincidental low-confidence hit before a
+  // shorter stem reaches the real target (e.g. "redundanc"/"redundan"/
+  // "redunda" each hit one unrelated page before "redund" hits 53 real
+  // matches) — so keep trimming past weak hits, remembering the best one
+  // seen, and only stop early once a stem clears a confidence bar.
+  let best = null
   for (let len = lastWord.length - 1; len >= 3; len--) {
     const stem      = lastWord.slice(0, len)
     const candidate = [...words.slice(0, -1), stem].join(' ')
     try {
       const search = await pagefind.search(candidate, { filters, excerptLength: 45 })
-      if (search.results.length > 0) {
-        const settled = await Promise.allSettled(search.results.slice(0, 8).map(r => r.data()))
-        const data    = settled.filter(s => s.status === 'fulfilled').map(s => s.value)
-        fuzzyResults.value = data
-        fuzzyQuery.value   = candidate
-        break
+      const count  = search.results.length
+      if (count > 0 && (!best || count > best.count)) {
+        best = { search, candidate, count }
       }
+      if (count >= 3) break
     } catch { break }
+  }
+  if (best) {
+    const settled = await Promise.allSettled(best.search.results.slice(0, 8).map(r => r.data()))
+    const data    = settled.filter(s => s.status === 'fulfilled').map(s => s.value)
+    fuzzyResults.value = data
+    fuzzyQuery.value   = best.candidate
   }
   fuzzyLoading.value = false
 }
