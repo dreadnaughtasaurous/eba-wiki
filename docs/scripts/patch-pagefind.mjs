@@ -311,6 +311,7 @@ const SLUG_SYNONYMS = {
   '38A-personal-leave':                             'sick leave sick day carer leave',
   '25-personal-carer-s-leave-and-compassionate-leave': 'sick leave sick day carer leave',
   '61-personal-leave':                              'sick leave sick day carer leave',
+  '58-personal-leave':                              'sick leave sick day carer leave',
 
   // ── LONG SERVICE LEAVE (LSL) ──────────────────────────────────────────────────
   // "LSL" appears in EBA body text but the synonym ensures the PRIMARY clause
@@ -319,7 +320,7 @@ const SLUG_SYNONYMS = {
   '72-long-service-leave': 'LSL long service entitlement',
   '63-long-service-leave': 'LSL long service entitlement',
   '68-long-service-leave': 'LSL long service entitlement',
-  '61-long-service-leave': 'LSL long service entitlement',
+  '64-long-service-leave': 'LSL long service entitlement',
   '67-long-service-leave': 'LSL long service entitlement',
   '55-long-service-leave': 'LSL long service entitlement',
   '47-long-service-leave': 'LSL long service entitlement',
@@ -330,14 +331,16 @@ const SLUG_SYNONYMS = {
   '70-parental-leave':   'maternity leave paternity leave adoption leave',
   '61-parental-leave':   'maternity leave paternity leave adoption leave',
   '67-parental-leave':   'maternity leave paternity leave adoption leave',
-  '59-parental-leave':   'maternity leave paternity leave adoption leave',
+  '68-parental-leave':   'maternity leave paternity leave adoption leave',
+  '62-parental-leave':   'maternity leave paternity leave adoption leave',
   '54-parental-leave':   'maternity leave paternity leave adoption leave',
   '50-parental-leave':   'maternity leave paternity leave adoption leave',
+  '25A-parental-leave-and-related-entitlements': 'maternity leave paternity leave adoption leave',
 
   // ── COMPASSIONATE LEAVE ───────────────────────────────────────────────────────
   // "bereavement leave" is the common search term; EBAs use "compassionate leave".
   '65-compassionate-leave':  'bereavement leave funeral leave',
-  '56-compassionate-leave':  'bereavement leave funeral leave',
+  '60-compassionate-leave':  'bereavement leave funeral leave',
   '62-compassionate-leave':  'bereavement leave funeral leave',
   '57-compassionate-leave':  'bereavement leave funeral leave',
   '63-compassionate-leave':  'bereavement leave funeral leave',
@@ -345,18 +348,19 @@ const SLUG_SYNONYMS = {
   '39A-compassionate-leave': 'bereavement leave funeral leave',
   '26-compassionate-leave':  'bereavement leave funeral leave',
   '62-personal-leave-including-carer-s-leave': 'bereavement leave funeral leave',
+  '25-personal-carer-s-leave-and-compassionate-leave': 'bereavement leave funeral leave',
 
   // ── FAMILY VIOLENCE LEAVE ─────────────────────────────────────────────────────
   // "domestic violence" is the common search term.
   '71-family-violence-leave': 'domestic violence leave DV leave',
   '64-family-violence-leave': 'domestic violence leave DV leave',
-  '69-family-violence-leave': 'domestic violence leave DV leave',
+  '69-family-and-domestic-violence-leave': 'domestic violence leave DV leave',
   '63-family-violence-leave': 'domestic violence leave DV leave',
   '68-family-violence-leave': 'domestic violence leave DV leave',
   '56-family-violence-leave': 'domestic violence leave DV leave',
   '40A-family-violence-leave':'domestic violence leave DV leave',
   '27-family-violence-leave': 'domestic violence leave DV leave',
-  '69-family-violence-leave': 'domestic violence leave DV leave',
+  '45-family-and-domestic-violence-leave': 'domestic violence leave DV leave',
 
   // ── JURY DUTY ─────────────────────────────────────────────────────────────────
   '69-jury-service':    'jury duty court attendance',
@@ -387,6 +391,13 @@ const SLUG_SYNONYMS = {
   '38-overtime-and-on-call-allowances':            'meal break allowance food allowance',
   '35-overtime-and-on-call-allowances':            'meal break allowance food allowance',
   '37-overtime-and-on-call-allowances':            'meal break allowance food allowance',
+
+  // ── VEHICLE ALLOWANCE ─────────────────────────────────────────────────────────
+  // "car allowance" is the common search term; Pagefind's stemmer also
+  // collides bare "car" with "carer's leave" clauses, burying this page for
+  // "car allowance" queries — the exact-phrase synonym boost corrects that.
+  '34-vehicle-allowance': 'car allowance',
+  '36-vehicle-allowance': 'car allowance',
 
   // ── SHIFT WORK / PENALTY RATES ────────────────────────────────────────────────
   // "afternoon shift", "night shift loading" absent from most EBA text.
