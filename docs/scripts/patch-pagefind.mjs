@@ -96,6 +96,8 @@ function getFirstProse(mdPath) {
   const lines = body.split(/\r?\n/)
 
   let inCodeFence = false
+  let inHtmlBlock = false
+  let inInfoContainer = false
   for (const rawLine of lines) {
     const line = rawLine.trim()
 
@@ -106,9 +108,39 @@ function getFirstProse(mdPath) {
     }
     if (inCodeFence) continue
 
+    // Track multi-line HTML blocks (e.g. an injected pagefind-synonyms div
+    // spanning several lines) — skip everything until the closing tag, so
+    // the block's inner text content isn't picked up as "prose".
+    if (inHtmlBlock) {
+      if (line.startsWith('</')) inHtmlBlock = false
+      continue
+    }
+
+    // ::: info blocks are, site-wide, always a "Related pay information"
+    // nav-link list — never real clause content — so skip their entire body,
+    // not just the fence lines. ::: tip blocks (e.g. "Source: Salary Circular
+    // NNN...") do contain genuine descriptive prose, so their body is left to
+    // flow through the normal checks below via the generic ':' fence skip.
+    if (inInfoContainer) {
+      if (line === ':::') inInfoContainer = false
+      continue
+    }
+    if (/^:::\s*info\b/i.test(line)) {
+      inInfoContainer = true
+      continue
+    }
+
     if (!line)                              continue  // empty
     if (line.startsWith('#'))              continue  // headings
-    if (line.startsWith('<'))              continue  // HTML tags/elements
+    if (line.startsWith('<')) {
+      // Only single-line tags (self-closing or closed on the same line,
+      // e.g. `<span ...></span>`) are safe to skip outright. Anything else
+      // opens a block we must skip through, not just this one line.
+      if (!/\/>\s*$/.test(line) && !/<\/[a-zA-Z][\w-]*>\s*$/.test(line)) {
+        inHtmlBlock = true
+      }
+      continue  // HTML tags/elements
+    }
     if (line.startsWith('|'))             continue  // table rows
     if (line.startsWith(':'))             continue  // VitePress containers (:::tip etc.)
     if (/^[-*_=]{3,}$/.test(line))       continue  // horizontal rules / separators
