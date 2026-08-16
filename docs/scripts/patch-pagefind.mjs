@@ -27,6 +27,16 @@ let patched          = 0
 let skipped          = 0
 let excerptMetaCount = 0
 
+// A page's body is just the <SectionIndex /> component when it's a named
+// section landing page — true regardless of slug naming, so it's a more
+// reliable Tier-3-weight signal than the hand-curated SECTION_INDEX_PATTERNS
+// slug whitelist (see computeWeight).
+function hasSectionIndexComponent(mdPath) {
+  if (!existsSync(mdPath)) return false
+  const content = readFileSync(mdPath, 'utf8')
+  return /<SectionIndex\b/.test(content)
+}
+
 function getFrontMatter(mdPath) {
   if (!existsSync(mdPath)) return {}
   const content = readFileSync(mdPath, 'utf8')
@@ -480,7 +490,7 @@ const BODY_IGNORE_PATTERNS = [
   /conversion.of.unused/,
 ]
 
-function computeWeight(slug, topics) {
+function computeWeight(slug, topics, isSectionIndexBody) {
   const slugNorm = slug.toLowerCase()
 
   // ── Tier 5: Preliminary / definitions / low-priority reference ───────────────
@@ -494,8 +504,17 @@ function computeWeight(slug, topics) {
 
   // ── Tier 3: Section-index pages (no leading digit) ───────────────────────────
   // Named section landing pages — useful for broad/untrained searches.
+  // SECTION_INDEX_PATTERNS is a curated slug whitelist that only ever covered
+  // the EBAs it was written against — it silently misses this same page type
+  // in every EBA added since (mspp, mental-health, medical-specialists,
+  // doctors-in-training, children's-services all had real section-index pages
+  // falling through to the tier-5 fallback below under un-listed slugs like
+  // "disputes", "operation", "accommodation"). isSectionIndexBody is a
+  // self-maintaining fallback signal: any page whose body renders the
+  // <SectionIndex /> component IS a section-index page by construction,
+  // regardless of what its slug happens to be.
   if (!/^\d/.test(slugNorm)) {
-    if (SECTION_INDEX_PATTERNS.some(re => re.test(slugNorm))) return 7
+    if (SECTION_INDEX_PATTERNS.some(re => re.test(slugNorm)) || isSectionIndexBody) return 7
     // Any other non-numbered page (e.g. appendices landing, ebas/index) gets 5
     return 5
   }
@@ -519,13 +538,21 @@ function computeWeight(slug, topics) {
   // the topic → primary clause → weight 10. A low ratio means the topic word
   // appears incidentally inside a longer subsidiary clause → weight 6.
   //
-  // Calibration examples (threshold 0.30):
+  // Calibration examples (threshold 0.30). Verified reproducible against the
+  // live corpus via `node scripts/audit-weight-distribution.mjs` (15 Aug 2026):
   //   52-overtime                              → 1/1 = 1.00 → weight 10 ✓ (primary)
-  //   55-rest-period-after-overtime-recall-... → 1/8 = 0.13 → weight  6 ✓ (subsidiary)
   //   57-annual-leave                          → 1/2 = 0.50 → weight 10 ✓ (primary)
-  //   59-cashing-out-of-annual-leave           → 1/4 = 0.25 → weight  6 ✓ (subsidiary)
   //   54-personal-carer-s-leave                → 1/3 = 0.33 → weight 10 ✓ (primary)
   //   33-allowances-related-to-overtime        → 1/3 = 0.33 → weight 10 ✓ (primary allowance)
+  //
+  // These two never actually reach this specificity check — they're also
+  // matched by PRELIMINARY_PATTERNS above, which intercepts them first at
+  // weight 3. The ratios below are what WOULD apply if they reached here;
+  // they're kept only to show why the specificity logic alone would still
+  // correctly rate them subsidiary (weight 6) even without that interception —
+  // don't read "weight 6" off this comment as their actual resolved weight.
+  //   55-rest-period-after-overtime-recall-... → 1/8 = 0.13 → (would be weight 6; actually 3, see above)
+  //   59-cashing-out-of-annual-leave           → 1/4 = 0.25 → (would be weight 6; actually 3, see above)
   const slugContentWords = slugNorm
     .replace(/^\d+[a-z]?-/, '')   // strip leading clause number (e.g. "52-", "38A-")
     .split('-')
@@ -559,6 +586,12 @@ function computeWeight(slug, topics) {
   // Tagged but no primary slug-topic match → general supporting clause
   return 6
 }
+
+// Wrapped in main() — and only invoked when this file is run directly, not
+// when imported — so other scripts (e.g. an audit tool) can import
+// computeWeight()/hasSectionIndexComponent()/getFrontMatter() and reuse the
+// exact same logic without triggering a full dist/ patch as a side effect.
+function main() {
 
 // Collect all HTML files recursively using a synchronous walker.
 // fs/promises glob requires Node.js v22+; this approach works on v18 and v20.
@@ -646,7 +679,7 @@ for (const file of htmlFiles) {
   // which slug words match it and silently shift weight-tier results. If you
   // ever want the weight model to also use normalized topics, re-calibrate the
   // specificity threshold deliberately rather than changing this line in passing.
-  const weight = computeWeight(slug, fm.topics || '')
+  const weight = computeWeight(slug, fm.topics || '', hasSectionIndexComponent(mdPath))
   const weightDiv = `<div class="pagefind-weight" data-pagefind-weight="${weight}" data-allow-mismatch style="display:none" aria-hidden="true"></div>`
 
   // ── SYNONYMS BLOCK ───────────────────────────────────────────────────────────
@@ -726,3 +759,12 @@ for (const file of htmlFiles) {
 }
 
 console.log(`Patched ${patched} files, skipped ${skipped}, excerpt meta injected on ${excerptMetaCount} pages`)
+
+}
+
+import { pathToFileURL } from 'url'
+if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
+  main()
+}
+
+export { computeWeight, hasSectionIndexComponent, getFrontMatter, getFirstProse, PRELIMINARY_PATTERNS, WAGE_TABLE_PATTERNS, SECTION_INDEX_PATTERNS }
