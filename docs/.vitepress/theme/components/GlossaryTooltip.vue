@@ -25,6 +25,7 @@
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vitepress'
+import TERM_FREQUENCY_CAPS from '../../../generated/term-frequency-caps.json'
 
 const route = useRoute()
 
@@ -181,38 +182,45 @@ function buildPattern(terms, caseInsensitive) {
   return new RegExp(`\\b(${escaped.join('|')})\\b`, flags)
 }
 
-function wrapTextNode(textNode, pattern, glossary) {
-  const text = textNode.textContent
-  pattern.lastIndex = 0
-  if (!pattern.test(text)) return
-  pattern.lastIndex = 0
+// Resolves the canonical glossary key for a raw regex match (exact match
+// first, then case-insensitive fallback), matching the lookup that used to
+// happen inline inside wrapTextNode.
+function resolveCanonical(glossary, matchText) {
+  return (
+    Object.keys(glossary).find(k => k === matchText) ??
+    Object.keys(glossary).find(k => k.toLowerCase() === matchText.toLowerCase()) ??
+    matchText
+  )
+}
 
+// Builds the replacement fragment for one text node from its precomputed
+// Pass 1 decisions. `decisions` is an array of
+// { index, length, matchText, canonical, wrap }, in ascending index order.
+function wrapTextNode(textNode, decisions) {
+  const text = textNode.textContent
   const frag = document.createDocumentFragment()
   let lastIdx = 0
-  let m
 
-  while ((m = pattern.exec(text)) !== null) {
+  for (const { index, length, matchText, canonical, wrap } of decisions) {
     // Text before this match
-    if (m.index > lastIdx) {
-      frag.appendChild(document.createTextNode(text.slice(lastIdx, m.index)))
+    if (index > lastIdx) {
+      frag.appendChild(document.createTextNode(text.slice(lastIdx, index)))
     }
 
-    // Find the canonical key (exact match first, then case-insensitive fallback)
-    const canonical =
-      Object.keys(glossary).find(k => k === m[0]) ??
-      Object.keys(glossary).find(k => k.toLowerCase() === m[0].toLowerCase()) ??
-      m[0]
+    if (wrap) {
+      const span = document.createElement('span')
+      span.className = 'gloss-term'
+      span.tabIndex  = 0
+      span.setAttribute('role', 'button')
+      span.setAttribute('aria-describedby', `gloss-tt-${uid}`)
+      span.dataset.gt  = canonical   // lookup key into glossary
+      span.textContent = matchText   // preserve original text casing
+      frag.appendChild(span)
+    } else {
+      frag.appendChild(document.createTextNode(matchText))
+    }
 
-    const span = document.createElement('span')
-    span.className = 'gloss-term'
-    span.tabIndex  = 0
-    span.setAttribute('role', 'button')
-    span.setAttribute('aria-describedby', `gloss-tt-${uid}`)
-    span.dataset.gt  = canonical   // lookup key into glossary
-    span.textContent = m[0]        // preserve original text casing
-    frag.appendChild(span)
-
-    lastIdx = m.index + m[0].length
+    lastIdx = index + length
   }
 
   // Any trailing text after the last match
@@ -240,10 +248,41 @@ function walkDoc(root, glossary, caseInsensitive) {
     }
   }
 
-  // Process in reverse so earlier replacements don't shift sibling indices
-  for (let i = nodes.length - 1; i >= 0; i--) {
+  // ── Pass 1 (forward/reading order): decide wrap vs. plain-text for every
+  // match, incrementing a per-term counts map that's fresh for this call —
+  // caps reset on every applyGlossary() run, i.e. every page.
+  const counts = {}
+  const decisionsByNode = new Map()
+
+  for (const node of nodes) {
+    const text = node.textContent
     pattern.lastIndex = 0
-    wrapTextNode(nodes[i], pattern, glossary)
+    let m
+    const decisions = []
+
+    while ((m = pattern.exec(text)) !== null) {
+      const canonical = resolveCanonical(glossary, m[0])
+      const key = canonical.toLowerCase()
+      const cap = TERM_FREQUENCY_CAPS[key]
+
+      let wrap = true
+      if (cap !== undefined) {
+        const used = counts[key] ?? 0
+        wrap = used < cap
+        counts[key] = used + 1
+      }
+
+      decisions.push({ index: m.index, length: m[0].length, matchText: m[0], canonical, wrap })
+    }
+
+    if (decisions.length) decisionsByNode.set(node, decisions)
+  }
+
+  // ── Pass 2 (reverse order, as before): apply the precomputed decisions.
+  // Reverse order so earlier replacements don't shift sibling indices.
+  for (let i = nodes.length - 1; i >= 0; i--) {
+    const decisions = decisionsByNode.get(nodes[i])
+    if (decisions) wrapTextNode(nodes[i], decisions)
   }
 }
 
