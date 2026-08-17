@@ -14,7 +14,7 @@
         <p class="gloss-tt-def">{{ tip.def }}</p>
         <a
           v-if="defsHref"
-          :href="defsHref"
+          :href="withBase(defsHref)"
           class="gloss-tt-link"
         >View full definition →</a>
       </div>
@@ -24,7 +24,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 import TERM_FREQUENCY_CAPS from '../../../generated/term-frequency-caps.json'
 
 const route = useRoute()
@@ -118,7 +118,7 @@ async function loadGlossary(eba) {
   const meta = EBA_META[eba]
   if (!meta) { cache[eba] = null; return null }
   try {
-    const res = await fetch(meta.file)
+    const res = await fetch(withBase(meta.file))
     if (!res.ok) { cache[eba] = null; return null }
     cache[eba] = await res.json()
     return cache[eba]
