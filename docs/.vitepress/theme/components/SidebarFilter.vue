@@ -72,6 +72,21 @@ function getSidebarNav() {
   return document.querySelector('.VPSidebar .nav')
 }
 
+// VitePress's own sidebar rendering gets automatic /eba-wiki/ base
+// prefixing on every href (unlike custom-component hrefs, which don't) —
+// strip it before segment-checking so this matches in production, not
+// just in docs:dev where the base is '/'.
+const SITE_BASE = import.meta.env.BASE_URL
+
+function isClauseLeafHref(href) {
+  let h = href || ''
+  if (SITE_BASE && SITE_BASE !== '/' && h.startsWith(SITE_BASE)) {
+    h = '/' + h.slice(SITE_BASE.length)
+  }
+  const parts = h.split('/').filter(Boolean)
+  return parts[0] === 'ebas' && parts.length >= 4
+}
+
 function onInput() {
   nextTick(() => applyFilter())
 }
@@ -99,10 +114,9 @@ function applyFilter() {
   groups.forEach(group => {
 
     // Find all leaf <a> links in this group (clause pages, not section indexes)
-    const leaves = Array.from(group.querySelectorAll('a')).filter(a => {
-      const parts = (a.getAttribute('href') || '').split('/').filter(Boolean)
-      return parts[0] === 'ebas' && parts.length >= 4
-    })
+    const leaves = Array.from(group.querySelectorAll('a')).filter(a =>
+      isClauseLeafHref(a.getAttribute('href'))
+    )
 
     // Find which leaves match
     const matchingLeaves = leaves.filter(a =>
