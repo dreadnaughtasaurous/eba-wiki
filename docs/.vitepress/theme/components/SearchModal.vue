@@ -497,7 +497,7 @@
                   <a
                     v-for="page in recentlyViewed"
                     :key="page.path"
-                    :href="page.path"
+                    :href="withBase(page.path)"
                     class="idle-row"
                     @click="close"
                     @keydown.up.prevent="focusIdleRow($event.currentTarget, -1)"
@@ -519,7 +519,7 @@
                   <a
                     v-for="bm in bookmarks.slice(0, 3)"
                     :key="bm.id"
-                    :href="bm.url"
+                    :href="withBase(bm.url)"
                     class="idle-row idle-row--bm"
                     @click="close"
                     @keydown.up.prevent="focusIdleRow($event.currentTarget, -1)"
@@ -744,6 +744,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
+import { withBase } from 'vitepress'
 import { topicList } from '../../generated/topic-list.mjs'
 import { ebaColors, ebaList, ebaSlugLabels, EBA_REGISTRY } from '../eba-registry.js'
 
