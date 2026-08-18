@@ -29,6 +29,16 @@
 
 const TTL_90_DAYS = 7_776_000
 
+// The site is deployed under the /eba-wiki/ subpath. Genuine in-content
+// clause links carry that prefix (VitePress bakes it into compiled markdown
+// hrefs), so pageview `path` values logged by real navigation include it —
+// but the '/ebas/'-prefix checks below were written assuming an unprefixed
+// path. Strip defensively at read time so both legacy (prefixed) and any
+// future (already-unprefixed, if the client is fixed) records match.
+function stripSiteBase(path) {
+  return path.startsWith('/eba-wiki/') ? path.slice('/eba-wiki'.length) : path
+}
+
 const CORS_ORIGINS = [
   'https://dreadnaughtasaurous.github.io',
   'http://localhost:5173',
@@ -476,10 +486,11 @@ async function handleGetTopPages(request, env, origin) {
     const pageMap = {}
     for (const entry of allPageviews) {
       if (!entry || !entry.path) continue
-      if (!entry.path.startsWith('/ebas/')) continue
-      const k = entry.path
+      const path = stripSiteBase(entry.path)
+      if (!path.startsWith('/ebas/')) continue
+      const k = path
       if (!pageMap[k]) {
-        pageMap[k] = { path: entry.path, title: entry.title || '', eba: entry.eba || '', count: 0 }
+        pageMap[k] = { path, title: entry.title || '', eba: entry.eba || '', count: 0 }
       }
       pageMap[k].count++
       if (entry.title) pageMap[k].title = entry.title.replace(/\s*\|.*$/, '').trim()
@@ -585,12 +596,13 @@ async function handleGetTrending(request, env, origin) {
       )
       for (const v of values) {
         if (!v || !v.path) continue
-        const parts = v.path.split('/').filter(Boolean)
+        const path  = stripSiteBase(v.path)
+        const parts = path.split('/').filter(Boolean)
         if (parts[0] !== 'ebas' || parts.length < 3) continue
 
-        pathCounts[v.path] = (pathCounts[v.path] || 0) + 1
-        if (!pathMeta[v.path]) {
-          pathMeta[v.path] = {
+        pathCounts[path] = (pathCounts[path] || 0) + 1
+        if (!pathMeta[path]) {
+          pathMeta[path] = {
             title: (v.title || '').replace(/\s*\|.*$/, '').trim(),
             eba:   v.eba || '',
           }
