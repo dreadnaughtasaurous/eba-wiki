@@ -2391,10 +2391,10 @@ function handleResultClick(result) {
 
 /* ── Modal box ── */
 .search-modal {
-  width: min(640px, calc(100vw - 2rem));
+  width: min(900px, calc(100vw - 60px));
   max-height: calc(100vh - 88px);
   background: var(--vp-c-bg); border: 1px solid var(--vp-c-divider);
-  border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden;
+  border-radius: 6px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden;
   display: flex; flex-direction: column;
   /* Promote to compositor layer before the open transition starts.
      Prevents first-frame stutter caused by simultaneous DOM insertion
