@@ -60,7 +60,7 @@ onMounted(async () => {
         </svg>
         Trending Now
       </span>
-      <a href="/for-you/" class="ht-see-all">For You page →</a>
+      <a :href="withBase('/for-you/')" class="ht-see-all">For You page →</a>
     </div>
 
     <!-- Skeleton shimmer while loading -->

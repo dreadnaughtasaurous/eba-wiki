@@ -32,6 +32,17 @@ import EBAIndexPage    from './components/EBAIndexPage.vue'
 import SectionIndex    from './components/SectionIndex.vue'
 import { EBA_REGISTRY } from './eba-registry.js'
 
+// route.path / window.location.pathname / the router's onBefore/onAfter
+// callback argument all include the configured /eba-wiki/ base prefix in
+// production builds, but not in docs:dev or Vue's SSR render pass (same
+// gotcha documented in SectionIndex.vue's key derivation). Any code doing
+// segment-based path parsing (startsWith('/ebas/'), split('/')[0] === 'ebas')
+// must strip it first or it silently never matches in production.
+function stripBase(path) {
+  const base = import.meta.env.BASE_URL
+  return (base && base !== '/' && path.startsWith(base)) ? '/' + path.slice(base.length) : path
+}
+
 // ── EBA Ambient Sidebar Glow ───────────────────────────────────────────────
 // Converts a 6-digit hex colour string (e.g. '#E11D48') to an rgba() string
 // at the given opacity. Used to derive the shadow colour from EBA_REGISTRY.
@@ -48,12 +59,7 @@ function hexToRgba(hex, alpha) {
 // which means the CSS shadow renders as nothing — no visible effect.
 function applyEbaSidebarGlow(path) {
   if (typeof document === 'undefined') return
-  // path may be window.location.pathname (base-prefixed in production) or
-  // an already base-stripped router path — strip defensively so both
-  // callers land on the same 'ebas' segment check.
-  const base = import.meta.env.BASE_URL
-  const normPath = (base && base !== '/' && path.startsWith(base)) ? '/' + path.slice(base.length) : path
-  const parts = normPath.split('/').filter(Boolean)
+  const parts = stripBase(path).split('/').filter(Boolean)
   const slug  = parts[0] === 'ebas' && parts[1] ? parts[1] : null
   const entry = slug ? EBA_REGISTRY.find(e => e.slug === slug) : null
   const value = entry ? hexToRgba(entry.color, 0.09) : 'transparent'
@@ -150,15 +156,6 @@ export default {
     // Return false to cancel; return nothing (undefined) to allow.
 
     if (typeof window !== 'undefined') {
-      // route.path / resolved pathnames include the /eba-wiki/ base prefix
-      // in production but not in docs:dev — strip it so the '/ebas/' guard
-      // and the same-page comparison below work identically in both
-      // contexts. Same gotcha as SectionIndex.vue's key derivation.
-      const stripBase = (p) => {
-        const base = import.meta.env.BASE_URL
-        return (base && base !== '/' && p.startsWith(base)) ? '/' + p.slice(base.length) : p
-      }
-
       router.onBeforeRouteChange = (to) => {
         const toPath = stripBase(typeof to === 'string' ? to : (to.path || ''))
         if (!toPath.startsWith('/ebas/')) return
@@ -445,7 +442,15 @@ export default {
     }
 
     if (typeof window !== 'undefined') router.onAfterRouteChanged = (to) => {
-      const path      = typeof to === 'string' ? to : (to.path || '')
+      // Genuine in-content clause links are compiled with the /eba-wiki/
+      // base baked into their href by VitePress, so `to`/`to.path` here
+      // carries that prefix in production. Every check below assumes an
+      // unprefixed path (startsWith('/ebas/')) — without stripping first,
+      // recently-viewed, visit-history, and the analytics pageview beacon
+      // silently stop recording real navigation in production, which is
+      // why Trending Now / For You / recently-viewed appeared empty despite
+      // real traffic.
+      const path      = stripBase(typeof to === 'string' ? to : (to.path || ''))
       const sessionId = getSessionId()
       const started   = sessionStorage.getItem('eba-session-started') || new Date().toISOString()
       const now       = new Date().toISOString()
