@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" target="_blank" rel="noopener noreferrer" class="file-attachment">
+  <a :href="withBase(href)" target="_blank" rel="noopener noreferrer" class="file-attachment">
     <span class="file-attachment-icon">
 
       <!-- PDF icon (default) -->
@@ -34,6 +34,8 @@
 </template>
 
 <script setup>
+import { withBase } from 'vitepress'
+
 defineProps({
   href:        { type: String,  required: true },
   label:       { type: String,  required: true },

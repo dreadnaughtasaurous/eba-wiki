@@ -1,4 +1,5 @@
 <script setup>
+import { withBase } from 'vitepress'
 import { EBA_REGISTRY } from '../eba-registry.js'
 const ebas = EBA_REGISTRY.filter(e => !e.archived)
 </script>
@@ -15,8 +16,8 @@ const ebas = EBA_REGISTRY.filter(e => !e.archived)
         </div>
       </div>
       <div class="ebg-actions">
-        <a :href="e.indexPath" class="ebg-link">Browse clauses →</a>
-        <a :href="e.pdfPath"
+        <a :href="withBase(e.indexPath)" class="ebg-link">Browse clauses →</a>
+        <a :href="withBase(e.pdfPath)"
            :target="e.pdfExternal ? '_blank' : undefined"
            :rel="e.pdfExternal ? 'noopener noreferrer' : undefined"
            class="ebg-link">

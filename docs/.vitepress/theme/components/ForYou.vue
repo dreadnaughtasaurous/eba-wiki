@@ -15,6 +15,7 @@
  * No personal data is sent to any server.
  */
 import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 import ForYouCard from './ForYouCard.vue'
 
 const ANALYTICS_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
@@ -44,7 +45,7 @@ onMounted(async () => {
   // Fetched as a static JSON file from /public. Provides full metadata for
   // every clause page so the algorithm can score unvisited pages.
   try {
-    const r       = await fetch(CATALOG_URL)
+    const r       = await fetch(withBase(CATALOG_URL))
     catalog.value = await r.json()
   } catch { /* catalog unavailable — personalisation rows show empty state */ }
   catalogLoading.value = false

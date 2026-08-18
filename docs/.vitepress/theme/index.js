@@ -48,7 +48,12 @@ function hexToRgba(hex, alpha) {
 // which means the CSS shadow renders as nothing — no visible effect.
 function applyEbaSidebarGlow(path) {
   if (typeof document === 'undefined') return
-  const parts = path.split('/').filter(Boolean)
+  // path may be window.location.pathname (base-prefixed in production) or
+  // an already base-stripped router path — strip defensively so both
+  // callers land on the same 'ebas' segment check.
+  const base = import.meta.env.BASE_URL
+  const normPath = (base && base !== '/' && path.startsWith(base)) ? '/' + path.slice(base.length) : path
+  const parts = normPath.split('/').filter(Boolean)
   const slug  = parts[0] === 'ebas' && parts[1] ? parts[1] : null
   const entry = slug ? EBA_REGISTRY.find(e => e.slug === slug) : null
   const value = entry ? hexToRgba(entry.color, 0.09) : 'transparent'
@@ -145,11 +150,20 @@ export default {
     // Return false to cancel; return nothing (undefined) to allow.
 
     if (typeof window !== 'undefined') {
+      // route.path / resolved pathnames include the /eba-wiki/ base prefix
+      // in production but not in docs:dev — strip it so the '/ebas/' guard
+      // and the same-page comparison below work identically in both
+      // contexts. Same gotcha as SectionIndex.vue's key derivation.
+      const stripBase = (p) => {
+        const base = import.meta.env.BASE_URL
+        return (base && base !== '/' && p.startsWith(base)) ? '/' + p.slice(base.length) : p
+      }
+
       router.onBeforeRouteChange = (to) => {
-        const toPath = typeof to === 'string' ? to : (to.path || '')
+        const toPath = stripBase(typeof to === 'string' ? to : (to.path || ''))
         if (!toPath.startsWith('/ebas/')) return
         const normTo      = toPath.replace(/\/$/, '').replace(/\.html$/, '')
-        const normCurrent = window.location.pathname.replace(/\/$/, '').replace(/\.html$/, '')
+        const normCurrent = stripBase(window.location.pathname).replace(/\/$/, '').replace(/\.html$/, '')
         if (normTo === normCurrent) return
         // ── ForYouCard / Trending Now cards ───────────────────────────────
         // ForYouCard.vue sets window.__fyCardPending on click (synchronously,

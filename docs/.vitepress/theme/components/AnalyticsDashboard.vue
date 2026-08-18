@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 const ANALYTICS_URL  = 'https://eba-analytics-worker-noai.irresistibl.workers.dev/analytics'
@@ -128,7 +129,7 @@ async function fetchLinkReport() {
   linkReportLoading.value = true
   linkReportError.value   = ''
   try {
-    const res = await fetch(LINK_REPORT_URL)
+    const res = await fetch(withBase(LINK_REPORT_URL))
     if (res.status === 404) {
       // Not yet generated — first deploy after this feature ships may not have it
       linkReportError.value = 'link-report.json not found. Run the deploy workflow to generate it.'

@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { useData }  from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import { EBA_REGISTRY, getEBAStatus } from '../eba-registry.js'
 import { EBA_INDEX_DATA }             from '../eba-index-data.js'
 
@@ -64,7 +64,7 @@ function openSearch() {
         >{{ statusLabel }}</span>
         <a
           v-if="reg.pdfPath"
-          :href="reg.pdfPath"
+          :href="withBase(reg.pdfPath)"
           :target="reg.pdfExternal ? '_blank' : '_blank'"
           rel="noopener noreferrer"
           class="eip-pdf-btn"
@@ -111,7 +111,7 @@ function openSearch() {
         <a
           v-for="item in data.quickAccess"
           :key="item.path"
-          :href="item.path"
+          :href="withBase(item.path)"
           class="eip-quick-card"
         >
           <span class="eip-quick-icon-wrap" :style="{ background: reg.color + '26' }">
@@ -132,7 +132,7 @@ function openSearch() {
         <a
           v-for="part in data.parts"
           :key="part.path"
-          :href="part.path"
+          :href="withBase(part.path)"
           class="eip-part"
         >
           <div class="eip-part-icon" :style="part.highlight ? { background: reg.color + '1a', borderColor: reg.color + '44' } : {}">
@@ -154,7 +154,7 @@ function openSearch() {
           <span class="eip-label" style="margin-bottom:0">Who is covered</span>
           <a
             v-if="data.coverageAppendix"
-            :href="data.coverageAppendix"
+            :href="withBase(data.coverageAppendix)"
             class="eip-cov-link"
             :style="{ color: reg.color }"
           >See full employer list →</a>

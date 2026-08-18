@@ -13,7 +13,7 @@
  * defined during static rendering).
  */
 import { computed, nextTick, ref, watch } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useData, useRoute, withBase } from 'vitepress'
 import relatedData from '../../../generated/related-clauses.json'
 
 const route    = useRoute()
@@ -141,7 +141,7 @@ function normalizeCardHeights() {
             @focusin="showTooltip(idx)"
             @focusout="hideTooltip()"
           >
-            <a :href="item.url" class="related-card">
+            <a :href="withBase(item.url)" class="related-card">
               <span class="related-card-title">{{ displayTitle(item.title) }}</span>
               <svg class="related-card-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5"

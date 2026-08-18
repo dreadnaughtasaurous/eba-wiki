@@ -1,5 +1,6 @@
 ﻿<script setup>
 import { ref, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 import { EBA_REGISTRY, getEBAStatus } from '../eba-registry.js'
 
 const TOPICS = [
@@ -40,7 +41,7 @@ const counts        = ref({})
 const countsLoading = ref(true)
 onMounted(async () => {
   try {
-    const r = await fetch('/clause-counts.json')
+    const r = await fetch(withBase('/clause-counts.json'))
     if (r.ok) counts.value = await r.json()
   } catch {}
   countsLoading.value = false
@@ -121,8 +122,8 @@ function openTopic(topic) {
 
       <!-- Footer links -->
       <div class="ee-footer">
-        <a :href="active.indexPath" class="ee-footer-link">Browse all clauses →</a>
-        <a :href="active.pdfPath"
+        <a :href="withBase(active.indexPath)" class="ee-footer-link">Browse all clauses →</a>
+        <a :href="withBase(active.pdfPath)"
            :target="active.pdfExternal ? '_blank' : undefined"
            :rel="active.pdfExternal ? 'noopener noreferrer' : undefined"
            class="ee-footer-link">

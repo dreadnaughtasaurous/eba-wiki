@@ -7,7 +7,7 @@
       aria-label="Breadcrumb"
       data-pagefind-ignore
     >
-      <a href="/" class="bc-crumb bc-link" aria-label="Home">
+      <a :href="withBase('/')" class="bc-crumb bc-link" aria-label="Home">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2.2"
              stroke-linecap="round" stroke-linejoin="round"
@@ -24,7 +24,7 @@
              aria-hidden="true">
           <polyline points="9 18 15 12 9 6"/>
         </svg>
-        <a v-if="seg.href" :href="seg.href" class="bc-crumb bc-link">{{ seg.label }}</a>
+        <a v-if="seg.href" :href="withBase(seg.href)" class="bc-crumb bc-link">{{ seg.label }}</a>
         <span v-else class="bc-crumb bc-current" aria-current="page">{{ seg.label }}</span>
       </template>
     </nav>
@@ -35,7 +35,7 @@
       aria-label="Back navigation"
       data-pagefind-ignore
     >
-      <a :href="parentSegment.href" class="bc-back">
+      <a :href="withBase(parentSegment.href)" class="bc-back">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2.5"
              stroke-linecap="round" stroke-linejoin="round"
@@ -51,7 +51,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useData, useRoute } from 'vitepress'
+import { useData, useRoute, withBase } from 'vitepress'
 
 const { frontmatter } = useData()
 const route           = useRoute()

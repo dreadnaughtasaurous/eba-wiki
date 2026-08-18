@@ -9,6 +9,7 @@
  * the v-if on the root element hides the whole component).
  */
 import { ref, onMounted }   from 'vue'
+import { withBase }          from 'vitepress'
 import ForYouCard            from './ForYouCard.vue'
 
 const ANALYTICS_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
@@ -22,7 +23,7 @@ onMounted(async () => {
   try {
     // Fetch both in parallel to minimise time-to-first-card
     const [catalogRes, trendingRes] = await Promise.all([
-      fetch(CATALOG_URL),
+      fetch(withBase(CATALOG_URL)),
       fetch(`${ANALYTICS_URL}/trending?days=7&limit=3`),
     ])
 

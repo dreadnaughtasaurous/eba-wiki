@@ -20,7 +20,7 @@
  */
 
 import { computed }     from 'vue'
-import { useRoute }     from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 import { EBA_REGISTRY } from '../eba-registry.js'
 import sectionData      from '../../../generated/section-index-data.js'
 
@@ -117,7 +117,7 @@ const label = computed(() => {
         <a
           v-for="child in safeChildren"
           :key="child.path"
-          :href="child.path"
+          :href="withBase(child.path)"
           class="si-stream-card"
         >
           <div class="si-stream-card-body">
@@ -138,7 +138,7 @@ const label = computed(() => {
         <a
           v-for="clause in safeClauses"
           :key="clause.path"
-          :href="clause.path"
+          :href="withBase(clause.path)"
           class="si-clause-row"
         >
           <!-- Clause number chip — EBA colour tint, sized to match eip-part-icon -->

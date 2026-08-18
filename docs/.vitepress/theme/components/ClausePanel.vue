@@ -137,7 +137,7 @@
           </span>
 
           <a
-            :href="currentEntry.url.replace(/\.html$/, '').replace(/\/$/, '')"
+            :href="withBase(currentEntry.url.replace(/\.html$/, '').replace(/\/$/, ''))"
             class="cp-open-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -169,7 +169,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -220,7 +220,7 @@ function truncateTitle(title, maxLen) {
 // ─── Fetch clause HTML ────────────────────────────────────────────────────────
 
 async function fetchClause(url) {
-  const fetchUrl = url.replace(/\/$/, '').replace(/\.html$/, '')
+  const fetchUrl = withBase(url.replace(/\/$/, '').replace(/\.html$/, ''))
   const res      = await fetch(fetchUrl)
   if (!res.ok) throw new Error(`Could not load clause (HTTP ${res.status})`)
 
@@ -369,7 +369,7 @@ function handleOpenPanel(e) {
 
     if (inPanel && atMaxDepth.value) {
       // At max depth: open in a new tab instead
-      window.open(url, '_blank', 'noopener,noreferrer')
+      window.open(withBase(url), '_blank', 'noopener,noreferrer')
       return
     }
 

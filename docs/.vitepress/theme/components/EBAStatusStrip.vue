@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { EBA_REGISTRY, getEBAStatus } from '../eba-registry.js'
 
 const STATUS_META = {
@@ -56,7 +57,7 @@ function daysContext(e) {
         <tbody>
           <tr v-for="row in rows" :key="row.slug">
             <td>
-              <a :href="row.status === 'superseded' ? `/ebas/archived/${row.slug}/` : row.indexPath"
+              <a :href="withBase(row.status === 'superseded' ? `/ebas/archive/${row.slug}/` : row.indexPath)"
                  class="ess-eba-link">
                 <span class="ess-dot" :style="{ background: row.color }"></span>
                 {{ row.shortName }}

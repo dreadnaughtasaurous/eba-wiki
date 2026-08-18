@@ -14,6 +14,7 @@
  *   variant {String}  — 'rich' | 'standard'   (default: 'standard')
  */
 import { onUnmounted } from 'vue'
+import { withBase } from 'vitepress'
 
 const props = defineProps({
   page:    { type: Object, required: true },
@@ -78,7 +79,7 @@ function topicLabel(t) {
 </script>
 
 <template>
-  <a :href="page.path" class="fy-card" :class="`fy-card--${variant}`" @mousedown="flagOnMousedown">
+  <a :href="withBase(page.path)" class="fy-card" :class="`fy-card--${variant}`" @mousedown="flagOnMousedown">
 
     <!-- EBA pill — colour-coded per EBA -->
     <span
