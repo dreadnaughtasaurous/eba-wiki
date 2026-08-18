@@ -39,6 +39,22 @@ function stripSiteBase(path) {
   return path.startsWith('/eba-wiki/') ? path.slice('/eba-wiki'.length) : path
 }
 
+// Historical pageview records logged before the client-side base-stripping
+// fix have blank `eba`/`section` metadata fields (the client derived them
+// from a still-prefixed path, which never matched '/ebas/'). `path` itself
+// was always logged correctly, so re-deriving eba/section from it at read
+// time recovers accurate breakdowns for old and new records alike, without
+// needing to trust the stored fields.
+function deriveEbaFromPath(path) {
+  const parts = stripSiteBase(path).split('/').filter(Boolean)
+  return parts[0] === 'ebas' && parts[1] ? parts[1] : ''
+}
+
+function deriveSectionFromPath(path) {
+  const parts = stripSiteBase(path).split('/').filter(Boolean)
+  return parts[0] === 'ebas' && parts[2] ? parts[2] : ''
+}
+
 const CORS_ORIGINS = [
   'https://dreadnaughtasaurous.github.io',
   'http://localhost:5173',
@@ -386,10 +402,23 @@ async function handleGetAnalytics(request, env, origin) {
     }))
 
     // ── Top 20 pages ───────────────────────────────────────────────────────────
+    // path is stripped and eba/section re-derived from it (falling back to the
+    // stored fields) so pre- and post-base-strip-fix records of the same page
+    // merge under one key instead of splitting into prefixed/unprefixed rows.
     const pageMap = {}
     for (const e of pageviews) {
-      const k = e.path
-      if (!pageMap[k]) pageMap[k] = { path: e.path, eba: e.eba, section: e.section, title: e.title, count: 0 }
+      if (!e.path) continue
+      const path = stripSiteBase(e.path)
+      const k    = path
+      if (!pageMap[k]) {
+        pageMap[k] = {
+          path,
+          eba:     e.eba     || deriveEbaFromPath(path),
+          section: e.section || deriveSectionFromPath(path),
+          title:   e.title,
+          count:   0,
+        }
+      }
       pageMap[k].count++
     }
     const topPages = Object.values(pageMap)
@@ -399,8 +428,10 @@ async function handleGetAnalytics(request, env, origin) {
     // ── EBA breakdown by page views ────────────────────────────────────────────
     const ebaMap = {}
     for (const e of pageviews) {
-      if (!e.eba) continue
-      ebaMap[e.eba] = (ebaMap[e.eba] || 0) + 1
+      if (!e.path) continue
+      const eba = e.eba || deriveEbaFromPath(e.path)
+      if (!eba) continue
+      ebaMap[eba] = (ebaMap[eba] || 0) + 1
     }
     const ebaBreakdown = Object.entries(ebaMap)
       .map(([eba, count]) => ({ eba, count }))
@@ -409,8 +440,10 @@ async function handleGetAnalytics(request, env, origin) {
     // ── Section breakdown by page views ───────────────────────────────────────
     const sectionMap = {}
     for (const e of pageviews) {
-      if (!e.section) continue
-      sectionMap[e.section] = (sectionMap[e.section] || 0) + 1
+      if (!e.path) continue
+      const section = e.section || deriveSectionFromPath(e.path)
+      if (!section) continue
+      sectionMap[section] = (sectionMap[section] || 0) + 1
     }
     const sectionBreakdown = Object.entries(sectionMap)
       .map(([section, count]) => ({ section, count }))
@@ -490,7 +523,7 @@ async function handleGetTopPages(request, env, origin) {
       if (!path.startsWith('/ebas/')) continue
       const k = path
       if (!pageMap[k]) {
-        pageMap[k] = { path, title: entry.title || '', eba: entry.eba || '', count: 0 }
+        pageMap[k] = { path, title: entry.title || '', eba: entry.eba || deriveEbaFromPath(path), count: 0 }
       }
       pageMap[k].count++
       if (entry.title) pageMap[k].title = entry.title.replace(/\s*\|.*$/, '').trim()
@@ -604,7 +637,7 @@ async function handleGetTrending(request, env, origin) {
         if (!pathMeta[path]) {
           pathMeta[path] = {
             title: (v.title || '').replace(/\s*\|.*$/, '').trim(),
-            eba:   v.eba || '',
+            eba:   v.eba || deriveEbaFromPath(path),
           }
         }
       }
