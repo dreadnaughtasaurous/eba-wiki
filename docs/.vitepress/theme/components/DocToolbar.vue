@@ -309,8 +309,16 @@ const mdLoading = ref(false)
 
 async function handleMarkdown() {
   mdLoading.value = true
-  const path   = route.path.replace(/\/$/, '').replace(/\.html$/, '')
-  const rawUrl = `https://raw.githubusercontent.com/dreadnaughtasaurous/dreadnaughtasaurous.github.io/main/docs${path}.md`
+  // route.path includes the /eba-wiki/ base prefix in production but not in
+  // docs:dev — strip it so the GitHub raw path always matches the repo's
+  // real docs/ layout regardless of which context this runs in.
+  const base       = import.meta.env.BASE_URL
+  const routePath  = route.path
+  const strippedPath = (base && base !== '/' && routePath.startsWith(base))
+    ? '/' + routePath.slice(base.length)
+    : routePath
+  const path   = strippedPath.replace(/\/$/, '').replace(/\.html$/, '')
+  const rawUrl = `https://raw.githubusercontent.com/dreadnaughtasaurous/eba-wiki/main/docs${path}.md`
   try {
     const res = await fetch(rawUrl)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
