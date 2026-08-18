@@ -22,23 +22,37 @@
  * so there is no layout flash on resize.
  */
 import { computed } from 'vue'
-import { useRoute, useRouter } from 'vitepress'
+import { useRoute, useRouter, withBase } from 'vitepress'
 
 const route  = useRoute()
 const router = useRouter()
 
-// ── Active tab detection ──────────────────────────────────────────────────────
-const isHome    = computed(() => route.path === '/' || route.path === '/index.html')
-const isBrowse  = computed(() => route.path.startsWith('/ebas/'))
-const isForYou  = computed(() => route.path.startsWith('/for-you'))
+// route.path includes the /eba-wiki/ base prefix in production but not in
+// docs:dev — strip it before segment comparisons (same gotcha as
+// SectionIndex.vue's key derivation).
+const SITE_BASE = import.meta.env.BASE_URL
+const currentPath = computed(() => {
+  const p = route.path
+  return (SITE_BASE && SITE_BASE !== '/' && p.startsWith(SITE_BASE))
+    ? '/' + p.slice(SITE_BASE.length)
+    : p
+})
 
-// ── Navigation actions ────────────────────────────────────────────────────────
+// ── Active tab detection ──────────────────────────────────────────────────────
+const isHome    = computed(() => currentPath.value === '/' || currentPath.value === '/index.html')
+const isBrowse  = computed(() => currentPath.value.startsWith('/ebas/'))
+const isForYou  = computed(() => currentPath.value.startsWith('/for-you'))
+
+// ── Navigation actions ─────────────────────────────────────────────────────
+// router.go() takes a literal href — it does not auto-prefix the base the
+// way VitePress's own compiled <a> links do, so every target needs an
+// explicit withBase() call (same as any other Vue-bound href in this repo).
 function goHome() {
-  router.go('/')
+  router.go(withBase('/'))
 }
 
 function goBrowse() {
-  router.go('/ebas/')
+  router.go(withBase('/ebas/'))
 }
 
 function openSearch() {
@@ -46,7 +60,7 @@ function openSearch() {
 }
 
 function goForYou() {
-  router.go('/for-you/')
+  router.go(withBase('/for-you/'))
 }
 </script>
 
