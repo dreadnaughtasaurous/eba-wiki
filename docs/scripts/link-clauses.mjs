@@ -2,7 +2,7 @@
 // Scans all EBA .md files and hyperlinks unlinked clause/subclause/appendix/schedule
 // references to their correct pages within the same EBA.
 //
-// Run from: C:\Projects\EBAdb\docs
+// Run from: C:\Projects\eba-wiki\docs
 // Usage:    node scripts/link-clauses.mjs [--dry-run] [--eba allied-health]
 //           --dry-run  shows changes without writing files
 //           --eba      limit to one EBA folder name
@@ -469,4 +469,4 @@ wfs(
   `${mode}\nEBA: ${EBA_FILTER ?? 'all'}\nFiles changed: ${totalFiles}\nNew links inserted: ${totalChanges}\n${log.join('\n')}`,
   'utf8'
 )
-console.log(`\n📋 Full log written to: C:\\Projects\\EBAdb\\link-clauses-log.txt`)
+console.log(`\n📋 Full log written to: ${logPath}`)
