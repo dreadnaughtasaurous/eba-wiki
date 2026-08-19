@@ -3,7 +3,7 @@ title: '12. Independent Dispute Resolution Panel'
 eba: 'Medical Scientists, Pharm & Psych 2021-2025'
 topics: ['disputes']
 ---
-<span data-pagefind-meta="clause:[Clause 12](/ebas/mspp/schedules/12-additional-consultation-and-redundancy-and-associated-entitl)" style="display:none"></span>
+<span data-pagefind-meta="clause:Clause 12" style="display:none"></span>
 <span data-pagefind-meta="section:Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 

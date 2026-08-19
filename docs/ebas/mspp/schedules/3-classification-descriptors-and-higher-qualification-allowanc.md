@@ -15,7 +15,7 @@ topics: ['classification', 'classification-structure', 'higher-qualifications', 
 
 ## 1. Audiologists
 
-This clause should be read in conjunction with Schedule 2.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 1.1 Audiologist Grade I
 
@@ -66,11 +66,11 @@ An Audiologist appointed as Deputy Director of Allied Health shall be paid at th
 
 ### 1.7 Director of Allied Health - Audiologist
 
-Where an Audiologist is employed as a Director of Allied Health they shall be paid at the Scientist Grade 5 rate of pay provided for by Schedule 2.
+Where an Audiologist is employed as a Director of Allied Health they shall be paid at the Scientist Grade 5 rate of pay provided for by [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 1.8 Audiologists – Higher Qualifications Allowance
 
-- **(a)** Where an Audiologist has a higher qualification they shall be paid, in addition to the rates of pay prescribed in Schedule 2, the following:
+- **(a)** Where an Audiologist has a higher qualification they shall be paid, in addition to the rates of pay prescribed in [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances), the following:
   - **(i)** for Graduate Certificate or other recognised equivalent qualification, the sum of 4% of the base rate as defined;
   - **(ii)** for Graduate Diploma in Audiology or Graduate Diploma in Health Administration, or other recognised equivalent qualification, the sum of 6.5% of the base rate as defined;
   - **(iii)** for Master of Audiology, Master of Science, Master of Applied Science, or any other recognised equivalent qualification from a tertiary institution, the sum of 7.5% of the base rate as defined; or
@@ -80,7 +80,7 @@ Where an Audiologist is employed as a Director of Allied Health they shall be pa
 
 ## 2. Clinical Perfusionists
 
-This clause should be read in conjunction with Schedule 2.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 2.1 Clinical Perfusionist - Grade I (Perfusionist-in-Training)
 
@@ -119,7 +119,7 @@ A person would normally have at least 5 years' experience as a certified perfusi
 
 ### 2.5 Clinical Perfusionists – Higher Qualifications Allowance
 
-- **(a)** Where a Clinical Perfusionist has a higher qualification they shall be paid, in addition to the rates of pay prescribed in Schedule 2, the following:
+- **(a)** Where a Clinical Perfusionist has a higher qualification they shall be paid, in addition to the rates of pay prescribed in [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances), the following:
   - **(i)** for Graduate Certificate in Clinical Perfusion, or other recognised equivalent qualification, the sum of 4% of the base rate as defined;
   - **(ii)** for Graduate Diploma in Bacteriology or Graduate Diploma in Health Administration or other recognised equivalent qualification, the sum of 6.5% of the base rate as defined;
   - **(iii)** for Member of the Australian Association of Clinical Biochemists, Diploma of Bacteriology, Master of Science, Master Of Applied Science, Member of the Australian Institute of Physics, Human Genetics Society of Australasia Certified Cytogeneticist, Graduate Diploma in Health Administration or other recognised equivalent Degree or Diploma from a tertiary institution the sum of 7.5% of the base rate as defined; or
@@ -129,7 +129,7 @@ A person would normally have at least 5 years' experience as a certified perfusi
 
 ## 3. Dietitians
 
-This clause should be read in conjunction with Schedule 2.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 3.1 Dietitian Grade I
 
@@ -242,7 +242,7 @@ A Dietitian appointed as Director of Allied Health shall be paid at the Scientis
 
 ### 3.11 Dietitians – Higher Qualifications Allowance
 
-- **(a)** Where a Dietitian has a higher qualification they shall be paid, in addition to the rates of pay prescribed in Schedule 2, the following:
+- **(a)** Where a Dietitian has a higher qualification they shall be paid, in addition to the rates of pay prescribed in [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances), the following:
   - **(i)** for Graduate Certificate or other recognised equivalent qualification, the sum of 4% of the base rate as defined;
   - **(ii)** for Graduate Diploma in Dietetics, or Graduate Diploma in Health Administration or other recognised equivalent qualification, the sum of 6.5% of the base rate as defined;
   - **(iii)** for Master of Science, Master of Science in Dietetics, Human Genetics Society of Australasia Certified Cytogeneticist, or any other recognised equivalent qualification from a tertiary institution, the sum of 7.5% of the base rate as defined;
@@ -376,7 +376,7 @@ One point is deducted for each feature which the Department does not have:
 
 ## 4. Genetic Counsellors
 
-This clause should be read in conjunction with Schedule 2.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 4.1 Classification of Employees – Preamble
 
@@ -390,7 +390,7 @@ This clause should be read in conjunction with Schedule 2.
 - **(f)** An Associate Genetic Counsellor who achieves certification shall progress one increment in the salary structure.
 - **(g)** A genetic counsellor who has only achieved certification in the cancer specialty area (available before 2008) shall be considered an Associate Genetic Counsellor if not working in that specialty area, and shall be employed according to their skills and experience, but no higher than the highest level of Grade 2.
 - **(h)** Subject to satisfactory performance, Genetic Counsellors will progress by annual increments to the highest level in Grade 3, provided certification is achieved for progression to Grade 3. Advancement beyond Grade 3 will be by promotion to an available position. A genetic counsellor may seek to have his/her classification level reviewed.
-- **(i)** Sub-clauses 4.2 to 4.6 define the professional structure for Genetic Counsellors. They should be read in conjunction with the position description and/or duty statement of any given genetic counselling position which defines the specific duties, and requirements of that position.
+- **(i)** Sub-[clauses 4.2](/ebas/mspp/schedules/4-alfred-health-general-conditions) to 4.6 define the professional structure for Genetic Counsellors. They should be read in conjunction with the position description and/or duty statement of any given genetic counselling position which defines the specific duties, and requirements of that position.
 
 ### 4.2 Grade 1 Associate Genetic Counsellor
 
@@ -432,7 +432,7 @@ Where a genetic counsellor has a higher qualification s/he shall be paid, in add
 
 ## 5. Medical Physicists
 
-This clause should be read in conjunction with Schedule 2 - Rates of Pay & Allowances.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances) - Rates of Pay & Allowances.
 
 ### 5.1 Grade 1 - Medical Physicist Trainee
 
@@ -531,7 +531,7 @@ A Medical Physicist who is an accredited/certified and experienced Medical Physi
 
 - **(a)** Responsible for the management of all Medical Physicists across all modalities of treatment in a large cancer service with a number of satellite services and a multi campus cancer treatment service.
 - **(b)** A Medical Physicist who is designated as the Radiation Safety Officer (RSO) shall be classified at a minimum at the Grade 4 level.
-- **(c)** A Radiation Safety Officer Allowance is payable only to an Employee fulfilling the role of RSO at the Grade 4 level. The allowance is 5% of the rate of pay specified for the classification and year level under which the Employee is engaged as set out in Schedule 2 and is payable in respect of periods of paid leave.
+- **(c)** A Radiation Safety Officer Allowance is payable only to an Employee fulfilling the role of RSO at the Grade 4 level. The allowance is 5% of the rate of pay specified for the classification and year level under which the Employee is engaged as set out in [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances) and is payable in respect of periods of paid leave.
 
 ### 5.11 Higher Qualifications Allowance
 
@@ -546,12 +546,12 @@ A Medical Physicist who is an accredited/certified and experienced Medical Physi
 
 - **(a)** This clause applies to Grade 3 and above Medical Physicists only.
 - **(b)** A Medical Physicist who is appointed to clinically supervise a Medical Physicist Registrar will be paid an allowance of 2.5% of their base rate of pay.
-- **(c)** Where the Chief Physicist at Barwon Health is appointed to clinically supervise a Medical Physicist Registrar, the Chief Physicist will be paid an allowance of 2.5% of the Grade 1 Year 1 Medical Physicist rate of pay in Schedule 2 of this Agreement.
+- **(c)** Where the Chief Physicist at Barwon Health is appointed to clinically supervise a Medical Physicist Registrar, the Chief Physicist will be paid an allowance of 2.5% of the Grade 1 Year 1 Medical Physicist rate of pay in [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances) of this Agreement.
 - **(d)** Where a Medical Physicist is no longer clinically appointed to supervise a Medical Physicist Registrar, this allowance will no longer apply.
 
 ## 6. Medical Scientists
 
-This clause should be read in conjunction with Schedule 2.
+This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 
 ### 6.1 Trainee Scientists
 
@@ -617,7 +617,7 @@ Is a scientist appointed to this grade and/or who:
 Where a Grade 1 or 2 scientist meets the criteria in 6.4(e) (Clinical Trials Co-Ordinator) for part of their contracted hours, they shall be paid for all clinical trial duties at a Grade 3 rate of pay.
 
 - **(a)** At the time of engagement or creation of the split duties position, whichever is the earlier, the Employer and the Employee who is to be subject to this sub clause shall agree in writing on the following matters: a regular pattern of work specifying the hours and/or days which will be spent on the clinical trial duties and/or the dates on which the trial will begin and end and the Grade 3 increment on which they will commence. Any change to this regular pattern of work shall be recorded in writing.
-- **(b)** Where a scientist meets the requirements of sub clause 6.4(e) for more than 12 months they shall be entitled to move through the Grade 3 increments on an annual basis as prescribed by clause 49 of this Agreement.
+- **(b)** Where a scientist meets the requirements of sub [clause 6.4(e)](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee) for more than 12 months they shall be entitled to move through the Grade 3 increments on an annual basis as prescribed by [clause 49](/ebas/mspp/classification-salaries/49-progression-through-pay-points) of this Agreement.
 - **(c)** Any entitlements in this Agreement which are based on the Employee's rate of pay shall be paid according to the time fraction which the Employee worked on Grade 2 and Grade 3 duties. For example, if the Employee works 0.5 of their rostered hours on Grade 3 clinical trial duties and 0.5 on Grade 2 duties, their entitlement shall be paid as 50% at the applicable Grade 2 rate and 50% at the applicable Grade 3 rate.
 - **(d)** During the period of the split duties, the Employee shall be entitled to be paid leave entitlements according to the rate of pay which would have applied had they been on duty on the days for which leave is being taken.
 
@@ -691,7 +691,7 @@ Is a scientist appointed to this grade and/or who:
   - **(xxviii)** St. Vincent's Hospital Haematology Department
   - **(xxix)** St. Vincent's Hospital Microbiology Department
   - **(xxx)** St. Vincent's Hospital Anatomical Pathology Department
-- **(d)** This list may be varied by the Medical Scientists Classification Review Committee as specified in sub clause 6.13 of this schedule and shall be subject to ratification by FWC.
+- **(d)** This list may be varied by the Medical Scientists Classification Review Committee as specified in sub [clause 6.13](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee) of this schedule and shall be subject to ratification by FWC.
 - **(e)** A Scientist may be appointed as a Principal Scientist as described by this clause into the following laboratories or departments:
   - **(i)** Respiratory laboratory
   - **(ii)** Sleep laboratory
@@ -709,7 +709,7 @@ Is a Scientist who is:
 
 - **(a)** appointed a Deputy Director, Operations Manager or Business Manager of a scientific department in a teaching hospital (as defined); or
 - **(b)** appointed to relieve the Medical Deputy Director of a department in a teaching hospital (as defined), and who assumes the same responsibilities as the Medical Deputy Director as a result of such appointment for a period exceeding four weeks; or
-- **(c)** appointed as acting Deputy Director to a scientist Director pursuant to clause 52 (Higher Duties) of this Agreement.
+- **(c)** appointed as acting Deputy Director to a scientist Director pursuant to [clause 52](/ebas/mspp/classification-salaries/52-higher-duties) (Higher Duties) of this Agreement.
 
 ### 6.10 Director (Scientist)
 
@@ -763,7 +763,7 @@ Is a Scientist who is:
 ### 6.13 Medical Scientists Classification Review Committee
 
 - **(a)** This committee will process applications for reclassification based on the merit criteria as per this Agreement. This Committee shall comprise equal representation from Employer and Employee parties to this Agreement.
-- **(b)** Alternative provisions to those specified in sub-clause (a) above apply to Alfred Health and are specified in Schedule 4.
+- **(b)** Alternative provisions to those specified in sub-clause (a) above apply to Alfred Health and are specified in [Schedule 4](/ebas/mspp/schedules/4-alfred-health-general-conditions).
 - **(c)** The merit advancement system does not apply to Medical Physicists.
 
 ### 6.14 Medical Scientists – Higher Qualifications Allowance
@@ -778,15 +778,15 @@ Is a Scientist who is:
 
 ### 6.15 Medical Scientist Progression from Grade 1 to Grade 2
 
-This clause shall not apply to medical scientists employed by the Victorian Clinical Genetic Service (VCGS). Schedule 11 of this Agreement applies to Scientists employed by the VCGS.
+This clause shall not apply to medical scientists employed by the Victorian Clinical Genetic Service (VCGS). [Schedule 11](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at) of this Agreement applies to Scientists employed by the VCGS.
 
 - **(a)** A Medical Scientist (Scientist) Grade 1 Year 7 may request assessment by their manager before the end of their 7th year to determine whether the Scientist is eligible for progression to Scientist Grade 2 in accordance with this clause. It remains the responsibility of each Scientist's manager to ensure the appropriate assessment described in this clause is undertaken before the end of the 7th year of each Grade 1 Scientist.
-- **(b)** If a Grade 1 Year 7 Scientist is not assessed in accordance with this clause as a result of a manager's inaction, she/he shall be deemed to be competent in accordance with subclause 6.15(d) below and reclassified to Grade 2.
+- **(b)** If a Grade 1 Year 7 Scientist is not assessed in accordance with this clause as a result of a manager's inaction, she/he shall be deemed to be competent in accordance with [subclause 6.15(d)](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee) below and reclassified to Grade 2.
 - **(c)** When assessing a Scientist Grade 1 Year 7 for progression to Grade 2 the criteria set out below will be applied. These criteria are intended to provide a method of quick, accurate and fair assessment of the experience and competence of each Scientist at this Grade and pay level.
 - **(d)** It is assumed for the purposes of this clause that a Scientist who completes the final year level of Grade 1 will normally have acquired a broader range of skills, knowledge and clinical experience, such that progression to Grade 2 is warranted.
 - **(e)** The criteria applied for progression under this clause will be fair and recognise the individual Scientist's demonstrated skills and competence.
 - **(f)** A scientist must demonstrate he/she has acquired special knowledge or depth of experience, and/or is able to apply a level of performance worthy of additional remuneration. A scientist who satisfies this criterion will progress to Grade 2.
-- **(g)** Indicators of meeting the criterion in subclause 6.15(f) include at least two of the following:
+- **(g)** Indicators of meeting the criterion in [subclause 6.15(f)](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee) include at least two of the following:
   - **(i)** Demonstrated experience and competence to make independent analytical decisions in the performance and understanding of a wide range of diagnostic tests or procedures or of complex tests;
   - **(ii)** Demonstrated ability to provide professional advice within and/or outside the laboratory on appropriate scientific/clinical matters;
   - **(iii)** Demonstrated ability to critically assess and evaluate new equipment, instruments, pathology products or methods;
@@ -794,7 +794,7 @@ This clause shall not apply to medical scientists employed by the Victorian Clin
   - **(v)** Represents pathology and/or the health service on scientific/clinical committees or working groups;
   - **(vi)** Demonstrated commitment to further education and ongoing professional development, which may include attendance at scientific meetings and activities recognised through the Australian Institute of Medical Scientists, or equivalent professional body.
 - **(h)** The assessment of a Scientist under this clause will be conducted in consultation with the Scientist concerned.
-- **(i)** If a Scientist does not meet the progression criterion referred to in subclause 6.15(f) he/she will be given written reason/s as to why and offered an opportunity to be re-assessed 3 months after the date of the first assessment. If the Scientist does not meet the criterion after the second assessment he/she can make application and will be assessed in the following year.
+- **(i)** If a Scientist does not meet the progression criterion referred to in [subclause 6.15(f)](/ebas/mspp/schedules/6-eastern-health-turning-point-research-and-education-employee) he/she will be given written reason/s as to why and offered an opportunity to be re-assessed 3 months after the date of the first assessment. If the Scientist does not meet the criterion after the second assessment he/she can make application and will be assessed in the following year.
 - **(j)** When a Scientist is assessed as competent to progress to Grade 2, the new grading will be confirmed in writing to her/him.
 - **(k)** Any dispute that arises in relation to an assessment conducted under this clause will be dealt with through the disputes settlement procedure of this Agreement.
 - **(l)** The provisions of this clause come into effect on 1 December 2017 or the operative date of the Agreement which ever is the later date.
@@ -977,13 +977,13 @@ Sole pharmacist or pharmacist-in-charge; or Less than 1 EFT.
 
 ### 7.12 Applications for Regrouping Of Pharmacy Departments
 
-- **(a)** The Union may apply to a health service for re-grouping of a pharmacy department according to the criteria in clause 7.11 to this schedule.
-- **(b)** Should no agreement be reached between the Union and the health service over the claim for re-grouping, application may be made to FWC for resolution of the dispute under sub-clause 11 (Dispute Settling Procedures) of this Agreement.
+- **(a)** The Union may apply to a health service for re-grouping of a pharmacy department according to the criteria in [clause 7.11](/ebas/mspp/schedules/7-maintenance-of-public-sector-employment) to this schedule.
+- **(b)** Should no agreement be reached between the Union and the health service over the claim for re-grouping, application may be made to FWC for resolution of the dispute under sub-[clause 11](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at) (Dispute Settling Procedures) of this Agreement.
 - **(c)** The health service shall apply any recommendation or determination of FWC from the date of the Union's original application.
 
 ## 8. Psychologists
 
-- **(a)** This clause should be read in conjunction with Schedule 2.
+- **(a)** This clause should be read in conjunction with [Schedule 2](/ebas/mspp/schedules/2-rates-of-pay-and-allowances).
 - **(b)** Psychologists must comply with the PBA Code of Ethics and the legal requirements of the psychology profession.
 
 ## 9. Psychologist Grade 1
@@ -993,7 +993,7 @@ Sole pharmacist or pharmacist-in-charge; or Less than 1 EFT.
 - **(a)** "4+2" Intern — A Provisional Psychologist who has completed the equivalent of an Australian Psychology Accreditation Council (APAC) four-year degree accredited sequence of study in psychology and is registered as a Provisional Psychologist with the PBA, and who is undertaking an Internship program plan approved by the PBA which includes two years of supervision shall be classified as a Grade 1 Level 1 in the first year of employment, and at Grade 1 Level 2 in the second year of employment and thereafter.
 - **(b)** "5+1" Intern — A Provisional Psychologist who has completed the equivalent of an Australian Psychology Accreditation Council (APAC) four-year degree accredited sequence of study in psychology plus a general one-year master's degree (e.g. Masters of Professional Psychology) and is registered as a Provisional Psychologist with the PBA, and who is undertaking an Internship program plan approved by the PBA which includes one year of supervision shall be classified as a Grade 1 Level 2.
 - **(c)** Interns and overseas trained psychologists with provisional registration are employed as Provisional Psychologists in accordance with the requirements of the PBA. They practice under the regular supervision of a Psychologist Grade 3 or above employed in the same health service. Where there is shared supervision of a Provisional Psychologist by a principal and secondary supervisor, the principal supervisor shall be a Psychologist Grade 3 or above, the secondary supervisor will be a Psychologist Grade 3 or above or may be a suitably experienced Psychologist Grade 2 who meets PBA requirements for secondary supervision.
-- **(d)** Interns and overseas trained psychologists with provisional registration are required to undertake the National Psychology Exam in order to obtain general registration from the PBA and are entitled to take Examination Leave as provided for in Clause 71 of this Agreement.
+- **(d)** Interns and overseas trained psychologists with provisional registration are required to undertake the National Psychology Exam in order to obtain general registration from the PBA and are entitled to take Examination Leave as provided for in [Clause 71](/ebas/mspp/leave/71-examination-leave) of this Agreement.
 
 ### 9.2 Higher Degree Students
 
@@ -1007,11 +1007,11 @@ Sole pharmacist or pharmacist-in-charge; or Less than 1 EFT.
 ### 10.2 Psychologist Grade 2 Providing Clinical Supervision
 
 - **(a)** A Psychologist Grade 2 does not provide clinical supervision to other Psychologists including Interns, Provisionally Registered Psychologists or post-graduate students on placement.
-- **(b)** Provided that a Psychologist Grade 2 who holds an Endorsement in an Area of Practice and who is a PBA approved supervisor may be a secondary supervisor of Psychologist Grade 1 Interns in accordance with subclause 9.1(c).
+- **(b)** Provided that a Psychologist Grade 2 who holds an Endorsement in an Area of Practice and who is a PBA approved supervisor may be a secondary supervisor of Psychologist Grade 1 Interns in accordance with [subclause 9.1(c)](/ebas/mspp/schedules/9-royal-children-s-hospital-clinical-perfusionists).
 
 ### 10.3 Clinical/Professional Supervision of Psychologists Grade 2
 
-A Psychologist Grade 2 will be provided with clinical/professional supervision from a Psychologist Grade 3 or above who is a PBA approved supervisor as provided for in clause 95 of this Agreement.
+A Psychologist Grade 2 will be provided with clinical/professional supervision from a Psychologist Grade 3 or above who is a PBA approved supervisor as provided for in [clause 95](/ebas/mspp/clinical-supervision/95-clinical-supervision-of-psychologists) of this Agreement.
 
 ### 10.4 Registrars
 
@@ -1032,7 +1032,7 @@ A Psychologist Grade 2 will be provided with clinical/professional supervision f
 - **(a)** Only psychologists who hold an Endorsement from the PBA in clinical psychology, forensic psychology or neuropsychology shall be employed at Grade 3 and above in mental health services. Provided that psychologists employed in mental health services as at 1/1/2011 shall be exempted from this sub-clause.
 - **(b)** Provided that Health Psychologists attached to Clinical liaison teams or who work with patients with eating disorders, and Educational and Developmental Psychologists attached to Autism or education/school based programs (such as CASEA) may be employed at Grade 3 and above in Mental Health Services.
 - **(c)** Where a psychologist working in a mental health service is undertaking study to achieve PBA endorsement as a Clinical Psychologist they can apply for study leave under this Agreement.
-- **(d)** In addition to subclause 11.2(a), or in the case of Mental Health Services only, 11.2(a) and 11.2(b) above, a Psychologist Grade 3 shall meet one of the criteria prescribed below:
+- **(d)** In addition to [subclause 11.2(a)](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at), or in the case of Mental Health Services only, 11.2(a) and 11.2(b) above, a Psychologist Grade 3 shall meet one of the criteria prescribed below:
   - **(i)** Is engaged on psychological work requiring advanced knowledge and skills. Indicators of advanced knowledge and skills include having responsibility for complex clinical cases and/or providing secondary consultation.
   - **(ii)** Is responsible for implementing clinical research projects, or pilot projects associated with service development, including data collection and analysis.
   - **(iii)** Is the only psychologist employed by the Employer.
@@ -1041,7 +1041,7 @@ A Psychologist Grade 2 will be provided with clinical/professional supervision f
 ## 12. Psychologist Grade 4
 
 - **(a)** Is a person who may be required to provide supervision and training to other psychologists (i.e. to Psychologists Grades I, and/or 2 and/or 3) in specialist psychological skills ensuring the compliance of others with the code of ethics and legal requirements of the psychology profession, and may provide secondary consultation, supervision and debriefing to other health professionals.
-- **(b)** A Psychologist Grade 4 is a senior psychologist who, in addition to meeting the requirements of sub clause 11.2(a) above meets the criteria prescribed by either sub clause 12(c), (d), (e) or (f) below.
+- **(b)** A Psychologist Grade 4 is a senior psychologist who, in addition to meeting the requirements of sub [clause 11.2(a)](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at) above meets the criteria prescribed by either sub [clause 12(c)](/ebas/mspp/schedules/12-additional-consultation-and-redundancy-and-associated-entitl), (d), (e) or (f) below.
 - **(c)** Is a leader of a professional team responsible for the clinical/professional leadership and/or administration of a unit, or a group of psychologists and/or other health professionals including but not limited to aged care, adult mental health, child and adolescent mental health, clinical neuropsychology and clinical liaison. Parameters of this position may include:
   - **(i)** responsibility for a section or a number of sections of a service; and/or,
   - **(ii)** co-ordinating the professional development of other psychologists; and/or,
@@ -1162,19 +1162,19 @@ Career progression is an important aspect of the attraction and retention of Psy
   - **(ii)** Has minimum of 5 years' experience as a generally registered Psychologist;
   - **(iii)** Performs complex clinical work of a psychological nature, as part of normal duties; and
   - **(iv)** Is a PBA approved Supervisor.
-- **(b)** Provided that, Psychologists working in Mental Health must have an Area of Endorsement consistent with clause 11.2.
+- **(b)** Provided that, Psychologists working in Mental Health must have an Area of Endorsement consistent with [clause 11.2](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at).
 - **(c)** It is assumed for the purpose of this clause that a Psychologist with a PBA Area of Endorsement possesses advanced knowledge and skills, such that an application for progression is warranted.
 - **(d)** The employer will respond to the application within 28 days of it being lodged.
 - **(e)** Where an Employer refuses an application for progression, the Employer will provide written reasons (including the reason at (f) below) for refusal.
-- **(f)** The movement of a psychologist from grade 2 to 3 does not rely on a vacancy or funding for the position but will be determined solely on the satisfaction of the criteria in sub clause 14.2(a) above.
+- **(f)** The movement of a psychologist from grade 2 to 3 does not rely on a vacancy or funding for the position but will be determined solely on the satisfaction of the criteria in sub [clause 14.2(a)](/ebas/mspp/schedules/14-professional-development-expenses-standard-claim-form) above.
 
   > Example: Progression will be based on the satisfaction of the criteria for progression and not on whether there is a vacancy or on the basis of the relevant Department's budget.
 
-- **(g)** An employer may only refuse to progress a psychologist who meets the criteria in sub-clause 14.2(a) above where they are able to demonstrate that there is no grade 3 work available.
+- **(g)** An employer may only refuse to progress a psychologist who meets the criteria in sub-[clause 14.2(a)](/ebas/mspp/schedules/14-professional-development-expenses-standard-claim-form) above where they are able to demonstrate that there is no grade 3 work available.
 - **(h)** A Psychologist whose application is refused may reapply after 12 months.
 - **(i)** Where the application for progression from Grade 2 to Grade 3 is successful, the Employer will confirm the Psychologist's classification in writing.
 - **(j)** In the event that a dispute arises over the refusal of the Application it will be referred to the Independent Dispute Panel.
-- **(k)** Nothing in this clause prevents a dispute over a refusal under 3 above from being dealt with under clause 11 – Dispute Resolution – of this Agreement.
+- **(k)** Nothing in this clause prevents a dispute over a refusal under 3 above from being dealt with under [clause 11](/ebas/mspp/schedules/11-progression-of-medical-scientists-from-grade-1-to-grade-2-at) – Dispute Resolution – of this Agreement.
 - **(l)** Provided that a Psychologist Grade 2 may be reclassified as a Psychologist Grade 3 at the initiative of the employer, or by reason of meeting one of the criteria in 14.2(a).
 - **(m)** For the avoidance of doubt, a Psychologist who progresses to P3 is required to undertake P3 work.
 
@@ -1191,7 +1191,7 @@ Career progression is an important aspect of the attraction and retention of Psy
 
 ## 15. Higher Qualifications Allowances - Computing, Information Technology or Management
 
-Provided that where an Employee covered by this Agreement holds a Graduate Certificate, Graduate Diploma, Masters or Doctor of Philosophy in computing, information technology or management, or a Masters of Business Administration, or an equivalent qualification from a tertiary institution, and the qualification held is relevant to the work, or part of the work, which they are required to perform, they shall be paid, in addition to their salary, the following amount. Notwithstanding the above, subclause 14.3(a)(iii) of Schedule 3 shall continue to prescribe entitlements for Psychologists who hold the degree of Master of Business Administration.
+Provided that where an Employee covered by this Agreement holds a Graduate Certificate, Graduate Diploma, Masters or Doctor of Philosophy in computing, information technology or management, or a Masters of Business Administration, or an equivalent qualification from a tertiary institution, and the qualification held is relevant to the work, or part of the work, which they are required to perform, they shall be paid, in addition to their salary, the following amount. Notwithstanding the above, [subclause 14.3(a)(iii)](/ebas/mspp/schedules/14-professional-development-expenses-standard-claim-form) of Schedule 3 shall continue to prescribe entitlements for Psychologists who hold the degree of Master of Business Administration.
 
 - **(a)** Graduate Certificate, the sum of 4% of the base rate as defined for the relevant classification;
 - **(b)** Graduate Diploma, the sum of 6.5% of the base rate as defined for the relevant classification;

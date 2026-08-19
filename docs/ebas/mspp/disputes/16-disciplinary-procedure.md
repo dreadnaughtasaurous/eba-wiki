@@ -3,7 +3,7 @@ title: '16. Disciplinary Procedure'
 eba: 'Medical Scientists, Pharm & Psych 2021-2025'
 topics: []
 ---
-<span data-pagefind-meta="clause:[Clause 16](/ebas/mspp/schedules/16-shpa-ratios-pharmacist-staffing-levels)" style="display:none"></span>
+<span data-pagefind-meta="clause:Clause 16" style="display:none"></span>
 <span data-pagefind-meta="section:Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 

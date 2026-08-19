@@ -3,7 +3,7 @@ title: '9. Definitions'
 eba: 'Medical Scientists, Pharm & Psych 2021-2025'
 topics: []
 ---
-<span data-pagefind-meta="clause:[Clause 9](/ebas/mspp/schedules/9-royal-children-s-hospital-clinical-perfusionists)" style="display:none"></span>
+<span data-pagefind-meta="clause:Clause 9" style="display:none"></span>
 <span data-pagefind-meta="section:Application & Operation" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 

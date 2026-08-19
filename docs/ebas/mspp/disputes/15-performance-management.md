@@ -3,7 +3,7 @@ title: '15. Performance Management'
 eba: 'Medical Scientists, Pharm & Psych 2021-2025'
 topics: ['discipline']
 ---
-<span data-pagefind-meta="clause:[Clause 15](/ebas/mspp/schedules/15-rostering-protocols-exemption-agreement)" style="display:none"></span>
+<span data-pagefind-meta="clause:Clause 15" style="display:none"></span>
 <span data-pagefind-meta="section:Disputes" style="display:none"></span>
 <span data-pagefind-filter="eba:Medical Scientists, Pharm & Psych 2021-2025" style="display:none"></span>
 
