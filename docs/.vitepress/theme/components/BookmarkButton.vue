@@ -129,8 +129,15 @@ const MAX_BOOKMARKS       = 50
 // Mirrors the same logic used in DocToolbar.vue and Breadcrumb.vue.
 // A clause page has parts.length >= 5 with parts[1] === 'ebas'.
 // /ebas/<eba>/<section>/<clause> → split('/') gives ['', 'ebas', eba, section, clause]
+// route.path carries the full /eba-wiki/ base prefix in production builds
+// (VitePress's client router sets route.path straight from location.pathname)
+// but not under docs:dev — strip it first or parts[1] is 'eba-wiki' instead
+// of 'ebas' and this guard silently never matches in production.
 const isClausePage = computed(() => {
-  const parts = (route.path || '')
+  const base = import.meta.env.BASE_URL
+  const raw  = route.path || ''
+  const stripped = (base && base !== '/' && raw.startsWith(base)) ? '/' + raw.slice(base.length) : raw
+  const parts = stripped
     .replace(/\/$/, '')
     .replace(/\.html$/, '')
     .split('/')

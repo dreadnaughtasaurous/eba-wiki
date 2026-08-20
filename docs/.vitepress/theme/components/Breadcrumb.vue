@@ -110,7 +110,14 @@ function stripClauseNumber(title) {
 }
 
 const segments = computed(() => {
-  const path  = route.path.replace(/\.html$/, '').replace(/\/$/, '')
+  // route.path carries the full /eba-wiki/ base prefix in production builds
+  // (VitePress's client router sets route.path straight from location.pathname)
+  // but not under docs:dev — strip it first or parts[0] is 'eba-wiki' instead
+  // of 'ebas' and this guard silently never matches in production.
+  const base = import.meta.env.BASE_URL
+  const raw  = route.path || ''
+  const stripped = (base && base !== '/' && raw.startsWith(base)) ? '/' + raw.slice(base.length) : raw
+  const path  = stripped.replace(/\.html$/, '').replace(/\/$/, '')
   const parts = path.split('/').filter(Boolean)
 
   if (parts[0] !== 'ebas') return []

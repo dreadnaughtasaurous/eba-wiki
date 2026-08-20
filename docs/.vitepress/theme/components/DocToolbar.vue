@@ -178,8 +178,18 @@ const route    = useRoute()
 // A clause page has at least 4 path segments after the leading slash:
 //   /ebas/<eba>/<section>/<clause> → split('/') → length 5
 // Nested EBAs add a stream segment → length 6. Both satisfy length >= 5.
+//
+// route.path carries the full /eba-wiki/ base prefix in production builds
+// (confirmed via VitePress's client router: route.path = pendingPath, taken
+// straight from location.pathname) but not under docs:dev — so it must be
+// stripped before segment comparison, or parts[1] is 'eba-wiki' instead of
+// 'ebas' and this guard silently never matches in production. Same pattern
+// already used below in handleMarkdown().
 const isClausePage = computed(() => {
-  const parts = (route.path || '').replace(/\/$/, '').replace(/\.html$/, '').split('/')
+  const base = import.meta.env.BASE_URL
+  const raw  = route.path || ''
+  const stripped = (base && base !== '/' && raw.startsWith(base)) ? '/' + raw.slice(base.length) : raw
+  const parts = stripped.replace(/\/$/, '').replace(/\.html$/, '').split('/')
   return parts.length >= 5 && parts[1] === 'ebas'
 })
 
