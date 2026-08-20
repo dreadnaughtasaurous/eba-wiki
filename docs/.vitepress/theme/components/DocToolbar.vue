@@ -222,9 +222,15 @@ function mountAnchor() {
     // document does not exist. ClientOnly protects the template, but not
     // script-level watch() callbacks or their scheduled setTimeout calls.
     if (typeof document === 'undefined') return
-    if (!isClausePage.value) return
-    // Remove any stale anchor from a previous route (idempotent)
+    // Remove any stale anchor from a previous route unconditionally — this
+    // anchor is a raw DOM node inserted outside Vue's vnode tree, so Vue's
+    // own unmount of the old page never removes it. Previously this was
+    // gated behind isClausePage, so navigating from a clause page to a
+    // non-clause page (e.g. the home nav-bar link) left the orphaned anchor
+    // and its Teleported content behind. Vue then threw while patching that
+    // DOM region for the new page, producing a blank page until reload.
     document.getElementById('doc-toolbar-anchor')?.remove()
+    if (!isClausePage.value) return
     const h1 = document.querySelector('.vp-doc h1')
     if (!h1) return
     const anchor = document.createElement('div')
