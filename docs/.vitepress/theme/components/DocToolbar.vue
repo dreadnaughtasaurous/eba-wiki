@@ -206,13 +206,34 @@ const pageEba   = computed(() => page.value?.frontmatter?.eba   ?? '')
 //   1. Deactivate the Teleport (cleanly unmounts the old toolbar from the DOM)
 //   2. Wait 50 ms — VitePress replaces .vp-doc > div on SPA navigation and
 //      needs one tick to finish before we can safely query the new DOM
-//   3. Remove any stale anchor left from the previous page (defensive)
-//   4. Find the h1 inside .vp-doc on the new page
-//   5. Insert a fresh <div id="doc-toolbar-anchor"> immediately after the h1
-//   6. Re-activate the Teleport so it mounts into the new anchor
+//   3. Remove any stale anchor left from the previous page (unconditional)
+//   4. Insert a fresh <div id="doc-toolbar-anchor"> as the FIRST child of
+//      .vp-doc > div (before the h1, not after it — see below)
+//   5. Re-activate the Teleport so it mounts into the new anchor
 //
 // This is the same deactivate → wait → reactivate pattern used by
 // RelatedClauses.vue and LegislationPanel.vue.
+//
+// ⚠️ Anchor position is load-bearing, not cosmetic — do not move this back
+// to h1.insertAdjacentElement('afterend', anchor):
+// VitePress compiles each page's markdown into a SINGLE static vnode block
+// (Vue's compiler hoists static HTML into one `createStaticVNode` covering
+// every top-level node in .vp-doc > div — the pagefind-meta <p>, the <h1>,
+// and everything after it). Vue unmounts that block by walking a DOM
+// sibling chain from a node reference captured at mount time. Inserting our
+// raw anchor div as h1's next sibling (as this used to do) spliced a
+// Vue-untracked node into the MIDDLE of that chain. It looked fine on the
+// page it was inserted on, but the next time the user navigated to a
+// DIFFERENT page (e.g. clicking the nav-bar home logo), Vue tried to walk
+// and remove that chain to unmount the old page's content and hit the
+// foreign node partway through — throwing and leaving the content area
+// blank (while the nav bar and sidebar, separate untouched Vue subtrees,
+// stayed rendered exactly as before). Inserting as the container's FIRST
+// child instead sits entirely before the tracked block starts, so it never
+// interrupts the sibling walk. RelatedClauses.vue and LegislationPanel.vue
+// avoid this same trap by Teleporting to '.vp-doc > div' itself, which
+// appends as the LAST child — after the tracked block ends, which is
+// equally safe from the other direction.
 const active = ref(false)
 
 function mountAnchor() {
@@ -224,18 +245,14 @@ function mountAnchor() {
     if (typeof document === 'undefined') return
     // Remove any stale anchor from a previous route unconditionally — this
     // anchor is a raw DOM node inserted outside Vue's vnode tree, so Vue's
-    // own unmount of the old page never removes it. Previously this was
-    // gated behind isClausePage, so navigating from a clause page to a
-    // non-clause page (e.g. the home nav-bar link) left the orphaned anchor
-    // and its Teleported content behind. Vue then threw while patching that
-    // DOM region for the new page, producing a blank page until reload.
+    // own unmount of the old page never removes it on its own.
     document.getElementById('doc-toolbar-anchor')?.remove()
     if (!isClausePage.value) return
-    const h1 = document.querySelector('.vp-doc h1')
-    if (!h1) return
+    const container = document.querySelector('.vp-doc > div')
+    if (!container) return
     const anchor = document.createElement('div')
     anchor.id = 'doc-toolbar-anchor'
-    h1.insertAdjacentElement('afterend', anchor)
+    container.insertBefore(anchor, container.firstChild)
     active.value = true
   }, 50)
 }
