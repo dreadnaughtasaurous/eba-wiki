@@ -208,33 +208,60 @@ const pageEba   = computed(() => page.value?.frontmatter?.eba   ?? '')
 //      needs one tick to finish before we can safely query the new DOM
 //   3. Remove any stale anchor left from the previous page (unconditional)
 //   4. Insert a fresh <div id="doc-toolbar-anchor"> as the FIRST child of
-//      .vp-doc > div (before the h1, not after it — see below)
+//      .vp-doc > div — structurally before the h1, not after it (see below)
 //   5. Re-activate the Teleport so it mounts into the new anchor
+//   6. Once the Teleported content has painted, absolutely position the
+//      anchor so it appears visually right under the h1, and pad the h1's
+//      own margin-bottom to reserve that space so later content isn't
+//      covered
 //
 // This is the same deactivate → wait → reactivate pattern used by
 // RelatedClauses.vue and LegislationPanel.vue.
 //
-// ⚠️ Anchor position is load-bearing, not cosmetic — do not move this back
-// to h1.insertAdjacentElement('afterend', anchor):
+// ⚠️ Anchor INSERTION POINT is load-bearing, not cosmetic — do not go back
+// to h1.insertAdjacentElement('afterend', anchor), even to get the visual
+// position "for free":
 // VitePress compiles each page's markdown into a SINGLE static vnode block
 // (Vue's compiler hoists static HTML into one `createStaticVNode` covering
 // every top-level node in .vp-doc > div — the pagefind-meta <p>, the <h1>,
 // and everything after it). Vue unmounts that block by walking a DOM
-// sibling chain from a node reference captured at mount time. Inserting our
-// raw anchor div as h1's next sibling (as this used to do) spliced a
-// Vue-untracked node into the MIDDLE of that chain. It looked fine on the
-// page it was inserted on, but the next time the user navigated to a
-// DIFFERENT page (e.g. clicking the nav-bar home logo), Vue tried to walk
-// and remove that chain to unmount the old page's content and hit the
-// foreign node partway through — throwing and leaving the content area
-// blank (while the nav bar and sidebar, separate untouched Vue subtrees,
-// stayed rendered exactly as before). Inserting as the container's FIRST
-// child instead sits entirely before the tracked block starts, so it never
-// interrupts the sibling walk. RelatedClauses.vue and LegislationPanel.vue
-// avoid this same trap by Teleporting to '.vp-doc > div' itself, which
-// appends as the LAST child — after the tracked block ends, which is
-// equally safe from the other direction.
+// sibling chain from a node reference captured at mount time. Inserting a
+// raw anchor div as h1's next sibling splices a Vue-untracked node into the
+// MIDDLE of that chain. It looks fine on the page it was inserted on, but
+// the next time the user navigates to a DIFFERENT page (e.g. clicking the
+// nav-bar home logo), Vue tries to walk and remove that chain to unmount
+// the old page's content, hits the foreign node partway through, and
+// throws — blanking the content area while the nav bar and sidebar
+// (separate, untouched Vue subtrees) stay rendered as before.
+//
+// Inserting as the container's FIRST child instead sits entirely before the
+// tracked block starts, so it never interrupts the sibling walk —
+// RelatedClauses.vue/LegislationPanel.vue take the same safety from the
+// other direction, appending to '.vp-doc > div' (the last child, after the
+// tracked block ends). To still land the toolbar visually under the h1
+// without moving it there in the DOM, position it absolutely (relative to
+// .vp-doc, which the theme already gives position:relative) and pad the
+// h1's own margin-bottom to reserve the vertical space — a style-only
+// change to a node Vue already tracks, which doesn't touch node identity or
+// sibling order and so can't corrupt the same unmount walk.
 const active = ref(false)
+let toolbarResizeObserver = null
+
+function positionBelowH1(anchor, h1) {
+  // .vp-doc carries position:relative from the theme, so offsetTop/Height
+  // here are already relative to the correct containing block even though
+  // our anchor's actual DOM parent (.vp-doc > div) has no position of its
+  // own.
+  anchor.style.top = `${h1.offsetTop + h1.offsetHeight}px`
+  // Cache the h1's own CSS margin-bottom once so repeated calls (e.g. from
+  // the ResizeObserver below, when the toolbar wraps to a second line on
+  // narrow viewports) add the toolbar's height on top of the ORIGINAL
+  // margin rather than compounding on top of a previous inflated value.
+  if (!h1.dataset.dstBaseMargin) {
+    h1.dataset.dstBaseMargin = getComputedStyle(h1).marginBottom
+  }
+  h1.style.marginBottom = `calc(${h1.dataset.dstBaseMargin} + ${anchor.offsetHeight}px)`
+}
 
 function mountAnchor() {
   active.value = false
@@ -245,15 +272,31 @@ function mountAnchor() {
     if (typeof document === 'undefined') return
     // Remove any stale anchor from a previous route unconditionally — this
     // anchor is a raw DOM node inserted outside Vue's vnode tree, so Vue's
-    // own unmount of the old page never removes it on its own.
+    // own unmount of the old page never removes it on its own. The old h1
+    // is being torn down along with it, so its inflated margin-bottom
+    // doesn't need reverting.
+    toolbarResizeObserver?.disconnect()
+    toolbarResizeObserver = null
     document.getElementById('doc-toolbar-anchor')?.remove()
     if (!isClausePage.value) return
     const container = document.querySelector('.vp-doc > div')
-    if (!container) return
+    const h1        = document.querySelector('.vp-doc h1')
+    if (!container || !h1) return
     const anchor = document.createElement('div')
     anchor.id = 'doc-toolbar-anchor'
+    anchor.style.position = 'absolute'
+    anchor.style.left     = '0'
+    anchor.style.right    = '0'
     container.insertBefore(anchor, container.firstChild)
     active.value = true
+    nextTick(() => {
+      positionBelowH1(anchor, h1)
+      // Keeps the toolbar aligned if it wraps to a second row (narrow
+      // viewport / browser zoom) or the h1 reflows (font-size a11y control).
+      toolbarResizeObserver = new ResizeObserver(() => positionBelowH1(anchor, h1))
+      toolbarResizeObserver.observe(anchor)
+      toolbarResizeObserver.observe(h1)
+    })
   }, 50)
 }
 
