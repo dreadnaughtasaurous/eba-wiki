@@ -154,6 +154,23 @@ export default {
     //
     // Note: onBeforeRouteChange receives the destination path as a string.
     // Return false to cancel; return nothing (undefined) to allow.
+    //
+    // IMPORTANT — do NOT add a `.closest('.clause-panel')` early-return here.
+    // ClausePanel.vue's own injected content div carries the .vp-doc class
+    // (`class="cp-content vp-doc"`), so clicks on clause cross-reference
+    // links *inside* an already-open panel also match `inVpDoc` below —
+    // that's intentional, not a bug. ClausePanel.vue's handleOpenPanel()
+    // separately checks document.activeElement against `.cp-content` to
+    // decide whether to push a new entry onto its own history stack (click
+    // was inside the panel) or replace/open fresh (click was on the main
+    // page). If this hook excludes panel clicks and lets them navigate for
+    // real instead of dispatching the event, the panel's body-scroll lock
+    // (see ClausePanel.vue's lockBodyScroll()) stays engaged while the
+    // underlying page changes out from under it — this was the root cause
+    // of the "blank content after navigating away from an open panel" bug
+    // fixed on 2026-08-21. Keep this hook's only job as: is the click
+    // inside .vp-doc, yes/no. Let ClausePanel.vue own the push-vs-fresh
+    // decision entirely.
 
     if (typeof window !== 'undefined') {
       router.onBeforeRouteChange = (to) => {
@@ -179,11 +196,13 @@ export default {
         }
 
         // ── Standard .vp-doc clause cross-reference links ─────────────────
+        // Matches links in the main page AND links inside an already-open
+        // ClausePanel (its content div is also .vp-doc) — see the note
+        // above. ClausePanel.vue's handleOpenPanel() is what tells the two
+        // cases apart, not this hook.
         const activeEl = document.activeElement
         const inVpDoc  = activeEl && activeEl.closest('.vp-doc')
         if (!inVpDoc) return
-        const inPanel  = activeEl && activeEl.closest('.clause-panel')
-        if (inPanel) return
         window.dispatchEvent(
           new CustomEvent('open-clause-panel', { detail: { url: toPath } })
         )
