@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          ".vitepress/theme/style.css"
+        ],
+        "createdAt": "2026-08-27T08:51:23.982Z",
+        "reason": "L902 .home-disclaimer border-left is a legal-accuracy alert/callout convention, not a decorative card border; reviewed in /impeccable audit of HomeCards.vue"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          ".vitepress/theme/style.css"
+        ],
+        "createdAt": "2026-08-27T08:51:24.224Z",
+        "reason": "L1212 Reading Mode content-reflow transition genuinely reflows text layout (documented in adjacent comment) and is contained via 'contain: layout' to limit blast radius; pre-existing, out of scope of HomeCards.vue polish pass"
+      }
+    ]
+  }
+}
