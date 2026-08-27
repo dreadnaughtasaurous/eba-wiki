@@ -418,9 +418,14 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   background: var(--vp-c-bg);
-  border-left: 2px solid #4A2A72;
+  border-left: 2px solid var(--vp-c-brand-1);
   box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
   overflow: hidden;
+}
+
+.clause-panel :focus-visible {
+  outline:        var(--wiki-focus-width) solid var(--wiki-focus-color);
+  outline-offset: var(--wiki-focus-offset);
 }
 
 .dark .clause-panel {
@@ -466,7 +471,7 @@ onUnmounted(() => {
   background: none;
   border: none;
   cursor: pointer;
-  color: #4A2A72;
+  color: var(--vp-c-brand-1);
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -675,7 +680,7 @@ onUnmounted(() => {
     width: 100%;
     height: 65vh;
     border-left: none;
-    border-top: 2px solid #4A2A72;
+    border-top: 2px solid var(--vp-c-brand-1);
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.18);
   }
