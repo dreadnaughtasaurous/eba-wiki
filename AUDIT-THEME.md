@@ -46,12 +46,11 @@ Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 134
 
 Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 123.14s).
 
-## Remaining — P3
+## Fixed (P3 — flat type hierarchy in accessibility panel)
 
-**Flat type hierarchy in accessibility panel**
-- `AccessibilityControls.vue:139` — six font sizes (11.5–16px) span only a 1.4:1 ratio.
-- Fix: consolidate to fewer, more distinct steps, or confirm the tight range is deliberate (dense settings-panel UI) and add an inline `impeccable-disable` note if so.
-- Command: `/impeccable typeset`
+- ~~`AccessibilityControls.vue:139` — six font sizes (11.5–16px) span only a 1.4:1 ratio~~ — the flagged sizes actually belong to two separate, unit-incompatible systems that the mechanical scan bundled together: (1) `.a11y-hint`/`.a11y-font-icon`, nav-level chrome outside the popover that intentionally uses `rem` so it scales with the site's own accessibility font-size setting, left unchanged; (2) the popover panel's own internal `em` scale anchored to a fixed `16px` on `.a11y-panel` specifically so the panel *that controls font size* doesn't itself resize when a user cranks the site font up — that anchor isn't rendered text and was never a real "size" in the hierarchy. Within that internal scale, consolidated three near-identical sizes into a deliberate 3-tier scale: `.a11y-panel-title` (eyebrow) `0.72em → 0.6875em` (11px), `.a11y-reset-btn`/`.a11y-seg-btn` (controls) unchanged at `0.75em` (12px), `.a11y-row-label` (primary content — the actual preference names) `0.82em → 0.875em` (14px). Row-label now reads clearly as the panel's primary text against the smaller control and eyebrow tiers (14/12 = 1.167, 12/11 = 1.09), reinforced by the eyebrow's existing uppercase/tracking/weight-700 treatment.
+
+Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 123.25s).
 
 ## Also noticed, not yet triaged
 

@@ -519,14 +519,14 @@ onUnmounted(() => {
   border-bottom:   1px solid var(--vp-c-divider);
 }
 .a11y-panel-title {
-  font-size:      0.72em;
+  font-size:      0.6875em;    /* eyebrow tier — smallest of the panel's 3-step scale */
   font-weight:    700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color:          var(--vp-c-text-2);
 }
 .a11y-reset-btn {
-  font-size:     0.75em;
+  font-size:     0.75em;        /* controls tier — shared with .a11y-seg-btn */
   font-weight:   500;
   color:         var(--vp-c-brand-1);
   background:    none;
@@ -548,7 +548,7 @@ onUnmounted(() => {
   padding:         8px 14px;
 }
 .a11y-row-label {
-  font-size:   0.82em;
+  font-size:   0.875em;        /* content tier — the panel's primary, most-read text */
   color:       var(--vp-c-text-1);
   white-space: nowrap;
   flex-shrink: 0;
