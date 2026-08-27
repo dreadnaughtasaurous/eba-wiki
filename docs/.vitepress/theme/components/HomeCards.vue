@@ -110,8 +110,8 @@ const icons = {
 
 // ─────────────────────────────────────────────────────────────────────────────
 // EBA entries: title link → EBA index page; quickLinks → 3 frequent destinations.
-// STUBS: Replace each quickLinks path with real clause URLs once confirmed.
-//        Check actual paths with: node scripts/link-clauses.mjs --dry-run
+// Paths are verified against docs/ebas/**; re-check with
+// node scripts/link-clauses.mjs --dry-run after any restructuring.
 // NOTE: paths below stay root-relative (no /eba-wiki/ prefix) — the withBase()
 //       call in <template> adds the base path automatically at render time.
 //       Do not hardcode /eba-wiki/ into these strings directly, or the site
