@@ -807,7 +807,7 @@
 .eba-entry-period {
   display: block;
   font-size: var(--wiki-text-xs);
-  color: var(--vp-c-text-3);
+  color: var(--vp-c-text-2);
   line-height: 1.2;
 }
  
