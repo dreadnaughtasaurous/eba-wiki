@@ -472,7 +472,7 @@ onUnmounted(() => {
   border: none;
   cursor: pointer;
   color: var(--vp-c-brand-1);
-  font-size: 0.8rem;
+  font-size: var(--wiki-text-sm);
   font-weight: 500;
 }
 .cp-back-btn:hover { opacity: 0.8; }
@@ -483,7 +483,7 @@ onUnmounted(() => {
   align-items: center;
   flex-wrap: wrap;
   gap: 2px;
-  font-size: 0.75rem;
+  font-size: var(--wiki-text-xs);
   color: var(--vp-c-text-2);
 }
 
@@ -492,7 +492,7 @@ onUnmounted(() => {
   border: none;
   cursor: pointer;
   color: var(--vp-c-brand-1);
-  font-size: 0.75rem;
+  font-size: var(--wiki-text-xs);
   padding: 0;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -514,7 +514,7 @@ onUnmounted(() => {
 }
 
 .cp-eyebrow {
-  font-size: 0.7rem;
+  font-size: var(--wiki-text-xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -522,7 +522,7 @@ onUnmounted(() => {
 }
 
 .cp-title {
-  font-size: 0.95rem;
+  font-size: var(--wiki-text-base);
   font-weight: 600;
   color: var(--vp-c-text-1);
   line-height: 1.3;
@@ -534,7 +534,7 @@ onUnmounted(() => {
 
 .cp-eba-badge {
   display: inline-block;
-  font-size: 0.72rem;
+  font-size: var(--wiki-text-xs);
   font-weight: 500;
   padding: 2px 8px;
   border-radius: 4px;
@@ -607,7 +607,7 @@ onUnmounted(() => {
   background: var(--vp-c-danger-soft);
   border: 1px solid var(--vp-c-danger-2);
   border-radius: 8px;
-  font-size: 0.85rem;
+  font-size: var(--wiki-text-sm);
   color: var(--vp-c-danger-1);
   line-height: 1.5;
 }
@@ -616,11 +616,11 @@ onUnmounted(() => {
 /* ── Content ──────────────────────────────────────────────────────────────── */
 .cp-content {
   padding-top: 16px;
-  font-size: 0.9rem;
+  font-size: var(--wiki-text-base);
 }
-.cp-content :deep(h1) { font-size: 1.3rem; }
-.cp-content :deep(h2) { font-size: 1.1rem; }
-.cp-content :deep(h3) { font-size: 1rem; }
+.cp-content :deep(h1) { font-size: var(--wiki-text-xl); }
+.cp-content :deep(h2) { font-size: var(--wiki-text-lg); }
+.cp-content :deep(h3) { font-size: var(--wiki-text-base); }
 .cp-content :deep(table) {
   display: block;
   overflow-x: auto;
@@ -643,7 +643,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.72rem;
+  font-size: var(--wiki-text-xs);
   color: var(--vp-c-text-2);
 }
 
@@ -651,7 +651,7 @@ onUnmounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.8rem;
+  font-size: var(--wiki-text-sm);
   font-weight: 600;
   color: #fff;
   background: var(--vp-c-brand-1);
