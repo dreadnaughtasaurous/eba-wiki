@@ -197,7 +197,7 @@ export default {
           "rates",
           "classification",
           "salary-circular",
-          "circular 872"
+          "circular-872"
         ],
         "summary": null
       },
@@ -213,7 +213,7 @@ export default {
           "top-of-band",
           "cash-payments",
           "salary-circular",
-          "circular 872"
+          "circular-872"
         ],
         "summary": null
       },
@@ -1383,7 +1383,7 @@ export default {
           "rates",
           "classification",
           "salary-circular",
-          "circular 872",
+          "circular-872",
           "top-of-band"
         ],
         "summary": null
@@ -2916,7 +2916,7 @@ export default {
           "hourly-rates",
           "classification",
           "salary-circular",
-          "circular 875"
+          "circular-875"
         ],
         "summary": null
       },
@@ -10832,7 +10832,7 @@ export default {
           "shift-allowances",
           "qualification-allowance",
           "salary-circular",
-          "circular 880"
+          "circular-880"
         ],
         "summary": null
       },
@@ -12206,23 +12206,20 @@ export default {
           "remuneration",
           "rates",
           "salary-circular",
-          "circular 873"
+          "circular-873"
         ],
         "summary": null
       },
       {
         "displayNumber": "3",
-        "title": "Schedule 3 - Allowances & Other Payments",
+        "title": "Schedule 3 - Classification Descriptors and Higher Qualification Allowances",
         "path": "/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc/",
         "topics": [
-          "classifications",
-          "remuneration",
-          "rates",
-          "pay-rates",
-          "shift-allowances",
+          "classification",
+          "classification-structure",
           "higher-qualifications",
-          "salary-circular",
-          "circular 873"
+          "allowances",
+          "remuneration"
         ],
         "summary": null
       },
@@ -12662,7 +12659,7 @@ export default {
           "shift-allowances",
           "qualification-allowance",
           "salary-circular",
-          "circular 870"
+          "circular-870"
         ],
         "summary": null
       },

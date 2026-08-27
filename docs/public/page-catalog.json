@@ -12772,23 +12772,20 @@
       "circular-873"
     ],
     "clause": "",
-    "excerpt": "- Allowances & Other Payments (Schedule 3)"
+    "excerpt": "The pay tables below are sourced from Salary Circular 873. Rates shown are weekly. Part-time and casual employees receive amounts on a pro-r"
   },
   {
     "path": "/ebas/mspp/schedules/3-classification-descriptors-and-higher-qualification-allowanc",
-    "title": "Schedule 3 - Allowances & Other Payments",
+    "title": "Schedule 3 - Classification Descriptors and Higher Qualification Allowances",
     "eba": "Medical Scientists, Pharm & Psych 2021-2025",
     "ebaSlug": "mspp",
     "section": "",
     "topics": [
-      "classifications",
-      "remuneration",
-      "rates",
-      "pay-rates",
-      "shift-allowances",
+      "classification",
+      "classification-structure",
       "higher-qualifications",
-      "salary-circular",
-      "circular-873"
+      "allowances",
+      "remuneration"
     ],
     "clause": "",
     "excerpt": "- Rates of Pay (Schedule 2)"
