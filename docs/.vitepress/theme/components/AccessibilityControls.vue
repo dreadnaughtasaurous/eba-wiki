@@ -351,7 +351,18 @@ onMounted(() => {
   restoreToggle(LS_DYSLEXIC,  'dyslexicFont',  applyDyslexicFont)
   restoreToggle(LS_HIGHLIGHT, 'linkHighlight', applyLinkHighlight)
   restoreToggle(LS_CONTRAST,  'highContrast',  applyHighContrast)
-  restoreToggle(LS_MOTION,    'reducedMotion', applyReducedMotion)
+
+  // Reduced motion: an explicit in-app choice (stored) always wins; otherwise
+  // default from the OS-level prefers-reduced-motion query, so a user who set
+  // it at the OS level but never found this panel still gets reduced motion.
+  const savedMotion = localStorage.getItem(LS_MOTION)
+  if (savedMotion === '1') {
+    toggleState.reducedMotion = true
+    applyReducedMotion(true)
+  } else if (savedMotion === null && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    toggleState.reducedMotion = true
+    applyReducedMotion(true)
+  }
 
   // Remove the native browser tooltip from VitePress's dark mode button —
   // our custom CSS hint replaces it and the title causes a duplicate tooltip.
