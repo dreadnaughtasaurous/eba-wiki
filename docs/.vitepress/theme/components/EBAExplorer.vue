@@ -1,7 +1,7 @@
 ﻿<script setup>
 import { ref, onMounted } from 'vue'
 import { withBase } from 'vitepress'
-import { EBA_REGISTRY, getEBAStatus } from '../eba-registry.js'
+import { EBA_REGISTRY, getEBAStatus, STATUS_META } from '../eba-registry.js'
 
 const TOPICS = [
   { label: 'Wages',                    topic: 'wages' },
@@ -18,21 +18,6 @@ const TOPICS = [
   { label: 'Professional Development', topic: 'professional-development' },
   { label: 'Workload',                 topic: 'workload' },
 ]
-
-const STATUS_LABEL = {
-  'current':       'Current',
-  'expiring':      'Expiring Soon',
-  'renegotiation': 'Under Renegotiation',
-  'superseded':    'Superseded',
-  'modern-award':  'Modern Award',
-}
-const STATUS_COLOR = {
-  'current':       '#059669',
-  'expiring':      '#D97706',
-  'renegotiation': '#3B82F6',
-  'superseded':    '#6B7280',
-  'modern-award':  '#7C3AED',
-}
 
 const ebas   = EBA_REGISTRY.filter(e => !e.archived)
 const active = ref(ebas[0])
@@ -89,8 +74,8 @@ function openTopic(topic) {
           <span>{{ active.name }}</span>
         </div>
         <span class="ee-status-text"
-              :style="{ color: STATUS_COLOR[getEBAStatus(active)] }">
-          {{ STATUS_LABEL[getEBAStatus(active)] }}
+              :style="{ color: STATUS_META[getEBAStatus(active)].color }">
+          {{ STATUS_META[getEBAStatus(active)].label }}
         </span>
       </div>
 

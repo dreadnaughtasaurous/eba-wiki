@@ -887,3 +887,16 @@ export const ebaSlugLabels = Object.fromEntries(
 
 
 )
+
+/**
+ * STATUS_META — label/color/bg for each getEBAStatus() result, keyed by status.
+ * Single source of truth for EBAExplorer.vue and EBAStatusStrip.vue, which
+ * previously each declared their own duplicate copy of this map.
+ */
+export const STATUS_META = {
+  'current':       { label: 'Current',            color: '#059669', bg: '#05966918' },
+  'expiring':      { label: 'Expiring Soon',       color: '#D97706', bg: '#D9770618' },
+  'renegotiation': { label: 'Under Renegotiation', color: '#3B82F6', bg: '#3B82F618' },
+  'superseded':    { label: 'Superseded',          color: '#6B7280', bg: '#6B728018' },
+  'modern-award':  { label: 'Modern Award',        color: '#7C3AED', bg: '#7C3AED18' },
+}
