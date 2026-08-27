@@ -314,7 +314,7 @@
    ============================================= */
  
 .vp-doc .custom-block.note {
-  border-left: 4px solid var(--vp-c-default-3);
+  border: 1px solid var(--vp-c-divider);
   background-color: var(--vp-c-default-soft);
   padding: 12px 16px;
   border-radius: var(--wiki-radius-sm);
@@ -1714,7 +1714,6 @@ html {
   /* ── Custom containers (tip / warning / danger / details) ──────────────── */
   .vp-doc .custom-block {
     border: 1px solid #999 !important;
-    border-left-width: 4px !important;
     padding: 8pt 10pt !important;
     margin: 8pt 0 !important;
     page-break-inside: avoid;

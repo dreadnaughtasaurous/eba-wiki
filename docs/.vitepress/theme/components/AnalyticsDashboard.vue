@@ -1101,12 +1101,11 @@ function fmtFile(file) {
 .ad-kpi {
   padding: 1rem 1.1rem;
   background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);
-  border-top: 3px solid var(--kpi-color, var(--vp-c-brand-1));
   border-radius: 10px;
   display: flex; flex-direction: column; gap: 0.2rem;
 }
 .ad-kpi-val {
-  font-size: 1.6rem; font-weight: 700; color: var(--vp-c-text-1);
+  font-size: 1.6rem; font-weight: 700; color: var(--kpi-color, var(--vp-c-text-1));
   line-height: 1; font-variant-numeric: tabular-nums;
 }
 .ad-kpi-lbl {
@@ -1319,12 +1318,11 @@ function fmtFile(file) {
 .lh-kpi {
   padding: 0.875rem 1rem;
   background: var(--vp-c-bg-soft); border: 1px solid var(--vp-c-divider);
-  border-top: 3px solid var(--lh-kpi-color, var(--vp-c-brand-1));
   border-radius: 10px;
   display: flex; flex-direction: column; gap: 0.2rem;
 }
 .lh-kpi-val {
-  font-size: 1.5rem; font-weight: 700; color: var(--vp-c-text-1);
+  font-size: 1.5rem; font-weight: 700; color: var(--lh-kpi-color, var(--vp-c-text-1));
   line-height: 1; font-variant-numeric: tabular-nums;
 }
 .lh-kpi-lbl {

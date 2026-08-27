@@ -3202,7 +3202,6 @@ function handleResultClick(result) {
   padding: 0.38rem 0.6rem;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-divider);
-  border-left-width: 3px;
   border-radius: 6px;
   cursor: pointer;
   text-align: left;
@@ -3211,9 +3210,6 @@ function handleResultClick(result) {
 .suggestion-card:hover {
   background: var(--vp-c-bg-soft);
 }
-.suggestion-card--eba   { border-left-color: var(--vp-c-brand-1); }
-.suggestion-card--topic { border-left-color: #7C3AED; }
-.suggestion-card--rewrite { border-left-color: #0891B2; }
 .suggestion-card-icon {
   flex-shrink: 0;
   display: flex;
