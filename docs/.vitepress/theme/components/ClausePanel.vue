@@ -529,7 +529,7 @@ onUnmounted(() => {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 360px;
+  max-width: 100%;
 }
 
 .cp-eba-badge {
@@ -702,6 +702,18 @@ onUnmounted(() => {
   .cp-scrim-enter-from,
   .cp-scrim-leave-to { opacity: 0; }
   .cp-title { max-width: none; }
+
+  /* Grow tap targets to ~44px on the touch-only bottom-drawer layout */
+  .cp-close-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .cp-back-btn {
+    padding: 10px 0;
+  }
+  .cp-breadcrumb-link {
+    padding: 10px 0;
+  }
 }
 
 /* ── Tablet ───────────────────────────────────────────────────────────────── */
