@@ -206,6 +206,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
+import { EBA_REGISTRY } from '../eba-registry.js'
 
 const open     = ref(false)
 const modalRef = ref(null)
@@ -218,19 +219,24 @@ const TABS = [
   { id: 'accessibility',label: 'Accessibility'},
 ]
 
-// EBA shortcut data — order matches ebaList in SearchModal.vue exactly.
-// Short label used for the coloured pill; full label used for the description column.
-const EBA_SHORTCUTS = [
-  { num: 1, short: 'Allied Health',       label: 'Allied Health Professionals 2021–2026',       color: '#EA580C', bg: '#EA580C1A' },
-  { num: 2, short: 'Biomedical Eng.',     label: 'Biomedical Engineers 2025–2028',               color: '#4F46E5', bg: '#4F46E51A' },
-  { num: 3, short: "Children's Services", label: "Children's Services Award 2010",               color: '#DB2777', bg: '#DB27771A' },
-  { num: 4, short: 'Doctors in Training', label: 'Doctors in Training 2022–2026',                color: '#D97706', bg: '#D977061A' },
-  { num: 5, short: 'HAS Managers',        label: 'Health Allied & Managers Admin 2021–2025',     color: '#3B82F6', bg: '#3B82F61A' },
-  { num: 6, short: 'Med. Specialists',    label: 'Medical Specialists 2022–2026',                color: '#0891B2', bg: '#0891B21A' },
-  { num: 7, short: 'Mental Health',       label: 'Mental Health Services 2024–2028',             color: '#7C3AED', bg: '#7C3AED1A' },
-  { num: 8, short: 'Med. Scientists',     label: 'Medical Scientists, Pharm & Psych 2021–2025', color: '#059669', bg: '#0596691A' },
-  { num: 9, short: 'Nurses & Midwives',   label: 'Nurses and Midwives 2024–2028',                color: '#E11D48', bg: '#E11D481A' },
+// Short label for the coloured pill — abbreviated for this tight two-column
+// layout, so kept as UI-specific copy rather than pulled from the registry.
+// Order matches EBA_REGISTRY's non-archived order exactly (verified below),
+// which is also the Shift+F1-F9 shortcut order used by ebaList in SearchModal.vue.
+const SHORT_LABELS = [
+  'Allied Health', 'Biomedical Eng.', "Children's Services", 'Doctors in Training',
+  'HAS Managers', 'Med. Specialists', 'Mental Health', 'Med. Scientists', 'Nurses & Midwives',
 ]
+
+// Color, bg, and full label now come from eba-registry.js — the project's
+// single source of truth — instead of being duplicated here.
+const EBA_SHORTCUTS = EBA_REGISTRY.filter(e => !e.archived).map((e, i) => ({
+  num:   i + 1,
+  short: SHORT_LABELS[i],
+  label: e.name.replace(/(\d{4})-(\d{4})/, '$1–$2'),
+  color: e.color,
+  bg:    e.bg,
+}))
 
 function isTyping() {
   const el = document.activeElement

@@ -83,6 +83,12 @@
 <script setup>
 import { withBase } from 'vitepress'
 import HomeTrending from './HomeTrending.vue'
+import { EBA_REGISTRY } from '../eba-registry.js'
+
+// color/bg below are looked up from eba-registry.js by slug rather than
+// duplicated as literals — the rest of each card (icon, title, quickLinks)
+// is curated homepage copy that has no registry equivalent.
+const REG = Object.fromEntries(EBA_REGISTRY.map(e => [e.slug, e]))
 
 const s = (path) => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`
 
@@ -113,7 +119,7 @@ const icons = {
 // ─────────────────────────────────────────────────────────────────────────────
 const ebaCards = [
   {
-    icon: icons.handheart,     color: '#EA580C', bg: '#EA580C1A',
+    icon: icons.handheart,     color: REG['allied-health'].color, bg: REG['allied-health'].bg,
     title: 'Allied Health Professionals',                     period: '2021–2026',
     link: '/ebas/allied-health',
     quickLinks: [
@@ -123,7 +129,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.cpu,           color: '#4F46E5', bg: '#4F46E51A',
+    icon: icons.cpu,           color: REG['biomedical-engineers'].color, bg: REG['biomedical-engineers'].bg,
     title: 'Biomedical Engineers',                            period: '2025–2028',
     link: '/ebas/biomedical-engineers',
     quickLinks: [
@@ -133,7 +139,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.baby,          color: '#DB2777', bg: '#DB27771A',
+    icon: icons.baby,          color: REG['childrens-services'].color, bg: REG['childrens-services'].bg,
     title: "Children's Services Award",                       period: '2010 (Modern Award)',
     link: '/ebas/childrens-services',
     quickLinks: [
@@ -143,7 +149,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.graduationcap, color: '#D97706', bg: '#D977061A',
+    icon: icons.graduationcap, color: REG['doctors-in-training'].color, bg: REG['doctors-in-training'].bg,
     title: 'Doctors in Training',                             period: '2022–2026',
     link: '/ebas/doctors-in-training',
     quickLinks: [
@@ -153,7 +159,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.briefcase,     color: '#3B82F6', bg: '#3B82F61A',
+    icon: icons.briefcase,     color: REG['has-managers-admin'].color, bg: REG['has-managers-admin'].bg,
     title: 'Health Allied & Managers Admin',                  period: '2025–2027',
     link: '/ebas/has-managers-admin-2025-2027',
     quickLinks: [
@@ -163,7 +169,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.flask,         color: '#059669', bg: '#0596691A',
+    icon: icons.flask,         color: REG['mspp'].color, bg: REG['mspp'].bg,
     title: 'Medical Scientists, Pharmacists & Psychologists', period: '2021–2025',
     link: '/ebas/mspp',
     quickLinks: [
@@ -173,7 +179,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.stethoscope,   color: '#0891B2', bg: '#0891B21A',
+    icon: icons.stethoscope,   color: REG['medical-specialists'].color, bg: REG['medical-specialists'].bg,
     title: 'Medical Specialists',                             period: '2022–2026',
     link: '/ebas/medical-specialists',
     quickLinks: [
@@ -183,7 +189,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.brain,         color: '#7C3AED', bg: '#7C3AED1A',
+    icon: icons.brain,         color: REG['mental-health'].color, bg: REG['mental-health'].bg,
     title: 'Mental Health Services',                          period: '2024–2028',
     link: '/ebas/mental-health',
     quickLinks: [
@@ -193,7 +199,7 @@ const ebaCards = [
     ],
   },
   {
-    icon: icons.heartpulse,    color: '#E11D48', bg: '#E11D481A',
+    icon: icons.heartpulse,    color: REG['nurses-midwives'].color, bg: REG['nurses-midwives'].bg,
     title: 'Nurses and Midwives',                             period: '2024–2028',
     link: '/ebas/nurses-midwives',
     quickLinks: [

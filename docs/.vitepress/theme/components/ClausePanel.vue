@@ -170,22 +170,16 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import { useRoute, withBase } from 'vitepress'
+import { ebaColors as EBA_COLORS } from '../eba-registry.js'
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const MAX_HISTORY = 3
 
-const EBA_COLORS = {
-  'Allied Health Professionals 2021-2026':        { color: '#EA580C', bg: '#EA580C1A' },
-  'Biomedical Engineers 2025-2028':               { color: '#4F46E5', bg: '#4F46E51A' },
-  "Children's Services Award 2010":               { color: '#DB2777', bg: '#DB27771A' },
-  'Doctors in Training 2022-2026':                { color: '#D97706', bg: '#D977061A' },
-  'Health Allied Managers Admin 2021-2025':        { color: '#3B82F6', bg: '#3B82F61A' },
-  'Medical Specialists 2022-2026':                { color: '#0891B2', bg: '#0891B21A' },
-  'Mental Health Services 2024-2028':             { color: '#7C3AED', bg: '#7C3AED1A' },
-  'Medical Scientists, Pharm & Psych 2021-2025':  { color: '#059669', bg: '#0596691A' },
-  'Nurses and Midwives 2024-2028':                { color: '#E11D48', bg: '#E11D481A' },
-}
+// EBA_COLORS (keyed by full EBA name) now comes from eba-registry.js's own
+// ebaColors export rather than being duplicated here. That also fixes a
+// pre-existing bug: this local copy was missing the ampersand in "Health
+// Allied & Managers Admin 2021-2025", so that agreement's colour never matched.
 
 // ─── State ────────────────────────────────────────────────────────────────────
 

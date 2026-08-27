@@ -15,6 +15,7 @@
  */
 import { onUnmounted } from 'vue'
 import { withBase } from 'vitepress'
+import { EBA_REGISTRY } from '../eba-registry.js'
 
 const props = defineProps({
   page:    { type: Object, required: true },
@@ -40,18 +41,14 @@ function flagOnMousedown() {
 
 onUnmounted(() => clearTimeout(_fyFlagTimer))
 
-// EBA colours keyed by folder slug — matches HomeCards.vue and SearchModal.vue
-const EBA_COLORS = {
-  'allied-health':        { color: '#EA580C', bg: '#EA580C1A', label: 'Allied Health' },
-  'biomedical-engineers': { color: '#4F46E5', bg: '#4F46E51A', label: 'Biomedical Engineers' },
-  'childrens-services':   { color: '#DB2777', bg: '#DB27771A', label: "Children's Services" },
-  'doctors-in-training':  { color: '#D97706', bg: '#D977061A', label: 'Doctors in Training' },
-  'has-managers-admin-2025-2027': { color: '#3B82F6', bg: '#3B82F61A', label: 'HAS Managers & Admin' },
-  'mspp':                 { color: '#059669', bg: '#0596691A', label: 'Med Scientists & Pharm' },
-  'medical-specialists':  { color: '#0891B2', bg: '#0891B21A', label: 'Medical Specialists' },
-  'mental-health':        { color: '#7C3AED', bg: '#7C3AED1A', label: 'Mental Health' },
-  'nurses-midwives':      { color: '#E11D48', bg: '#E11D481A', label: 'Nurses & Midwives' },
-}
+// EBA colours keyed by URL folder slug — derived from eba-registry.js, the
+// project's single source of truth, rather than duplicated locally here.
+const EBA_COLORS = Object.fromEntries(
+  EBA_REGISTRY.map(e => [
+    e.indexPath.split('/').filter(Boolean).pop(),
+    { color: e.color, bg: e.bg, label: e.shortName },
+  ])
+)
 
 const TOPIC_LABELS = {
   'allowances':              'Allowances',

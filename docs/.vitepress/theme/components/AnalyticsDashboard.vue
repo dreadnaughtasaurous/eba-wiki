@@ -1,36 +1,26 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { withBase } from 'vitepress'
+import { EBA_REGISTRY } from '../eba-registry.js'
 
 // ── Constants ────────────────────────────────────────────────────────────────
 const ANALYTICS_URL  = 'https://eba-analytics-worker-noai.irresistibl.workers.dev/analytics'
 const LINK_REPORT_URL = '/link-report.json'
 const TOKEN_STORAGE  = 'eba-admin-token'  // sessionStorage key — clears on tab close
 
-// ── EBA display names (folder slug → readable label) ─────────────────────────
-const EBA_LABELS = {
-  'allied-health':       'Allied Health',
-  'biomedical-engineers':'Biomedical Engineers',
-  'childrens-services':  "Children's Services",
-  'doctors-in-training': 'Doctors in Training',
-  'has-managers-admin':  'HAS Managers & Admin',
-  'medical-specialists': 'Medical Specialists',
-  'mental-health':       'Mental Health',
-  'medical-scientists':  'Medical Scientists',
-  'nurses-midwives':     'Nurses & Midwives',
-}
-
-const EBA_COLORS = {
-  'allied-health':        '#EA580C',
-  'biomedical-engineers': '#4F46E5',
-  'childrens-services':   '#DB2777',
-  'doctors-in-training':  '#D97706',
-  'has-managers-admin':   '#3B82F6',
-  'medical-specialists':  '#0891B2',
-  'mental-health':        '#7C3AED',
-  'medical-scientists':   '#059669',
-  'nurses-midwives':      '#E11D48',
-}
+// ── EBA display name + colour, keyed by URL folder slug ──────────────────────
+// Derived from eba-registry.js rather than duplicated locally (see CLAUDE.md's
+// "Never hardcode EBA names or colors in a component" rule). Keyed by the
+// indexPath folder segment — not entry.slug — because analytics events are
+// tagged from the URL path (getEbaFromPath() in index.js), and registry.slug
+// deliberately diverges from the folder for has-managers-admin (see registry
+// header comment). This also fixes a pre-existing bug: the old local map used
+// the key 'medical-scientists', which the real folder slug 'mspp' never matched.
+const EBA_FOLDER_META = Object.fromEntries(
+  EBA_REGISTRY.map(e => [e.indexPath.split('/').filter(Boolean).pop(), { label: e.shortName, color: e.color }])
+)
+const EBA_LABELS = Object.fromEntries(Object.entries(EBA_FOLDER_META).map(([slug, m]) => [slug, m.label]))
+const EBA_COLORS = Object.fromEntries(Object.entries(EBA_FOLDER_META).map(([slug, m]) => [slug, m.color]))
 
 const BROWSER_COLORS = {
   Chrome:  '#4285F4',
