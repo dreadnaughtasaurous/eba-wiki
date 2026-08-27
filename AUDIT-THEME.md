@@ -40,12 +40,13 @@ Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 134
 
 Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 134.99s).
 
-## Remaining — P3
+## Fixed (P3 — bounce/elastic easing in tour animations)
 
-**Bounce/elastic easing in tour animations**
-- `ClausePageTour.vue:528` and `GuidedTour.vue:733` — `cubic-bezier(0.34, 1.56, 0.64, 1)`
-- Fix: swap to an ease-out-quart/expo curve.
-- Command: `/impeccable animate`
+- ~~`ClausePageTour.vue:528` and `GuidedTour.vue:733` — `cubic-bezier(0.34, 1.56, 0.64, 1)`~~ — both `.cpt-pop-enter-active`/`.gt-pop-enter-active` transitions now use `cubic-bezier(0.16, 1, 0.3, 1)` (ease-out-expo), a confident deceleration curve instead of an overshoot bounce. Durations (0.2s / 0.22s) and the paired opacity/scale/translateY enter-from states are unchanged.
+
+Verified via `npm run docs:build` (exit 0, no SSR errors, build completed in 123.14s).
+
+## Remaining — P3
 
 **Flat type hierarchy in accessibility panel**
 - `AccessibilityControls.vue:139` — six font sizes (11.5–16px) span only a 1.4:1 ratio.

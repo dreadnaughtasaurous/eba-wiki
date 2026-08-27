@@ -525,7 +525,7 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 .cpt-fade-enter-active, .cpt-fade-leave-active { transition: opacity 0.22s ease; }
 .cpt-fade-enter-from,   .cpt-fade-leave-to     { opacity: 0; }
 
-.cpt-pop-enter-active { transition: opacity 0.2s ease, transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1); }
+.cpt-pop-enter-active { transition: opacity 0.2s ease, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); }
 .cpt-pop-leave-active { transition: opacity 0.13s ease; }
 .cpt-pop-enter-from   { opacity: 0; transform: scale(0.94) translateY(5px); }
 .cpt-pop-leave-to     { opacity: 0; }

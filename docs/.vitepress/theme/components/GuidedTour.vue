@@ -730,7 +730,7 @@ watch(stepIndex, async () => {
 .gt-fade-enter-active, .gt-fade-leave-active { transition: opacity 0.25s ease; }
 .gt-fade-enter-from,   .gt-fade-leave-to     { opacity: 0; }
 
-.gt-pop-enter-active { transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1); }
+.gt-pop-enter-active { transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.16, 1, 0.3, 1); }
 .gt-pop-leave-active { transition: opacity 0.15s ease; }
 .gt-pop-enter-from   { opacity: 0; transform: scale(0.93) translateY(6px); }
 .gt-pop-leave-to     { opacity: 0; }
