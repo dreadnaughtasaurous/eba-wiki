@@ -519,7 +519,7 @@ onUnmounted(() => {
   border-bottom:   1px solid var(--vp-c-divider);
 }
 .a11y-panel-title {
-  font-size:      0.6875em;    /* eyebrow tier — smallest of the panel's 3-step scale */
+  font-size:      0.625em;     /* eyebrow tier — smallest of the panel's 3-step scale (10px; ~1.2x below controls) */
   font-weight:    700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -548,7 +548,7 @@ onUnmounted(() => {
   padding:         8px 14px;
 }
 .a11y-row-label {
-  font-size:   0.875em;        /* content tier — the panel's primary, most-read text */
+  font-size:   0.9375em;       /* content tier — the panel's primary, most-read text (15px; 1.25x above controls) */
   color:       var(--vp-c-text-1);
   white-space: nowrap;
   flex-shrink: 0;
