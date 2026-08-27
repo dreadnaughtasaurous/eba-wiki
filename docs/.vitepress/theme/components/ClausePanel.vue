@@ -484,14 +484,14 @@ onUnmounted(() => {
   flex-wrap: wrap;
   gap: 2px;
   font-size: 0.75rem;
-  color: var(--vp-c-text-3);
+  color: var(--vp-c-text-2);
 }
 
 .cp-breadcrumb-link {
   background: none;
   border: none;
   cursor: pointer;
-  color: #4A2A72;
+  color: var(--vp-c-brand-1);
   font-size: 0.75rem;
   padding: 0;
   text-decoration: underline;
@@ -501,7 +501,7 @@ onUnmounted(() => {
 .cp-breadcrumb-link:hover { opacity: 1; }
 
 .cp-breadcrumb-sep {
-  color: var(--vp-c-text-3);
+  color: var(--vp-c-text-2);
   margin: 0 1px;
 }
 
@@ -518,7 +518,7 @@ onUnmounted(() => {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--vp-c-text-3);
+  color: var(--vp-c-text-2);
 }
 
 .cp-title {
@@ -644,7 +644,7 @@ onUnmounted(() => {
   align-items: center;
   gap: 4px;
   font-size: 0.72rem;
-  color: var(--vp-c-text-3);
+  color: var(--vp-c-text-2);
 }
 
 .cp-open-link {
