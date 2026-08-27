@@ -306,16 +306,18 @@ if (typeof window !== 'undefined') {
   outline-offset: 3px;
 }
 
-/* Active (bookmarked) state — amber bookmark icon */
+/* Active (bookmarked) state — amber bookmark icon.
+   #B45309 (amber-700) used for icon/border rather than #F59E0B — the lighter
+   amber fails WCAG contrast (~2.15:1 against white, needs 3:1 for UI icons). */
 .bm-btn--active {
-  color:            #F59E0B;
-  border-color:     #F59E0B80;
+  color:            #B45309;
+  border-color:     #B4530980;
   background-color: #F59E0B12;
 }
 
 .bm-btn--active:hover {
   background-color: #F59E0B1E;
-  border-color:     #F59E0B;
+  border-color:     #B45309;
 }
 
 /* ── Overlay ── */
@@ -347,7 +349,7 @@ if (typeof window !== 'undefined') {
   align-items: center;
   gap:         0.5rem;
   margin-bottom: 0.9rem;
-  color:       #F59E0B;
+  color:       #B45309;
 }
 
 .bm-dialog-title {

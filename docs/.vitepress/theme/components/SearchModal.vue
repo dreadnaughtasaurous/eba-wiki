@@ -2962,7 +2962,7 @@ function handleResultClick(result) {
 }
 
 .idle-row--bm .idle-row-icon {
-  color:      #F59E0B;
+  color:      #B45309; /* amber-700, not amber-500 — meets WCAG non-text contrast (3:1) */
   margin-top: 3px; /* nudge so icon tip aligns with the title text baseline */
 }
 
@@ -3492,7 +3492,7 @@ function handleResultClick(result) {
   color: var(--vp-c-text-3); border-radius: 6px; transition: color 0.15s, background 0.15s;
 }
 .save-search-btn:hover { color: var(--vp-c-brand-1); background: var(--vp-c-bg-soft); }
-.save-search-btn.saved { color: #F59E0B; }
+.save-search-btn.saved { color: #B45309; } /* amber-700 — #F59E0B fails WCAG non-text contrast */
 .save-search-btn.saved:hover { color: #D97706; }
 
 /* Preview rendered clause content */

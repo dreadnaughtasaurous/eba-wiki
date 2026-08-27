@@ -559,8 +559,9 @@ if (typeof window !== 'undefined') {
 .dst-btn--err         { color: #cb2431; }
 .dst-btn--err:hover   { color: #cb2431; }
 
-/* Bookmarked state — amber accent */
-.dst-btn--bm                   { color: #F59E0B; }
+/* Bookmarked state — amber accent.
+   #B45309 (amber-700), not #F59E0B, meets WCAG non-text contrast (3:1). */
+.dst-btn--bm                   { color: #B45309; }
 .dst-btn--bm:hover:not(:disabled) { color: #D97706; }
 
 /* ── Bookmark dialog ──────────────────────────────────────────────────────── */
@@ -590,7 +591,7 @@ if (typeof window !== 'undefined') {
   align-items:   center;
   gap:           0.5rem;
   margin-bottom: 0.9rem;
-  color:         #F59E0B;
+  color:         #B45309;
 }
 
 .bm-dialog-title { flex: 1; font-size: 0.9rem; font-weight: 700; color: var(--vp-c-text-1); }
