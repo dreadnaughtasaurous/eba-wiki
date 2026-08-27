@@ -654,7 +654,7 @@ onUnmounted(() => {
   font-size: 0.8rem;
   font-weight: 600;
   color: #fff;
-  background: #3451b2;
+  background: var(--vp-c-brand-1);
   text-decoration: none;
   margin-left: auto;
   padding: 5px 12px;
@@ -663,7 +663,7 @@ onUnmounted(() => {
   white-space: nowrap;
 }
 .cp-open-link:hover {
-  background: #3a5ccc;
+  background: var(--vp-c-brand-2);
   text-decoration: none;
 }
 
