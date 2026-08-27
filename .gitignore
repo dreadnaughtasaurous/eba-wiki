@@ -18,3 +18,38 @@ docs/.vitepress/config.js.timestamp-*.mjs
 link-legislation-log.txt
 link-variations-log.txt
 docs/scripts/pagefind-last-run.json
+
+# impeccable-ignore-start
+# Ephemeral output, runtime state, and per-dev overrides.
+# Unanchored: .impeccable may sit at the repo root or under a nested
+# workspace (apps/web/.impeccable/...); anchored patterns would miss it.
+# Shared artifacts stay tracked: config.json, live/config.json,
+# design.json, critique/*.md.
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/*.png
+.impeccable/live/server.json
+.impeccable/live/sessions/
+.impeccable/live/previews/
+.impeccable/live/annotations/
+.impeccable/live/cache/
+.impeccable/live/manual-edit-apply-transaction.json
+.impeccable/live/manual-edit-events.jsonl
+.impeccable/live/manual-edit-evidence/
+.impeccable/live/pending-manual-edits.json
+.impeccable/live/deferred-svelte-component-accepts.json
+.impeccable/live/*.png
+# impeccable-ignore-end
+
+# VitePress dev-build output — analogous to docs/.vitepress/dist/ above
+docs/.vitepress/dist-dev/
+
+# Local run logs from docs:preview / detect.mjs — ephemeral, regenerated on demand
+docs/preview.log
+detect-err.log
+
+# Claude Code: personal/local overrides, and vendored third-party skill
+# packages — installed tooling, not this repo's own source or content
+.claude/settings.local.json
+.claude/skills/
