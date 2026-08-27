@@ -105,6 +105,7 @@
           <!-- Settings panel -->
           <Transition name="settings-panel">
             <div v-if="showSettingsPanel" class="search-settings-panel" role="region" aria-label="Search settings">
+            <div class="search-settings-panel-inner">
 
               <!-- ── Search behaviour ──────────────────────────────────────────────────── -->
               <div class="settings-section-head">Search behaviour</div>
@@ -166,6 +167,7 @@
                 </button>
               </div>
 
+            </div>
             </div>
           </Transition>
 
@@ -2767,19 +2769,23 @@ function handleResultClick(result) {
 /* ── Settings panel slide transition ─────────────────────────────────────────── */
 .settings-panel-enter-active,
 .settings-panel-leave-active {
-  transition: max-height 0.2s ease, opacity 0.18s ease;
-  overflow:   hidden;
+  transition: grid-template-rows 0.2s ease, opacity 0.18s ease;
 }
 .settings-panel-enter-from,
-.settings-panel-leave-to  { max-height: 0;     opacity: 0; }
+.settings-panel-leave-to  { grid-template-rows: 0fr; opacity: 0; }
 .settings-panel-enter-to,
-.settings-panel-leave-from { max-height: 360px; opacity: 1; }
+.settings-panel-leave-from { grid-template-rows: 1fr; opacity: 1; }
 
 /* ── Settings panel container ───────────────────────────────────────────────── */
 .search-settings-panel {
+  display:        grid;
   border-bottom:  1px solid var(--vp-c-divider);
   background:     var(--vp-c-bg-soft);
-  padding:        0.45rem 0.9rem;
+}
+.search-settings-panel-inner {
+  overflow:  hidden;
+  min-height: 0;
+  padding:   0.45rem 0.9rem;
 }
 
 /* ── Individual settings row (reusable for future settings) ─────────────────── */

@@ -1196,6 +1196,10 @@ display: none !important;
 .VPDoc,
 .VPDoc .content,
 .VPDoc .content-container {
+  /* max-width/padding/margin genuinely reflow text (line-break recalculation),
+     so they can't be swapped for transform/opacity like a decorative animation —
+     contain the reflow to this subtree so it doesn't force a full-page layout pass. */
+  contain: layout;
   transition: max-width 0.25s ease, padding 0.25s ease, margin 0.25s ease;
 }
  

@@ -520,7 +520,7 @@ function fmtFile(file) {
             <div v-for="bar in ebaBars" :key="bar.label" class="ad-hbar-row">
               <span class="ad-hbar-label">{{ bar.label }}</span>
               <div class="ad-hbar-track">
-                <div class="ad-hbar-fill" :style="{ width: bar.pct + '%', background: bar.color }"></div>
+                <div class="ad-hbar-fill" :style="{ transform: 'scaleX(' + (bar.pct / 100) + ')', background: bar.color }"></div>
               </div>
               <span class="ad-hbar-val">{{ bar.value }}</span>
             </div>
@@ -605,7 +605,7 @@ function fmtFile(file) {
             <div v-for="bar in ebaFilterBreakdown" :key="bar.eba" class="ad-hbar-row">
               <span class="ad-hbar-label">{{ ebaLabel(bar.eba) }}</span>
               <div class="ad-hbar-track">
-                <div class="ad-hbar-fill" :style="{ width: Math.round((bar.count / ebaFilterBreakdown[0].count) * 100) + '%', background: ebaColor(bar.eba) }"></div>
+                <div class="ad-hbar-fill" :style="{ transform: 'scaleX(' + (bar.count / ebaFilterBreakdown[0].count) + ')', background: ebaColor(bar.eba) }"></div>
               </div>
               <span class="ad-hbar-val">{{ bar.count }}</span>
             </div>
@@ -621,7 +621,7 @@ function fmtFile(file) {
             <div v-for="bar in topicBreakdown" :key="bar.topic" class="ad-hbar-row">
               <span class="ad-hbar-label">{{ bar.topic }}</span>
               <div class="ad-hbar-track">
-                <div class="ad-hbar-fill" :style="{ width: Math.round((bar.count / topicBreakdown[0].count) * 100) + '%', background: '#4A2A72' }"></div>
+                <div class="ad-hbar-fill" :style="{ transform: 'scaleX(' + (bar.count / topicBreakdown[0].count) + ')', background: '#4A2A72' }"></div>
               </div>
               <span class="ad-hbar-val">{{ bar.count }}</span>
             </div>
@@ -654,7 +654,7 @@ function fmtFile(file) {
             <div v-for="bar in pageBars" :key="bar.label" class="ad-hbar-row">
               <span class="ad-hbar-label ad-hbar-label--path" :title="bar.label">{{ bar.label }}</span>
               <div class="ad-hbar-track">
-                <div class="ad-hbar-fill" :style="{ width: bar.pct + '%', background: '#4A2A72' }"></div>
+                <div class="ad-hbar-fill" :style="{ transform: 'scaleX(' + (bar.pct / 100) + ')', background: '#4A2A72' }"></div>
               </div>
               <span class="ad-hbar-val">{{ bar.value }}</span>
             </div>
@@ -741,7 +741,7 @@ function fmtFile(file) {
                 <div v-for="bar in browserBars" :key="bar.label" class="ad-hbar-row">
                   <span class="ad-hbar-label">{{ bar.label }}</span>
                   <div class="ad-hbar-track">
-                    <div class="ad-hbar-fill" :style="{ width: bar.pct + '%', background: bar.color }"></div>
+                    <div class="ad-hbar-fill" :style="{ transform: 'scaleX(' + (bar.pct / 100) + ')', background: bar.color }"></div>
                   </div>
                   <span class="ad-hbar-val">{{ bar.value }}</span>
                 </div>
@@ -1186,8 +1186,9 @@ function fmtFile(file) {
   border-radius: 99px; overflow: hidden;
 }
 .ad-hbar-fill {
-  height: 100%; border-radius: 99px;
-  transition: width 400ms cubic-bezier(0.4,0,0.2,1);
+  height: 100%; width: 100%; border-radius: 99px;
+  transform-origin: left;
+  transition: transform 400ms cubic-bezier(0.4,0,0.2,1);
 }
 .ad-hbar-val {
   font-size: 0.78rem; color: var(--vp-c-text-2);
