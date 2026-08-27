@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-22T00:00:00.000Z",
+  "title": "Design System: EBA Wiki",
+  "extensions": {
+    "colorMeta": {
+      "brand-purple": { "role": "primary", "displayName": "Ledger Purple", "canonical": "#4b2a72", "tonalRamp": ["#150c1f", "#241533", "#332047", "#433c63", "#4b2a72", "#6c5389", "#9e98ae", "#e5e1eb"] },
+      "brand-purple-deep": { "role": "primary-hover", "displayName": "Ledger Purple Deep", "canonical": "#433c63" },
+      "brand-purple-mid": { "role": "primary-tint", "displayName": "Ledger Purple Mid", "canonical": "#6c5389" },
+      "brand-navy": { "role": "secondary", "displayName": "Case Navy", "canonical": "#191347", "tonalRamp": ["#0a0620", "#191347", "#251c5f", "#332880", "#4a3aa8", "#6b5dc4", "#a49bdb", "#dcd8f0"] },
+      "accent-crimson": { "role": "danger", "displayName": "Case Crimson", "canonical": "#df1f51" },
+      "neutral-bg": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff" },
+      "neutral-bg-soft": { "role": "neutral", "displayName": "Folder Grey", "canonical": "#f6f6f7" },
+      "neutral-text-1": { "role": "neutral", "displayName": "Ink Primary", "canonical": "#213547" },
+      "neutral-text-2": { "role": "neutral", "displayName": "Ink Secondary", "canonical": "#476582" },
+      "neutral-text-3": { "role": "neutral", "displayName": "Ink Tertiary", "canonical": "#90a4b7" },
+      "neutral-divider": { "role": "neutral", "displayName": "Tab Divider", "canonical": "#e2e2e3" },
+      "status-success": { "role": "success", "displayName": "Current Green", "canonical": "#059669" },
+      "status-warning": { "role": "warning", "displayName": "Expiring Amber", "canonical": "#d97706" },
+      "status-danger": { "role": "danger", "displayName": "Case Crimson", "canonical": "#df1f51" },
+      "status-info": { "role": "info", "displayName": "Ledger Purple", "canonical": "#4b2a72" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Homepage hero title only." },
+      "headline": { "displayName": "Headline", "purpose": "h1/h2 on clause and index pages." },
+      "title": { "displayName": "Title", "purpose": "Card titles, section headers." },
+      "body": { "displayName": "Body", "purpose": "Clause prose, table cells, standard UI text." },
+      "label": { "displayName": "Label", "purpose": "Pills, chips, metadata, section eyebrow labels." }
+    },
+    "shadows": [
+      { "name": "card", "value": "0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(74,42,114,0.04)", "purpose": "Lightest touch; tooltip resting state." },
+      { "name": "lift", "value": "0 4px 12px rgba(0,0,0,0.09), 0 2px 4px rgba(74,42,114,0.06)", "purpose": "Standard hover shadow for cards, buttons, reference-bar items." },
+      { "name": "elevated", "value": "0 8px 24px rgba(0,0,0,0.12), 0 4px 8px rgba(74,42,114,0.07)", "purpose": "Floating overlays: search modal, glossary tooltip, clause panel." }
+    ],
+    "motion": [
+      { "name": "wiki-transition", "value": "0.15s", "purpose": "Default state-change transition (hover, focus, tab switch)." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "480px" },
+      { "name": "tablet", "value": "768px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main call-to-action button, e.g. homepage hero 'Browse EBAs'.",
+      "html": "<button class=\"ds-btn-primary\">Browse EBAs</button>",
+      "css": ".ds-btn-primary { background: #4b2a72; color: #fff; padding: 0.5rem 1.25rem; border-radius: 6px; border: none; font-family: 'Karla', Arial, sans-serif; font-size: 0.9rem; font-weight: 500; transition: background 0.15s, box-shadow 0.15s, transform 0.15s; } .ds-btn-primary:hover { background: #433c63; box-shadow: 0 4px 12px rgba(0,0,0,0.09), 0 2px 4px rgba(74,42,114,0.06); transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 2px solid #4b2a72; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action button, paired beside the primary CTA.",
+      "html": "<button class=\"ds-btn-secondary\">View Archive</button>",
+      "css": ".ds-btn-secondary { background: #f6f6f7; color: #213547; border: 1px solid #e2e2e3; padding: 0.5rem 1.25rem; border-radius: 6px; font-family: 'Karla', Arial, sans-serif; font-size: 0.9rem; font-weight: 500; transition: background 0.15s, box-shadow 0.15s, transform 0.15s; } .ds-btn-secondary:hover { background: #eceded; box-shadow: 0 4px 12px rgba(0,0,0,0.09), 0 2px 4px rgba(74,42,114,0.06); transform: translateY(-1px); } .ds-btn-secondary:focus-visible { outline: 2px solid #4b2a72; outline-offset: 2px; }"
+    },
+    {
+      "name": "EBA Directory Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "One entry in the EBA directory grid — icon, title, period, and quick links, with per-agreement accent colour on hover.",
+      "html": "<div class=\"ds-eba-card\" style=\"--entry-accent:#4F46E5\"><div class=\"ds-eba-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4F46E5\" stroke-width=\"2\"><path d=\"M4 6h16M4 12h16M4 18h10\"/></svg></div><span class=\"ds-eba-title\">Biomedical Engineers 2025-2028</span><span class=\"ds-eba-period\">Expires Jul 2028</span></div>",
+      "css": ".ds-eba-card { display: flex; flex-direction: column; background: #f6f6f7; border: 1px solid #e2e2e3; border-radius: 12px; padding: 1.125rem 1.25rem 1rem; transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s; } .ds-eba-card:hover { border-color: var(--entry-accent, #4b2a72); box-shadow: 0 4px 12px rgba(0,0,0,0.09), 0 2px 4px rgba(74,42,114,0.06); transform: translateY(-1px); } .ds-eba-icon { display: inline-flex; justify-content: center; align-items: center; border-radius: 8px; width: 40px; height: 40px; margin-bottom: 0.875rem; } .ds-eba-icon svg { width: 20px; height: 20px; } .ds-eba-title { font-family: 'Work Sans', Arial, sans-serif; font-size: 0.9375rem; font-weight: 600; color: #213547; line-height: 1.35; } .ds-eba-period { font-size: 0.6875rem; color: #90a4b7; margin-top: 2px; }"
+    },
+    {
+      "name": "Status Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Generic tag/topic pill used in search results and clause metadata.",
+      "html": "<span class=\"ds-pill\">wages</span>",
+      "css": ".ds-pill { display: inline-block; background: #f6f6f7; color: #476582; padding: 0.2rem 0.6rem; border-radius: 9999px; font-family: 'Karla', Arial, sans-serif; font-size: 0.8125rem; font-weight: 500; }"
+    },
+    {
+      "name": "EBA Brand Pill",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "The one pill variant that renders in brand purple rather than a per-agreement colour — used only for generic 'EBA' labelling, not a specific agreement.",
+      "html": "<span class=\"ds-pill-eba\">EBA</span>",
+      "css": ".ds-pill-eba { display: inline-block; background: rgba(75,42,114,0.1); color: #4b2a72; padding: 0.2rem 0.6rem; border-radius: 9999px; font-family: 'Karla', Arial, sans-serif; font-size: 0.8125rem; font-weight: 500; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": null,
+      "description": "Standard text field, e.g. the search modal's query box.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"Search clauses...\" />",
+      "css": ".ds-input { border: 1px solid #e2e2e3; background: #ffffff; border-radius: 6px; padding: 0.5rem 0.75rem; font-family: 'Karla', Arial, sans-serif; font-size: 0.9375rem; color: #213547; } .ds-input:focus-visible { outline: 2px solid #4b2a72; outline-offset: 2px; border-color: #4b2a72; }"
+    },
+    {
+      "name": "Tab Button",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Pay-table year tab — active tab shows brand-purple underline and text.",
+      "html": "<button class=\"ds-tab ds-tab--active\">2025-26</button>",
+      "css": ".ds-tab { padding: 0.35rem 0.85rem; font-family: 'Karla', Arial, sans-serif; font-size: 0.83rem; font-weight: 500; border: 1px solid #e2e2e3; border-bottom: 1px solid #e2e2e3; border-radius: 4px 4px 0 0; background: #f6f6f7; color: #476582; cursor: pointer; transition: background 0.15s, color 0.15s; } .ds-tab--active { background: #ffffff; color: #4b2a72; border-bottom-color: #ffffff; font-weight: 600; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Case File",
+    "overview": "This is an advisor's reference binder made digital: a confident, structured directory of ten Enterprise Agreements that a person opens mid-conversation and needs to close in under thirty seconds, holding the right clause. Every screen behaves like a well-organised case file — colour-coded tabs per agreement, sober typographic hierarchy, small decisive accents that never compete with the text they sit beside. Nothing here performs; it locates. This design system is brought into compliance with Austin Health's canonical brand guide (austin-health-brand-reference.md). Purple #4b2a72 leads as the primary UI colour — replacing the unbranded VitePress default green currently shipped — while Work Sans/Karla typography, sentence-case text, and left-aligned copy were already correctly in place and are carried forward unchanged. The system deliberately keeps two colour tiers distinct and never lets them blur: brand purple governs interactive chrome (links, buttons, focus rings), while each EBA family's own registry colour is reserved strictly for that agreement's identity accents.",
+    "keyCharacteristics": [
+      "Flat-by-default surfaces; depth appears only as a response to hover/focus, never at rest.",
+      "A five-step type scale (xs–xl) enforced everywhere; no one-off font sizes.",
+      "One consistent radius scale (4/6/8/12px, plus full-pill) — nothing sharper, nothing rounder.",
+      "Ten fixed EBA family colours are the only place saturated colour appears outside brand purple and semantic status.",
+      "Every interactive surface carries an explicit focus-visible ring in brand purple — accessibility is structural, not decorative."
+    ],
+    "rules": [
+      { "name": "The One Ledger Rule", "body": "Brand purple is the only saturated colour permitted on global UI chrome (nav, buttons, links, focus rings, tabs). EBA family colours never leak into chrome — they are identity paint for their own agreement's icon, pill, and sidebar glow only.", "section": "colors" },
+      { "name": "The Status-Not-Brand Rule", "body": "Success, warning, and danger colours are reserved exclusively for EBA lifecycle status and system feedback — never used as decorative accents.", "section": "colors" },
+      { "name": "The Sentence-Case Rule", "body": "Sentence case throughout, never title case or all-caps, except deliberate uppercase micro-labels which are a UI-label exception, not body/heading text.", "section": "typography" },
+      { "name": "The Rest-Flat Rule", "body": "No card, button, or panel shows a shadow in its default state. Shadows exist only as hover/focus-visible feedback.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do run every link, button, focus ring, and section-label pip through Ledger Purple (#4b2a72) — the single brand accent for all interactive UI chrome.",
+      "Do keep cards and buttons flat at rest; only introduce the Lift shadow as a hover/focus response.",
+      "Do use Work Sans Bold for all headings and Karla Regular for all body text, in sentence case, left-aligned.",
+      "Do scope each EBA's registry colour strictly to that agreement's own identity surfaces — never to global chrome.",
+      "Do apply the same 2px Ledger Purple focus-visible ring to every interactive element, with no exceptions."
+    ],
+    "donts": [
+      "Don't reintroduce the unbranded VitePress default green as an accent anywhere — it has been fully superseded by Ledger Purple.",
+      "Don't let an EBA family colour appear on nav bars, primary buttons, or body links.",
+      "Don't give a card or button a resting shadow — depth is earned only through interaction.",
+      "Don't introduce a radius outside the 4/6/8/12px + pill scale, or a font size outside the five-step type scale.",
+      "Don't use secondary Austin palette colours (Yellow, Sage, Teal, Sky, Ocean, Slate) without Corporate Communications approval."
+    ]
+  }
+}
