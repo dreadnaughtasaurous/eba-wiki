@@ -687,16 +687,16 @@
   border-radius: 50%;
   background: radial-gradient(
     ellipse at center,
-    rgba(219, 27, 82, 0.10) 0%,
-    rgba(180, 27, 100, 0.08) 40%,
-    rgba(69, 45, 111, 0.10) 65%,
+    color-mix(in srgb, var(--wiki-c-danger) 10%, transparent) 0%,
+    color-mix(in srgb, color-mix(in srgb, var(--wiki-c-danger), var(--vp-c-brand-1)) 8%, transparent) 40%,
+    color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent) 65%,
     transparent 85%
   );
   filter: blur(36px);
   z-index: 0;
   transition: opacity 0.3s;
 }
- 
+
 .home-hero-image .image-src {
   position: relative;
   z-index: 1;
@@ -704,15 +704,15 @@
   height: 220px;
   object-fit: contain;
   filter:
-    drop-shadow(-12px 0 24px rgba(219, 27, 82, 0.35))
-    drop-shadow(12px 0 24px rgba(69, 45, 111, 0.35));
+    drop-shadow(-12px 0 24px color-mix(in srgb, var(--wiki-c-danger) 35%, transparent))
+    drop-shadow(12px 0 24px color-mix(in srgb, var(--vp-c-brand-1) 35%, transparent));
   transition: filter 0.4s ease;
 }
- 
+
 .home-hero-image .image-src:hover {
   filter:
-    drop-shadow(-14px 0 30px rgba(219, 27, 82, 0.50))
-    drop-shadow(14px 0 30px rgba(69, 45, 111, 0.50));
+    drop-shadow(-14px 0 30px color-mix(in srgb, var(--wiki-c-danger) 50%, transparent))
+    drop-shadow(14px 0 30px color-mix(in srgb, var(--vp-c-brand-1) 50%, transparent));
 }
  
 /* Section labels */
