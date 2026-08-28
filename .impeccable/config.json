@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "docs/.vitepress/theme/style.css"
+        ],
+        "createdAt": "2026-08-27T08:51:23.982Z",
+        "reason": "L897 .home-disclaimer border-left is a legal-accuracy alert/callout convention, not a decorative card border; reviewed in /impeccable audit of HomeCards.vue. Re-homed from docs/.impeccable/config.json, which the detector never actually reads (project root is the git repo root, not docs/)."
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "docs/.vitepress/theme/style.css"
+        ],
+        "createdAt": "2026-08-27T08:51:24.224Z",
+        "reason": "L1207 Reading Mode content-reflow transition genuinely reflows text layout (documented in adjacent comment) and is contained via 'contain: layout' to limit blast radius; pre-existing, out of scope of HomeCards.vue polish pass. Re-homed from docs/.impeccable/config.json, which the detector never actually reads (project root is the git repo root, not docs/)."
+      }
+    ]
+  }
+}
