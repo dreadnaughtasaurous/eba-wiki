@@ -401,29 +401,8 @@
               <div v-else-if="query.length > 1 && results.length === 0 && !fuzzyLoading" class="search-status">
                 <p>No results for <strong>{{ query }}</strong><span v-if="selectedEba || selectedTopic || parsedOperators.hasPills"> with current filters</span>.</p>
 
-                <!-- Suggestions on zero results — same panel, same component, no duplicated card markup -->
-                <div v-if="suggestions.length > 0" class="suggestions-panel" role="list" aria-label="Search suggestions">
-                  <p class="suggestions-heading">Did you search for…?</p>
-                  <button
-                    v-for="s in suggestions"
-                    :key="s.label"
-                    class="suggestion-card"
-                    :class="`suggestion-card--${s.type}`"
-                    role="listitem"
-                    @click="applySuggestion(s)"
-                  >
-                    <span class="suggestion-card-icon" aria-hidden="true">
-                      <svg v-if="s.type === 'eba'" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                      <svg v-else-if="s.type === 'topic'" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-                      <svg v-else width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                    </span>
-                    <span class="suggestion-card-text">
-                      <span class="suggestion-card-label">{{ s.label }}</span>
-                      <span class="suggestion-card-sublabel">{{ s.sublabel }}</span>
-                    </span>
-                    <svg class="suggestion-card-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                  </button>
-                </div>
+                <!-- Suggestions on zero results -->
+                <SuggestionsPanel v-if="suggestions.length > 0" :suggestions="suggestions" @select="applySuggestion" />
 
                 <p v-if="fuzzyResults.length > 0" class="fuzzy-suggestion">
                   Showing results for <strong>{{ fuzzyQuery }}</strong> instead:
@@ -573,28 +552,7 @@
                 <p class="result-count">{{ results.length }} result{{ results.length === 1 ? '' : 's' }}</p>
 
                 <!-- Smart suggestions — persistent refinement panel, shown whenever keywords match -->
-                <div v-if="suggestions.length > 0" class="suggestions-panel suggestions-panel--inline" role="list" aria-label="Search suggestions">
-                  <p class="suggestions-heading">Did you search for…?</p>
-                  <button
-                    v-for="s in suggestions"
-                    :key="s.label"
-                    class="suggestion-card"
-                    :class="`suggestion-card--${s.type}`"
-                    role="listitem"
-                    @click="applySuggestion(s)"
-                  >
-                    <span class="suggestion-card-icon" aria-hidden="true">
-                      <svg v-if="s.type === 'eba'" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                      <svg v-else-if="s.type === 'topic'" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-                      <svg v-else width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                    </span>
-                    <span class="suggestion-card-text">
-                      <span class="suggestion-card-label">{{ s.label }}</span>
-                      <span class="suggestion-card-sublabel">{{ s.sublabel }}</span>
-                    </span>
-                    <svg class="suggestion-card-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                  </button>
-                </div>
+                <SuggestionsPanel v-if="suggestions.length > 0" :suggestions="suggestions" inline @select="applySuggestion" />
                 <a
                   v-for="(result, index) in visibleResults"
                   :key="result.url"
@@ -749,6 +707,7 @@ import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import { withBase } from 'vitepress'
 import { topicList } from '../../generated/topic-list.mjs'
 import { ebaColors, ebaList, ebaSlugLabels, EBA_REGISTRY } from '../eba-registry.js'
+import SuggestionsPanel from './SuggestionsPanel.vue'
 
 // ─── AI Worker URL ────────────────────────────────────────────────────────────
 const ANALYTICS_WORKER_URL = 'https://eba-analytics-worker-noai.irresistibl.workers.dev'
@@ -887,21 +846,10 @@ function runRecentSearch(term) {
 
 // ─── EBA slug → full canonical name (for ebaStyle() on recently viewed rows) ──
 const ebaNameToSlug = Object.fromEntries(EBA_REGISTRY.map(e => [e.name, e.slug]))
-
-const EBA_SLUG_TO_FULL_NAME = {
-  'allied-health':        'Allied Health Professionals 2021-2026',
-  'biomedical-engineers': 'Biomedical Engineers 2025-2028',
-  'childrens-services':   "Children's Services Award 2010",
-  'doctors-in-training':  'Doctors in Training 2022-2026',
-  'has-managers-admin':   'Health Allied & Managers Admin 2025-2027',
-  'medical-specialists':  'Medical Specialists 2022-2026',
-  'mental-health':        'Mental Health Services 2024-2028',
-  'mspp':                 'Medical Scientists, Pharm & Psych 2021-2025',
-  'nurses-midwives':      'Nurses and Midwives 2024-2028',
-}
+const ebaSlugToName = Object.fromEntries(EBA_REGISTRY.map(e => [e.slug, e.name]))
 
 function ebaSlugToFullName(slug) {
-  return EBA_SLUG_TO_FULL_NAME[slug] ?? slug
+  return ebaSlugToName[slug] ?? slug
 }
 
 // ─── Progressive results — start at 5, expand by 5 on "View more" ─────────────
@@ -1110,6 +1058,19 @@ function applySuggestion(s) {
 }
 
 // ─── Analytics logging ────────────────────────────────────────────────────────
+function matchUA(ua, pairs, fallback) {
+  for (const [re, label] of pairs) if (re.test(ua)) return label
+  return fallback
+}
+const BROWSER_UA_PATTERNS = [
+  [/edg\//i, 'Edge'], [/opr\//i, 'Opera'], [/firefox\//i, 'Firefox'],
+  [/chrome\//i, 'Chrome'], [/safari\//i, 'Safari'], [/msie|trident/i, 'IE'],
+]
+const DEVICE_UA_PATTERNS = [
+  [/tablet|ipad|playbook|silk/i, 'tablet'],
+  [/mobile|iphone|ipod|android.*mobile|blackberry|iemobile/i, 'mobile'],
+]
+
 function logSearch(tab, query, eba, topic, resultCount) {
   if (!ANALYTICS_WORKER_URL || !query?.trim()) return
   if (!analyticsEnabled.value) return
@@ -1123,22 +1084,8 @@ function logSearch(tab, query, eba, topic, resultCount) {
       eba,
       topic,
       resultCount,
-      browser: (() => {
-        const ua = navigator.userAgent
-        if (/edg\//i.test(ua))             return 'Edge'
-        if (/opr\//i.test(ua))             return 'Opera'
-        if (/firefox\//i.test(ua))         return 'Firefox'
-        if (/chrome\//i.test(ua))          return 'Chrome'
-        if (/safari\//i.test(ua))          return 'Safari'
-        if (/msie|trident/i.test(ua))      return 'IE'
-        return 'Other'
-      })(),
-      device: (() => {
-        const ua = navigator.userAgent
-        if (/tablet|ipad|playbook|silk/i.test(ua))                          return 'tablet'
-        if (/mobile|iphone|ipod|android.*mobile|blackberry|iemobile/i.test(ua)) return 'mobile'
-        return 'desktop'
-      })(),
+      browser: matchUA(navigator.userAgent, BROWSER_UA_PATTERNS, 'Other'),
+      device:  matchUA(navigator.userAgent, DEVICE_UA_PATTERNS, 'desktop'),
     }),
     }).catch(() => { /* fire-and-forget; never block the UI */ })
   } catch { /* silently ignore */ }
@@ -1678,19 +1625,6 @@ watch(open, async (val) => {
   }
 })
 
-// ─── EBA shortcut index (Alt+1 through Alt+9) ────────────────────────────────
-const EBA_SHORTCUT_LIST = [
-  'Allied Health Professionals 2021-2026',
-  'Biomedical Engineers 2025-2028',
-  "Children's Services Award 2010",
-  'Doctors in Training 2022-2026',
-  'Health Allied & Managers Admin 2025-2027',
-  'Medical Specialists 2022-2026',
-  'Mental Health Services 2024-2028',
-  'Medical Scientists, Pharm & Psych 2021-2025',
-  'Nurses and Midwives 2024-2028',
-]
-
 function applyEbaShortcut(ebaName) {
 
   const newValue = selectedEba.value === ebaName ? '' : ebaName
@@ -1718,7 +1652,7 @@ function onKeydown(e) {
     const codeMatch = e.code.match(/^F([1-9])$/)
     if (codeMatch) {
       e.preventDefault()
-      applyEbaShortcut(EBA_SHORTCUT_LIST[parseInt(codeMatch[1], 10) - 1])
+      applyEbaShortcut(ebaList[parseInt(codeMatch[1], 10) - 1])
     }
   }
 
@@ -3175,81 +3109,6 @@ function handleResultClick(result) {
 .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
 .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
 @keyframes blink { 0%, 80%, 100% { opacity: 0; } 40% { opacity: 1; } }
-
-/* ── Smart suggestions panel ── */
-.suggestions-panel {
-  margin: 0.75rem 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-.suggestions-panel--inline {
-  margin-bottom: 0.75rem;
-}
-.suggestions-heading {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--vp-c-text-3);
-  margin: 0 0 0.2rem;
-}
-.suggestion-card {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-  padding: 0.38rem 0.6rem;
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  cursor: pointer;
-  text-align: left;
-  transition: background 0.13s, border-color 0.13s;
-}
-.suggestion-card:hover {
-  background: var(--vp-c-bg-soft);
-}
-.suggestion-card-icon {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  color: var(--vp-c-text-3);
-}
-.suggestion-card--eba     .suggestion-card-icon { color: var(--vp-c-brand-1); }
-.suggestion-card--topic   .suggestion-card-icon { color: #7C3AED; }
-.suggestion-card--rewrite .suggestion-card-icon { color: #0891B2; }
-.suggestion-card-text {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
-}
-.suggestion-card-label {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.suggestion-card-sublabel {
-  font-size: 0.72rem;
-  color: var(--vp-c-text-3);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.suggestion-card-arrow {
-  flex-shrink: 0;
-  color: var(--vp-c-text-3);
-  transition: transform 0.13s;
-}
-.suggestion-card:hover .suggestion-card-arrow {
-  transform: translateX(3px);
-  color: var(--vp-c-text-2);
-}
 
 /* ── EBA filter flash — triggered by Shift+F shortcut and EBA context restore ── */
 @keyframes eba-flash {
