@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useData, withBase } from 'vitepress'
-import { EBA_REGISTRY, getEBAStatus } from '../eba-registry.js'
+import { EBA_REGISTRY, getEBAStatus, STATUS_META } from '../eba-registry.js'
 import { EBA_INDEX_DATA }             from '../eba-index-data.js'
 
 const { frontmatter } = useData()
@@ -27,6 +27,12 @@ const statusLabel = computed(() => ({
   'modern-award':  'Modern Award',
   'superseded':    'Superseded',
 }[status.value] ?? ''))
+
+// Color always comes from STATUS_META — the shared source of truth also used
+// by EBAExplorer.vue / EBAStatusStrip.vue — never from the EBA's own identity
+// color. Two unrelated agreements under renegotiation must show the same badge
+// color, not each other's family accent.
+const statusColor = computed(() => STATUS_META[status.value] ?? null)
 
 const expiryWarn = computed(() =>
   status.value === 'expiring' || status.value === 'renegotiation'
@@ -59,18 +65,18 @@ function openSearch() {
       <div class="eip-hero-actions">
         <span
           class="eip-badge"
-          :class="`eip-badge--${status}`"
-          :style="status === 'renegotiation' ? { background: reg.bg, color: reg.color } : {}"
+          :style="statusColor ? { background: statusColor.bg, color: statusColor.color } : {}"
         >{{ statusLabel }}</span>
         <a
           v-if="reg.pdfPath"
-          :href="withBase(reg.pdfPath)"
-          :target="reg.pdfExternal ? '_blank' : '_blank'"
-          rel="noopener noreferrer"
+          :href="reg.pdfExternal ? reg.pdfPath : withBase(reg.pdfPath)"
+          :target="reg.pdfExternal ? '_blank' : undefined"
+          :rel="reg.pdfExternal ? 'noopener noreferrer' : undefined"
           class="eip-pdf-btn"
           :style="{ color: reg.color, borderColor: reg.color + '55', '--eip-eba-color': reg.color }"
         >
-          <i class="ti ti-file-download" aria-hidden="true"></i> Full Agreement PDF
+          <i class="ti" :class="reg.pdfExternal ? 'ti-external-link' : 'ti-file-download'" aria-hidden="true"></i>
+          {{ reg.pdfExternal ? 'View on Fair Work Commission' : 'Full Agreement PDF' }}
         </a>
       </div>
     </div>
@@ -247,11 +253,6 @@ function openSearch() {
   white-space: nowrap;
   letter-spacing: 0.01em;
 }
-.eip-badge--current       { background: var(--color-background-success); color: var(--color-text-success); }
-.eip-badge--expiring      { background: var(--color-background-warning); color: var(--color-text-warning); }
-.eip-badge--renegotiation { background: var(--color-background-danger);  color: var(--color-text-danger); }
-.eip-badge--modern-award  { background: var(--color-background-info);    color: var(--color-text-info); }
-.eip-badge--superseded    { background: var(--color-background-secondary); color: var(--color-text-secondary); }
 
 /* PDF button — fills solid on hover via --eip-eba-color CSS custom property   */
 /* set in the template :style binding so it adapts per-EBA.                    */
@@ -262,6 +263,7 @@ function openSearch() {
   gap: 5px;
   border: 1px solid;
   border-radius: var(--border-radius-md);
+  min-height: 44px;
   padding: 6px 13px;
   background: transparent;
   white-space: nowrap;
@@ -314,6 +316,7 @@ function openSearch() {
   gap: 10px;
   border: 1px solid var(--color-border-tertiary);
   border-radius: var(--wiki-radius-pill);
+  min-height: 44px;
   padding: 11px 20px;
   background: var(--color-background-primary);
   cursor: pointer;
