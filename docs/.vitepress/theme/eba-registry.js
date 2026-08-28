@@ -858,11 +858,10 @@ export const ebaColors = Object.fromEntries(
 
 
 
-export const ebaList = EBA_REGISTRY
+/** Non-archived EBA_REGISTRY entries — the common filter every EBA-listing consumer needs. */
+export const activeEbas = EBA_REGISTRY.filter(e => !e.archived)
 
-
-
-  .filter(e => !e.archived)
+export const ebaList = activeEbas
 
 
 

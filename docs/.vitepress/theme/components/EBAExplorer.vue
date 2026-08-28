@@ -1,7 +1,7 @@
 ﻿<script setup>
 import { ref, onMounted } from 'vue'
 import { withBase } from 'vitepress'
-import { EBA_REGISTRY, getEBAStatus, STATUS_META } from '../eba-registry.js'
+import { activeEbas, getEBAStatus, STATUS_META } from '../eba-registry.js'
 
 const TOPICS = [
   { label: 'Wages',                    topic: 'wages' },
@@ -19,7 +19,7 @@ const TOPICS = [
   { label: 'Workload',                 topic: 'workload' },
 ]
 
-const ebas   = EBA_REGISTRY.filter(e => !e.archived)
+const ebas   = activeEbas
 const active = ref(ebas[0])
 
 const counts        = ref({})

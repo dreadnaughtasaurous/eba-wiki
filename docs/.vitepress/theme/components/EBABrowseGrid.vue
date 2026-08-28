@@ -1,7 +1,7 @@
 <script setup>
 import { withBase } from 'vitepress'
-import { EBA_REGISTRY } from '../eba-registry.js'
-const ebas = EBA_REGISTRY.filter(e => !e.archived)
+import { activeEbas } from '../eba-registry.js'
+const ebas = activeEbas
 </script>
 
 <template>

@@ -206,7 +206,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
-import { EBA_REGISTRY } from '../eba-registry.js'
+import { activeEbas } from '../eba-registry.js'
 
 const open     = ref(false)
 const modalRef = ref(null)
@@ -230,7 +230,7 @@ const SHORT_LABELS = [
 
 // Color, bg, and full label now come from eba-registry.js — the project's
 // single source of truth — instead of being duplicated here.
-const EBA_SHORTCUTS = EBA_REGISTRY.filter(e => !e.archived).map((e, i) => ({
+const EBA_SHORTCUTS = activeEbas.map((e, i) => ({
   num:   i + 1,
   short: SHORT_LABELS[i],
   label: e.name.replace(/(\d{4})-(\d{4})/, '$1–$2'),

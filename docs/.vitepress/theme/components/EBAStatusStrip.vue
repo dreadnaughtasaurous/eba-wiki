@@ -1,14 +1,13 @@
 <script setup>
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
-import { EBA_REGISTRY, getEBAStatus, STATUS_META } from '../eba-registry.js'
+import { activeEbas, getEBAStatus, STATUS_META } from '../eba-registry.js'
 
 // Most urgent statuses float to the top
 const SORT_ORDER = ['renegotiation', 'expiring', 'current', 'modern-award', 'superseded']
 
 const rows = computed(() =>
-  EBA_REGISTRY
-    .filter(e => !e.archived)
+  activeEbas
     .map(e => ({ ...e, status: getEBAStatus(e) }))
     .sort((a, b) => SORT_ORDER.indexOf(a.status) - SORT_ORDER.indexOf(b.status))
 )
