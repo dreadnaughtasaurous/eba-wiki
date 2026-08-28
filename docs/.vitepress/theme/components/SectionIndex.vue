@@ -141,11 +141,12 @@ const label = computed(() => {
           :href="withBase(clause.path)"
           class="si-clause-row"
         >
-          <!-- Clause number chip — EBA colour tint, sized to match eip-part-icon -->
+          <!-- Clause number chip — EBA colour tint, sized to match eip-part-icon.
+               Not aria-hidden: the clause number is the citation identifier this
+               product exists to surface, not decoration. -->
           <span
             class="si-clause-num"
             :style="{ background: bg, color: color }"
-            aria-hidden="true"
           >{{ clause.displayNumber }}</span>
 
           <!-- Body: title, optional summary, topic tags -->
