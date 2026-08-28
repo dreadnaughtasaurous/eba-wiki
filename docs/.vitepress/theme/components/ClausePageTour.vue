@@ -98,6 +98,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
 import { useRoute } from 'vitepress'
+import { clamp, sleep } from '../tour-utils.js'
 
 // ─── Storage key ──────────────────────────────────────────────────────────────
 const CLAUSE_TOUR_KEY = 'eba-clause-tour-complete'
@@ -356,8 +357,6 @@ async function positionTooltip() {
   }
 }
 
-function clamp(v, min, max) { return Math.min(Math.max(v, min), max) }
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 </script>
 
 <style scoped>

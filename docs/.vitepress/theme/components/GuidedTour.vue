@@ -113,6 +113,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
+import { clamp, sleep } from '../tour-utils.js'
 
 // ─── Storage key ──────────────────────────────────────────────────────────────
 const TOUR_KEY = 'eba-tour-complete'
@@ -513,9 +514,6 @@ async function positionTooltip() {
     transform: 'none',
   }
 }
-
-function clamp(val, min, max) { return Math.min(Math.max(val, min), max) }
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
 watch(stepIndex, async () => {
   await nextTick()
