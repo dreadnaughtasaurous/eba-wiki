@@ -894,9 +894,13 @@ export const ebaSlugLabels = Object.fromEntries(
  * previously each declared their own duplicate copy of this map.
  */
 export const STATUS_META = {
-  'current':       { label: 'Current',            color: '#059669', bg: '#05966918' },
-  'expiring':      { label: 'Expiring Soon',       color: '#D97706', bg: '#D9770618' },
+  // current/expiring darkened from #059669/#D97706 to meet 4.5:1 text contrast
+  // against a near-white badge background (was ~3.8:1 / ~3.2:1).
+  // modern-award moved off #7C3AED, which collided exactly with the Mental
+  // Health EBA's own registry identity color.
+  'current':       { label: 'Current',            color: '#047857', bg: '#04785718' },
+  'expiring':      { label: 'Expiring Soon',       color: '#B45309', bg: '#B4530918' },
   'renegotiation': { label: 'Under Renegotiation', color: '#3B82F6', bg: '#3B82F618' },
   'superseded':    { label: 'Superseded',          color: '#6B7280', bg: '#6B728018' },
-  'modern-award':  { label: 'Modern Award',        color: '#7C3AED', bg: '#7C3AED18' },
+  'modern-award':  { label: 'Modern Award',        color: '#0F766E', bg: '#0F766E18' },
 }

@@ -120,17 +120,12 @@
   --color-text-primary:   var(--vp-c-text-1);
   --color-text-secondary: var(--vp-c-text-2);
   --color-text-tertiary:  var(--vp-c-text-3);
-  --color-text-success:   #059669;
-  --color-text-warning:   #D97706;
+  --color-text-warning:   #B45309;  /* amber-700 — darkened from #D97706 for 4.5:1 AA text contrast */
   --color-text-danger:    var(--wiki-c-danger);  /* red — was incorrectly #3B82F6 (blue) */
-  --color-text-info:      #7C3AED;
- 
+
   --color-background-primary:   var(--vp-c-bg);
   --color-background-secondary: var(--vp-c-bg-soft);
-  --color-background-success:   #05966918;
-  --color-background-warning:   #D9770618;
   --color-background-danger:    var(--wiki-c-danger-bg);  /* red tint — was blue tint */
-  --color-background-info:      #7C3AED18;
  
   /* --color-border-secondary is intentionally distinct from tertiary:
      tertiary = default divider colour; secondary = hover/active border.
